@@ -1,0 +1,11 @@
+{
+ "ok": true,
+ "output": "runs/2026-10-16-rfc/img/image1.png",
+ "width": 1800,
+ "height": 945,
+ "bytes": 300659,
+ "labels": 27,
+ "min_font_px": 17,
+ "problems": [],
+ "md5": "87c3d4525ffc34d9895eb31c705ec92a"
+}

@@ -12,43 +12,107 @@
  "meta_description": "How the donor eggs procedure works step by step, real success rates, and an honest answer to the question many ask: will the baby feel like mine?",
  "excerpt": "Donor eggs give women over 40 some of the strongest odds in IVF. Here is how the procedure works, what the research shows, and what science says about the bond with your baby.",
  "category": "Treatments & IVF",
- "hashtags": ["donoreggs", "eggdonation", "ivfover40"],
- "primary_keyword": {"term": "donor eggs procedure", "volume": 2900, "sd": 20},
- "secondary_keywords": [
-  {"term": "how does donor eggs work", "volume": 1600, "sd": 30},
-  {"term": "donor eggs success rate", "volume": 260, "sd": 28},
-  {"term": "epigenetics donor eggs", "volume": 170, "sd": 17}
+ "hashtags": [
+  "donoreggs",
+  "eggdonation",
+  "ivfover40"
  ],
- "hero": "IMAGE2",
+ "primary_keyword": {
+  "term": "donor eggs procedure",
+  "volume": 2900,
+  "sd": 20
+ },
+ "secondary_keywords": [
+  {
+   "term": "how does donor eggs work",
+   "volume": 1600,
+   "sd": 30
+  },
+  {
+   "term": "donor eggs success rate",
+   "volume": 260,
+   "sd": 28
+  },
+  {
+   "term": "epigenetics donor eggs",
+   "volume": 170,
+   "sd": 17
+  }
+ ],
+ "hero": "IMAGE1",
  "images": {
   "IMAGE1": {
-   "wix_id": "ca2223_6d0a011f32dc46acb68d2580722f0983~mv2.jpg",
-   "width": 2752,
-   "height": 1536,
-   "alt": "Illustration of an embryo attaching to the uterine lining, the final step of the donor eggs procedure",
+   "wix_id": "ca2223_6fb563a4f3744699b7e29fb5b5377a8d~mv2.png",
+   "width": 1800,
+   "height": 945,
+   "alt": "Labelled illustration of the donor eggs procedure: donor's ovary, ICSI fertilization and embryo transfer to the uterus",
    "kind": "medical illustration",
-   "prompt": "Clean modern medical illustration of a human blastocyst-stage embryo arriving at a thick, healthy uterine lining (endometrium), cross-section view of the endometrial surface with soft glands and blood vessels, the embryo gently attaching. Palette of ivory, warm sand, soft stone grey and muted sage green only, plain ivory background, soft even lighting, minimal editorial vector style, high detail, accurate anatomy. No text, no labels, no letters, no numbers, no logos, no watermark.",
-   "wix_labels": ["biomedical illustration", "human cell", "cell structure", "human embryo", "embryo", "explanatory illustration"]
+   "source": "img/image1.html",
+   "file": "img/image1.png",
+   "md5": "87c3d4525ffc34d9895eb31c705ec92a",
+   "wix_hash": "87c3d4525ffc34d9895eb31c705ec92a",
+   "wix_labels": [
+    "biological process",
+    "eggs",
+    "egg",
+    "procedure",
+    "surrogacy"
+   ],
+   "preview_src": "img/image1.png"
   },
   "IMAGE2": {
-   "wix_id": "ca2223_ab1fed578caa44179747bc9038175322~mv2.jpg",
-   "width": 2752,
-   "height": 1536,
-   "alt": "Couple talking with a fertility nurse in a calm consultation room about how donor eggs work",
-   "kind": "editorial scene",
-   "prompt": "Soft editorial photograph of a woman in her mid-40s and her partner sitting together in a calm, modern fertility clinic consultation room, talking with a female nurse who holds a tablet, warm natural window light, relaxed hopeful expressions, modest clothing, diverse adults. Palette of ivory, warm sand, soft stone grey and muted sage green, uncluttered background with a plant. No text, no screens with writing, no logos, no watermark, no children.",
-   "wix_labels": ["ask patient detailed questions", "counselling session", "consulting room", "meeting with partners", "in-home nursing care"]
+   "wix_id": "ca2223_c89002a7c0884946bc12cf03129208a1~mv2.png",
+   "width": 1800,
+   "height": 945,
+   "alt": "Timeline of how donor eggs work, from consultation and choosing a donor to embryo transfer and pregnancy test",
+   "kind": "labelled timeline",
+   "source": "img/image2.html",
+   "file": "img/image2.png",
+   "md5": "29a715a9d3c7a44cc723386c084767e0",
+   "wix_hash": "29a715a9d3c7a44cc723386c084767e0",
+   "wix_labels": [
+    "candidate journey",
+    "medical procedure",
+    "procedures"
+   ],
+   "preview_src": "img/image2.png"
   }
  },
  "citations": [
-  {"url": "https://www.reproductivefacts.org/news-and-publications/fact-sheets-and-infographics/egg-donation/"},
-  {"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12087671/"},
-  {"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10958684"},
-  {"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5844654/"},
-  {"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10224887/"}
+  {
+   "url": "https://www.reproductivefacts.org/news-and-publications/fact-sheets-and-infographics/egg-donation/"
+  },
+  {
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12087671/"
+  },
+  {
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10958684"
+  },
+  {
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5844654/"
+  },
+  {
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10224887/"
+  }
  ],
  "serp_gap": "Top results explain the medical steps but none answer the question patients ask most: will the baby feel like mine, and does my body shape the baby at all?",
- "patient_phrases": ["Will the baby feel like mine?", "grieving the genetic connection", "hugely complicated news to process"]
+ "patient_phrases": [
+  "Will the baby feel like mine?",
+  "grieving the genetic connection",
+  "hugely complicated news to process"
+ ],
+ "replaced_images": {
+  "IMAGE1": {
+   "wix_id": "ca2223_6d0a011f32dc46acb68d2580722f0983~mv2.jpg",
+   "alt": "Illustration of an embryo attaching to the uterine lining, the final step of the donor eggs procedure",
+   "why": "Gamma images without labels; replaced 2026-10-16 at Alifiya's request with labelled illustrations"
+  },
+  "IMAGE2": {
+   "wix_id": "ca2223_ab1fed578caa44179747bc9038175322~mv2.jpg",
+   "alt": "Couple talking with a fertility nurse in a calm consultation room about how donor eggs work",
+   "why": "Gamma images without labels; replaced 2026-10-16 at Alifiya's request with labelled illustrations"
+  }
+ }
 }
 ---
 **Quick answer:** The **donor eggs procedure** gives you a real path to pregnancy when your own eggs are not cooperating. Eggs from a young, screened donor are fertilized in the lab, and the best embryo is placed in your uterus after a few weeks of hormone preparation. Because success follows the **donor's age rather than yours**, it works well for women in their 40s and 50s. You carry the pregnancy, you give birth, and you are your baby's mother.

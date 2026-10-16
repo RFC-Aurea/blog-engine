@@ -72,6 +72,8 @@ let html = fs.readFileSync(input, "utf8")
   if (report.minSize < 17) report.problems.push(`smallest label is ${report.minSize}px; use 17px or more so it stays readable on the blog`);
   const out = { ok: report.problems.length === 0, output, width: Math.round(W * scale), height: Math.round(H * scale),
     bytes: fs.statSync(output).size, labels: report.labels, min_font_px: report.minSize, problems: report.problems };
+  out.md5 = require("crypto").createHash("md5").update(fs.readFileSync(output)).digest("hex");
+  fs.writeFileSync(output.replace(/\.png$/, "") + ".report.json", JSON.stringify(out, null, 1) + "\n");
   console.log(JSON.stringify(out, null, 1));
   process.exit(out.ok ? 0 : 1);
 })();

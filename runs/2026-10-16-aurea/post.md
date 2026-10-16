@@ -39,39 +39,43 @@
    "sd": 23
   }
  ],
- "hero": "IMAGE2",
+ "hero": "IMAGE1",
  "images": {
   "IMAGE1": {
-   "wix_id": "ca2223_1c98094416f74ad3a0f63e14b80f6cf5~mv2.jpg",
-   "width": 2752,
-   "height": 1536,
-   "alt": "Microscope-style illustration of sperm cells with frost crystals at the edge, showing sperm freezing",
-   "kind": "medical illustration",
-   "prompt": "Scientific medical illustration in the style of a microscope view: many human spermatozoa swimming across a soft circular field of view, each with a small oval head, a short midpiece and a long, thin, whip-like tail, clearly microscopic cells, a few faint frost crystals at the edge of the circle to suggest freezing. Palette of ivory, champagne, warm taupe and soft lilac grey only, plain ivory background around the circle, soft even lighting, clean minimal editorial style, high detail, accurate cell anatomy. No text, no labels, no letters, no numbers, no scale bars, no logos, no watermark.",
+   "wix_id": "ca2223_ff2c952b2b29455b801a9b6346dff481~mv2.png",
+   "width": 1800,
+   "height": 945,
+   "alt": "Labelled sperm cell diagram and chart showing sperm freezing lowers motility once, while storage time does not",
+   "kind": "medical illustration with data",
+   "source": "img/image1.html",
+   "file": "img/image1.png",
+   "md5": "90b5af5a596da369dd3432d0422f5c87",
+   "wix_hash": "90b5af5a596da369dd3432d0422f5c87",
    "wix_labels": [
-    "scientific micrograph",
-    "biomedical illustration",
-    "human cell",
-    "microorganism",
-    "petri dish"
+    "dna testing",
+    "human fertility",
+    "infographics",
+    "data processing"
    ],
-   "retries": 1,
-   "rejected": "first attempt (droplet illustration) got labels like spoons, flatware, legumes, so it may not read as sperm; regenerated"
+   "preview_src": "img/image1.png"
   },
   "IMAGE2": {
-   "wix_id": "ca2223_a3306cf12dcb46fc8002d2fbcf4c6b33~mv2.jpg",
-   "width": 2752,
-   "height": 1536,
-   "alt": "Man talking with a fertility doctor in a calm clinic room about sperm freezing cost and storage",
-   "kind": "editorial scene",
-   "prompt": "Soft editorial photograph of a man in his early 30s sitting in a calm, modern fertility clinic consultation room, talking with a female physician in a white coat across a light wood desk, warm natural window light, relaxed and reassured expressions, modest clothing, diverse adults. Palette of ivory, champagne, warm taupe and soft lilac grey, uncluttered background with a plant. No text, no paperwork with writing, no screens, no logos, no watermark, no children.",
+   "wix_id": "ca2223_3474454e0c93488fae86d518243f6a8c~mv2.png",
+   "width": 1800,
+   "height": 945,
+   "alt": "Sperm freezing cost at Aurea step by step: nurse call, semen analysis, freezing, storage and thaw, with 10-year total",
+   "kind": "labelled cost diagram",
+   "source": "img/image2.html",
+   "file": "img/image2.png",
+   "md5": "6160b5cd34dc969bbdc9a62612c0fd4f",
+   "wix_hash": "6160b5cd34dc969bbdc9a62612c0fd4f",
    "wix_labels": [
-    "consultation room",
-    "consultation",
-    "counseling",
-    "ask patient detailed questions",
-    "prenatal care"
-   ]
+    "fees",
+    "pricing",
+    "medical expenses",
+    "monetary"
+   ],
+   "preview_src": "img/image2.png"
   }
  },
  "citations": [
@@ -99,7 +103,19 @@
   "Why is freezing sperm so expensive?",
   "There is an up front fee and then monthly payments to keep it?",
   "it would be worth your time to do this"
- ]
+ ],
+ "replaced_images": {
+  "IMAGE1": {
+   "wix_id": "ca2223_1c98094416f74ad3a0f63e14b80f6cf5~mv2.jpg",
+   "alt": "Microscope-style illustration of sperm cells with frost crystals at the edge, showing sperm freezing",
+   "why": "Gamma images without labels; replaced 2026-10-16 at Alifiya's request with labelled illustrations"
+  },
+  "IMAGE2": {
+   "wix_id": "ca2223_a3306cf12dcb46fc8002d2fbcf4c6b33~mv2.jpg",
+   "alt": "Man talking with a fertility doctor in a calm clinic room about sperm freezing cost and storage",
+   "why": "Gamma images without labels; replaced 2026-10-16 at Alifiya's request with labelled illustrations"
+  }
+ }
 }
 ---
 **Quick answer:** At Aurea Fertility Center, sperm freezing costs **$650 in the office**, and storage costs **$425 a year** (or $50 a month). That puts the first-year sperm freezing cost at about $1,075, and a full 10 years of storage at about $4,900 before you use the sample. The freezing fee is a one-time cost; storage is the number that grows, so it is worth planning for from day one.

@@ -6,6 +6,8 @@ Usage: python3 scripts/check_post.py runs/<run>
 Writes runs/<run>/checks.json (the self-audit) and prints a summary.
 Hard failures block publishing. Warnings are reported but do not block.
 """
+import hashlib
+import html
 import json
 import re
 import sys
@@ -170,6 +172,31 @@ def main():
     long_paras = [p[:50] for p in body.split("\n\n") if p.strip() and not p.strip().startswith(("|", "-", "#", "[["))
                   and not re.match(r"\d+[.)]\s", p.strip()) and len(re.findall(r"[.!?](\s|$)", p)) > 5]
     check("paragraphs are 5 sentences or fewer", not long_paras, "; ".join(long_paras), hard=False)
+
+    # ---------- what is inside the images ----------
+    # Images are labelled illustrations rendered from runs/<run>/img/imageN.html (rules/images.md).
+    # Wix's file hash is the md5 of the stored bytes, so it proves Wix holds the exact picture that was reviewed.
+    body_plain = strip_md(body)
+    for k in ("IMAGE1", "IMAGE2"):
+        im = imgs.get(k, {})
+        src, png = run / im.get("source", "-"), run / im.get("file", "-")
+        if not (src.is_file() and png.is_file()):
+            check(f"{k}: source html and rendered png in the run folder", False, f"{im.get('source')} / {im.get('file')}")
+            continue
+        md5 = hashlib.md5(png.read_bytes()).hexdigest()
+        check(f"{k}: Wix stored exactly the reviewed image (md5 = Wix hash)",
+              md5 == im.get("md5") == im.get("wix_hash"), f"file {md5}, front matter {im.get('md5')}, Wix {im.get('wix_hash')}")
+        rep = load_json(png.with_suffix(".report.json"), {})
+        check(f"{k}: label check passed when rendered (no overlaps, nothing cut off)",
+              rep.get("ok") is True and rep.get("md5") == md5, "; ".join(rep.get("problems", [])) or "no report for this file")
+        texts = " ".join(html.unescape(re.sub(r"<[^>]+>", "", t))
+                         for t in re.findall(r"<text\b[^>]*>(.*?)</text>", src.read_text(encoding="utf-8"), re.S))
+        lowt = " " + texts.lower() + " "
+        bad = sorted({w for w in banned if re.search(r"(?<![a-z])" + re.escape(w.lower()) + r"(?![a-z])", lowt)})
+        check(f"{k}: no banned words in the image", not bad, ", ".join(bad))
+        nums = {n for n in re.findall(r"\$?\d[\d,]*(?:\.\d+)?%?", texts) if len(n.strip("$%")) > 1 or n[0] == "$" or n[-1] == "%"}
+        missing = sorted(n for n in nums if n not in body_plain and n not in body)
+        check(f"{k}: every number in the image also appears in the post", not missing, ", ".join(missing))
 
     # ---------- uniqueness ----------
     pub = load_json("data/published.json", {"posts": []})["posts"]

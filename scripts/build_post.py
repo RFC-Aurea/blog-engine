@@ -211,14 +211,21 @@ class Builder:
                     raise SystemExit(f"H2 without {{#anchor}}: {data[1]}")
                 self.h2.append((data[2], strip_md(data[1])))
         nodes, self.in_faq, toc_done = [], False, False
-        cur_q = None
+        cur_q, prev = None, None
         for kind, data in blocks:
+            # Spacing copies the clinics' own posts: an empty paragraph between every two blocks,
+            # except right after an H3/H4 (the heading sits on its content) and between a lead-in
+            # line ending in ":" and the list it introduces.
+            if nodes and not (nodes[-1]["type"] == "PARAGRAPH" and not nodes[-1]["nodes"]):
+                attached = (prev and prev[0] == "h" and prev[1][0] >= 3) or (
+                    kind in ("ul", "ol") and prev and prev[0] == "p" and strip_md(prev[1]).rstrip().endswith(":"))
+                if not attached:
+                    nodes.append(self.spacer())
+            prev = (kind, data)
             if kind == "h":
                 level, text, anchor = data
                 if level == 2:
                     self.in_faq = anchor == "faq"
-                    if nodes and not (nodes[-1]["type"] == "PARAGRAPH" and not nodes[-1]["nodes"]):
-                        nodes.append(self.spacer())
                 if self.in_faq and level == 3:
                     cur_q = [strip_md(text), []]
                     self.faq.append(cur_q)
@@ -242,7 +249,7 @@ class Builder:
                 nodes.extend(self.toc())
                 toc_done = True
             elif kind in ("image1", "image2"):
-                nodes.extend([self.image(kind.upper()), self.spacer()])
+                nodes.append(self.image(kind.upper()))
         if not toc_done:
             raise SystemExit("[[TOC]] is missing")
         return nodes

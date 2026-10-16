@@ -1,0 +1,55 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><style>{{BASE_CSS}}</style></head>
+<body>
+{{COMPONENTS}}
+<svg class="canvas" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <rect class="bg" width="1200" height="630"/>
+  <text class="title" x="40" y="62">What freezing does to sperm, and what storage time doesn't</text>
+  <text class="subtitle" x="40" y="96">Freezing lowers motility once. In a 2025 study of 293 men, years in storage made no further difference.</text>
+
+  <rect class="card" x="32" y="128" width="608" height="464" rx="22"/>
+  <rect class="card" x="668" y="128" width="500" height="464" rx="22"/>
+
+  <!-- left: anatomy -->
+  <text class="step-title" x="64" y="172">Inside a sperm cell</text>
+  <use href="#sperm-detail" x="56" y="230" width="560" height="120"/>
+  <path class="leader" d="M96,228 L102,276"/><circle class="leader-dot" cx="102" cy="276" r="4"/>
+  <text class="label" x="60" y="220">Acrosome</text>
+  <path class="leader" d="M200,228 L156,274"/><circle class="leader-dot" cx="156" cy="274" r="4"/>
+  <text class="label" x="190" y="220">Head (holds the DNA)</text>
+  <path class="leader" d="M226,350 L226,302"/><circle class="leader-dot" cx="226" cy="302" r="4"/>
+  <text class="label" x="168" y="374">Midpiece (energy)</text>
+  <path class="leader" d="M481,350 L481,296"/><circle class="leader-dot" cx="481" cy="296" r="4"/>
+  <text class="label" x="420" y="374">Tail (swimming)</text>
+
+  <path d="M64,404 L608,404" stroke="#E2D8CB" stroke-width="1.5"/>
+  <text class="step-title" x="64" y="446">How a sample is stored</text>
+  <circle cx="88" cy="508" r="28" fill="#FBF8F3" stroke="#D9CFC2" stroke-width="1.5"/>
+  <use href="#icon-vial" x="68" y="488" width="40" height="40"/>
+  <text class="label-sub" x="126" y="503">Frozen in</text>
+  <text class="label-sub" x="126" y="525">small vials</text>
+  <circle cx="276" cy="508" r="28" fill="#FBF8F3" stroke="#D9CFC2" stroke-width="1.5"/>
+  <use href="#icon-tank" x="256" y="488" width="40" height="40"/>
+  <text class="label-sub" x="314" y="503">Liquid nitrogen</text>
+  <text class="label-sub" x="314" y="525">at −196 °C</text>
+  <circle cx="474" cy="508" r="28" fill="#FBF8F3" stroke="#D9CFC2" stroke-width="1.5"/>
+  <use href="#icon-thaw" x="454" y="488" width="40" height="40"/>
+  <text class="label-sub" x="512" y="503">Thawed</text>
+  <text class="label-sub" x="512" y="525">when needed</text>
+
+  <!-- right: data -->
+  <text class="step-title" x="700" y="172">Freezing lowers motility once</text>
+  <text class="label-sub" x="700" y="202">Share of sperm swimming forward (progressive motility)</text>
+  <path d="M720,450 L1136,450" stroke="#B8AEA3" stroke-width="2"/>
+  <rect x="760" y="264" width="130" height="186" rx="8" fill="#D3C8BB"/>
+  <text class="big-number" x="825" y="252" text-anchor="middle">44.3%</text>
+  <rect x="950" y="345" width="130" height="105" rx="8" fill="#B9B1C7"/>
+  <text class="big-number" x="1015" y="333" text-anchor="middle">25.0%</text>
+  <text class="label" x="825" y="478" text-anchor="middle">Before freezing</text>
+  <text class="label" x="1015" y="478" text-anchor="middle">After thawing</text>
+  <use href="#icon-check" x="700" y="504" width="26" height="26"/>
+  <text class="label" x="738" y="522">2.5 to 14+ years in storage made no</text>
+  <text class="label" x="738" y="545">difference to motility, vitality or shape</text>
+  <text class="note" x="700" y="578">Source: Bier et al., Andrology, 2025 (293 men)</text>
+</svg>
+</body></html>

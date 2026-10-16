@@ -1,10 +1,13 @@
 #!/usr/bin/env python3
-"""Pick today's brand and the best unused topic for it.
+"""Pick the brand to publish now and the best unused topic for it.
 
 Usage: python3 scripts/pick_topic.py [--date YYYY-MM-DD] [--brand rfc|aurea] [--skip cluster-id,...]
 
-Prints JSON: brand, top candidates (cluster, suggested format, allowed title shapes), and recent history.
-Exit code 2 when the engine is paused.
+The weekday schedule in config.json says which brands publish on a day (Sunday has two). Without --brand the
+first scheduled brand that has no engine post dated that day is picked.
+Prints JSON: brands_today, still_to_publish, brand, top candidates (cluster, suggested format, allowed title shapes),
+and recent history.
+Exit code 2 when the engine is paused, 3 when every brand scheduled for the day is already published.
 """
 import json
 import sys
@@ -28,9 +31,11 @@ def arg(name, default=None):
     return sys.argv[sys.argv.index(name) + 1] if name in sys.argv else default
 
 
-def brand_for(day, cfg):
-    anchor = date.fromisoformat(cfg["rotation"]["anchor_date"])
-    return cfg["rotation"]["even"] if (day - anchor).days % 2 == 0 else cfg["rotation"]["odd"]
+DAYS = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"]
+
+
+def brands_for(day, cfg):
+    return cfg["schedule"][DAYS[day.weekday()]]
 
 
 def main():
@@ -39,9 +44,16 @@ def main():
         print(json.dumps({"paused": True}))
         sys.exit(2)
     day = date.fromisoformat(arg("--date")) if arg("--date") else datetime.now(ZoneInfo(cfg["timezone"])).date()
-    brand = arg("--brand") or brand_for(day, cfg)
-    skip = set((arg("--skip") or "").split(",")) - {""}
     pub = load_json("data/published.json", {"posts": []})["posts"]
+    today = brands_for(day, cfg)
+    done = {p["brand"] for p in pub if p.get("source") == "engine" and p["date"] == day.isoformat()}
+    left = [b for b in today if b not in done]
+    if not arg("--brand") and not left:
+        print(json.dumps({"date": day.isoformat(), "weekday": DAYS[day.weekday()], "brands_today": today,
+                          "still_to_publish": [], "note": "every brand scheduled today is already published"}))
+        sys.exit(3)
+    brand = arg("--brand") or left[0]
+    skip = set((arg("--skip") or "").split(",")) - {""}
     mine = [p for p in sorted(pub, key=lambda p: p["date"], reverse=True) if p["brand"] == brand]
     engine = [p for p in mine if p.get("pillar")]
     recent_pillars = [p["pillar"] for p in engine[:4]]
@@ -73,7 +85,8 @@ def main():
                       "closest_existing_title": top[1], "closest_similarity": round(top[0], 2)})
     cands.sort(key=lambda x: -x["adjusted_score"])
     cands = cands[:5]
-    print(json.dumps({"date": day.isoformat(), "brand": brand, "candidates": cands,
+    print(json.dumps({"date": day.isoformat(), "weekday": DAYS[day.weekday()], "brands_today": today,
+                      "still_to_publish": left, "brand": brand, "candidates": cands,
                       "recent": {"pillars": recent_pillars, "formats": recent_formats, "title_shapes": recent_shapes,
                                  "last_titles": [p["title"] for p in mine[:5]]}}, indent=1, ensure_ascii=False))
 

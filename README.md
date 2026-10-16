@@ -1,7 +1,8 @@
 # RFC + Aurea blog engine
 
-Publishes one fully researched, SEO and GEO optimised post per day, alternating between
-rejuvenatingfertility.com and aureafertility.com (each site every other day). Runs as a scheduled Claude task on the
+Publishes fully researched, SEO and GEO optimised posts to rejuvenatingfertility.com (Monday, Wednesday, Friday,
+Sunday) and aureafertility.com (Tuesday, Thursday, Saturday, Sunday), starting 6:45am New York time; the schedule
+lives in `config.json`. Runs as a scheduled Claude task on the
 Max plan, using the Wix and Ubersuggest connections on the Claude account. No API keys are stored here.
 
 **What every post gets:** a trending keyword with real Ubersuggest volume and difficulty; title as H1 and H2/H3

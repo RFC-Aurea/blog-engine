@@ -1,11 +1,15 @@
 {
   "paused": false,
   "timezone": "America/New_York",
-  "rotation": {
-    "rule": "days since 2026-01-01 in New York time: even = rfc, odd = aurea",
-    "anchor_date": "2026-01-01",
-    "even": "rfc",
-    "odd": "aurea"
+  "schedule": {
+    "rule": "set by Alifiya 2026-10-16, New York weekday: RFC Mon/Wed/Fri/Sun, Aurea Tue/Thu/Sat/Sun, run starts 6:45am; Sunday publishes RFC first, then Aurea",
+    "monday": ["rfc"],
+    "tuesday": ["aurea"],
+    "wednesday": ["rfc"],
+    "thursday": ["aurea"],
+    "friday": ["rfc"],
+    "saturday": ["aurea"],
+    "sunday": ["rfc", "aurea"]
   },
   "writer": {
     "name": "Dr. Zaher Merhi",

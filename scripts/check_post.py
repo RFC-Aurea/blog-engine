@@ -85,7 +85,9 @@ def main():
               str([len(a) for a in alts]))
         check("a keyword appears in an alt text",
               any(contains_keyword(a, k) for a in alts for k in [kw] + [s["term"] for s in sec]))
-        check("wix image ids have no wix:image prefix", all("wix:image" not in imgs[k]["wix_id"] for k in imgs))
+        check("wix image ids look like real Wix media ids",
+              all(re.fullmatch(r"[0-9a-z]+_[0-9a-f]{32}~mv2\.(jpg|jpeg|png|webp)", imgs[k]["wix_id"]) for k in imgs),
+              str([imgs[k]["wix_id"] for k in imgs]))
         check("no 'image of' in alt text", not any(re.match(r"(image|picture|photo) of", a.lower()) for a in alts),
               hard=False)
     check("[[IMAGE1]] and [[IMAGE2]] placed once each",

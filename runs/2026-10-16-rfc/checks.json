@@ -94,10 +94,10 @@
    "detail": ""
   },
   {
-   "check": "wix image ids have no wix:image prefix",
+   "check": "wix image ids look like real Wix media ids",
    "ok": true,
    "hard": true,
-   "detail": ""
+   "detail": "['ca2223_6d0a011f32dc46acb68d2580722f0983~mv2.jpg', 'ca2223_ab1fed578caa44179747bc9038175322~mv2.jpg']"
   },
   {
    "check": "no 'image of' in alt text",

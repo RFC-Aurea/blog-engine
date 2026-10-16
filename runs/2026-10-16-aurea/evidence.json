@@ -1,0 +1,70 @@
+{
+ "sources": [
+  {
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12569725/",
+   "title": "Initial motility and vitality predict the semen quality after long-term cryostorage, even in patients with restricted ejaculate parameters",
+   "journal": "Andrology",
+   "year": 2025,
+   "authors": "Bier S, Hanke D, Zitzmann M, Kliesch S, Nordhoff V",
+   "claim": "293 men with samples stored 2.5 to more than 14 years: storage duration did not change post-thaw motility, vitality or morphology; initial motility and concentration predicted post-thaw quality. Freezing itself lowered progressive motility from 44.3% to 25.0%.",
+   "quote": "no changes in motility (p = 0.44), vitality (p = 0.08), or morphology (p = 0.44) across the cohorts ... progressive motility fell from 44.3% at baseline to 25.0% after the first post-thaw test",
+   "verified": true,
+   "checked_with": "WebFetch PMC full text 2026-10-16"
+  },
+  {
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10264626/",
+   "title": "The impact of cryopreserved sperm on intrauterine insemination outcomes: is frozen as good as fresh?",
+   "journal": "Frontiers in Reproductive Health",
+   "year": 2023,
+   "authors": "Cherouveim P et al.",
+   "claim": "5,335 IUI cycles (1,871 frozen, 3,464 fresh): unadjusted clinical pregnancy 9.4% frozen vs 13.0% fresh; after adjustment not significant overall (OR 0.77); time to pregnancy longer with frozen (3.84 vs 2.58 cycles); live birth and cumulative pregnancy similar.",
+   "quote": "clinical outcomes did not differ significantly between frozen and fresh sperm IUI cycles",
+   "verified": true,
+   "checked_with": "WebFetch PMC full text 2026-10-16"
+  },
+  {
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13225128/",
+   "title": "Sperm banking in testicular cancer survivors: Low utilization, high costs, and patient-reported barriers from a Canadian cohort",
+   "journal": "Canadian Urological Association Journal",
+   "year": 2026,
+   "authors": "Lu S, Ko Y, Fathy M, Patel P",
+   "claim": "Canadian cohort (24 survey respondents): 13% used their banked sperm; mean cost about $2,000 over three years; 58% found the cost burdensome; 50% felt time pressure deciding.",
+   "quote": "Only three men (13%) used their cryopreserved sperm ... The mean cost was approximately $2000 over three years, and 58% found this burdensome.",
+   "verified": true,
+   "checked_with": "WebFetch PMC full text 2026-10-16"
+  },
+  {
+   "url": "https://www.reproductivefacts.org/news-and-publications/fact-sheets-and-infographics/cancer-and-its-impact-on-sperm/",
+   "title": "Cancer and its impact on sperm, cryopreservation, and fertility (ASRM patient fact sheet, revised 2023)",
+   "journal": "American Society for Reproductive Medicine",
+   "year": 2023,
+   "authors": "ASRM",
+   "claim": "Collection is simple and noninvasive; sperm is mixed with cryoprotectants and frozen; sperm can be stored indefinitely, and sperm frozen more than 20 years has produced pregnancies; more than one sample may be requested; very few sperm are needed with IVF.",
+   "quote": "Sperm can be stored indefinitely ... very few sperm are necessary to fertilize an egg in a dish",
+   "verified": true,
+   "checked_with": "WebFetch 2026-10-16"
+  },
+  {
+   "url": "https://www.asrm.org/practice-guidance/practice-committee-documents/fertility-preservation-in-patients-with-medical-indications-a-committee-opinion-2026/",
+   "title": "Fertility preservation in patients with medical indications: a committee opinion (2026)",
+   "journal": "Fertility and Sterility (ASRM Practice Committee)",
+   "year": 2026,
+   "authors": "ASRM Practice Committee",
+   "claim": "Ejaculated semen cryopreservation is an established technology for postpubertal males; ideally multiple samples; affordability is a key barrier; all health insurance should cover established fertility preservation.",
+   "quote": "For postpubertal males, ejaculated semen cryopreservation is an established technology ... Ideally, multiple samples should be obtained ... Affordability is a key barrier ... All health insurance should cover established fertility preservation services.",
+   "verified": true,
+   "checked_with": "WebFetch 2026-10-16"
+  },
+  {
+   "url": "https://www.dfs.ny.gov/consumers/health_insurance/infertility_consumer_faq_052621",
+   "title": "FAQ: Health Insurance Coverage for Infertility, Fertility Preservation, and Surrogacy",
+   "journal": "New York State Department of Financial Services",
+   "year": null,
+   "authors": "NY DFS",
+   "claim": "NY-regulated individual, small group and large group policies must cover fertility preservation when a medical treatment (surgery, radiation, chemotherapy or other, including hormone therapy) may cause infertility; covered services include collecting, freezing, preserving and storing sperm; no specific storage time limit; self-funded employer plans are excluded.",
+   "quote": "the collecting, freezing, preserving, and storing of ova or sperm ... The fertility preservation law does not include a specific limit on the duration of storage for ova or sperm.",
+   "verified": true,
+   "checked_with": "WebFetch 2026-10-16"
+  }
+ ]
+}

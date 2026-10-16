@@ -1,0 +1,313 @@
+{
+ "pass": true,
+ "hard_failures": 0,
+ "warnings": 0,
+ "checks": [
+  {
+   "check": "front matter complete",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  },
+  {
+   "check": "primary keyword has real Ubersuggest volume and SD",
+   "ok": true,
+   "hard": true,
+   "detail": "how much does sperm freezing cost: volume=1900 sd=17"
+  },
+  {
+   "check": "2-3 secondary keywords with volume and SD",
+   "ok": true,
+   "hard": true,
+   "detail": "sperm freezing cost 1000/21; sperm freezing 1600/28; does insurance cover sperm freezing 40/23"
+  },
+  {
+   "check": "category exists on this site",
+   "ok": true,
+   "hard": true,
+   "detail": "Patient Questions"
+  },
+  {
+   "check": "slug format",
+   "ok": true,
+   "hard": true,
+   "detail": "sperm-freezing-cost"
+  },
+  {
+   "check": "meta title <= 60 chars",
+   "ok": true,
+   "hard": true,
+   "detail": "54: Sperm Freezing Cost in 2026: Fees, Storage & Insurance"
+  },
+  {
+   "check": "meta title has primary keyword near the front",
+   "ok": true,
+   "hard": true,
+   "detail": "Sperm Freezing Cost in 2026: Fees, Storage & Insurance"
+  },
+  {
+   "check": "meta description <= 155 chars",
+   "ok": true,
+   "hard": true,
+   "detail": "140"
+  },
+  {
+   "check": "meta description has primary keyword",
+   "ok": true,
+   "hard": true,
+   "detail": "How much does sperm freezing cost? Every fee from first sample to yearly storage, what insurance covers in 2026, and the true 10-year total."
+  },
+  {
+   "check": "excerpt <= 300 chars",
+   "ok": true,
+   "hard": true,
+   "detail": "194"
+  },
+  {
+   "check": "title (H1) has primary keyword",
+   "ok": true,
+   "hard": true,
+   "detail": "Sperm Freezing Cost in 2026: Every Fee and the Real 10-Year Total"
+  },
+  {
+   "check": "title length <= 100",
+   "ok": true,
+   "hard": true,
+   "detail": "65"
+  },
+  {
+   "check": "2 images uploaded to Wix with size and alt text",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  },
+  {
+   "check": "alt text under 125 chars",
+   "ok": true,
+   "hard": true,
+   "detail": "[100, 95]"
+  },
+  {
+   "check": "a keyword appears in an alt text",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  },
+  {
+   "check": "wix image ids look like real Wix media ids",
+   "ok": true,
+   "hard": true,
+   "detail": "['ca2223_1c98094416f74ad3a0f63e14b80f6cf5~mv2.jpg', 'ca2223_a3306cf12dcb46fc8002d2fbcf4c6b33~mv2.jpg']"
+  },
+  {
+   "check": "no 'image of' in alt text",
+   "ok": true,
+   "hard": false,
+   "detail": ""
+  },
+  {
+   "check": "[[IMAGE1]] and [[IMAGE2]] placed once each",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  },
+  {
+   "check": "no H1 in body",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  },
+  {
+   "check": "[[TOC]] once",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  },
+  {
+   "check": "opens with **Quick answer:**",
+   "ok": true,
+   "hard": true,
+   "detail": "**Quick answer:** At Aurea Fertility Center, sperm freezing "
+  },
+  {
+   "check": "Quick answer has primary keyword",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  },
+  {
+   "check": "every H2 has an {#anchor}",
+   "ok": true,
+   "hard": true,
+   "detail": "[]"
+  },
+  {
+   "check": "H2 anchors unique",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  },
+  {
+   "check": "6-10 H2 sections",
+   "ok": true,
+   "hard": true,
+   "detail": "9"
+  },
+  {
+   "check": "primary keyword in >= 2 H2s",
+   "ok": true,
+   "hard": true,
+   "detail": "['Sperm Freezing Cost at a Glance: Every Fee, Up Front', 'What Drives the Price of Sperm Freezing', 'Does Insurance Cover Sperm Freezing? What New York Plans Cover in 2026', 'Ways to Lower the Cost Without Lowering Your Odds', 'What the Research Shows About Frozen Sperm', 'What Does Sperm Freezing Really Cost Over 10 Years?', \"What Aurea Charges and What's Included\", 'Frequently Asked Questions', 'The Bottom Line']"
+  },
+  {
+   "check": "FAQ section {#faq}",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  },
+  {
+   "check": "Bottom line section {#bottom-line}",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  },
+  {
+   "check": "5-6 FAQ questions as H3",
+   "ok": true,
+   "hard": true,
+   "detail": "6"
+  },
+  {
+   "check": "FAQ questions end with ?",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  },
+  {
+   "check": "primary keyword in an FAQ question",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  },
+  {
+   "check": "has a table with 3+ columns",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  },
+  {
+   "check": "has a numbered list",
+   "ok": true,
+   "hard": false,
+   "detail": ""
+  },
+  {
+   "check": "markdown bold markers balanced",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  },
+  {
+   "check": "no raw HTML",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  },
+  {
+   "check": "no bare URLs",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  },
+  {
+   "check": "word count 2000-2800",
+   "ok": true,
+   "hard": true,
+   "detail": "2279"
+  },
+  {
+   "check": "primary keyword in first 100 words",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  },
+  {
+   "check": "primary keyword density 0.5-2.5%",
+   "ok": true,
+   "hard": false,
+   "detail": "2.11% (8 uses)"
+  },
+  {
+   "check": "internal links >= 8",
+   "ok": true,
+   "hard": true,
+   "detail": "13"
+  },
+  {
+   "check": "every internal link is a verified page or live post",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  },
+  {
+   "check": "no 'click here' link text",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  },
+  {
+   "check": "every external link is a verified source in evidence.json",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  },
+  {
+   "check": "at least 4 research citations",
+   "ok": true,
+   "hard": true,
+   "detail": "5"
+  },
+  {
+   "check": "citations listed in front matter match evidence",
+   "ok": true,
+   "hard": false,
+   "detail": ""
+  },
+  {
+   "check": "CTA links the booking page",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  },
+  {
+   "check": "no banned words or unsupported claims",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  },
+  {
+   "check": "paragraphs are 5 sentences or fewer",
+   "ok": true,
+   "hard": false,
+   "detail": ""
+  },
+  {
+   "check": "slug not already used on this site",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  },
+  {
+   "check": "title not too similar to any existing post (< 0.6)",
+   "ok": true,
+   "hard": true,
+   "detail": "0.14 vs 'Why egg freezing matters for women over 35 in 2026'"
+  },
+  {
+   "check": "primary keyword not already targeted",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  }
+ ]
+}

@@ -25,8 +25,10 @@ Use the banner size preset (Gamma returns 2752x1536).
    (docs: https://dev.wix.com/docs/api-reference/assets/media/media-manager/files/get-file-descriptors).
 2. Confirm `operationStatus` is `READY`, read `media.image.image.width/height`, and read Wix's automatic `labels`.
 3. The labels must match the subject (an embryo illustration gets labels like "biomedical illustration", "embryo"; a
-   consultation scene gets "counselling session", "consulting room"). Reject and regenerate if the labels are off-topic
-   or mention text, signage, documents, logos or screens. Up to 2 retries per image; if an image still fails, the run
+   consultation scene gets "counselling session", "consulting room"). Wix has no "sperm" label: microscopic subjects come
+   back as "scientific micrograph", "microorganism", "human cell", even "bacterium", which is fine. Reject and regenerate
+   if the labels name everyday objects or food the picture should not look like (e.g. "spoons", "flatware", "legume" for
+   a sperm illustration), or mention text, signage, documents, logos or screens. Up to 2 retries per image; if an image still fails, the run
    stops for that topic (quality gate).
 4. Copy the 4–6 most relevant labels into the front matter as `wix_labels` so the record shows what was checked.
 Strict prompts (palette, "no text", subject) carry the rest; Alifiya reviews images on the live blog.

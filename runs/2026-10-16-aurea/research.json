@@ -1,0 +1,23 @@
+{
+ "keyword_overview": {
+  "keyword": "how much does sperm freezing cost", "locId": 2840, "search_volume": 1900, "seo_difficulty": 17,
+  "paid_difficulty": 18, "cpc": 5.98, "search_intent": "Informational", "checked": "2026-10-16"
+ },
+ "secondary_keywords": [
+  {"term": "sperm freezing cost", "volume": 1000, "sd": 21, "source": "Ubersuggest keyword_suggestions (data/keywords_raw.json)"},
+  {"term": "sperm freezing", "volume": 1600, "sd": 28, "source": "Ubersuggest keyword_suggestions (data/keywords_raw.json)"},
+  {"term": "does insurance cover sperm freezing", "volume": 40, "sd": 23, "source": "Ubersuggest keyword_suggestions (data/keywords_raw.json)"}
+ ],
+ "serp_top": [
+  {"pos": 1, "type": "ai_overview"},
+  {"pos": 2, "url": "https://www.bostonivf.com/treatments/sperm-freezing", "da": 52},
+  {"pos": 3, "type": "people_also_ask"},
+  {"pos": 4, "url": "https://kindbody.com/preparing-for-fertility-preservation-your-guide-to-egg-and-sperm-freezing/", "da": 49},
+  {"pos": 5, "type": "discussions_and_forums"},
+  {"pos": 6, "url": "https://fertilitydr.com/treatment/sperm-freezing/", "da": 33},
+  {"pos": 7, "url": "https://www.seattlespermbank.com/articles/how-much-does-donor-sperm-cost/", "da": 40},
+  {"pos": 13, "url": "https://www.reddit.com/r/MtF/comments/r0gpil/why_is_freezing_sperm_so_expensive/", "da": 92}
+ ],
+ "aurea_prices_checked": "https://www.aureafertility.com/pricing via WebFetch 2026-10-16: sperm freezing in office $650; at home (Adonis Kit) $2,250; sperm storage $50/month or $425/year; sperm thaw $250; semen analysis $300; sperm DNA fragmentation $550; transport out $500; new patient consult $350",
+ "gap": "Top results quote a freezing fee but none add up the real total over 1, 5 and 10 years (freezing + storage + thaw + the treatment that uses the sample), or say how many samples to bank."
+}

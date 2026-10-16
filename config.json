@@ -1,0 +1,88 @@
+{
+  "paused": false,
+  "timezone": "America/New_York",
+  "rotation": {
+    "rule": "days since 2026-01-01 in New York time: even = rfc, odd = aurea",
+    "anchor_date": "2026-01-01",
+    "even": "rfc",
+    "odd": "aurea"
+  },
+  "writer": {
+    "name": "Dr. Zaher Merhi",
+    "member_id": "ca222303-63a3-4819-a4dd-9d9b3d27c79c",
+    "never_use_member_ids": ["7c1ac72f-a1f3-4da0-bbaa-82d7423c002a"]
+  },
+  "limits": {
+    "ubersuggest_reports_per_day": 150,
+    "ubersuggest_reports_per_run": 25,
+    "max_topic_attempts_per_run": 2,
+    "max_rewrites_per_topic": 1
+  },
+  "post_rules": {
+    "words_min": 2000,
+    "words_max": 2800,
+    "meta_title_max": 60,
+    "meta_description_max": 155,
+    "excerpt_max": 300,
+    "alt_text_max": 125,
+    "faq_min": 5,
+    "faq_max": 6,
+    "internal_links_min": 8,
+    "citations_min": 4,
+    "images": 2,
+    "seo_keywords_max": 5
+  },
+  "brands": {
+    "rfc": {
+      "name": "Rejuvenating Fertility Center",
+      "short": "RFC",
+      "site_id": "55028236-5bc1-40be-8bdc-21cd76097965",
+      "domain": "https://www.rejuvenatingfertility.com",
+      "post_base": "https://www.rejuvenatingfertility.com/post/",
+      "logo_name": "Rejuvenating Fertility Center",
+      "cta_url": "https://www.rejuvenatingfertility.com/contact-us",
+      "brand_file": "brands/rfc.md",
+      "categories": {
+        "Fertility & Lifestyle": "f027c250-7c4e-4faf-a364-660646276f19",
+        "Treatments & IVF": "d11a57cc-f461-4933-9d19-02664e83b687",
+        "Fertility Conditions": "aaa18ccf-510d-4593-9e17-d7becfc346ad",
+        "Patient Questions": "685c0be8-4f23-4bb8-b18f-b88af0d010a0"
+      },
+      "colors": {
+        "h2": "#09332C",
+        "h3": "#F0531C",
+        "faq_h3": "#F0531C",
+        "h4": "#09332C",
+        "toc_link": "#F0531C",
+        "body": "rgb(0, 0, 0)"
+      },
+      "image_palette": "ivory, warm sand, soft stone grey, muted sage green, natural skin tones"
+    },
+    "aurea": {
+      "name": "Aurea Fertility Center",
+      "short": "Aurea",
+      "site_id": "25db1356-cc02-4474-8d10-45d586b1fc7e",
+      "domain": "https://www.aureafertility.com",
+      "post_base": "https://www.aureafertility.com/post/",
+      "logo_name": "Aurea Fertility Center",
+      "cta_url": "https://www.aureafertility.com/contact",
+      "brand_file": "brands/aurea.md",
+      "categories": {
+        "Fertility Insights": "391d55a1-6aeb-4d69-929f-68d40d669250",
+        "Treatments & IVF": "3c08421a-8360-4c91-8cc1-1bcd6cbe97a5",
+        "Fertility Conditions": "6578b7a7-144a-4fca-bf46-4b47c87f7867",
+        "Fertility & Lifestyle": "fdbb9562-920b-418c-9e1d-03f7aee5174b",
+        "Patient Questions": "42dda6de-7b12-47ef-badd-fec6f55c05c5"
+      },
+      "colors": {
+        "h2": "#BB2423",
+        "h3": "#FF64BA",
+        "faq_h3": "rgb(0, 0, 0)",
+        "h4": "rgb(0, 0, 0)",
+        "toc_link": "#BB2423",
+        "body": "rgb(0, 0, 0)"
+      },
+      "image_palette": "ivory, champagne, warm taupe, soft lilac grey, natural skin tones"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+ "sources": [
+  {
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12345678/",
+   "title": "Paper title as shown on PubMed",
+   "journal": "Fertility and Sterility",
+   "year": 2023,
+   "claim": "The exact sentence/number the post uses from this paper",
+   "quote": "Short passage copied from the abstract that supports the claim",
+   "verified": true,
+   "checked_with": "WebFetch 2026-10-17"
+  }
+ ]
+}

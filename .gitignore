@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+tests/fixture/payload.json
+tests/fixture/compact.json
+tests/fixture/expected.json
+tests/fixture/checks.json
+tests/fixture/preview.html

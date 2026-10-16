@@ -13,7 +13,7 @@ import json
 import re
 import sys
 
-from common import ROOT, config, split_source, strip_md
+from common import ROOT, config, load_json, split_source, strip_md
 
 INLINE = re.compile(r"\[([^\]]+)\]\(([^)\s]+)\)|\*\*|\*")
 
@@ -461,6 +461,13 @@ def main():
               "toc": b["colors"]["toc_link"], "tocLabel": b["colors"]["h2"], "domain": b["domain"],
               "headerBg": b.get("table_header_bg", "#F4F3F0")}
     compact = {"publish": publish, "colors": colors, "draftPost": slim, "doc": to_compact(nodes, bld)}
+    update_id = sys.argv[sys.argv.index("--update") + 1] if "--update" in sys.argv else None
+    if update_id:
+        # Only posts the engine itself created may be changed (CLAUDE.md, rules that never bend).
+        mine = {p["post_id"] for p in load_json("data/published.json", {"posts": []})["posts"] if p.get("source") == "engine"}
+        if update_id not in mine:
+            raise SystemExit(f"--update {update_id}: not a post the engine created; refusing to touch it")
+        compact["updateId"] = update_id
     (run / "compact.json").write_text(json.dumps(compact, ensure_ascii=False, separators=(",", ":")),
                                       encoding="utf-8")
     expected = {
@@ -479,6 +486,8 @@ def main():
         "seo_main_keyword": fm["primary_keyword"]["term"],
         "meta_title": fm["meta_title"],
         "publish": publish,
+        "update_id": update_id,
+        "cover_id": hero["wix_id"],
     }
     (run / "expected.json").write_text(json.dumps(expected, indent=1, ensure_ascii=False), encoding="utf-8")
     (run / "preview.html").write_text(preview_html(fm, b, nodes), encoding="utf-8")

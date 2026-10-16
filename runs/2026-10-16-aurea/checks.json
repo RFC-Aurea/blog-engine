@@ -85,7 +85,7 @@
    "check": "alt text under 125 chars",
    "ok": true,
    "hard": true,
-   "detail": "[100, 95]"
+   "detail": "[110, 117]"
   },
   {
    "check": "a keyword appears in an alt text",
@@ -97,7 +97,7 @@
    "check": "wix image ids look like real Wix media ids",
    "ok": true,
    "hard": true,
-   "detail": "['ca2223_1c98094416f74ad3a0f63e14b80f6cf5~mv2.jpg', 'ca2223_a3306cf12dcb46fc8002d2fbcf4c6b33~mv2.jpg']"
+   "detail": "['ca2223_6406e1b936394174ac3a119cbb23105c~mv2.png', 'ca2223_3474454e0c93488fae86d518243f6a8c~mv2.png']"
   },
   {
    "check": "no 'image of' in alt text",
@@ -289,6 +289,54 @@
    "check": "paragraphs are 5 sentences or fewer",
    "ok": true,
    "hard": false,
+   "detail": ""
+  },
+  {
+   "check": "IMAGE1: Wix stored exactly the reviewed image (md5 = Wix hash)",
+   "ok": true,
+   "hard": true,
+   "detail": "file 3ed50f62cbb9a4e2932f011060ea0ca3, front matter 3ed50f62cbb9a4e2932f011060ea0ca3, Wix 3ed50f62cbb9a4e2932f011060ea0ca3"
+  },
+  {
+   "check": "IMAGE1: label check passed when rendered (no overlaps, nothing cut off)",
+   "ok": true,
+   "hard": true,
+   "detail": "no report for this file"
+  },
+  {
+   "check": "IMAGE1: no banned words in the image",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  },
+  {
+   "check": "IMAGE1: every number in the image also appears in the post",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  },
+  {
+   "check": "IMAGE2: Wix stored exactly the reviewed image (md5 = Wix hash)",
+   "ok": true,
+   "hard": true,
+   "detail": "file 6160b5cd34dc969bbdc9a62612c0fd4f, front matter 6160b5cd34dc969bbdc9a62612c0fd4f, Wix 6160b5cd34dc969bbdc9a62612c0fd4f"
+  },
+  {
+   "check": "IMAGE2: label check passed when rendered (no overlaps, nothing cut off)",
+   "ok": true,
+   "hard": true,
+   "detail": "no report for this file"
+  },
+  {
+   "check": "IMAGE2: no banned words in the image",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  },
+  {
+   "check": "IMAGE2: every number in the image also appears in the post",
+   "ok": true,
+   "hard": true,
    "detail": ""
   },
   {

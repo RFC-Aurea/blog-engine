@@ -42,20 +42,20 @@
  "hero": "IMAGE1",
  "images": {
   "IMAGE1": {
-   "wix_id": "ca2223_ff2c952b2b29455b801a9b6346dff481~mv2.png",
+   "wix_id": "ca2223_6406e1b936394174ac3a119cbb23105c~mv2.png",
    "width": 1800,
    "height": 945,
    "alt": "Labelled sperm cell diagram and chart showing sperm freezing lowers motility once, while storage time does not",
    "kind": "medical illustration with data",
    "source": "img/image1.html",
    "file": "img/image1.png",
-   "md5": "90b5af5a596da369dd3432d0422f5c87",
-   "wix_hash": "90b5af5a596da369dd3432d0422f5c87",
+   "md5": "3ed50f62cbb9a4e2932f011060ea0ca3",
+   "wix_hash": "3ed50f62cbb9a4e2932f011060ea0ca3",
    "wix_labels": [
     "dna testing",
     "human fertility",
-    "infographics",
-    "data processing"
+    "data processing",
+    "storage space"
    ],
    "preview_src": "img/image1.png"
   },

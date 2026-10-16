@@ -11,18 +11,62 @@
  "meta_description": "Low AMH symptoms are often silent. Learn what the number really signals, which signs matter, and the treatments that help you move forward.",
  "excerpt": "Low AMH usually causes no symptoms you can feel. Here is what the number does and does not tell you, and the options that still work.",
  "category": "Fertility Conditions",
- "hashtags": ["lowamh", "ovarianreserve", "fertility"],
- "primary_keyword": {"term": "low amh symptoms", "volume": 210, "sd": 20},
+ "hashtags": [
+  "lowamh",
+  "ovarianreserve",
+  "fertility"
+ ],
+ "primary_keyword": {
+  "term": "low amh symptoms",
+  "volume": 210,
+  "sd": 20
+ },
  "secondary_keywords": [
-  {"term": "low amh meaning", "volume": 260, "sd": 28},
-  {"term": "low amh but regular periods", "volume": 210, "sd": 13}
+  {
+   "term": "low amh meaning",
+   "volume": 260,
+   "sd": 28
+  },
+  {
+   "term": "low amh but regular periods",
+   "volume": 210,
+   "sd": 13
+  }
  ],
  "hero": "IMAGE1",
  "images": {
-  "IMAGE1": {"wix_id": "ca2223_xxxxxxxx~mv2.png", "width": 1600, "height": 900, "alt": "...", "kind": "medical illustration", "prompt": "...", "preview_src": "https://... (source url, optional)"},
-  "IMAGE2": {"wix_id": "ca2223_yyyyyyyy~mv2.png", "width": 1600, "height": 900, "alt": "...", "kind": "editorial scene", "prompt": "..."}
+  "IMAGE1": {
+   "wix_id": "ca2223_<32 hex>~mv2.png",
+   "width": 1800,
+   "height": 945,
+   "alt": "Labelled illustration of ... (primary keyword where natural, < 125 chars)",
+   "kind": "medical illustration",
+   "source": "img/image1.html",
+   "file": "img/image1.png",
+   "md5": "<md5sum of img/image1.png>",
+   "wix_hash": "<hash from Wix get-files, must equal md5>",
+   "preview_src": "img/image1.png"
+  },
+  "IMAGE2": {
+   "wix_id": "ca2223_<32 hex>~mv2.png",
+   "width": 1800,
+   "height": 945,
+   "alt": "Timeline of ... (< 125 chars)",
+   "kind": "labelled timeline",
+   "source": "img/image2.html",
+   "file": "img/image2.png",
+   "md5": "<md5sum of img/image2.png>",
+   "wix_hash": "<hash from Wix get-files>",
+   "preview_src": "img/image2.png"
+  }
  },
- "citations": [{"url": "https://pubmed.ncbi.nlm.nih.gov/12345678/"}],
+ "citations": [
+  {
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12345678/"
+  }
+ ],
  "serp_gap": "one sentence: what the current top results fail to answer",
- "patient_phrases": ["exact phrases patients use, copied from forums/PAA"]
+ "patient_phrases": [
+  "exact phrases patients use, copied from forums/PAA"
+ ]
 }

@@ -144,12 +144,28 @@ async function() {
   if (input.dryRun) {
     return { dryRun: true, body: body, inputHash: inputHash };
   }
-  const created = await wix.request({
-    method: "POST",
-    url: "https://www.wixapis.com/blog/v3/draft-posts",
-    body: body
-  });
-  const draft = created.draftPost;
+  let draft = null;
+  if (input.updateId) {
+    // Update a post the engine created earlier, in place (same id and URL), and publish the change.
+    const patch = {
+      draftPost: Object.assign({ id: input.updateId }, draftPost),
+      action: input.publish ? "UPDATE_PUBLISH" : "UPDATE",
+      fieldsets: ["URL"]
+    };
+    const updated = await wix.request({
+      method: "PATCH",
+      url: "https://www.wixapis.com/blog/v3/draft-posts/" + input.updateId,
+      body: patch
+    });
+    draft = updated.draftPost;
+  } else {
+    const created = await wix.request({
+      method: "POST",
+      url: "https://www.wixapis.com/blog/v3/draft-posts",
+      body: body
+    });
+    draft = created.draftPost;
+  }
   let post = null;
   if (input.publish) {
     const got = await wix.request({
@@ -210,6 +226,8 @@ async function() {
     links: links,
     anchors: anchors,
     images: images,
+    coverId: post.media && post.media.wixMedia && post.media.wixMedia.image ? post.media.wixMedia.image.id : null,
+    updated: Boolean(input.updateId),
     seoKeywords: seo.settings ? seo.settings.keywords : [],
     seoTagTypes: (seo.tags || []).map((t) => t.type + (t.props ? ":" + (t.props.name || t.props.property || t.props.type || "") : ""))
   };

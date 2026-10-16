@@ -39,6 +39,11 @@ def main():
     need("SEO title, description and schema tags present",
          any(t.startswith("title") for t in tags) and "meta:description" in tags and
          any(t.startswith("script") for t in tags), str(tags))
+    if live.get("coverId") is not None:
+        need("cover image", live.get("coverId") == exp.get("cover_id"), f"{live.get('coverId')}")
+    if exp.get("update_id"):
+        need("updated the existing post in place", live.get("postId") == exp["update_id"] and live.get("updated") is True,
+             f"{live.get('postId')}")
     if exp["publish"]:
         need("post is live", bool(live.get("url")), str(live.get("url")))
         need("live URL uses the SEO slug", (live.get("url") or "").endswith("/post/" + exp["slug"]),

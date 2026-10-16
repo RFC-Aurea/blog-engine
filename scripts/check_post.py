@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Quality gate for runs/<run>/post.md. Exit code 1 = the post must not be published.
 
-Usage: python3 scripts/check_post.py runs/<run>
+Usage: python3 scripts/check_post.py runs/<run> [--update <postId>]
 
 Writes runs/<run>/checks.json (the self-audit) and prints a summary.
 Hard failures block publishing. Warnings are reported but do not block.
@@ -200,6 +200,8 @@ def main():
 
     # ---------- uniqueness ----------
     pub = load_json("data/published.json", {"posts": []})["posts"]
+    if "--update" in sys.argv:  # re-checking a post that is already live: don't compare it with itself
+        pub = [p for p in pub if p.get("post_id") != sys.argv[sys.argv.index("--update") + 1]]
     slugs = {p["slug"] for p in pub if p["brand"] == brand}
     check("slug not already used on this site", fm["slug"] not in slugs)
     sims = sorted(((similarity(fm["title"], p["title"]), p["title"]) for p in pub), reverse=True)[:1]

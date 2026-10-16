@@ -5,7 +5,8 @@ Rejuvenating Fertility Center (RFC) and Aurea Fertility Center. Posts go **live 
 every hard check passes. Writer is always Dr. Zaher Merhi. Owner: Alifiya (RFC Fertility).
 
 If you were started by the daily schedule, do the run below from start to finish without asking anyone anything.
-Every tool you need is a connector: Wix, Ubersuggest (`Uber_suggest_SEO`), Gamma, plus WebSearch/WebFetch.
+Every outside tool you need is a connector: Wix, Ubersuggest (`Uber_suggest_SEO`), plus WebSearch/WebFetch.
+Images are drawn in code and rendered with the sandbox's Chromium (see `rules/images.md`).
 `wixapis.com`, PubMed and the clinic sites are blocked for curl in this sandbox — use the connectors and
 WebSearch/WebFetch, never curl them.
 
@@ -16,7 +17,8 @@ Read before writing: `config.json`, `brands/<brand>.md`, `rules/writing.md`, `ru
 - If this repo is not checked out yet: attach it with the `add_repo` tool (owner `RFC-Aurea`, repo `blog-engine`,
   push access), then `git clone https://github.com/RFC-Aurea/blog-engine` and work inside it.
 - `git checkout main && git pull origin main` before step 1, so you start from the latest topic ledger.
-- Needs only `python3` (standard library) and `node`. Nothing to install.
+- Needs only `python3` (standard library), `node` and the pre-installed Playwright + Chromium (used by
+  `scripts/render_image.js`). Nothing to install.
 
 ## The run
 
@@ -38,13 +40,13 @@ Read before writing: `config.json`, `brands/<brand>.md`, `rules/writing.md`, `ru
    CDC, NIH for guidelines and statistics). WebFetch every paper you intend to cite and confirm the abstract supports
    the exact claim. Record 5–10 sources in `RUN/evidence.json` (see `templates/evidence.json`), `verified: true` only
    when you read the supporting sentence yourself.
-6. **Images.** Follow `rules/images.md`: two Gamma `generate_image` calls (banner, neutral palette, no text), poll
-   `get_image_generation_status`, then `mcp__Wix__UploadImageToWixSite` with the brand's site id, then check each image
-   through its Wix file descriptor (size and auto labels, see rules/images.md; you cannot open image URLs here).
-   Put media id, width, height, alt text, the prompt and the Wix labels in the front matter.
-7. **Write** `RUN/post.md`: JSON front matter (see `templates/front_matter.json`) + body in the dialect described in
+6. **Write** `RUN/post.md`: JSON front matter (see `templates/front_matter.json`) + body in the dialect described in
    `rules/writing.md`, using the format and an allowed title shape from step 2. Brand voice and claims from the brand
-   file. 2,000–2,800 words.
+   file. 2,000–2,800 words. Spacing between blocks is added by the builder; just separate blocks with a blank line.
+7. **Images.** Follow `rules/images.md`: draw two labelled illustrations from the finished post (`RUN/img/image1.html`,
+   `RUN/img/image2.html`), render them with `node scripts/render_image.js`, look at each PNG with the Read tool and fix
+   until it is right, push them, upload them to the brand's site from their commit-pinned GitHub URL, confirm Wix's
+   file hash equals the PNG's md5, and record them in the front matter.
 8. **Quality gate.** `python3 scripts/check_post.py RUN`. Fix every FAIL and re-run (one rewrite round). If it still
    fails, `python3 scripts/record.py RUN blocked "<failures>"` and go back to step 2 with the next candidate. After 2
    blocked topics in one run, publish nothing and report why.
@@ -57,6 +59,7 @@ Read before writing: `config.json`, `brands/<brand>.md`, `rules/writing.md`, `ru
     - `sourceDocUrls`: `https://dev.wix.com/docs/api-reference/business-solutions/blog/draft-posts/create-draft-post`,
       `https://dev.wix.com/docs/api-reference/business-solutions/blog/posts-stats/get-post`,
       `https://dev.wix.com/docs/api-reference/business-solutions/blog/draft-posts/get-draft-post`
+      (and `https://dev.wix.com/docs/api-reference/business-solutions/blog/draft-posts/update-draft-post` when updating)
     Save the returned object as `RUN/live_summary.json`.
 11. **Verify.** `python3 scripts/verify_live.py RUN`. If it reports problems, fix them with the Wix connector (update
     the post) or, if the post is wrong in a way you cannot fix, unpublish it, and say so in the summary.
@@ -69,11 +72,18 @@ Read before writing: `config.json`, `brands/<brand>.md`, `rules/writing.md`, `ru
 15. **Report** (final message, it is sent to Alifiya): brand, title, live URL, primary keyword with volume/SD, number of
     citations and internal links, word count, any warnings from the checker, topics blocked today and why.
 
+## Fixing a post the engine already published
+Only for posts in `data/published.json` with `"source": "engine"` (the builder refuses any other id). Edit
+`RUN/post.md` (and the images if needed), then `python3 scripts/check_post.py RUN --update <postId>`,
+`python3 scripts/build_post.py RUN --update <postId>`, `node scripts/test_publish_js.js RUN`, and step 10 with the same
+`templates/publish.js`: it updates the post in place (same id and URL) and publishes the change. Then step 11.
+
 ## Rules that never bend
 - Writer `memberId` is `ca222303-63a3-4819-a4dd-9d9b3d27c79c` on both sites (set by the builder). Never use
   `7c1ac72f-a1f3-4da0-bbaa-82d7423c002a`.
 - Only cite sources you opened and verified. Only link internal pages listed in the brand file or live posts.
 - No invented success rates. RFC hope-first voice and banned words; Aurea unsupported-claims list.
-- Images neutral, no brand colours, no text inside images. Post styling uses brand colours from `config.json`.
+- Images are labelled illustrations in neutral colours, no brand colours, every number taken from the post.
+  Post styling uses brand colours from `config.json`.
 - Never publish if `check_post.py` fails. Never edit or delete posts that the engine did not create.
 - To stop the engine: set `"paused": true` in `config.json` and push.

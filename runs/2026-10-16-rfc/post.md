@@ -61,19 +61,19 @@
    "preview_src": "img/image1.png"
   },
   "IMAGE2": {
-   "wix_id": "ca2223_c89002a7c0884946bc12cf03129208a1~mv2.png",
+   "wix_id": "ca2223_3153d5d59d3a49a8bda5cec89543b6ff~mv2.png",
    "width": 1800,
    "height": 945,
    "alt": "Timeline of how donor eggs work, from consultation and choosing a donor to embryo transfer and pregnancy test",
    "kind": "labelled timeline",
    "source": "img/image2.html",
    "file": "img/image2.png",
-   "md5": "29a715a9d3c7a44cc723386c084767e0",
-   "wix_hash": "29a715a9d3c7a44cc723386c084767e0",
+   "md5": "93a74844482510c304cc6d075c66e98b",
+   "wix_hash": "93a74844482510c304cc6d075c66e98b",
    "wix_labels": [
-    "candidate journey",
-    "medical procedure",
-    "procedures"
+    "treatment-plan",
+    "medical treatment",
+    "medical procedure"
    ],
    "preview_src": "img/image2.png"
   }

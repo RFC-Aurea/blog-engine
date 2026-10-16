@@ -12,6 +12,12 @@ WebSearch/WebFetch, never curl them.
 Read before writing: `config.json`, `brands/<brand>.md`, `rules/writing.md`, `rules/formats.md`,
 `rules/images.md`, `rules/topics.md`.
 
+## Setup (each scheduled run starts in a fresh session)
+- If this repo is not checked out yet: attach it with the `add_repo` tool (owner `RFC-Aurea`, repo `blog-engine`,
+  push access), then `git clone https://github.com/RFC-Aurea/blog-engine` and work inside it.
+- `git checkout main && git pull origin main` before step 1, so you start from the latest topic ledger.
+- Needs only `python3` (standard library) and `node`. Nothing to install.
+
 ## The run
 
 `RUN` = `runs/<YYYY-MM-DD>-<brand>` (New York date). Keep every intermediate file there.
@@ -58,7 +64,8 @@ Read before writing: `config.json`, `brands/<brand>.md`, `rules/writing.md`, `ru
 13. **Grow the pool.** Spend up to 10 Ubersuggest reports: `keyword_suggestions` on 2–3 new seeds from today's
     secondary keywords / PAA questions. Save kept rows (volume ≥ 30, copied exactly) to a JSON file and run
     `python3 scripts/add_keywords.py <file> --brand <brand|shared> --pillar <pillar> --seed "<seed>"`.
-14. **Save state.** `git add -A && git commit -m "<brand>: <post title>" && git push origin HEAD:main`.
+14. **Save state.** `git add -A && git -c user.name="Blog Engine" -c user.email="noreply@anthropic.com" commit -m "<brand>: <post title>" && git push origin HEAD:main`
+    (on a rejected push: `git pull --rebase origin main`, then push again).
 15. **Report** (final message, it is sent to Alifiya): brand, title, live URL, primary keyword with volume/SD, number of
     citations and internal links, word count, any warnings from the checker, topics blocked today and why.
 

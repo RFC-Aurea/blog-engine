@@ -73,6 +73,7 @@ Every format keeps these fixed parts, in this order:
 
 ## Evidence (replaces OpenEvidence)
 - Find papers with web search restricted to `pubmed.ncbi.nlm.nih.gov` and `pmc.ncbi.nlm.nih.gov` (plus journal sites, ASRM, ESHRE, ACOG, CDC, NIH for guidelines and statistics).
+- PubMed abstract pages often answer WebFetch with a captcha or a rate limit. Open the free full text on `pmc.ncbi.nlm.nih.gov` instead and cite that PMC URL; if PMC is also refusing, wait and try another paper. Never cite a page you could not read.
 - For every paper you cite: open it (WebFetch) and confirm the abstract supports the exact claim and number you are writing. Record it in `evidence.json` (`url`, `title`, `year`, `claim`, `quote` copied from the abstract).
 - Cite inline on the meaningful words: `([Author et al., Journal, Year](https://pubmed.ncbi.nlm.nih.gov/PMID/))` or `a [2024 cohort study in Human Reproduction](https://...) found…`. Never on "click here", never a bare URL, never a footnote.
 - Only cite URLs present in `evidence.json`; the checker blocks any external research link that is not there. Never fabricate a PMID or DOI. If you cannot verify a claim, drop the claim.

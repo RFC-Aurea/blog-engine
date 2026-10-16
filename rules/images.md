@@ -17,11 +17,23 @@
 
 ## Prompt template (Gamma `generate_image`)
 `[subject + viewpoint], [style: clean vector medical illustration | soft editorial photograph], palette of [brand palette], plain [ivory] background, soft even lighting, minimal, high detail, no text, no labels, no letters, no logos, no watermark.`
-Use the banner size preset. Generate, then **look at the image** (download it or view it) and reject it if it has any text-like marks, wrong anatomy, extra fingers, brand colours, or looks off-topic. Up to 2 retries per image; if both images still fail, the run stops for that topic (quality gate).
+Use the banner size preset (Gamma returns 2752x1536).
+
+**Checking the result.** The sandbox cannot open Gamma or Wix image URLs (the proxy blocks `cdn.gamma.app` and `static.wixstatic.com`), so you cannot look at the picture yourself. Instead:
+1. Upload it (below), then read its file descriptor with `mcp__Wix__ExecuteWixAPI`:
+   `POST https://www.wixapis.com/site-media/v1/files/get-files` with `{"fileIds": [<id>, <id>]}`
+   (docs: https://dev.wix.com/docs/api-reference/assets/media/media-manager/files/get-file-descriptors).
+2. Confirm `operationStatus` is `READY`, read `media.image.image.width/height`, and read Wix's automatic `labels`.
+3. The labels must match the subject (an embryo illustration gets labels like "biomedical illustration", "embryo"; a
+   consultation scene gets "counselling session", "consulting room"). Reject and regenerate if the labels are off-topic
+   or mention text, signage, documents, logos or screens. Up to 2 retries per image; if an image still fails, the run
+   stops for that topic (quality gate).
+4. Copy the 4–6 most relevant labels into the front matter as `wix_labels` so the record shows what was checked.
+Strict prompts (palette, "no text", subject) carry the rest; Alifiya reviews images on the live blog.
 
 ## Upload
 1. Upload the accepted image URL to the brand's site with `mcp__Wix__UploadImageToWixSite` (`siteId` = brand site, `imageUrls` = [url], `displayName` = alt text shortened).
-2. Record the returned media id (form `xxxxxx_...~mv2.png`, no `wix:image://v1/` prefix), width and height in the front matter `images` block. If width/height are not returned, read them with the Wix media API before building.
+2. Record the returned media id (form `xxxxxx_...~mv2.jpg`, no `wix:image://v1/` prefix), width and height in the front matter `images` block. The upload result does not include width/height; take them from the file descriptor in the check above.
 
 ## Alt text
 - Under 125 characters, describes what is shown, plain language.

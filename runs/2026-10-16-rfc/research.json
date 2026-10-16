@@ -1,0 +1,22 @@
+{
+ "keyword_overview": {
+  "keyword": "donor eggs procedure", "locId": 2840, "search_volume": 2900, "seo_difficulty": 20,
+  "paid_difficulty": 39, "cpc": 11.91, "search_intent": "Informational", "checked": "2026-10-16"
+ },
+ "secondary_keywords": [
+  {"term": "how does donor eggs work", "volume": 1600, "sd": 30, "source": "Ubersuggest keyword_suggestions (data/keywords_raw.json)"},
+  {"term": "donor eggs success rate", "volume": 260, "sd": 28, "source": "Ubersuggest keyword_suggestions (data/keywords_raw.json)"},
+  {"term": "epigenetics donor eggs", "volume": 170, "sd": 17, "source": "Ubersuggest keyword_suggestions (data/keywords_raw.json)"}
+ ],
+ "serp_top": [
+  {"pos": 1, "type": "ai_overview"},
+  {"pos": 2, "url": "https://www.yalemedicine.org/conditions/egg-donation-recipient", "da": 70},
+  {"pos": 3, "type": "people_also_ask"},
+  {"pos": 4, "url": "https://www.reproductivefacts.org/news-and-publications/fact-sheets-and-infographics/egg-donation/", "da": 61},
+  {"pos": 5, "url": "https://www.health.ny.gov/community/pregnancy/surrogacy/donor_egg_fact_sheet.htm", "da": 90},
+  {"pos": 6, "url": "https://www.fertilitynj.com/blog/using-donor-eggs-what-to-expect-how-it-works", "da": 35},
+  {"pos": 7, "url": "https://www.ccrmivf.com/egg-freezing/donate-your-eggs/the-procedure/", "da": 57},
+  {"pos": 8, "url": "https://pnwfertility.com/post/how-egg-donation-works-step-by-step-guide", "da": 38}
+ ],
+ "gap": "Top results explain the medical steps but none answer the emotional question patients ask most: will the baby feel like mine, and does the recipient's body shape the baby at all."
+}

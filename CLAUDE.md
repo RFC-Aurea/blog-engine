@@ -33,8 +33,9 @@ Read before writing: `config.json`, `brands/<brand>.md`, `rules/writing.md`, `ru
    the exact claim. Record 5–10 sources in `RUN/evidence.json` (see `templates/evidence.json`), `verified: true` only
    when you read the supporting sentence yourself.
 6. **Images.** Follow `rules/images.md`: two Gamma `generate_image` calls (banner, neutral palette, no text), poll
-   `get_image_generation_status`, look at each result, then `mcp__Wix__UploadImageToWixSite` with the brand's site id.
-   Put media id, width, height, alt text and the prompt in the front matter.
+   `get_image_generation_status`, then `mcp__Wix__UploadImageToWixSite` with the brand's site id, then check each image
+   through its Wix file descriptor (size and auto labels, see rules/images.md; you cannot open image URLs here).
+   Put media id, width, height, alt text, the prompt and the Wix labels in the front matter.
 7. **Write** `RUN/post.md`: JSON front matter (see `templates/front_matter.json`) + body in the dialect described in
    `rules/writing.md`, using the format and an allowed title shape from step 2. Brand voice and claims from the brand
    file. 2,000–2,800 words.
@@ -48,7 +49,8 @@ Read before writing: `config.json`, `brands/<brand>.md`, `rules/writing.md`, `ru
     - `files`: `=== FILE: compact.json ===` on the first line, then the full contents of `RUN/compact.json`
     - `hasMutations`: true
     - `sourceDocUrls`: `https://dev.wix.com/docs/api-reference/business-solutions/blog/draft-posts/create-draft-post`,
-      `https://dev.wix.com/docs/api-reference/business-solutions/blog/posts-stats/get-post-by-slug`
+      `https://dev.wix.com/docs/api-reference/business-solutions/blog/posts-stats/get-post`,
+      `https://dev.wix.com/docs/api-reference/business-solutions/blog/draft-posts/get-draft-post`
     Save the returned object as `RUN/live_summary.json`.
 11. **Verify.** `python3 scripts/verify_live.py RUN`. If it reports problems, fix them with the Wix connector (update
     the post) or, if the post is wrong in a way you cannot fix, unpublish it, and say so in the summary.

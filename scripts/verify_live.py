@@ -8,7 +8,7 @@ Exit code 1 if something important is wrong (the run must report it and fix or u
 import json
 import sys
 
-from common import ROOT
+from common import ROOT, content_hash
 
 
 def main():
@@ -20,6 +20,9 @@ def main():
     def need(name, ok, detail=""):
         (notes if ok else problems).append(f"{'OK  ' if ok else 'FAIL'} {name}" + (f" — {detail}" if detail else ""))
 
+    local = content_hash(json.loads((run / "compact.json").read_text(encoding="utf-8")))
+    need("Wix received exactly the local post content", live.get("inputHash") == local,
+         f"{live.get('inputHash')} vs {local}")
     need("slug", live.get("slug") == exp["slug"], f"{live.get('slug')} vs {exp['slug']}")
     need("title", live.get("title") == exp["title"])
     need("writer is Dr. Merhi", live.get("memberId") == exp["member_id"], str(live.get("memberId")))
@@ -38,6 +41,8 @@ def main():
          any(t.startswith("script") for t in tags), str(tags))
     if exp["publish"]:
         need("post is live", bool(live.get("url")), str(live.get("url")))
+        need("live URL uses the SEO slug", (live.get("url") or "").endswith("/post/" + exp["slug"]),
+             f"{live.get('url')} (fix: update the draft's seoSlug to '{exp['slug']}' and publish it again)")
     print("\n".join(notes + problems))
     print("\nVERIFIED" if not problems else f"\n{len(problems)} PROBLEM(S)")
     sys.exit(0 if not problems else 1)

@@ -99,3 +99,13 @@ def brand_allowed_urls(brand):
         if p["brand"] == brand:
             urls.add(cfg["post_base"] + p["slug"])
     return {u.rstrip("/") for u in urls}
+
+
+def content_hash(compact):
+    """FNV-1a fingerprint of a compact.json post, identical to the one templates/publish.js returns."""
+    text = json.dumps(compact["draftPost"], ensure_ascii=False, separators=(",", ":")) + \
+        json.dumps(compact["doc"], ensure_ascii=False, separators=(",", ":"))
+    h = 2166136261
+    for ch in text:
+        h = ((h ^ ord(ch)) * 16777619) & 0xFFFFFFFF
+    return format(h, "x")

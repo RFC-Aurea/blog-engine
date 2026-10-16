@@ -25,8 +25,16 @@ const strip = (o) => {
 fn().then((res) => {
   const a = JSON.stringify(strip(res.body));
   const b = JSON.stringify(strip(full));
+  const want = require("child_process").execFileSync("python3", ["-c",
+    "import json,sys; sys.path.insert(0, 'scripts'); from common import content_hash; " +
+    "print(content_hash(json.load(open(sys.argv[1], encoding='utf-8'))))", path.join(run, "compact.json")],
+    { cwd: path.join(__dirname, "..") }).toString().trim();
+  if (res.inputHash !== want) {
+    console.log("HASH MISMATCH: js " + res.inputHash + " vs python " + want);
+    process.exit(1);
+  }
   if (a === b) {
-    console.log("MATCH: publish.js rebuilds the same payload (" + b.length + " chars)");
+    console.log("MATCH: publish.js rebuilds the same payload (" + b.length + " chars, hash " + want + ")");
   } else {
     let i = 0;
     while (i < a.length && a[i] === b[i]) i++;

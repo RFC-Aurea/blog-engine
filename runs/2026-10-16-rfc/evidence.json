@@ -1,0 +1,59 @@
+{
+ "sources": [
+  {
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12087671/",
+   "title": "Comparison of Cumulative Live Birth Rates Between Fresh and Vitrified Donor Oocytes",
+   "journal": "Cureus",
+   "year": 2025,
+   "authors": "Kostoglou K et al.",
+   "claim": "Cumulative live birth rates were 69.6% with fresh and 66.7% with vitrified donor eggs (214 recipient cycles), no significant difference.",
+   "quote": "Cumulative live birth rates, including pregnancies from second and third embryo transfers, were 69.6% in Group A and 66.7% in Group B, with no statistically significant difference (p>0.05).",
+   "verified": true,
+   "checked_with": "WebFetch PMC full text 2026-10-16"
+  },
+  {
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10958684",
+   "title": "Frozen autologous and donor oocytes are associated with differences in clinical and neonatal outcomes compared with fresh oocytes: a SART CORS analysis",
+   "journal": "SART CORS registry analysis",
+   "year": null,
+   "authors": "SART CORS analysis (2014-2015 cycles)",
+   "claim": "Across 14,972 US donor egg cycles with fresh transfer, frozen donor eggs had a lower likelihood of live birth than fresh donor eggs (aRR 0.81).",
+   "quote": "we observed a decrease in LB (aRR 0.81, 95% CI 0.77-0.85)",
+   "verified": true,
+   "checked_with": "WebFetch PMC full text 2026-10-16"
+  },
+  {
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5844654/",
+   "title": "Is the risk of preeclampsia higher in donor oocyte pregnancies? A systematic review and meta-analysis",
+   "journal": "JBRA Assisted Reproduction",
+   "year": 2018,
+   "authors": "Schwarze JE et al.",
+   "claim": "Six cohort studies (37,994 pregnancies): egg donation associated with higher preeclampsia risk than IVF with own eggs (OR 4.50) in singleton pregnancies.",
+   "quote": "OR 4.50; 95% CI: 3.28-6.19; p<0.0001 ... Oocyte donation is associated with increased risk of preeclampsia in singleton pregnancies.",
+   "verified": true,
+   "checked_with": "WebFetch PMC full text 2026-10-16"
+  },
+  {
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10224887/",
+   "title": "MicroRNAs, small regulatory elements with significant effects on human implantation: a review",
+   "journal": "Journal of Assisted Reproduction and Genetics",
+   "year": 2023,
+   "authors": "Azizi E et al.",
+   "claim": "Endometrial glands secrete hsa-miR-30d during the implantation window; the embryo's trophoblast takes it up and it may modify the embryo's gene expression (based on Vilella et al. 2015). Preliminary.",
+   "quote": "the human endometrial glands secrete hsa-miR-30d ... the embryo trophoblast took up both forms of hsa-miR-30d from the endometrial fluid ... may modify the embryo transcriptome",
+   "verified": true,
+   "checked_with": "WebFetch PMC full text 2026-10-16"
+  },
+  {
+   "url": "https://www.reproductivefacts.org/news-and-publications/fact-sheets-and-infographics/egg-donation/",
+   "title": "Egg Donation patient fact sheet (ASRM, revised 2023)",
+   "journal": "American Society for Reproductive Medicine",
+   "year": 2023,
+   "authors": "ASRM",
+   "claim": "Donors usually 21-34 with infectious, genetic and psychological screening; recipient takes estrogen then progesterone; transfer 3-5 days after fertilization; success not considered related to recipient age; SART/CDC 2020 average birth rate 53.5% per transfer with fresh donor eggs; counseling recommended.",
+   "quote": "usually between the ages of 21 and 34 ... is not considered to be related to the recipient's age ... 53.5% per embryo transfer",
+   "verified": true,
+   "checked_with": "WebFetch 2026-10-16"
+  }
+ ]
+}

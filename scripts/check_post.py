@@ -150,7 +150,8 @@ def main():
     check("every external link is a verified source in evidence.json", not unverified, ", ".join(unverified))
     research = {u for u in external if re.search(r"pubmed|ncbi\.nlm\.nih\.gov|doi\.org|academic\.oup|sciencedirect|"
                                                  r"springer|wiley|fertstert|thelancet|nejm|bmj|jamanetwork|"
-                                                 r"frontiersin|mdpi|nature\.com|asrm\.org|eshre", u)}
+                                                 r"frontiersin|mdpi|nature\.com|asrm\.org|reproductivefacts\.org|eshre|cdc\.gov|nih\.gov|acog\.org|"
+                                                 r"cureus|who\.int", u)}
     check(f"at least {rules['citations_min']} research citations", len(research) >= rules["citations_min"],
           str(len(research)))
     check("citations listed in front matter match evidence",
@@ -165,7 +166,7 @@ def main():
     if brand == "rfc":
         check("RFC: no named physician in the body", "merhi" not in low, hard=False)
     long_paras = [p[:50] for p in body.split("\n\n") if p.strip() and not p.strip().startswith(("|", "-", "#", "[["))
-                  and len(re.findall(r"[.!?](\s|$)", p)) > 5]
+                  and not re.match(r"\d+[.)]\s", p.strip()) and len(re.findall(r"[.!?](\s|$)", p)) > 5]
     check("paragraphs are 5 sentences or fewer", not long_paras, "; ".join(long_paras), hard=False)
 
     # ---------- uniqueness ----------

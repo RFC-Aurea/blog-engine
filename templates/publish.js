@@ -2,6 +2,16 @@ async function() {
   // Paste this function unchanged as the ExecuteWixAPI `code`.
   // Pass runs/<run>/compact.json in the `files` bundle as "compact.json".
   const input = JSON.parse(files.find((f) => f.path === "compact.json").content);
+  // Fingerprint of the post content, compared with the local compact.json by verify_live.py.
+  const fnv = (s) => {
+    let h = 2166136261;
+    for (const ch of s) {
+      h ^= ch.codePointAt(0);
+      h = Math.imul(h, 16777619) >>> 0;
+    }
+    return h.toString(16);
+  };
+  const inputHash = fnv(JSON.stringify(input.draftPost) + JSON.stringify(input.doc));
   const C = input.colors;
   let count = 0;
   const nid = () => "e" + String(++count).padStart(3, "0");
@@ -132,7 +142,7 @@ async function() {
   const draftPost = Object.assign({}, input.draftPost, { richContent: { nodes: nodes } });
   const body = { draftPost: draftPost, publish: input.publish, fieldsets: ["URL"] };
   if (input.dryRun) {
-    return { dryRun: true, body: body };
+    return { dryRun: true, body: body, inputHash: inputHash };
   }
   const created = await wix.request({
     method: "POST",
@@ -144,7 +154,7 @@ async function() {
   if (input.publish) {
     const got = await wix.request({
       method: "GET",
-      url: "https://www.wixapis.com/blog/v3/posts/slugs/" + encodeURIComponent(input.draftPost.seoSlug) + "?fieldsets=RICH_CONTENT&fieldsets=SEO&fieldsets=URL"
+      url: "https://www.wixapis.com/blog/v3/posts/" + draft.id + "?fieldsets=RICH_CONTENT&fieldsets=SEO&fieldsets=URL"
     });
     post = got.post;
   } else {
@@ -186,6 +196,7 @@ async function() {
   walk(post.richContent ? post.richContent.nodes : []);
   const seo = post.seoData || draft.seoData || {};
   return {
+    inputHash: inputHash,
     draftId: draft.id,
     postId: post.id,
     status: post.status || null,

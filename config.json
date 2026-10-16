@@ -10,7 +10,9 @@
   "writer": {
     "name": "Dr. Zaher Merhi",
     "member_id": "ca222303-63a3-4819-a4dd-9d9b3d27c79c",
-    "never_use_member_ids": ["7c1ac72f-a1f3-4da0-bbaa-82d7423c002a"]
+    "never_use_member_ids": [
+      "7c1ac72f-a1f3-4da0-bbaa-82d7423c002a"
+    ]
   },
   "limits": {
     "ubersuggest_reports_per_day": 150,
@@ -56,7 +58,24 @@
         "toc_link": "#F0531C",
         "body": "rgb(0, 0, 0)"
       },
-      "image_palette": "ivory, warm sand, soft stone grey, muted sage green, natural skin tones"
+      "image_palette": "ivory, warm sand, soft stone grey, muted sage green, natural skin tones",
+      "pillar_fit": {
+        "ivf-over-40": 18,
+        "low-amh-dor": 18,
+        "poi": 18,
+        "rejuvenation": 18,
+        "immunology-rpl": 17,
+        "donor-surrogacy": 13,
+        "perimenopause-sexual": 15,
+        "pcos-bmi": 15,
+        "gentle-ivf": 15,
+        "endometriosis": 14,
+        "lifestyle-supplements": 12,
+        "hormones-conditions": 12,
+        "pregnancy-loss": 14,
+        "conception-basics": 10
+      },
+      "table_header_bg": "#F4F3F0"
     },
     "aurea": {
       "name": "Aurea Fertility Center",
@@ -82,7 +101,23 @@
         "toc_link": "#BB2423",
         "body": "rgb(0, 0, 0)"
       },
-      "image_palette": "ivory, champagne, warm taupe, soft lilac grey, natural skin tones"
+      "image_palette": "ivory, champagne, warm taupe, soft lilac grey, natural skin tones",
+      "pillar_fit": {
+        "egg-freezing": 17,
+        "ivf-protocols": 18,
+        "cost-insurance": 17,
+        "embryology-lab": 17,
+        "male-factor": 16,
+        "tubes-uterus-iui": 16,
+        "oncofertility": 16,
+        "endometriosis": 14,
+        "lifestyle-supplements": 12,
+        "conception-basics": 13,
+        "hormones-conditions": 12,
+        "pregnancy-loss": 13
+      },
+      "table_header_bg": "#F5F2F0"
     }
-  }
+  },
+  "color_body_text": true
 }

@@ -7,7 +7,15 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 
 STOPWORDS = set("""a an and are as at be but by can do does for from how i if in is it its me my no not
 of on or our s so than that the their them then there these they this to up vs was what when where which
-who why will with you your yours about after before during into over under can't don't""".split())
+who why will with you your yours about after before during into over under can't don't much""".split())
+
+# Words that mean the same thing for matching and duplicate detection.
+SYN = {"sign": "symptom", "symptoms": "symptom", "cost": "price", "prices": "price", "pricing": "price",
+       "costs": "price", "chance": "rate", "odds": "rate", "rates": "rate", "meaning": "mean", "means": "mean",
+       "pregnant": "pregnancy", "pregnancies": "pregnancy", "conceive": "pregnancy", "conceiving": "pregnancy",
+       "getting": "get", "treatments": "treatment", "eggs": "egg", "embryos": "embryo", "test": "testing",
+       "tests": "testing", "levels": "level", "naturally": "natural", "women": "woman", "doctors": "doctor",
+       "freezing": "freeze", "frozen": "freeze"}
 
 
 def load_json(path, default=None):
@@ -49,11 +57,14 @@ def core_words(text):
     for w in words(text):
         if w in STOPWORDS or len(w) < 2:
             continue
+        if w in SYN:
+            out.append(SYN[w])
+            continue
         for suf in ("ing", "ies", "es", "s"):
             if len(w) > 4 and w.endswith(suf):
                 w = w[: -len(suf)] + ("y" if suf == "ies" else "")
                 break
-        out.append(w)
+        out.append(SYN.get(w, w))
     return out
 
 

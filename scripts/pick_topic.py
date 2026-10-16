@@ -11,7 +11,7 @@ import sys
 from datetime import date, datetime
 from zoneinfo import ZoneInfo
 
-from common import config, load_json, similarity
+from common import config, core_words, load_json, similarity
 
 FORMATS = ["deep-guide", "comparison", "numbered-list", "straight-answer", "myth-vs-fact", "step-by-step",
            "number-explained", "cost-breakdown", "research-roundup", "decision-guide", "condition-guide",
@@ -57,6 +57,10 @@ def main():
         top = max(((similarity(c["primary"], p["title"]), p["title"]) for p in pub), default=(0, ""))
         if top[0] >= 0.6:
             continue
+        # Penalise clusters close to a post this brand already has (shares >= 2 and >= half of the core words).
+        pc = set(core_words(c["primary"]))
+        close = [p["title"] for p in mine if len(pc & set(core_words(p["title"]))) >= max(2, len(pc) / 2)]
+        adj = c["score"] - 8 * min(2, len(close))
         fmt = c["suggested_format"]
         last = recent_formats[0] if recent_formats else None
         if fmt == last or recent_formats.count(fmt) >= 2:
@@ -64,11 +68,11 @@ def main():
         shapes = [s for s in SHAPES_FOR[fmt] if s not in recent_shapes] or SHAPES_FOR[fmt]
         cands.append({"cluster_id": c["id"], "primary": c["primary"], "pillar": c["pillar"],
                       "volume": c["volume"], "sd": c["sd"], "cluster_volume": c["total_volume"],
-                      "score": c["score"], "format": fmt, "title_shapes": shapes,
+                      "score": c["score"], "adjusted_score": adj, "near_existing": close[:3], "format": fmt, "title_shapes": shapes,
                       "variants": [k["term"] for k in c["keywords"][:8]],
                       "closest_existing_title": top[1], "closest_similarity": round(top[0], 2)})
-        if len(cands) == 5:
-            break
+    cands.sort(key=lambda x: -x["adjusted_score"])
+    cands = cands[:5]
     print(json.dumps({"date": day.isoformat(), "brand": brand, "candidates": cands,
                       "recent": {"pillars": recent_pillars, "formats": recent_formats, "title_shapes": recent_shapes,
                                  "last_titles": [p["title"] for p in mine[:5]]}}, indent=1, ensure_ascii=False))

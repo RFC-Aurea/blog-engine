@@ -30,9 +30,12 @@ def main():
             "primary_keyword": fm["primary_keyword"]["term"], "cluster_id": cid,
             "secondary_keywords": [k["term"] for k in fm["secondary_keywords"]]})
         save_json("data/published.json", pub)
+        secondary = {k["term"].lower() for k in fm["secondary_keywords"]}
         for c in topics["clusters"]:
             if c["id"] == cid:
                 c["status"], c["note"] = "used", f"published {fm['date']} {url}"
+            elif c["status"] == "available" and c["primary"].lower() in secondary:
+                c["status"], c["note"] = "used", f"secondary keyword of {url}"
         save_json("data/topics.json", topics)
         result = {"status": "published", "post_id": post_id, "url": url, "at": now}
     elif status == "draft":

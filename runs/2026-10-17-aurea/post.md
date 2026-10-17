@@ -40,7 +40,32 @@
   }
  ],
  "hero": "IMAGE1",
- "images": {},
+ "images": {
+  "IMAGE1": {
+   "wix_id": "ca2223_86463941c2a944899b89f748418ed47a~mv2.png",
+   "width": 1800,
+   "height": 945,
+   "alt": "Labelled blastocyst showing where PGT-A testing takes cells, with the share of euploid embryos by age",
+   "kind": "medical illustration with data",
+   "source": "img/image1.html",
+   "file": "img/image1.png",
+   "md5": "32d4e332a149fbffbec4b4f048ba9bd9",
+   "wix_hash": "32d4e332a149fbffbec4b4f048ba9bd9",
+   "preview_src": "img/image1.png"
+  },
+  "IMAGE2": {
+   "wix_id": "ca2223_590a58db2e544858b9211e38f87c1b24~mv2.png",
+   "width": 1800,
+   "height": 945,
+   "alt": "PGT-A testing cost and timeline at Aurea in six steps, from consult to frozen embryo transfer",
+   "kind": "labelled timeline and cost diagram",
+   "source": "img/image2.html",
+   "file": "img/image2.png",
+   "md5": "16fc707ea2fcb33df735cc9564440e09",
+   "wix_hash": "16fc707ea2fcb33df735cc9564440e09",
+   "preview_src": "img/image2.png"
+  }
+ },
  "citations": [
   {"url": "https://pubmed.ncbi.nlm.nih.gov/34818479/"},
   {"url": "https://asrm.org/practice-guidance/practice-committee-documents/the-use-of-preimplantation-genetic-testing-for-aneuploidy-a-committee-opinion-2024"},

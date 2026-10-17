@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16",
+ "updated": "2026-10-17",
  "min_volume": 20,
  "clusters": [
   {
@@ -75,6 +75,143 @@
    ],
    "suggested_format": "cost-breakdown",
    "score": 90.0,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-euploid-embryo",
+   "brand": "aurea",
+   "pillar": "embryology-lab",
+   "primary": "euploid embryo",
+   "volume": 2900,
+   "sd": 13,
+   "cpc": 51.125,
+   "total_volume": 3590,
+   "keywords": [
+    {
+     "term": "euploid embryo",
+     "volume": 2900,
+     "sd": 13
+    },
+    {
+     "term": "euploid embryo meaning",
+     "volume": 260,
+     "sd": 24
+    },
+    {
+     "term": "what is euploid embryo",
+     "volume": 170,
+     "sd": 15
+    },
+    {
+     "term": "euploid embryo success rate",
+     "volume": 70,
+     "sd": 23
+    },
+    {
+     "term": "euploid embryo vs blastocyst",
+     "volume": 70,
+     "sd": 30
+    },
+    {
+     "term": "does embryo grading matter if euploid",
+     "volume": 30,
+     "sd": 22
+    },
+    {
+     "term": "euploid embryo grading",
+     "volume": 30,
+     "sd": 20
+    },
+    {
+     "term": "euploid embryo by age",
+     "volume": 30,
+     "sd": 17
+    },
+    {
+     "term": "chance of euploid embryo implantation",
+     "volume": 30,
+     "sd": 19
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 88.1,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-mosaic-embryo",
+   "brand": "aurea",
+   "pillar": "embryology-lab",
+   "primary": "mosaic embryo",
+   "volume": 3600,
+   "sd": 19,
+   "cpc": 10.04,
+   "total_volume": 6000,
+   "keywords": [
+    {
+     "term": "mosaic embryo",
+     "volume": 3600,
+     "sd": 19
+    },
+    {
+     "term": "mosaic embryo meaning",
+     "volume": 720,
+     "sd": 25
+    },
+    {
+     "term": "low mosaic embryo",
+     "volume": 320,
+     "sd": 18
+    },
+    {
+     "term": "low level mosaic embryo",
+     "volume": 210,
+     "sd": 18
+    },
+    {
+     "term": "high level mosaic embryo",
+     "volume": 210,
+     "sd": 18
+    },
+    {
+     "term": "mosaic embryo ivf",
+     "volume": 140,
+     "sd": 14
+    },
+    {
+     "term": "high mosaic embryo",
+     "volume": 140,
+     "sd": 22
+    },
+    {
+     "term": "mosaic embryo transfer",
+     "volume": 110,
+     "sd": 17
+    },
+    {
+     "term": "what is mosaic embryo",
+     "volume": 110,
+     "sd": 22
+    },
+    {
+     "term": "mosaic embryo success rate",
+     "volume": 90,
+     "sd": 18
+    },
+    {
+     "term": "what does mosaic embryo mean",
+     "volume": 70,
+     "sd": 22
+    },
+    {
+     "term": "complex mosaic embryo",
+     "volume": 50,
+     "sd": 20
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 87.3,
    "status": "available",
    "note": ""
   },
@@ -233,8 +370,8 @@
    ],
    "suggested_format": "deep-guide",
    "score": 82.9,
-   "status": "available",
-   "note": ""
+   "status": "used",
+   "note": "published 2026-10-17 https://www.aureafertility.com/post/pgt-a-testing"
   },
   {
    "id": "aurea-hsg-test",
@@ -6939,6 +7076,42 @@
    "note": ""
   },
   {
+   "id": "aurea-what-is-embryo-biopsy",
+   "brand": "aurea",
+   "pillar": "embryology-lab",
+   "primary": "what is embryo biopsy",
+   "volume": 40,
+   "sd": 15,
+   "cpc": 0,
+   "total_volume": 140,
+   "keywords": [
+    {
+     "term": "what is embryo biopsy",
+     "volume": 40,
+     "sd": 15
+    },
+    {
+     "term": "embryo biopsy for pgt",
+     "volume": 40,
+     "sd": 17
+    },
+    {
+     "term": "embryo biopsy success rate",
+     "volume": 30,
+     "sd": 25
+    },
+    {
+     "term": "embryo biopsy vs pgt",
+     "volume": 30,
+     "sd": 18
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 63.0,
+   "status": "available",
+   "note": ""
+  },
+  {
    "id": "aurea-egg-freezing-at-42",
    "brand": "aurea",
    "pillar": "egg-freezing",
@@ -8248,6 +8421,27 @@
    "note": ""
   },
   {
+   "id": "aurea-euploid-embryo-miscarriage-rate-by-week",
+   "brand": "aurea",
+   "pillar": "embryology-lab",
+   "primary": "euploid embryo miscarriage rate by week",
+   "volume": 110,
+   "sd": 18,
+   "cpc": 0,
+   "total_volume": 110,
+   "keywords": [
+    {
+     "term": "euploid embryo miscarriage rate by week",
+     "volume": 110,
+     "sd": 18
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 60.5,
+   "status": "available",
+   "note": ""
+  },
+  {
    "id": "aurea-egg-freezing-bloating",
    "brand": "aurea",
    "pillar": "egg-freezing",
@@ -8805,6 +8999,32 @@
     }
    ],
    "suggested_format": "step-by-step",
+   "score": 59.6,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-day-7-euploid-embryo-success-rate",
+   "brand": "aurea",
+   "pillar": "embryology-lab",
+   "primary": "day 7 euploid embryo success rate",
+   "volume": 50,
+   "sd": 17,
+   "cpc": 0,
+   "total_volume": 80,
+   "keywords": [
+    {
+     "term": "day 7 euploid embryo success rate",
+     "volume": 50,
+     "sd": 17
+    },
+    {
+     "term": "day 6 euploid embryo success rate",
+     "volume": 30,
+     "sd": 19
+    }
+   ],
+   "suggested_format": "research-roundup",
    "score": 59.6,
    "status": "available",
    "note": ""
@@ -9510,6 +9730,37 @@
     }
    ],
    "suggested_format": "deep-guide",
+   "score": 58.6,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-low-level-mosaic-embryo-success-rate",
+   "brand": "aurea",
+   "pillar": "embryology-lab",
+   "primary": "low level mosaic embryo success rate",
+   "volume": 110,
+   "sd": 28,
+   "cpc": 0,
+   "total_volume": 230,
+   "keywords": [
+    {
+     "term": "low level mosaic embryo success rate",
+     "volume": 110,
+     "sd": 28
+    },
+    {
+     "term": "high level mosaic embryo success rate",
+     "volume": 90,
+     "sd": 18
+    },
+    {
+     "term": "low mosaic embryo success rate",
+     "volume": 30,
+     "sd": 28
+    }
+   ],
+   "suggested_format": "number-explained",
    "score": 58.6,
    "status": "available",
    "note": ""
@@ -10553,37 +10804,6 @@
    "note": ""
   },
   {
-   "id": "aurea-does-embryo-grading-matter-if-euploid",
-   "brand": "aurea",
-   "pillar": "embryology-lab",
-   "primary": "does embryo grading matter if euploid",
-   "volume": 30,
-   "sd": 22,
-   "cpc": 0,
-   "total_volume": 90,
-   "keywords": [
-    {
-     "term": "does embryo grading matter if euploid",
-     "volume": 30,
-     "sd": 22
-    },
-    {
-     "term": "does embryo grading matter",
-     "volume": 30,
-     "sd": 32
-    },
-    {
-     "term": "euploid embryo grading",
-     "volume": 30,
-     "sd": 20
-    }
-   ],
-   "suggested_format": "number-explained",
-   "score": 57.6,
-   "status": "available",
-   "note": ""
-  },
-  {
    "id": "aurea-finasteride-and-sperm-count",
    "brand": "aurea",
    "pillar": "male-factor",
@@ -10966,6 +11186,48 @@
     }
    ],
    "suggested_format": "deep-guide",
+   "score": 57.1,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-5aa-euploid-embryo-success-rate",
+   "brand": "aurea",
+   "pillar": "embryology-lab",
+   "primary": "5aa euploid embryo success rate",
+   "volume": 40,
+   "sd": 16,
+   "cpc": 0,
+   "total_volume": 40,
+   "keywords": [
+    {
+     "term": "5aa euploid embryo success rate",
+     "volume": 40,
+     "sd": 16
+    }
+   ],
+   "suggested_format": "research-roundup",
+   "score": 57.1,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-4aa-euploid-embryo-success-rate",
+   "brand": "aurea",
+   "pillar": "embryology-lab",
+   "primary": "4aa euploid embryo success rate",
+   "volume": 40,
+   "sd": 16,
+   "cpc": 0,
+   "total_volume": 40,
+   "keywords": [
+    {
+     "term": "4aa euploid embryo success rate",
+     "volume": 40,
+     "sd": 16
+    }
+   ],
+   "suggested_format": "research-roundup",
    "score": 57.1,
    "status": "available",
    "note": ""
@@ -11379,6 +11641,27 @@
     }
    ],
    "suggested_format": "straight-answer",
+   "score": 56.5,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-euploid-embryo-success-rate-by-age",
+   "brand": "aurea",
+   "pillar": "embryology-lab",
+   "primary": "euploid embryo success rate by age",
+   "volume": 70,
+   "sd": 22,
+   "cpc": 0,
+   "total_volume": 70,
+   "keywords": [
+    {
+     "term": "euploid embryo success rate by age",
+     "volume": 70,
+     "sd": 22
+    }
+   ],
+   "suggested_format": "research-roundup",
    "score": 56.5,
    "status": "available",
    "note": ""
@@ -13040,6 +13323,27 @@
    "note": ""
   },
   {
+   "id": "aurea-4bb-euploid-embryo-success-rate",
+   "brand": "aurea",
+   "pillar": "embryology-lab",
+   "primary": "4bb euploid embryo success rate",
+   "volume": 30,
+   "sd": 18,
+   "cpc": 0,
+   "total_volume": 30,
+   "keywords": [
+    {
+     "term": "4bb euploid embryo success rate",
+     "volume": 30,
+     "sd": 18
+    }
+   ],
+   "suggested_format": "research-roundup",
+   "score": 54.9,
+   "status": "available",
+   "note": ""
+  },
+  {
    "id": "aurea-left-hydrosalpinx",
    "brand": "aurea",
    "pillar": "tubes-uterus-iui",
@@ -13721,6 +14025,32 @@
    "note": ""
   },
   {
+   "id": "aurea-success-rate-of-euploid-embryo-transfer",
+   "brand": "aurea",
+   "pillar": "embryology-lab",
+   "primary": "success rate of euploid embryo transfer",
+   "volume": 30,
+   "sd": 26,
+   "cpc": 0,
+   "total_volume": 60,
+   "keywords": [
+    {
+     "term": "success rate of euploid embryo transfer",
+     "volume": 30,
+     "sd": 26
+    },
+    {
+     "term": "euploid embryo transfer success rate",
+     "volume": 30,
+     "sd": 19
+    }
+   ],
+   "suggested_format": "research-roundup",
+   "score": 53.9,
+   "status": "available",
+   "note": ""
+  },
+  {
    "id": "aurea-embryo-grading-day-3",
    "brand": "aurea",
    "pillar": "embryology-lab",
@@ -14128,6 +14458,27 @@
    "note": ""
   },
   {
+   "id": "aurea-low-mosaic-embryo-birth-defects",
+   "brand": "aurea",
+   "pillar": "embryology-lab",
+   "primary": "low mosaic embryo birth defects",
+   "volume": 50,
+   "sd": 26,
+   "cpc": 0,
+   "total_volume": 50,
+   "keywords": [
+    {
+     "term": "low mosaic embryo birth defects",
+     "volume": 50,
+     "sd": 26
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 53.1,
+   "status": "available",
+   "note": ""
+  },
+  {
    "id": "rfc-geritol-pcos-pregnancy",
    "brand": "rfc",
    "pillar": "pcos-bmi",
@@ -14367,6 +14718,27 @@
    "score": 52.6,
    "status": "used",
    "note": "secondary keyword of https://www.aureafertility.com/post/sperm-freezing-cost"
+  },
+  {
+   "id": "aurea-euploid-embryo-miscarriage-rate-after-heartbeat",
+   "brand": "aurea",
+   "pillar": "embryology-lab",
+   "primary": "euploid embryo miscarriage rate after heartbeat",
+   "volume": 40,
+   "sd": 25,
+   "cpc": 0,
+   "total_volume": 40,
+   "keywords": [
+    {
+     "term": "euploid embryo miscarriage rate after heartbeat",
+     "volume": 40,
+     "sd": 25
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 52.6,
+   "status": "available",
+   "note": ""
   },
   {
    "id": "aurea-trying-to-conceive-forum",
@@ -15563,6 +15935,48 @@
    "note": ""
   },
   {
+   "id": "aurea-has-anyone-transferred-a-mosaic-embryo",
+   "brand": "aurea",
+   "pillar": "embryology-lab",
+   "primary": "has anyone transferred a mosaic embryo",
+   "volume": 30,
+   "sd": 27,
+   "cpc": 0,
+   "total_volume": 30,
+   "keywords": [
+    {
+     "term": "has anyone transferred a mosaic embryo",
+     "volume": 30,
+     "sd": 27
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 50.4,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-euploid-embryo-live-birth-rate",
+   "brand": "aurea",
+   "pillar": "embryology-lab",
+   "primary": "euploid embryo live birth rate",
+   "volume": 30,
+   "sd": 27,
+   "cpc": 0,
+   "total_volume": 30,
+   "keywords": [
+    {
+     "term": "euploid embryo live birth rate",
+     "volume": 30,
+     "sd": 27
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 50.4,
+   "status": "available",
+   "note": ""
+  },
+  {
    "id": "aurea-when-trying-to-conceive-how-often-should-you-have-intercours",
    "brand": "aurea",
    "pillar": "conception-basics",
@@ -16569,6 +16983,27 @@
     }
    ],
    "suggested_format": "deep-guide",
+   "score": 47.9,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-does-embryo-grading-matter",
+   "brand": "aurea",
+   "pillar": "embryology-lab",
+   "primary": "does embryo grading matter",
+   "volume": 30,
+   "sd": 32,
+   "cpc": 0,
+   "total_volume": 30,
+   "keywords": [
+    {
+     "term": "does embryo grading matter",
+     "volume": 30,
+     "sd": 32
+    }
+   ],
+   "suggested_format": "number-explained",
    "score": 47.9,
    "status": "available",
    "note": ""

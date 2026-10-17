@@ -1,0 +1,60 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><style>{{BASE_CSS}}</style></head>
+<body>
+{{COMPONENTS}}
+<svg class="canvas" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <rect class="bg" width="1200" height="630"/>
+  <text class="title" x="40" y="62">What PGT-A testing looks at</text>
+  <text class="subtitle" x="40" y="96">A few outer cells are tested. The inner cell mass, which becomes the baby, is left alone.</text>
+
+  <rect class="card" x="32" y="128" width="620" height="464" rx="22"/>
+  <rect class="card" x="680" y="128" width="488" height="464" rx="22"/>
+
+  <!-- left: blastocyst biopsy -->
+  <text class="step-title" x="64" y="172">A blastocyst on day 5 to 7</text>
+  <use href="#holding-pipette" x="60" y="345" width="124" height="30"/>
+  <use href="#blastocyst" x="190" y="230" width="260" height="260"/>
+  <path d="M452,353 L620,349 L620,371 L452,367 Z" fill="#E9EEF0" stroke="#9FAAB0" stroke-width="1.4"/>
+  <g fill="#E7CFAF" stroke="#CDB08C" stroke-width="1.1">
+    <circle cx="464" cy="360" r="6"/><circle cx="477" cy="360" r="6"/><circle cx="490" cy="360" r="5.5"/>
+  </g>
+
+  <!-- leaders -->
+  <path class="leader" d="M180,240 L262,296"/><circle class="leader-dot" cx="262" cy="296" r="4"/>
+  <text class="label" x="64" y="208">Inner cell mass</text>
+  <text class="label-sub" x="64" y="230" dy="-2">(becomes the baby)</text>
+  <path class="leader" d="M430,234 L392,276"/><circle class="leader-dot" cx="392" cy="276" r="4"/>
+  <text class="label" x="404" y="200">Trophectoderm</text>
+  <text class="label-sub" x="404" y="222" dy="-2">(becomes the placenta)</text>
+  <path class="leader" d="M340,520 L340,420"/><circle class="leader-dot" cx="340" cy="420" r="4"/>
+  <text class="label" x="276" y="544">Fluid-filled cavity</text>
+  <path class="leader" d="M524,420 L486,368"/><circle class="leader-dot" cx="486" cy="368" r="4"/>
+  <text class="label" x="474" y="444">Biopsy pipette</text>
+  <text class="label-sub" x="474" y="466" dy="-2">a few outer cells</text>
+  <path class="leader" d="M110,420 L110,374"/><circle class="leader-dot" cx="110" cy="374" r="4"/>
+  <text class="label" x="64" y="444">Holding pipette</text>
+
+  <!-- right: euploid share by age -->
+  <text class="step-title" x="712" y="172">Embryos with a normal count, by age</text>
+  <text class="label-sub" x="712" y="200">Share of blastocysts found euploid</text>
+  <g>
+    <text class="label" x="712" y="252">Under 30</text>
+    <rect x="852" y="232" width="200" height="28" rx="6" fill="#B9B1C7"/>
+    <text class="label" x="1062" y="253" font-weight="600">74.5%</text>
+    <text class="label" x="712" y="310">30 to 34</text>
+    <rect x="852" y="290" width="183" height="28" rx="6" fill="#B9B1C7"/>
+    <text class="label" x="1045" y="311" font-weight="600">68.2%</text>
+    <text class="label" x="712" y="368">35 to 37</text>
+    <rect x="852" y="348" width="154" height="28" rx="6" fill="#C8C1D3"/>
+    <text class="label" x="1016" y="369" font-weight="600">57.4%</text>
+    <text class="label" x="712" y="426">38 to 40</text>
+    <rect x="852" y="406" width="119" height="28" rx="6" fill="#D3C8BB"/>
+    <text class="label" x="981" y="427" font-weight="600">44.5%</text>
+    <text class="label" x="712" y="484">41 to 42</text>
+    <rect x="852" y="464" width="67" height="28" rx="6" fill="#D3C8BB"/>
+    <text class="label" x="929" y="485" font-weight="600">25.0%</text>
+  </g>
+  <text class="note" x="712" y="548">Source: Huang et al., F&amp;S Reports, 2025</text>
+  <text class="note" x="712" y="572">(9,385 blastocyst biopsies)</text>
+</svg>
+</body></html>

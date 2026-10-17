@@ -1,0 +1,68 @@
+{
+ "sources": [
+  {
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34818479/",
+   "title": "Live Birth with or without Preimplantation Genetic Testing for Aneuploidy",
+   "journal": "New England Journal of Medicine", "year": 2021, "authors": "Yan J, Qin Y, Zhao H, et al.",
+   "claim": "RCT of 1,212 women under 38 with 3+ good-quality blastocysts (606 per group): cumulative live birth within 1 year 77.2% with PGT-A vs 81.8% conventional IVF (difference -4.6 points); clinical pregnancy loss 8.7% vs 12.6%; conventional IVF noninferior.",
+   "quote": "A total of 1212 patients underwent randomization ... 606 were assigned to each trial group ... The cumulative frequency of clinical pregnancy loss was 8.7% and 12.6%, respectively ... conventional IVF resulted in a cumulative live-birth rate that was noninferior to the rate with PGT-A.",
+   "verified": true, "checked_with": "WebFetch Europe PMC abstract record (PMID 34818479) 2026-10-17; PubMed page returned a captcha"
+  },
+  {
+   "url": "https://asrm.org/practice-guidance/practice-committee-documents/the-use-of-preimplantation-genetic-testing-for-aneuploidy-a-committee-opinion-2024",
+   "title": "The use of preimplantation genetic testing for aneuploidy: a committee opinion (2024)",
+   "journal": "Fertility and Sterility", "year": 2024, "authors": "ASRM Practice Committee",
+   "claim": "ASRM: value of PGT-A as a routine test for all IVF patients has not been demonstrated; recent multicenter RCTs found similar overall pregnancy outcomes; value for lowering miscarriage is unclear.",
+   "quote": "The value of PGT-A as a routine screening test for all patients undergoing in vitro fertilization has not been demonstrated. ... The value of PGT-A to lower the risk of clinical miscarriage is also unclear",
+   "verified": true, "checked_with": "WebFetch asrm.org 2026-10-17"
+  },
+  {
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10504192/",
+   "title": "Systematic review and meta-analysis: does pre-implantation genetic testing for aneuploidy at the blastocyst stage improve live birth rate?",
+   "journal": "Journal of Assisted Reproduction and Genetics", "year": 2023, "authors": "Kasaven LS, Marcus D, Theodorou E, et al.",
+   "claim": "Per embryo transfer, RCTs show a small benefit in live birth/ongoing pregnancy (RR 1.09) and lower miscarriage per clinical pregnancy (RR 0.73); per-cycle and cumulative outcomes were not assessed.",
+   "quote": "The pooled data identified a benefit between PGT-A and control groups in the composite outcome ... in both the RCT (RR 1.09, 95% CI 1.02-1.16) ... The rate of miscarriage per clinical pregnancy is also significantly lower when CCS is implemented (RCT: RR 0.73, 95% CI 0.56-0.96",
+   "verified": true, "checked_with": "WebFetch PMC full text 2026-10-17"
+  },
+  {
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12746894/",
+   "title": "Euploidy rates within blastocysts obtained from differently sized cohorts and age groups approximate a binomial distribution",
+   "journal": "F&S Reports", "year": 2025, "authors": "Huang TTF, Ali S, Ishikawa KM, et al.",
+   "claim": "9,385 blastocyst biopsies from 1,719 retrievals: euploid rate 74.5% under 30, 68.2% at 30-34, 57.4% at 35-37, 44.5% at 38-40, 25.0% at 41-42, 19.2% at 43+.",
+   "quote": "A total of 9,385 blastocyst biopsy results were analyzed ... the probability that a blastocyst was euploid progressively decreased with increasing age ... from 74.5% (<30 years) to 19.2% (>=43 years)",
+   "verified": true, "checked_with": "WebFetch PMC full text incl. Table 1, 2026-10-17"
+  },
+  {
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8715143/",
+   "title": "Mosaic human preimplantation embryos and their developmental potential in a prospective, non-selection clinical trial",
+   "journal": "American Journal of Human Genetics", "year": 2021, "authors": "Capalbo A, et al.",
+   "claim": "Blinded non-selection trial: live birth 43.4% for 484 euploid, 42.9% for 282 low-grade mosaic and 42.0% for 131 medium-grade mosaic embryos; equivalent live birth and miscarriage rates.",
+   "quote": "equivalent live-birth rates and miscarriage rates across 484 euploid, 282 low-grade mosaic, and 131 medium-grade mosaic embryos",
+   "verified": true, "checked_with": "WebFetch PMC full text incl. Table 1, 2026-10-17"
+  },
+  {
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7125274/",
+   "title": "A tale of two studies: now is no longer the best of times for preimplantation genetic testing for aneuploidy (PGT-A)",
+   "journal": "Journal of Assisted Reproduction and Genetics", "year": 2020, "authors": "Scriven PN",
+   "claim": "STAR trial: ongoing pregnancy per embryo transferred 50.0% PGT-A vs 45.7% (not significant); post hoc in women 35-40, 50.8% vs 37.2% per transfer.",
+   "quote": "The PGT-A ongoing pregnancy rate per embryo transferred was superior (50.0% vs 45.7%) ... found a significant increase in the OPR per embryo transfer (50.8% vs 37.2%)",
+   "verified": true, "checked_with": "WebFetch PMC full text 2026-10-17"
+  },
+  {
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11266849/",
+   "title": "Preimplantation genetic testing for aneuploidy in patients of different age: a systematic review and meta-analysis",
+   "journal": "Obstetrics & Gynecology Science", "year": 2024, "authors": "Adamyan L, Pivazyan L, Obosyan L, Krylova E, Isaeva S",
+   "claim": "Meta-analysis: live birth per patient higher with PGT-A in women over 35; authors recommend PGT-A for patients over 35.",
+   "quote": "The LBR per patient in women aged >35 years was higher in the PGT-A group ... PGT-A is effective and can be recommended for patients aged >35 years",
+   "verified": true, "checked_with": "WebFetch PMC full text 2026-10-17"
+  },
+  {
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13117582/",
+   "title": "Reproductive outcomes of mosaic embryo transfers: rethinking the clinical relevance of contemporary mosaicism reporting in PGT-A",
+   "journal": "Current Opinion in Obstetrics & Gynecology", "year": 2026, "authors": "Ottolini CS, Caroselli S, Capalbo A",
+   "claim": "Review: embryos labelled mosaic retain substantial reproductive potential.",
+   "quote": "embryos labelled as mosaic retain substantial reproductive potential",
+   "verified": true, "checked_with": "WebFetch PMC full text 2026-10-17"
+  }
+ ]
+}

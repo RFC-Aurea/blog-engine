@@ -1,0 +1,35 @@
+{
+ "keyword_overview": {
+  "keyword": "pgt-a testing", "locId": 2840, "search_volume": 1600, "seo_difficulty": 21,
+  "paid_difficulty": 9, "cpc": 10.17, "search_intent": null, "checked": "2026-10-17"
+ },
+ "secondary_keywords": [
+  {"term": "how long does pgt a testing take", "volume": 320, "sd": 13, "source": "Ubersuggest keyword_suggestions (data/keywords_raw.json, seed 'embryo grading')"},
+  {"term": "pgt a testing success rate", "volume": 140, "sd": 17, "source": "Ubersuggest keyword_suggestions (data/keywords_raw.json, seed 'embryo grading')"},
+  {"term": "pgt a testing cost", "volume": 140, "sd": 30, "source": "Ubersuggest keyword_suggestions (data/keywords_raw.json, seed 'embryo grading')"}
+ ],
+ "serp_top": [
+  {"pos": 1, "type": "ai_overview"},
+  {"pos": 2, "url": "https://www.hopkinsmedicine.org/gynecology-obstetrics/specialty-areas/fertility-center/infertility-services/preimplantation-genetic-testing", "da": 89},
+  {"pos": 3, "type": "people_also_ask"},
+  {"pos": 4, "url": "https://www.youtube.com/watch?v=qtETR5t23fU", "da": 100},
+  {"pos": 5, "type": "discussions_and_forums"},
+  {"pos": 6, "url": "https://www.statnews.com/2021/11/26/ivf-pregnancy-pgta-genetic-testing/", "da": 86},
+  {"pos": 7, "url": "https://www.acog.org/clinical/guidance/committee-opinion/2020/03/preimplantation-genetic-testing", "da": 74},
+  {"pos": 8, "url": "https://www.pacificfertilitycenter.com/fertility-care/preimplantation-genetic-testing-pgt-a", "da": 48},
+  {"pos": 9, "url": "https://txfertility.com/in-vitro-fertilization-ivf/embryo-selection-with-pgt-a/", "da": 43},
+  {"pos": 10, "url": "https://carefertility.com/treatments/genetic-testing/pgt-a", "da": 52}
+ ],
+ "pages_read": {
+  "hopkinsmedicine.org": "general PGT definition, candidates over 37, biopsy at blastocyst; no timeline, cost, accuracy, mosaicism or live-birth data",
+  "statnews.com": "reports the 2021 NEJM RCT (77% vs 81.8% cumulative live birth); no cost, no guidance for who benefits",
+  "pacificfertilitycenter.com": "process, candidates, aneuploidy by age; no turnaround, cost, mosaic handling or per-retrieval odds",
+  "acog.org": "fetch failed"
+ },
+ "patient_sources": [
+  "https://www.fishbowlapp.com/post/did-you-choose-to-do-pgt-a-testing-why-or-why-not-what-was-your-count-drop-off-did-you-feel-it-was-reliable",
+  "https://www.fishbowlapp.com/post/im-so-torn-between-waiting-for-my-pgt-a-test-results-to-do-a-fet-or-go-ahead-with-a-fresh-transfer-and-pgt-a-test-the-remaining"
+ ],
+ "aurea_prices_checked": "https://www.aureafertility.com/pricing via WebFetch 2026-10-17: PGT $950 per embryo; IVF freeze-all $6,950; FET $4,750; complete IVF package $11,200; physician consult $350; egg/embryo storage $100/month or $1,000/year; refund program $25,500 / $27,500 / $32,500",
+ "gap": "Top results describe how PGT-A works but none separate odds per transfer from odds per egg retrieval for someone under 40, or say what happens to mosaic and no-result embryos and how many tested embryos to expect at each age."
+}

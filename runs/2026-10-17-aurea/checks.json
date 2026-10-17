@@ -1,0 +1,13 @@
+{
+ "pass": false,
+ "hard_failures": 1,
+ "warnings": 0,
+ "checks": [
+  {
+   "check": "front matter complete",
+   "ok": false,
+   "hard": true,
+   "detail": "images"
+  }
+ ]
+}

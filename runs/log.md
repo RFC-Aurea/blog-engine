@@ -8,3 +8,4 @@
 | 2026-10-16 | aurea | updated | Sperm Freezing Cost in 2026: Every Fee and the Real 10-Year Total (spacing like the clinic's own posts; 2 labelled illustrations replace the Gamma images) | how much does sperm freezing cost | https://www.aureafertility.com/post/sperm-freezing-cost |
 | 2026-10-17 | aurea | published | PGT-A Testing: What It Is, Who It's For, and When It's Worth the Cost | pgt-a testing | https://www.aureafertility.com/post/pgt-a-testing |
 | 2026-10-18 | rfc | published | Pregnancy at 45: Four Real Situations and the Path That Fits Each | pregnancy at 45 | https://www.rejuvenatingfertility.com/post/pregnancy-at-45 |
+| 2026-10-18 | aurea | published | HSG Test vs. HyCoSy: Which Tube Check Is Right for You? | hsg test | https://www.aureafertility.com/post/hsg-test |

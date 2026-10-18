@@ -344,6 +344,36 @@
    "ok": true,
    "rows_kept": 0,
    "date": "2026-10-18"
+  },
+  {
+   "brand": "aurea",
+   "pillar": "tubes-uterus-iui",
+   "seeds": [
+    "hycosy"
+   ],
+   "ok": true,
+   "rows_kept": 4,
+   "date": "2026-10-18"
+  },
+  {
+   "brand": "aurea",
+   "pillar": "tubes-uterus-iui",
+   "seeds": [
+    "hydrosalpinx"
+   ],
+   "ok": true,
+   "rows_kept": 1,
+   "date": "2026-10-18"
+  },
+  {
+   "brand": "aurea",
+   "pillar": "tubes-uterus-iui",
+   "seeds": [
+    "tubal recanalization"
+   ],
+   "ok": true,
+   "rows_kept": 0,
+   "date": "2026-10-18"
   }
  ],
  "rows": [
@@ -30561,6 +30591,69 @@
    "intent": [
     4
    ],
+   "added": "2026-10-18"
+  },
+  {
+   "brand": "aurea",
+   "pillar": "tubes-uterus-iui",
+   "seed": "hycosy",
+   "keyword": "hycosy vs hsg",
+   "volume": 110,
+   "sd": 20,
+   "cpc": 0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-18"
+  },
+  {
+   "brand": "aurea",
+   "pillar": "tubes-uterus-iui",
+   "seed": "hycosy",
+   "keyword": "hycosy ultrasound",
+   "volume": 70,
+   "sd": 25,
+   "cpc": 0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-18"
+  },
+  {
+   "brand": "aurea",
+   "pillar": "tubes-uterus-iui",
+   "seed": "hycosy",
+   "keyword": "hysterosalpingogram vs hycosy",
+   "volume": 40,
+   "sd": 26,
+   "cpc": 0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-18"
+  },
+  {
+   "brand": "aurea",
+   "pillar": "tubes-uterus-iui",
+   "seed": "hycosy",
+   "keyword": "hycosy scan",
+   "volume": 30,
+   "sd": 27,
+   "cpc": 0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-18"
+  },
+  {
+   "brand": "aurea",
+   "pillar": "tubes-uterus-iui",
+   "seed": "hydrosalpinx",
+   "keyword": "signs of hydrosalpinx",
+   "volume": 30,
+   "sd": 14,
+   "cpc": 0,
+   "intent": null,
    "added": "2026-10-18"
   }
  ]

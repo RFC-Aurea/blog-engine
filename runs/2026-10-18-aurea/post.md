@@ -40,7 +40,32 @@
   }
  ],
  "hero": "IMAGE1",
- "images": {},
+ "images": {
+  "IMAGE1": {
+   "wix_id": "ca2223_12e9c96b99b646019fe9b0a10f051175~mv2.png",
+   "width": 1800,
+   "height": 945,
+   "alt": "Labelled uterus and tubes showing what an HSG test shows, with pain and birth rates for HSG and HyFoSy",
+   "kind": "medical illustration with data",
+   "source": "img/image1.html",
+   "file": "img/image1.png",
+   "md5": "a1e776778ac92ea99dad4ee04258dae4",
+   "wix_hash": "a1e776778ac92ea99dad4ee04258dae4",
+   "preview_src": "img/image1.png"
+  },
+  "IMAGE2": {
+   "wix_id": "ca2223_5386b3faaee34f9dbb06ac05b92df08c~mv2.png",
+   "width": 1800,
+   "height": 945,
+   "alt": "Next steps after an HSG test for each result, with Aurea prices for IUI, recanalization and HyCoSy",
+   "kind": "labelled decision and cost diagram",
+   "source": "img/image2.html",
+   "file": "img/image2.png",
+   "md5": "97a59e4adebe9ab3864659b57c4362d5",
+   "wix_hash": "97a59e4adebe9ab3864659b57c4362d5",
+   "preview_src": "img/image2.png"
+  }
+ },
  "citations": [
   {"url": "https://academic.oup.com/humrep/article/37/5/969/6537992"},
   {"url": "https://cris.maastrichtuniversity.nl/en/publications/oil-based-or-water-based-contrast-for-hysterosalpingography-in-in/"},
@@ -168,7 +193,7 @@ The HSG test price depends on where it is done, because it is usually billed thr
 At Aurea, current prices from our [pricing page](https://www.aureafertility.com/pricing), as of 2026, include:
 
 - SIS/HyCoSy: $350
-- Physician consult: $350 (or a free 20-minute nurse call)
+- Physician consult: $350, or a free 20-minute nurse call
 - Hysteroscopy: $3,400
 - Tubal recanalization: $3,800
 - IUI: $800

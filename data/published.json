@@ -2,6 +2,26 @@
  "note": "Every post live on either blog. The engine appends here after each publish.",
  "posts": [
   {
+   "brand": "aurea",
+   "title": "HSG Test vs. HyCoSy: Which Tube Check Is Right for You?",
+   "slug": "hsg-test",
+   "date": "2026-10-18",
+   "category": "Fertility Insights",
+   "post_id": "7767c0e2-504c-46e8-b81f-d97b060670fe",
+   "url": "https://www.aureafertility.com/post/hsg-test",
+   "source": "engine",
+   "pillar": "tubes-uterus-iui",
+   "format": "comparison",
+   "title_shape": "T4",
+   "primary_keyword": "hsg test",
+   "cluster_id": "aurea-hsg-test",
+   "secondary_keywords": [
+    "what is hsg test",
+    "hsg test price",
+    "does hsg test hurt"
+   ]
+  },
+  {
    "brand": "rfc",
    "title": "Pregnancy at 45: Four Real Situations and the Path That Fits Each",
    "slug": "pregnancy-at-45",

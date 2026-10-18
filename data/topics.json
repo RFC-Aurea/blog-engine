@@ -446,8 +446,8 @@
    ],
    "suggested_format": "deep-guide",
    "score": 82.5,
-   "status": "available",
-   "note": ""
+   "status": "used",
+   "note": "published 2026-10-18 https://www.aureafertility.com/post/hsg-test"
   },
   {
    "id": "aurea-reason-of-blocked-fallopian-tubes",
@@ -6348,6 +6348,32 @@
    "note": ""
   },
   {
+   "id": "aurea-hydrosalpinx-symptoms",
+   "brand": "aurea",
+   "pillar": "tubes-uterus-iui",
+   "primary": "hydrosalpinx symptoms",
+   "volume": 720,
+   "sd": 25,
+   "cpc": 0.05,
+   "total_volume": 750,
+   "keywords": [
+    {
+     "term": "hydrosalpinx symptoms",
+     "volume": 720,
+     "sd": 25
+    },
+    {
+     "term": "signs of hydrosalpinx",
+     "volume": 30,
+     "sd": 14
+    }
+   ],
+   "suggested_format": "condition-guide",
+   "score": 64.3,
+   "status": "available",
+   "note": ""
+  },
+  {
    "id": "aurea-apps-for-trying-to-conceive",
    "brand": "aurea",
    "pillar": "conception-basics",
@@ -6391,27 +6417,6 @@
    ],
    "suggested_format": "deep-guide",
    "score": 64.3,
-   "status": "available",
-   "note": ""
-  },
-  {
-   "id": "aurea-hydrosalpinx-symptoms",
-   "brand": "aurea",
-   "pillar": "tubes-uterus-iui",
-   "primary": "hydrosalpinx symptoms",
-   "volume": 720,
-   "sd": 25,
-   "cpc": 0.05,
-   "total_volume": 720,
-   "keywords": [
-    {
-     "term": "hydrosalpinx symptoms",
-     "volume": 720,
-     "sd": 25
-    }
-   ],
-   "suggested_format": "condition-guide",
-   "score": 64.2,
    "status": "available",
    "note": ""
   },
@@ -9937,6 +9942,27 @@
    "score": 58.5,
    "status": "available",
    "note": ""
+  },
+  {
+   "id": "aurea-hycosy-vs-hsg",
+   "brand": "aurea",
+   "pillar": "tubes-uterus-iui",
+   "primary": "hycosy vs hsg",
+   "volume": 110,
+   "sd": 20,
+   "cpc": 0,
+   "total_volume": 110,
+   "keywords": [
+    {
+     "term": "hycosy vs hsg",
+     "volume": 110,
+     "sd": 20
+    }
+   ],
+   "suggested_format": "comparison",
+   "score": 58.5,
+   "status": "used",
+   "note": "covered by existing post: HSG Test vs. HyCoSy: Which Tube Check Is Right for You?"
   },
   {
    "id": "aurea-when-to-stop-having-sex-before-frozen-embryo-transfer",
@@ -13967,6 +13993,27 @@
    "note": ""
   },
   {
+   "id": "aurea-hycosy-ultrasound",
+   "brand": "aurea",
+   "pillar": "tubes-uterus-iui",
+   "primary": "hycosy ultrasound",
+   "volume": 70,
+   "sd": 25,
+   "cpc": 0,
+   "total_volume": 70,
+   "keywords": [
+    {
+     "term": "hycosy ultrasound",
+     "volume": 70,
+     "sd": 25
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 54.0,
+   "status": "available",
+   "note": ""
+  },
+  {
    "id": "aurea-losing-weight-while-trying-to-conceive",
    "brand": "aurea",
    "pillar": "conception-basics",
@@ -15735,6 +15782,27 @@
    "note": ""
   },
   {
+   "id": "aurea-hysterosalpingogram-vs-hycosy",
+   "brand": "aurea",
+   "pillar": "tubes-uterus-iui",
+   "primary": "hysterosalpingogram vs hycosy",
+   "volume": 40,
+   "sd": 26,
+   "cpc": 0,
+   "total_volume": 40,
+   "keywords": [
+    {
+     "term": "hysterosalpingogram vs hycosy",
+     "volume": 40,
+     "sd": 26
+    }
+   ],
+   "suggested_format": "comparison",
+   "score": 51.1,
+   "status": "available",
+   "note": ""
+  },
+  {
    "id": "rfc-high-fsh-levels-after-hysterectomy",
    "brand": "rfc",
    "pillar": "low-amh-dor",
@@ -16543,6 +16611,27 @@
     }
    ],
    "suggested_format": "number-explained",
+   "score": 49.4,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-hycosy-scan",
+   "brand": "aurea",
+   "pillar": "tubes-uterus-iui",
+   "primary": "hycosy scan",
+   "volume": 30,
+   "sd": 27,
+   "cpc": 0,
+   "total_volume": 30,
+   "keywords": [
+    {
+     "term": "hycosy scan",
+     "volume": 30,
+     "sd": 27
+    }
+   ],
+   "suggested_format": "deep-guide",
    "score": 49.4,
    "status": "available",
    "note": ""

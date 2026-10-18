@@ -1,0 +1,50 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><style>{{BASE_CSS}}</style></head>
+<body>
+{{COMPONENTS}}
+<svg class="canvas" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <rect class="bg" width="1200" height="630"/>
+  <text class="title" x="40" y="62">Pregnancy at 45: why the egg matters most</text>
+  <text class="subtitle" x="40" y="96">Fewer eggs remain, and more carry a chromosome error. Both can be planned around.</text>
+
+  <rect class="card" x="32" y="128" width="620" height="464" rx="22"/>
+  <rect class="card" x="680" y="128" width="488" height="464" rx="22"/>
+
+  <!-- left: ovary -->
+  <text class="step-title" x="64" y="172">Inside the ovary</text>
+  <use href="#ovary-section" x="96" y="214" width="420" height="275.6"/>
+
+  <path class="leader" d="M526,262 L446,297"/><circle class="leader-dot" cx="446" cy="297" r="4"/>
+  <text class="label" x="530" y="236">Mature</text>
+  <text class="label" x="530" y="260">follicle</text>
+
+  <path class="leader" d="M460,516 L396,400"/><circle class="leader-dot" cx="396" cy="400" r="4"/>
+  <text class="label" x="420" y="540">Egg (oocyte)</text>
+  <text class="label-sub" x="420" y="562" dy="-2">its chromosomes set</text>
+  <text class="label-sub" x="420" y="582" dy="-2">the embryo's count</text>
+
+  <path class="leader" d="M150,516 L226,424"/><circle class="leader-dot" cx="226" cy="424" r="4"/>
+  <text class="label" x="64" y="540">Resting follicles</text>
+  <text class="label-sub" x="64" y="562" dy="-2">fewer left each year</text>
+
+  <!-- right: data -->
+  <text class="step-title" x="712" y="172">Chromosome check, by age</text>
+  <text class="label-sub" x="712" y="200">Chance a top-grade blastocyst is normal</text>
+  <text class="label" x="712" y="256">Age 18</text>
+  <rect x="800" y="236" width="227" height="28" rx="6" fill="#A7B8A0"/>
+  <text class="label" x="1037" y="257" font-weight="600">87.2%</text>
+  <text class="label" x="712" y="314">Age 44</text>
+  <rect x="800" y="294" width="136" height="28" rx="6" fill="#DCE4D6" stroke="#A7B8A0" stroke-width="1.5"/>
+  <text class="label" x="946" y="315" font-weight="600">52.4%</text>
+
+  <path class="card-line" d="M712,350 L1136,350"/>
+  <text class="step-title" x="712" y="390">Blastocysts needed</text>
+  <text class="label-sub" x="712" y="416">for one normal embryo (top grade)</text>
+  <text class="big-number" x="712" y="474">2</text>
+  <text class="label" x="748" y="470">at age 18</text>
+  <text class="big-number" x="912" y="474">5</text>
+  <text class="label" x="948" y="470">at age 44</text>
+  <text class="note" x="712" y="548">Source: Human Reproduction, 2025</text>
+  <text class="note" x="712" y="572">(4,911 blastocysts)</text>
+</svg>
+</body></html>

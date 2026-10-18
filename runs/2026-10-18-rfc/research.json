@@ -1,0 +1,32 @@
+{
+ "keyword_overview": {"keyword": "pregnancy at 45", "locId": 2840, "search_volume": 1600, "seo_difficulty": 22, "paid_difficulty": 6, "cpc": 2.21, "search_intent": "Informational", "checked": "2026-10-18"},
+ "secondary_keywords": [
+  {"term": "pregnancy at 45 naturally", "volume": 390, "sd": 24, "source": "Ubersuggest keyword_overview locId 2840, 2026-10-18"},
+  {"term": "chance of pregnancy at 45", "volume": 320, "sd": 22, "source": "Ubersuggest keyword_overview locId 2840, 2026-10-18"},
+  {"term": "chances of accidental pregnancy at 45", "volume": 480, "sd": 31, "source": "Ubersuggest keyword_overview locId 2840, 2026-10-18"}
+ ],
+ "serp_top": [
+  {"pos": 1, "type": "ai_overview"},
+  {"pos": 2, "url": "https://www.mymenopausecentre.com/gp-resources/fertility-and-the-menopause/", "da": 42},
+  {"pos": 3, "type": "people_also_ask"},
+  {"pos": 4, "url": "https://www.youtube.com/watch?v=yh7-bGNIonM", "da": 100},
+  {"pos": 5, "type": "discussions_and_forums"},
+  {"pos": 6, "url": "https://www.acog.org/womens-health/experts-and-stories/the-latest/what-i-learned-from-being-pregnant-in-my-40s", "da": 74},
+  {"pos": 7, "url": "https://www.inviafertility.com/blog/infertility/drvkarande/getting-pregnant-at-43-fertility-chances-options/", "da": 39},
+  {"pos": 8, "url": "https://www.reddit.com/r/whatworkedforme/comments/16dib84/fertility_over_45_how_did_you_try_to_get_pregnant/", "da": 92},
+  {"pos": 9, "url": "https://www.healthline.com/health/pregnancy/having-a-baby-at-40", "da": 91},
+  {"pos": 10, "url": "https://vpfw.com/resources/getting-pregnant-at-40-faqs-and-tips-for-optimizing-your-fertility-health/", "da": 35}
+ ],
+ "pages_read": {
+  "mymenopausecentre.com": "one '10%' figure for ages 45-50 over a year, contraception advice; no IVF, donor eggs, rejuvenation, tests or decision help",
+  "acog.org (personal story)": "one woman's pregnancy at 42; no numbers, no treatment options",
+  "inviafertility.com": "age 44 case; 2013 SART data, says own-egg IVF near zero at 45, recommends donor eggs; no tests, no rejuvenation, no maternal risk numbers",
+  "reddit.com": "blocked for WebFetch"
+ },
+ "patient_sources": [
+  "https://www.mumsnet.com/talk/conception/5271770-45-year-old-ttc",
+  "https://www.mumsnet.com/talk/conception/4416095-TTC-over-45"
+ ],
+ "ubersuggest_reports_used": 5,
+ "gap": "Top results give one average number for 45 and stop; none sort women at 45 into the situations that actually change the answer (regular cycles trying naturally, low reserve with own eggs, repeated IVF failure or loss, open to donor eggs) or say which test result moves her from one path to another."
+}

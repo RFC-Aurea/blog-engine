@@ -1,0 +1,63 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><style>{{BASE_CSS}}</style></head>
+<body>
+{{COMPONENTS}}
+<svg class="canvas" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <rect class="bg" width="1200" height="630"/>
+  <text class="title" x="40" y="62">What an HSG test shows</text>
+  <text class="subtitle" x="40" y="96">Dye fills the uterus and should spill out of each open tube. The ultrasound version shows the same path.</text>
+
+  <rect class="card" x="32" y="128" width="620" height="464" rx="22"/>
+  <rect class="card" x="680" y="128" width="488" height="464" rx="22"/>
+
+  <!-- left: uterus with contrast -->
+  <use href="#uterus" x="64" y="190" width="399.5" height="365.5"/>
+  <g transform="translate(263.75,330.25) scale(0.85)">
+    <path d="M-54,-82 C-42,-102 42,-102 54,-82 C42,-42 20,8 6,62 L-6,62 C-20,8 -42,-42 -54,-82 Z" fill="#8F8981" opacity="0.55"/>
+    <path d="M92,-112 C136,-132 182,-126 202,-96 C214,-76 212,-56 202,-44" fill="none" stroke="#857E76" stroke-width="5" stroke-linecap="round"/>
+    <path d="M58,-96 C70,-104 82,-108 92,-112" fill="none" stroke="#857E76" stroke-width="5" stroke-linecap="round"/>
+    <g fill="#8F8981" opacity="0.6">
+      <ellipse cx="206" cy="-26" rx="10" ry="7"/><ellipse cx="190" cy="-12" rx="8" ry="6"/><ellipse cx="220" cy="-10" rx="7" ry="5"/><ellipse cx="204" cy="2" rx="6" ry="4"/>
+    </g>
+    <path d="M-58,-96 C-70,-104 -82,-108 -92,-112 C-104,-118 -112,-121 -120,-123" fill="none" stroke="#857E76" stroke-width="5" stroke-linecap="round"/>
+    <path d="M-128,-133 L-116,-113 M-116,-133 L-128,-113" stroke="#6F665D" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <use href="#catheter" x="256.3" y="411.8" width="14.84" height="169.6"/>
+
+  <path class="leader" d="M128,186 L156,218"/><circle class="leader-dot" cx="156" cy="218" r="4"/>
+  <text class="label" x="64" y="176">Blocked tube: dye stops</text>
+
+  <path class="leader" d="M500,262 L442,300"/><circle class="leader-dot" cx="442" cy="300" r="4"/>
+  <text class="label" x="490" y="232">Dye spills out</text>
+  <text class="label-sub" x="490" y="254" dy="-2">of an open tube</text>
+
+  <path class="leader" d="M486,382 L284,302"/><circle class="leader-dot" cx="284" cy="302" r="4"/>
+  <text class="label" x="490" y="378">Contrast fills</text>
+  <text class="label-sub" x="490" y="400" dy="-2">the uterus</text>
+
+  <path class="leader" d="M486,500 L268,502"/><circle class="leader-dot" cx="268" cy="502" r="4"/>
+  <text class="label" x="490" y="496">Soft catheter</text>
+  <text class="label-sub" x="490" y="518" dy="-2">through the cervix</text>
+
+  <!-- right: comparison -->
+  <text class="step-title" x="712" y="172">Two ways to watch the dye</text>
+  <text class="label" x="712" y="214">HSG test</text>
+  <text class="label-sub" x="712" y="238">X-ray with iodine contrast</text>
+  <text class="label" x="712" y="276">HyCoSy</text>
+  <text class="label-sub" x="712" y="300">Ultrasound with saline or foam</text>
+
+  <path class="card-line" d="M712,326 L1136,326"/>
+  <text class="step-title" x="712" y="364">Average pain, 0 to 10</text>
+  <text class="label" x="712" y="406">HSG</text>
+  <rect x="822" y="388" width="162" height="26" rx="6" fill="#C8C1D3"/>
+  <text class="label" x="994" y="407" font-weight="600">5.4</text>
+  <text class="label" x="712" y="448">HyFoSy</text>
+  <rect x="822" y="430" width="93" height="26" rx="6" fill="#E4E0EA" stroke="#B4ADC2" stroke-width="1.5"/>
+  <text class="label" x="925" y="449" font-weight="600">3.1</text>
+
+  <text class="step-title" x="712" y="498">Live birth within 12 months</text>
+  <text class="label" x="712" y="532">HSG 47%</text>
+  <text class="label" x="872" y="532">HyFoSy 46%</text>
+  <text class="note" x="712" y="572">Source: Human Reproduction, 2022</text>
+</svg>
+</body></html>

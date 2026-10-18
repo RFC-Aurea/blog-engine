@@ -1,0 +1,32 @@
+{
+ "keyword_overview": {"keyword": "hsg test", "locId": 2840, "search_volume": 14800, "seo_difficulty": 31, "paid_difficulty": 8, "cpc": 10.22, "search_intent": "Informational", "checked": "2026-10-18"},
+ "secondary_keywords": [
+  {"term": "what is hsg test", "volume": 1900, "sd": 31, "source": "Ubersuggest keyword_suggestions (data/keywords_raw.json)"},
+  {"term": "hsg test price", "volume": 880, "sd": 22, "source": "Ubersuggest keyword_suggestions (data/keywords_raw.json)"},
+  {"term": "does hsg test hurt", "volume": 140, "sd": 24, "source": "Ubersuggest keyword_suggestions (data/keywords_raw.json)"}
+ ],
+ "serp_top": [
+  {"pos": 1, "type": "ai_overview"},
+  {"pos": 2, "type": "people_also_ask"},
+  {"pos": 3, "url": "https://my.clevelandclinic.org/health/diagnostics/22254-hysterosalpingogram", "da": 89},
+  {"pos": 4, "type": "video"},
+  {"pos": 5, "url": "https://radiology.ucsf.edu/patient-care/services/hysterosalpingogram-hsg-procedure", "da": 86},
+  {"pos": 6, "url": "https://www.shadygrovefertility.com/fertility-tests/female-tests/hysterosalpingogram-hsg/", "da": 58},
+  {"pos": 7, "url": "https://www.cigna.com/knowledge-center/hw/medical-tests/hysterosalpingogram-aa16829", "da": 68},
+  {"pos": 8, "url": "https://fertilitynetworkuk.org/learn-about-fertility/treatment/hsg/", "da": 55},
+  {"pos": 9, "url": "https://www.reproductivefacts.org/news-and-publications/fact-sheets-and-infographics/hysterosalpingogram-hsg/", "da": 61},
+  {"pos": 10, "url": "https://rmanetwork.com/blog/expect-hysterosalpingogram-hsg/", "da": 48}
+ ],
+ "pages_read": {
+  "clevelandclinic.org": "process, prep, cramping, risks; no HyCoSy/HyFoSy comparison, no accuracy numbers, no oil vs water contrast, no cost",
+  "shadygrovefertility.com": "process, prep, FAQ; says sonohysterograms can't check tubes; no HyCoSy, accuracy, oil contrast, pain numbers or cost",
+  "reproductivefacts.org": "timing, <5 minutes, cramping 5-10 minutes, complications <1%, low radiation"
+ },
+ "patient_sources": [
+  "https://forum.ectopic.org.uk/t/scared-going-have-hsg-on-tuesday/2845",
+  "https://forums.thebump.com/discussion/847518/hsg-test"
+ ],
+ "ubersuggest_reports_used": 2,
+ "aurea_prices": "brands/aurea.md (live /pricing 2026): SIS/HyCoSy $350; physician consult $350; hysteroscopy $3,400; tubal recanalization $3,800; IUI $800; complete IVF package $11,200",
+ "gap": "Top results explain the HSG on its own; none compare it with the ultrasound alternative (HyCoSy/HyFoSy) on pain, accuracy and pregnancy outcomes, explain oil- vs water-based contrast, or say what to do when one tube looks blocked."
+}

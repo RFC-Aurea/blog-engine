@@ -314,6 +314,36 @@
    "ok": true,
    "rows_kept": 4,
    "date": "2026-10-17"
+  },
+  {
+   "brand": "rfc",
+   "pillar": "ivf-over-40",
+   "seeds": [
+    "pregnancy after 45"
+   ],
+   "ok": true,
+   "rows_kept": 9,
+   "date": "2026-10-18"
+  },
+  {
+   "brand": "rfc",
+   "pillar": "ivf-over-40",
+   "seeds": [
+    "getting pregnant at 44"
+   ],
+   "ok": true,
+   "rows_kept": 5,
+   "date": "2026-10-18"
+  },
+  {
+   "brand": "rfc",
+   "pillar": "ivf-over-40",
+   "seeds": [
+    "ivf at 45"
+   ],
+   "ok": true,
+   "rows_kept": 0,
+   "date": "2026-10-18"
   }
  ],
  "rows": [
@@ -30349,6 +30379,189 @@
     1
    ],
    "added": "2026-10-17"
+  },
+  {
+   "brand": "rfc",
+   "pillar": "ivf-over-40",
+   "seed": "pregnancy after 45",
+   "keyword": "pregnancy after 45",
+   "volume": 1600,
+   "sd": 32,
+   "cpc": 2.25,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-18"
+  },
+  {
+   "brand": "rfc",
+   "pillar": "ivf-over-40",
+   "seed": "pregnancy after 45",
+   "keyword": "pregnancy after 45 naturally",
+   "volume": 390,
+   "sd": 19,
+   "cpc": 5.84,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-18"
+  },
+  {
+   "brand": "rfc",
+   "pillar": "ivf-over-40",
+   "seed": "pregnancy after 45",
+   "keyword": "chances of pregnancy after 45",
+   "volume": 320,
+   "sd": 23,
+   "cpc": 1.64,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-18"
+  },
+  {
+   "brand": "rfc",
+   "pillar": "ivf-over-40",
+   "seed": "pregnancy after 45",
+   "keyword": "pregnancy after 45 symptoms",
+   "volume": 170,
+   "sd": 23,
+   "cpc": 2.36,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-18"
+  },
+  {
+   "brand": "rfc",
+   "pillar": "ivf-over-40",
+   "seed": "pregnancy after 45",
+   "keyword": "natural pregnancy after 45 success stories",
+   "volume": 140,
+   "sd": 25,
+   "cpc": 3.455,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-18"
+  },
+  {
+   "brand": "rfc",
+   "pillar": "ivf-over-40",
+   "seed": "pregnancy after 45",
+   "keyword": "risk of pregnancy after 45",
+   "volume": 70,
+   "sd": 26,
+   "cpc": 2.21,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-18"
+  },
+  {
+   "brand": "rfc",
+   "pillar": "ivf-over-40",
+   "seed": "pregnancy after 45",
+   "keyword": "pregnancy after 45 age",
+   "volume": 70,
+   "sd": 26,
+   "cpc": 0.02,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-18"
+  },
+  {
+   "brand": "rfc",
+   "pillar": "ivf-over-40",
+   "seed": "pregnancy after 45",
+   "keyword": "pregnancy after 45 chances",
+   "volume": 30,
+   "sd": 21,
+   "cpc": 0.32,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-18"
+  },
+  {
+   "brand": "rfc",
+   "pillar": "ivf-over-40",
+   "seed": "pregnancy after 45",
+   "keyword": "pregnancy after 45 statistics",
+   "volume": 30,
+   "sd": 33,
+   "cpc": 0.04,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-18"
+  },
+  {
+   "brand": "rfc",
+   "pillar": "ivf-over-40",
+   "seed": "getting pregnant at 44",
+   "keyword": "getting pregnant at 44",
+   "volume": 140,
+   "sd": 19,
+   "cpc": 2.87,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-18"
+  },
+  {
+   "brand": "rfc",
+   "pillar": "ivf-over-40",
+   "seed": "getting pregnant at 44",
+   "keyword": "chance of getting pregnant at 44",
+   "volume": 390,
+   "sd": 41,
+   "cpc": 5.37,
+   "intent": [
+    1,
+    3
+   ],
+   "added": "2026-10-18"
+  },
+  {
+   "brand": "rfc",
+   "pillar": "ivf-over-40",
+   "seed": "getting pregnant at 44",
+   "keyword": "what are the chances of getting pregnant at 44",
+   "volume": 110,
+   "sd": 39,
+   "cpc": 0.07,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-18"
+  },
+  {
+   "brand": "rfc",
+   "pillar": "ivf-over-40",
+   "seed": "getting pregnant at 44",
+   "keyword": "chances of getting pregnant at 44 naturally",
+   "volume": 90,
+   "sd": 34,
+   "cpc": 2.665,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-18"
+  },
+  {
+   "brand": "rfc",
+   "pillar": "ivf-over-40",
+   "seed": "getting pregnant at 44",
+   "keyword": "getting pregnant at 44 naturally",
+   "volume": 30,
+   "sd": 21,
+   "cpc": 5.13,
+   "intent": [
+    4
+   ],
+   "added": "2026-10-18"
   }
  ]
 }

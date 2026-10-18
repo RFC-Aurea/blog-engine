@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17",
+ "updated": "2026-10-18",
  "min_volume": 20,
  "clusters": [
   {
@@ -742,6 +742,82 @@
    "note": ""
   },
   {
+   "id": "rfc-pregnancy-at-45",
+   "brand": "rfc",
+   "pillar": "ivf-over-40",
+   "primary": "pregnancy at 45",
+   "volume": 1600,
+   "sd": 22,
+   "cpc": 2.21,
+   "total_volume": 6240,
+   "keywords": [
+    {
+     "term": "pregnancy at 45",
+     "volume": 1600,
+     "sd": 22
+    },
+    {
+     "term": "pregnancy after 45",
+     "volume": 1600,
+     "sd": 32
+    },
+    {
+     "term": "chances of accidental pregnancy at 45",
+     "volume": 480,
+     "sd": 31
+    },
+    {
+     "term": "pregnancy at 45 naturally",
+     "volume": 390,
+     "sd": 24
+    },
+    {
+     "term": "pregnancy after 45 naturally",
+     "volume": 390,
+     "sd": 19
+    },
+    {
+     "term": "chance of pregnancy at 45",
+     "volume": 320,
+     "sd": 22
+    },
+    {
+     "term": "accidental pregnancy at 45",
+     "volume": 320,
+     "sd": 38
+    },
+    {
+     "term": "chances of pregnancy after 45",
+     "volume": 320,
+     "sd": 23
+    },
+    {
+     "term": "pregnancy at 45 symptoms",
+     "volume": 170,
+     "sd": 22
+    },
+    {
+     "term": "pregnancy after 45 symptoms",
+     "volume": 170,
+     "sd": 23
+    },
+    {
+     "term": "chances of natural pregnancy at 45",
+     "volume": 70,
+     "sd": 21
+    },
+    {
+     "term": "pregnancy at 45 age",
+     "volume": 70,
+     "sd": 26
+    }
+   ],
+   "suggested_format": "patient-scenarios",
+   "score": 80.3,
+   "status": "used",
+   "note": "published 2026-10-18 https://www.rejuvenatingfertility.com/post/pregnancy-at-45"
+  },
+  {
    "id": "aurea-embryo-grading-chart",
    "brand": "aurea",
    "pillar": "embryology-lab",
@@ -1039,82 +1115,6 @@
    ],
    "suggested_format": "deep-guide",
    "score": 78.0,
-   "status": "available",
-   "note": ""
-  },
-  {
-   "id": "rfc-pregnancy-at-45",
-   "brand": "rfc",
-   "pillar": "ivf-over-40",
-   "primary": "pregnancy at 45",
-   "volume": 1600,
-   "sd": 22,
-   "cpc": 2.21,
-   "total_volume": 3560,
-   "keywords": [
-    {
-     "term": "pregnancy at 45",
-     "volume": 1600,
-     "sd": 22
-    },
-    {
-     "term": "chances of accidental pregnancy at 45",
-     "volume": 480,
-     "sd": 31
-    },
-    {
-     "term": "pregnancy at 45 naturally",
-     "volume": 390,
-     "sd": 24
-    },
-    {
-     "term": "chance of pregnancy at 45",
-     "volume": 320,
-     "sd": 22
-    },
-    {
-     "term": "accidental pregnancy at 45",
-     "volume": 320,
-     "sd": 38
-    },
-    {
-     "term": "pregnancy at 45 symptoms",
-     "volume": 170,
-     "sd": 22
-    },
-    {
-     "term": "chances of natural pregnancy at 45",
-     "volume": 70,
-     "sd": 21
-    },
-    {
-     "term": "pregnancy at 45 age",
-     "volume": 70,
-     "sd": 26
-    },
-    {
-     "term": "pregnancy at 45 days",
-     "volume": 50,
-     "sd": 30
-    },
-    {
-     "term": "pregnancy at 45 statistics",
-     "volume": 30,
-     "sd": 25
-    },
-    {
-     "term": "pregnancy at 45 chances",
-     "volume": 30,
-     "sd": 20
-    },
-    {
-     "term": "pregnancy at 45 odds",
-     "volume": 30,
-     "sd": 45
-    }
-   ],
-   "suggested_format": "patient-scenarios",
-   "score": 77.8,
    "status": "available",
    "note": ""
   },
@@ -6128,6 +6128,32 @@
    "note": ""
   },
   {
+   "id": "rfc-chance-of-getting-pregnant-at-44",
+   "brand": "rfc",
+   "pillar": "ivf-over-40",
+   "primary": "chance of getting pregnant at 44",
+   "volume": 390,
+   "sd": 41,
+   "cpc": 5.37,
+   "total_volume": 530,
+   "keywords": [
+    {
+     "term": "chance of getting pregnant at 44",
+     "volume": 390,
+     "sd": 41
+    },
+    {
+     "term": "getting pregnant at 44",
+     "volume": 140,
+     "sd": 19
+    }
+   ],
+   "suggested_format": "patient-scenarios",
+   "score": 64.8,
+   "status": "available",
+   "note": ""
+  },
+  {
    "id": "aurea-is-a-chemical-pregnancy-a-good-sign-of-fertility",
    "brand": "aurea",
    "pillar": "pregnancy-loss",
@@ -6448,6 +6474,27 @@
     }
    ],
    "suggested_format": "number-explained",
+   "score": 64.2,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "rfc-natural-pregnancy-after-45-success-stories",
+   "brand": "rfc",
+   "pillar": "ivf-over-40",
+   "primary": "natural pregnancy after 45 success stories",
+   "volume": 140,
+   "sd": 25,
+   "cpc": 3.455,
+   "total_volume": 140,
+   "keywords": [
+    {
+     "term": "natural pregnancy after 45 success stories",
+     "volume": 140,
+     "sd": 25
+    }
+   ],
+   "suggested_format": "patient-scenarios",
    "score": 64.2,
    "status": "available",
    "note": ""
@@ -8604,6 +8651,27 @@
     }
    ],
    "suggested_format": "step-by-step",
+   "score": 60.1,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "rfc-getting-pregnant-at-44-naturally",
+   "brand": "rfc",
+   "pillar": "ivf-over-40",
+   "primary": "getting pregnant at 44 naturally",
+   "volume": 30,
+   "sd": 21,
+   "cpc": 5.13,
+   "total_volume": 30,
+   "keywords": [
+    {
+     "term": "getting pregnant at 44 naturally",
+     "volume": 30,
+     "sd": 21
+    }
+   ],
+   "suggested_format": "patient-scenarios",
    "score": 60.1,
    "status": "available",
    "note": ""
@@ -14103,6 +14171,32 @@
     }
    ],
    "suggested_format": "deep-guide",
+   "score": 53.6,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "rfc-what-are-the-chances-of-getting-pregnant-at-44",
+   "brand": "rfc",
+   "pillar": "ivf-over-40",
+   "primary": "what are the chances of getting pregnant at 44",
+   "volume": 110,
+   "sd": 39,
+   "cpc": 0.07,
+   "total_volume": 200,
+   "keywords": [
+    {
+     "term": "what are the chances of getting pregnant at 44",
+     "volume": 110,
+     "sd": 39
+    },
+    {
+     "term": "chances of getting pregnant at 44 naturally",
+     "volume": 90,
+     "sd": 34
+    }
+   ],
+   "suggested_format": "patient-scenarios",
    "score": 53.6,
    "status": "available",
    "note": ""

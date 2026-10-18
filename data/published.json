@@ -2,6 +2,26 @@
  "note": "Every post live on either blog. The engine appends here after each publish.",
  "posts": [
   {
+   "brand": "rfc",
+   "title": "Pregnancy at 45: Four Real Situations and the Path That Fits Each",
+   "slug": "pregnancy-at-45",
+   "date": "2026-10-18",
+   "category": "Patient Questions",
+   "post_id": "ae6789e6-e224-4bbc-836b-09ce1396b476",
+   "url": "https://www.rejuvenatingfertility.com/post/pregnancy-at-45",
+   "source": "engine",
+   "pillar": "ivf-over-40",
+   "format": "patient-scenarios",
+   "title_shape": "T12",
+   "primary_keyword": "pregnancy at 45",
+   "cluster_id": "rfc-pregnancy-at-45",
+   "secondary_keywords": [
+    "pregnancy at 45 naturally",
+    "chance of pregnancy at 45",
+    "chances of accidental pregnancy at 45"
+   ]
+  },
+  {
    "brand": "aurea",
    "title": "PGT-A Testing: What It Is, Who It's For, and When It's Worth the Cost",
    "slug": "pgt-a-testing",

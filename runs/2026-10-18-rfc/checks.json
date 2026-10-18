@@ -1,13 +1,367 @@
 {
- "pass": false,
- "hard_failures": 1,
+ "pass": true,
+ "hard_failures": 0,
  "warnings": 0,
  "checks": [
   {
    "check": "front matter complete",
-   "ok": false,
+   "ok": true,
    "hard": true,
-   "detail": "images"
+   "detail": ""
+  },
+  {
+   "check": "primary keyword has real Ubersuggest volume and SD",
+   "ok": true,
+   "hard": true,
+   "detail": "pregnancy at 45: volume=1600 sd=22"
+  },
+  {
+   "check": "2-3 secondary keywords with volume and SD",
+   "ok": true,
+   "hard": true,
+   "detail": "pregnancy at 45 naturally 390/24; chance of pregnancy at 45 320/22; chances of accidental pregnancy at 45 480/31"
+  },
+  {
+   "check": "category exists on this site",
+   "ok": true,
+   "hard": true,
+   "detail": "Patient Questions"
+  },
+  {
+   "check": "slug format",
+   "ok": true,
+   "hard": true,
+   "detail": "pregnancy-at-45"
+  },
+  {
+   "check": "meta title <= 60 chars",
+   "ok": true,
+   "hard": true,
+   "detail": "48: Pregnancy at 45: Your Real Options, Path by Path"
+  },
+  {
+   "check": "meta title has primary keyword near the front",
+   "ok": true,
+   "hard": true,
+   "detail": "Pregnancy at 45: Your Real Options, Path by Path"
+  },
+  {
+   "check": "meta description <= 155 chars",
+   "ok": true,
+   "hard": true,
+   "detail": "144"
+  },
+  {
+   "check": "meta description has primary keyword",
+   "ok": true,
+   "hard": true,
+   "detail": "Pregnancy at 45 is possible. See the four situations that shape your odds, what the research shows, and which tests point you to the right path."
+  },
+  {
+   "check": "excerpt <= 300 chars",
+   "ok": true,
+   "hard": true,
+   "detail": "175"
+  },
+  {
+   "check": "title (H1) has primary keyword",
+   "ok": true,
+   "hard": true,
+   "detail": "Pregnancy at 45: Four Real Situations and the Path That Fits Each"
+  },
+  {
+   "check": "title length <= 100",
+   "ok": true,
+   "hard": true,
+   "detail": "65"
+  },
+  {
+   "check": "2 images uploaded to Wix with size and alt text",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  },
+  {
+   "check": "alt text under 125 chars",
+   "ok": true,
+   "hard": true,
+   "detail": "[107, 103]"
+  },
+  {
+   "check": "a keyword appears in an alt text",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  },
+  {
+   "check": "wix image ids look like real Wix media ids",
+   "ok": true,
+   "hard": true,
+   "detail": "['ca2223_f23e7b1b2da04eb496de9a84a6233866~mv2.png', 'ca2223_9cb6f7a0adc149e88a78525e2d690df0~mv2.png']"
+  },
+  {
+   "check": "no 'image of' in alt text",
+   "ok": true,
+   "hard": false,
+   "detail": ""
+  },
+  {
+   "check": "[[IMAGE1]] and [[IMAGE2]] placed once each",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  },
+  {
+   "check": "no H1 in body",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  },
+  {
+   "check": "[[TOC]] once",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  },
+  {
+   "check": "opens with **Quick answer:**",
+   "ok": true,
+   "hard": true,
+   "detail": "**Quick answer:** **Pregnancy at 45** is possible, and women"
+  },
+  {
+   "check": "Quick answer has primary keyword",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  },
+  {
+   "check": "every H2 has an {#anchor}",
+   "ok": true,
+   "hard": true,
+   "detail": "[]"
+  },
+  {
+   "check": "H2 anchors unique",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  },
+  {
+   "check": "6-10 H2 sections",
+   "ok": true,
+   "hard": true,
+   "detail": "10"
+  },
+  {
+   "check": "primary keyword in >= 2 H2s",
+   "ok": true,
+   "hard": true,
+   "detail": "[\"Pregnancy at 45: Why One Answer Doesn't Fit Everyone\", 'Scenario A: Regular Periods and Trying for Pregnancy at 45 Naturally', 'Scenario B: Low AMH and Hoping to Use Your Own Eggs', 'Scenario C: Failed IVF Transfers or Repeated Loss', 'Scenario D: Open to Donor Eggs', 'What the Research Shows About Pregnancy at 45', 'Which Test Result Moves You From One Path to Another?', 'Finding Your Own Path: Next Steps', 'Frequently Asked Questions', 'The Bottom Line']"
+  },
+  {
+   "check": "FAQ section {#faq}",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  },
+  {
+   "check": "Bottom line section {#bottom-line}",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  },
+  {
+   "check": "5-6 FAQ questions as H3",
+   "ok": true,
+   "hard": true,
+   "detail": "6"
+  },
+  {
+   "check": "FAQ questions end with ?",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  },
+  {
+   "check": "primary keyword in an FAQ question",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  },
+  {
+   "check": "has a table with 3+ columns",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  },
+  {
+   "check": "has a numbered list",
+   "ok": true,
+   "hard": false,
+   "detail": ""
+  },
+  {
+   "check": "markdown bold markers balanced",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  },
+  {
+   "check": "no raw HTML",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  },
+  {
+   "check": "no bare URLs",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  },
+  {
+   "check": "word count 2000-2800",
+   "ok": true,
+   "hard": true,
+   "detail": "2604"
+  },
+  {
+   "check": "primary keyword in first 100 words",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  },
+  {
+   "check": "primary keyword density 0.5-2.5%",
+   "ok": true,
+   "hard": false,
+   "detail": "1.61% (14 uses)"
+  },
+  {
+   "check": "internal links >= 8",
+   "ok": true,
+   "hard": true,
+   "detail": "16"
+  },
+  {
+   "check": "every internal link is a verified page or live post",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  },
+  {
+   "check": "no 'click here' link text",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  },
+  {
+   "check": "every external link is a verified source in evidence.json",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  },
+  {
+   "check": "at least 4 research citations",
+   "ok": true,
+   "hard": true,
+   "detail": "6"
+  },
+  {
+   "check": "citations listed in front matter match evidence",
+   "ok": true,
+   "hard": false,
+   "detail": ""
+  },
+  {
+   "check": "CTA links the booking page",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  },
+  {
+   "check": "no banned words or unsupported claims",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  },
+  {
+   "check": "RFC: no named physician in the body",
+   "ok": true,
+   "hard": false,
+   "detail": ""
+  },
+  {
+   "check": "paragraphs are 5 sentences or fewer",
+   "ok": true,
+   "hard": false,
+   "detail": ""
+  },
+  {
+   "check": "IMAGE1: Wix stored exactly the reviewed image (md5 = Wix hash)",
+   "ok": true,
+   "hard": true,
+   "detail": "file 4a9660d63d974c5236aba76676a6714b, front matter 4a9660d63d974c5236aba76676a6714b, Wix 4a9660d63d974c5236aba76676a6714b"
+  },
+  {
+   "check": "IMAGE1: label check passed when rendered (no overlaps, nothing cut off)",
+   "ok": true,
+   "hard": true,
+   "detail": "no report for this file"
+  },
+  {
+   "check": "IMAGE1: no banned words in the image",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  },
+  {
+   "check": "IMAGE1: every number in the image also appears in the post",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  },
+  {
+   "check": "IMAGE2: Wix stored exactly the reviewed image (md5 = Wix hash)",
+   "ok": true,
+   "hard": true,
+   "detail": "file 4067171ba59e0871a2fa8ba635e7e1c6, front matter 4067171ba59e0871a2fa8ba635e7e1c6, Wix 4067171ba59e0871a2fa8ba635e7e1c6"
+  },
+  {
+   "check": "IMAGE2: label check passed when rendered (no overlaps, nothing cut off)",
+   "ok": true,
+   "hard": true,
+   "detail": "no report for this file"
+  },
+  {
+   "check": "IMAGE2: no banned words in the image",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  },
+  {
+   "check": "IMAGE2: every number in the image also appears in the post",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  },
+  {
+   "check": "slug not already used on this site",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  },
+  {
+   "check": "title not too similar to any existing post (< 0.6)",
+   "ok": true,
+   "hard": true,
+   "detail": "0.10 vs 'Can You Get Pregnant During Perimenopause?'"
+  },
+  {
+   "check": "primary keyword not already targeted",
+   "ok": true,
+   "hard": true,
+   "detail": ""
   }
  ]
 }

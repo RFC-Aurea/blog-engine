@@ -40,7 +40,32 @@
   }
  ],
  "hero": "IMAGE1",
- "images": {},
+ "images": {
+  "IMAGE1": {
+   "wix_id": "ca2223_f23e7b1b2da04eb496de9a84a6233866~mv2.png",
+   "width": 1800,
+   "height": 945,
+   "alt": "Labelled ovary and egg showing why egg quality shapes pregnancy at 45, with euploid blastocyst rates by age",
+   "kind": "medical illustration with data",
+   "source": "img/image1.html",
+   "file": "img/image1.png",
+   "md5": "4a9660d63d974c5236aba76676a6714b",
+   "wix_hash": "4a9660d63d974c5236aba76676a6714b",
+   "preview_src": "img/image1.png"
+  },
+  "IMAGE2": {
+   "wix_id": "ca2223_9cb6f7a0adc149e88a78525e2d690df0~mv2.png",
+   "width": 1800,
+   "height": 945,
+   "alt": "Decision diagram: testing first, then four paths to pregnancy at 45, from a natural trial to donor eggs",
+   "kind": "labelled decision diagram",
+   "source": "img/image2.html",
+   "file": "img/image2.png",
+   "md5": "4067171ba59e0871a2fa8ba635e7e1c6",
+   "wix_hash": "4067171ba59e0871a2fa8ba635e7e1c6",
+   "preview_src": "img/image2.png"
+  }
+ },
  "citations": [
   {"url": "https://pubmed.ncbi.nlm.nih.gov/30894356/"},
   {"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12023533"},

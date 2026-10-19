@@ -2,6 +2,25 @@
  "note": "Every post live on either blog. The engine appends here after each publish.",
  "posts": [
   {
+   "brand": "rfc",
+   "title": "Premature Ovarian Insufficiency (POI): Why It Happens and What Actually Helps",
+   "slug": "premature-ovarian-insufficiency-poi",
+   "date": "2026-10-19",
+   "category": "Fertility Conditions",
+   "post_id": "02c851e7-4fc0-4aa6-bd27-99c51beb6dcc",
+   "url": "https://www.rejuvenatingfertility.com/post/premature-ovarian-insufficiency-poi",
+   "source": "engine",
+   "pillar": "poi",
+   "format": "deep-guide",
+   "title_shape": "T10",
+   "primary_keyword": "poi premature ovarian insufficiency",
+   "cluster_id": "rfc-poi-premature-ovarian-insufficiency",
+   "secondary_keywords": [
+    "premature ovarian failure signs",
+    "premature ovarian failure pregnancy"
+   ]
+  },
+  {
    "brand": "aurea",
    "title": "HSG Test vs. HyCoSy: Which Tube Check Is Right for You?",
    "slug": "hsg-test",

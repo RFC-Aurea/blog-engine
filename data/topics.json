@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18",
+ "updated": "2026-10-19",
  "min_volume": 20,
  "clusters": [
   {
@@ -498,8 +498,8 @@
    ],
    "suggested_format": "deep-guide",
    "score": 81.8,
-   "status": "available",
-   "note": ""
+   "status": "used",
+   "note": "published 2026-10-19 https://www.rejuvenatingfertility.com/post/premature-ovarian-insufficiency-poi"
   },
   {
    "id": "rfc-donor-eggs-procedure",
@@ -3070,8 +3070,8 @@
    ],
    "suggested_format": "condition-guide",
    "score": 70.3,
-   "status": "available",
-   "note": ""
+   "status": "used",
+   "note": "secondary keyword of https://www.rejuvenatingfertility.com/post/premature-ovarian-insufficiency-poi"
   },
   {
    "id": "aurea-blocked-fallopian-tubes-operation",
@@ -17335,8 +17335,8 @@
    ],
    "suggested_format": "deep-guide",
    "score": 47.4,
-   "status": "available",
-   "note": ""
+   "status": "used",
+   "note": "secondary keyword of https://www.rejuvenatingfertility.com/post/premature-ovarian-insufficiency-poi"
   },
   {
    "id": "aurea-19mm-endometrial-thickness",

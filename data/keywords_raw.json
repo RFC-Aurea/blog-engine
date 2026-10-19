@@ -374,6 +374,26 @@
    "ok": true,
    "rows_kept": 0,
    "date": "2026-10-18"
+  },
+  {
+   "brand": "rfc",
+   "pillar": "poi",
+   "seeds": [
+    "premature ovarian failure"
+   ],
+   "ok": true,
+   "rows_kept": 0,
+   "date": "2026-10-19"
+  },
+  {
+   "brand": "rfc",
+   "pillar": "rejuvenation",
+   "seeds": [
+    "ovarian rejuvenation"
+   ],
+   "ok": true,
+   "rows_kept": 0,
+   "date": "2026-10-19"
   }
  ],
  "rows": [

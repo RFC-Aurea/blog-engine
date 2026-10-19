@@ -37,27 +37,27 @@
  "hero": "IMAGE1",
  "images": {
   "IMAGE1": {
-   "wix_id": "PENDING",
+   "wix_id": "ca2223_1a338a3b58b74832b22b2c7710b9acee~mv2.png",
    "width": 1800,
    "height": 945,
    "alt": "Labelled ovary in POI (premature ovarian insufficiency): resting follicles, a waking follicle, how often function returns",
    "kind": "medical illustration with data",
    "source": "img/image1.html",
    "file": "img/image1.png",
-   "md5": "",
-   "wix_hash": "",
+   "md5": "948d3938eda8f6647cc02ab59334ca09",
+   "wix_hash": "948d3938eda8f6647cc02ab59334ca09",
    "preview_src": "img/image1.png"
   },
   "IMAGE2": {
-   "wix_id": "PENDING",
+   "wix_id": "ca2223_0f00d5e9bf6c493994b514d30c5ea5a6~mv2.png",
    "width": 1800,
    "height": 945,
    "alt": "Path after a POI diagnosis: confirm, test, protect your health, check for ovarian activity, then own eggs or donor eggs",
    "kind": "labelled decision diagram",
    "source": "img/image2.html",
    "file": "img/image2.png",
-   "md5": "",
-   "wix_hash": "",
+   "md5": "4e7a38713c2d4160b1503a9d5548f41f",
+   "wix_hash": "4e7a38713c2d4160b1503a9d5548f41f",
    "preview_src": "img/image2.png"
   }
  },

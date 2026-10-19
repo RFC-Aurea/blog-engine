@@ -1,0 +1,49 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><style>{{BASE_CSS}}</style></head>
+<body>
+{{COMPONENTS}}
+<svg class="canvas" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <rect class="bg" width="1200" height="630"/>
+  <text class="title" x="40" y="62">POI: a quiet ovary, not always an empty one</text>
+  <text class="subtitle" x="40" y="96">Premature ovarian insufficiency slows the ovaries before 40, yet follicles can still wake up.</text>
+
+  <rect class="card" x="32" y="128" width="620" height="464" rx="22"/>
+  <rect class="card" x="680" y="128" width="488" height="464" rx="22"/>
+
+  <!-- left: ovary in POI -->
+  <text class="step-title" x="64" y="172">Inside an ovary with POI</text>
+  <use href="#ovary-poi" x="96" y="214" width="420" height="275.6"/>
+
+  <path class="leader" d="M470,226 L404,318"/><circle class="leader-dot" cx="404" cy="318" r="4"/>
+  <text class="label" x="420" y="190">Growing follicle</text>
+  <text class="label-sub" x="420" y="212">can wake up and ovulate</text>
+
+  <path class="leader" d="M470,520 L388,392"/><circle class="leader-dot" cx="388" cy="392" r="4"/>
+  <text class="label" x="420" y="544">Egg (oocyte)</text>
+
+  <path class="leader" d="M160,520 L245,416"/><circle class="leader-dot" cx="245" cy="416" r="4"/>
+  <text class="label" x="64" y="544">Resting follicles</text>
+  <text class="label-sub" x="64" y="566">fewer than usual</text>
+
+  <path class="leader" d="M150,232 L172,310"/><circle class="leader-dot" cx="172" cy="310" r="4"/>
+  <text class="label" x="64" y="214">Ovary (outer layer)</text>
+
+  <!-- right: data -->
+  <text class="step-title" x="712" y="172">After a POI diagnosis</text>
+  <text class="label-sub" x="712" y="200">358 women followed over time</text>
+
+  <text class="big-number" x="712" y="268">24%</text>
+  <text class="label" x="828" y="252">saw their ovaries</text>
+  <text class="label" x="828" y="276">start working again</text>
+
+  <text class="big-number" x="712" y="350">4.4%</text>
+  <text class="label" x="828" y="334">conceived</text>
+  <text class="label" x="828" y="358">naturally</text>
+
+  <path class="card-line" d="M712,396 L1136,396"/>
+  <text class="step-title" x="712" y="436">How POI is defined</text>
+  <text class="label" x="712" y="470">FSH above 25 IU/L and</text>
+  <text class="label" x="712" y="496">irregular periods, before 40</text>
+  <text class="note" x="712" y="560">Source: JCEM, 2011; 2024 guideline</text>
+</svg>
+</body></html>

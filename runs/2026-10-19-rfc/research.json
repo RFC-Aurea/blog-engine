@@ -1,0 +1,36 @@
+{
+ "keyword_overview": {"keyword": "poi premature ovarian insufficiency", "locId": 2840, "search_volume": 1600, "seo_difficulty": 7, "paid_difficulty": 4, "cpc": 3.51, "search_intent": null, "checked": "2026-10-19"},
+ "secondary_keywords": [
+  {"term": "premature ovarian failure signs", "volume": 2400, "sd": 27, "source": "Ubersuggest keyword_overview locId 2840, 2026-10-19"},
+  {"term": "premature ovarian failure pregnancy", "volume": 30, "sd": 35, "source": "Ubersuggest keyword_overview locId 2840, 2026-10-19"}
+ ],
+ "rejected_secondaries": [
+  {"term": "primary ovarian insufficiency", "volume": 0, "sd": 12, "why": "0 volume"}
+ ],
+ "serp_top": [
+  {"pos": 1, "type": "ai_overview"},
+  {"pos": 2, "url": "https://medlineplus.gov/primaryovarianinsufficiency.html", "da": 90},
+  {"pos": 3, "url": "https://www.mayoclinic.org/diseases-conditions/premature-ovarian-failure/symptoms-causes/syc-20354683", "da": 92},
+  {"pos": 4, "type": "people_also_ask"},
+  {"pos": 5, "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10022589/", "da": 95},
+  {"pos": 6, "url": "https://www.asrm.org/practice-guidance/practice-committee-documents/evidence-based-guideline-premature-ovarian-insufficiency--2024/", "da": 66},
+  {"pos": 7, "url": "https://www.reproductivefacts.org/news-and-publications/fact-sheets-and-infographics/what-is-premature-ovarian-insufficiency-also-called-premature-ovarian-failure/", "da": 61},
+  {"pos": 8, "url": "https://www.ccjm.org/content/92/8/475", "da": 62},
+  {"pos": 9, "url": "https://acog.org/clinical/guidance/committee-opinion/2014/07/primary-ovarian-insufficiency-in-adolescents-and-young-women/", "da": 74},
+  {"pos": 11, "url": "https://my.clevelandclinic.org/health/diseases/17963-primary-ovarian-insufficiency", "da": 89}
+ ],
+ "pages_read": {
+  "medlineplus.gov": "definition, causes (90% unknown), symptoms, HRT; says no proven treatment restores ovarian function; IVF mentioned in one line; no pregnancy chances, no donor eggs, no rejuvenation, no next steps",
+  "mayoclinic.org": "definition, symptoms, causes, complications; says pregnancy rarely possible; no fertility options, no numbers on chances, no testing",
+  "pmc PMC10022589": "captcha, not readable",
+  "reproductivefacts.org (pos 7, read instead)": "~1% prevalence, ~10% may conceive with own eggs, donor eggs most reliable; no treatment paths, no way to tell if ovaries still work"
+ },
+ "patient_sources": [
+  "https://pol1.lr.ggtyler.dev/r/POFlife/wiki/index (r/POFlife mirror)",
+  "https://bournhall.co.uk/your-stories/donated-eggs-a-precious-gift-after-premature-ovarian-failure-at-16",
+  "https://www.mumsnet.com/talk/infertility/3057812-POF",
+  "https://www.invitra.com/en/forums/topic/egg-donation-with-early-menopause/"
+ ],
+ "ubersuggest_reports_used": 6,
+ "gap": "Top results say POI is 'not menopause' because the ovaries can still work sometimes, then stop; none explain how a woman can find out whether her own ovaries are still active, what that window means for own-egg treatment, or when to move to donor eggs."
+}

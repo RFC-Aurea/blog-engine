@@ -1,0 +1,29 @@
+{
+ "keyword_overview": {"keyword": "trying to conceive fertility", "locId": 2840, "search_volume": 2400, "seo_difficulty": 9, "paid_difficulty": 11, "cpc": 6.12, "search_intent": null, "checked": "2026-10-20"},
+ "secondary_keywords": [
+  {"term": "trying to conceive tips", "volume": 880, "sd": 32, "source": "Ubersuggest keyword_suggestions 2026-10-20 (seed: trying to conceive)"},
+  {"term": "what to eat trying to conceive", "volume": 260, "sd": 18, "source": "Ubersuggest keyword_suggestions 2026-10-20"},
+  {"term": "what should a man do when trying to conceive", "volume": 140, "sd": 18, "source": "Ubersuggest keyword_suggestions 2026-10-20"}
+ ],
+ "serp_top": [
+  {"pos": 1, "type": "ai_overview"},
+  {"pos": 2, "url": "https://womenshealth.gov/pregnancy/you-get-pregnant/trying-conceive", "da": 78},
+  {"pos": 3, "url": "https://www.nhs.uk/pregnancy/trying-for-a-baby/trying-to-get-pregnant/", "da": 58},
+  {"pos": 4, "type": "people_also_ask"},
+  {"pos": 5, "url": "https://fertilitynetworkuk.org/learn-about-fertility/factors-affecting-fertility/lifestyle-fertility/conception-tips/", "da": 55},
+  {"pos": 7, "url": "https://www.mayoclinic.org/healthy-lifestyle/getting-pregnant/in-depth/how-to-get-pregnant/art-20047611", "da": 92},
+  {"pos": 8, "url": "https://www.brownhealth.org/be-well/fertility-and-getting-pregnant-everything-you-need-know", "da": 63},
+  {"pos": 9, "url": "https://www.acog.org/womens-health/experts-and-stories/the-latest/trying-to-get-pregnant-heres-when-to-have-sex", "da": 74},
+  {"pos": 10, "url": "https://www.millieclinic.com/blog/preconception", "da": 29},
+  {"pos": 11, "url": "https://www.fertilitytexas.com/tips-to-conceive-naturally/", "da": 34}
+ ],
+ "pages_read": {
+  "womenshealth.gov": "cycle tracking methods, causes of infertility, 12/6 month rule; no monthly or age odds, no named tests, little for male partners",
+  "nhs.uk": "pre-pregnancy checks, folic acid, timing, 'likely within a year' if 39 or under; no cumulative odds, tests not named",
+  "mayoclinic.org": "fertile window, frequency, lifestyle, 12/6 month rule; no monthly or age odds, no clinical tests, no male-specific steps"
+ },
+ "patient_sources": ["https://www.mumsnet.com/index.php/talk/conception/3304522-Should-I-be-worried"],
+ "ubersuggest_reports_used": 3,
+ "aurea_prices": "brands/aurea.md: physician consult $350, free 20-min nurse call, semen analysis $300, timed intercourse $250 / 3 months $650, SIS/HyCoSy $350, IUI $800",
+ "gap": "Top results list generic tips and the 12/6-month rule but none show what your realistic odds are month by month and by age, or which tests each partner can reasonably ask for before the deadline."
+}

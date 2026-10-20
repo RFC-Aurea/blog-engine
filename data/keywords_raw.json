@@ -394,6 +394,36 @@
    "ok": true,
    "rows_kept": 0,
    "date": "2026-10-19"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seeds": [
+    "trying to conceive"
+   ],
+   "ok": true,
+   "rows_kept": 118,
+   "date": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seeds": [
+    "how long does it take to get pregnant"
+   ],
+   "ok": true,
+   "rows_kept": 10,
+   "date": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seeds": [
+    "fertile window"
+   ],
+   "ok": true,
+   "rows_kept": 18,
+   "date": "2026-10-20"
   }
  ],
  "rows": [
@@ -30675,6 +30705,1867 @@
    "cpc": 0,
    "intent": null,
    "added": "2026-10-18"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "trying to conceive with polycystic ovaries",
+   "volume": 480,
+   "sd": 21,
+   "cpc": 6.4,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "trying to conceive lube",
+   "volume": 260,
+   "sd": 34,
+   "cpc": 1.22,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "when should i start taking progesterone when trying to conceive",
+   "volume": 140,
+   "sd": 30,
+   "cpc": 1.22,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "uti while trying to conceive",
+   "volume": 90,
+   "sd": 29,
+   "cpc": 0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "tips when trying to conceive",
+   "volume": 70,
+   "sd": 33,
+   "cpc": 3.18,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "vitamins to take while trying to conceive",
+   "volume": 70,
+   "sd": 36,
+   "cpc": 3.46,
+   "intent": null,
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "3 months trying to conceive",
+   "volume": 50,
+   "sd": 38,
+   "cpc": 3.325,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "r trying to conceive",
+   "volume": 50,
+   "sd": 66,
+   "cpc": 0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "berberine trying to conceive",
+   "volume": 50,
+   "sd": 23,
+   "cpc": 0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "when trying to conceive how often should you try",
+   "volume": 50,
+   "sd": 28,
+   "cpc": 0.62,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "can you take tylenol while trying to conceive",
+   "volume": 50,
+   "sd": 38,
+   "cpc": 0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "trying to conceive uti",
+   "volume": 50,
+   "sd": 19,
+   "cpc": 9.39,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "berberine while trying to conceive",
+   "volume": 50,
+   "sd": 14,
+   "cpc": 0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "tea for trying to conceive",
+   "volume": 50,
+   "sd": 21,
+   "cpc": 3.78,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "can you take ashwagandha while trying to conceive",
+   "volume": 50,
+   "sd": 22,
+   "cpc": 0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "prednisone while trying to conceive",
+   "volume": 50,
+   "sd": 35,
+   "cpc": 0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "tirzepatide while trying to conceive",
+   "volume": 50,
+   "sd": 24,
+   "cpc": 16.28,
+   "intent": [
+    1,
+    4
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "peeing after sex trying to conceive",
+   "volume": 50,
+   "sd": 17,
+   "cpc": 0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "tylenol while trying to conceive",
+   "volume": 50,
+   "sd": 39,
+   "cpc": 0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "weight loss while trying to conceive",
+   "volume": 50,
+   "sd": 25,
+   "cpc": 14.555,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "best prenatal vitamins to take when trying to conceive",
+   "volume": 50,
+   "sd": 23,
+   "cpc": 6.56,
+   "intent": [
+    1,
+    3
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "precautions after ovulation when trying to conceive",
+   "volume": 50,
+   "sd": 44,
+   "cpc": 0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "husband smoking while trying to conceive",
+   "volume": 50,
+   "sd": 19,
+   "cpc": 0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "can you take advil when trying to conceive",
+   "volume": 50,
+   "sd": 29,
+   "cpc": 0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "trying to conceive what to do after intercourse",
+   "volume": 50,
+   "sd": 12,
+   "cpc": 1.665,
+   "intent": null,
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "trying to conceive podcast",
+   "volume": 50,
+   "sd": 26,
+   "cpc": 0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "should you pee after sex if trying to conceive",
+   "volume": 50,
+   "sd": 20,
+   "cpc": 0.91,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "melatonin while trying to conceive",
+   "volume": 50,
+   "sd": 22,
+   "cpc": 0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "does saliva kill sperm when trying to conceive",
+   "volume": 50,
+   "sd": 22,
+   "cpc": 0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "best lube to use when trying to conceive",
+   "volume": 50,
+   "sd": 35,
+   "cpc": 1.16,
+   "intent": [
+    3
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "things to do before trying to conceive",
+   "volume": 50,
+   "sd": 22,
+   "cpc": 1.655,
+   "intent": null,
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "actively trying to conceive",
+   "volume": 50,
+   "sd": 50,
+   "cpc": 5.21,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "icd 10 trying to conceive",
+   "volume": 50,
+   "sd": 22,
+   "cpc": 0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "finasteride while trying to conceive",
+   "volume": 50,
+   "sd": 22,
+   "cpc": 0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "evening primrose oil trying to conceive",
+   "volume": 50,
+   "sd": 21,
+   "cpc": 0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "creatine while trying to conceive",
+   "volume": 50,
+   "sd": 6,
+   "cpc": 0,
+   "intent": null,
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "trying to conceive video",
+   "volume": 50,
+   "sd": 5,
+   "cpc": 0,
+   "intent": null,
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "things to avoid when trying to conceive",
+   "volume": 50,
+   "sd": 25,
+   "cpc": 0.31,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "trying to conceive with irregular cycles",
+   "volume": 50,
+   "sd": 15,
+   "cpc": 2.67,
+   "intent": null,
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "should a man take folic acid when trying to conceive",
+   "volume": 50,
+   "sd": 29,
+   "cpc": 0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "sauna when trying to conceive",
+   "volume": 50,
+   "sd": 14,
+   "cpc": 0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "running while trying to conceive",
+   "volume": 50,
+   "sd": 32,
+   "cpc": 0.06,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "9 months trying to conceive",
+   "volume": 50,
+   "sd": 22,
+   "cpc": 12.54,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "how to change natural cycles to trying to conceive",
+   "volume": 50,
+   "sd": 58,
+   "cpc": 0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "what cold medicine can i take while trying to conceive",
+   "volume": 50,
+   "sd": 55,
+   "cpc": 0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "should i take prenatals while trying to conceive",
+   "volume": 50,
+   "sd": 20,
+   "cpc": 12.685,
+   "intent": [
+    3
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "icd 10 code for trying to conceive",
+   "volume": 50,
+   "sd": 19,
+   "cpc": 0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "how long trying to conceive before seeing doctor",
+   "volume": 50,
+   "sd": 16,
+   "cpc": 2.38,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "vitex trying to conceive",
+   "volume": 50,
+   "sd": 30,
+   "cpc": 0,
+   "intent": [
+    4,
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "antibiotics while trying to conceive",
+   "volume": 50,
+   "sd": 26,
+   "cpc": 0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "when trying to conceive should you pee after",
+   "volume": 50,
+   "sd": 22,
+   "cpc": 0.94,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "trying to conceive tools",
+   "volume": 40,
+   "sd": 49,
+   "cpc": 0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "sauna while trying to conceive female",
+   "volume": 40,
+   "sd": 12,
+   "cpc": 0,
+   "intent": [
+    4
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "best tips for trying to conceive",
+   "volume": 40,
+   "sd": 22,
+   "cpc": 1.82,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "cramping after trying to conceive",
+   "volume": 40,
+   "sd": 38,
+   "cpc": 3.36,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "retinol trying to conceive",
+   "volume": 40,
+   "sd": 30,
+   "cpc": 0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "what to know before trying to conceive",
+   "volume": 40,
+   "sd": 11,
+   "cpc": 1.45,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "things to know when trying to conceive",
+   "volume": 40,
+   "sd": 31,
+   "cpc": 1.955,
+   "intent": null,
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "when trying to conceive how long should i lay down",
+   "volume": 40,
+   "sd": 53,
+   "cpc": 0.7,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "trying to conceive naturally",
+   "volume": 40,
+   "sd": 61,
+   "cpc": 4.995,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "trying to conceive after iud removal",
+   "volume": 40,
+   "sd": 22,
+   "cpc": 0.5,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "how long after trying to conceive can i test",
+   "volume": 40,
+   "sd": 30,
+   "cpc": 0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "can i eat pineapple while trying to conceive",
+   "volume": 40,
+   "sd": 21,
+   "cpc": 0,
+   "intent": [
+    1,
+    3
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "best things to do when trying to conceive",
+   "volume": 40,
+   "sd": 63,
+   "cpc": 4.7,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "trying to conceive ovulation",
+   "volume": 40,
+   "sd": 59,
+   "cpc": 3.86,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "trying to conceive at 35",
+   "volume": 40,
+   "sd": 23,
+   "cpc": 4.56,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "trying to conceive first time",
+   "volume": 40,
+   "sd": 18,
+   "cpc": 4.08,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "trying to conceive meal plan",
+   "volume": 40,
+   "sd": 27,
+   "cpc": 6.69,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "exercise when trying to conceive",
+   "volume": 40,
+   "sd": 20,
+   "cpc": 0.37,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "trying to conceive irregular periods",
+   "volume": 40,
+   "sd": 22,
+   "cpc": 8.71,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "doxycycline while trying to conceive",
+   "volume": 40,
+   "sd": 27,
+   "cpc": 0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "8 months trying to conceive",
+   "volume": 40,
+   "sd": 22,
+   "cpc": 0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "things to eat when trying to conceive",
+   "volume": 40,
+   "sd": 22,
+   "cpc": 1.595,
+   "intent": null,
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "what to eat while trying to conceive",
+   "volume": 40,
+   "sd": 37,
+   "cpc": 1.3,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "7 months trying to conceive",
+   "volume": 40,
+   "sd": 24,
+   "cpc": 0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "can i take tylenol while trying to conceive",
+   "volume": 40,
+   "sd": 26,
+   "cpc": 0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "boric acid trying to conceive",
+   "volume": 40,
+   "sd": 20,
+   "cpc": 0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "best multivitamin for men trying to conceive",
+   "volume": 40,
+   "sd": 22,
+   "cpc": 9.03,
+   "intent": [
+    3
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "trying to conceive for 4 months",
+   "volume": 40,
+   "sd": 68,
+   "cpc": 0,
+   "intent": [
+    3,
+    1,
+    4
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "when to stop botox before trying to conceive",
+   "volume": 40,
+   "sd": 20,
+   "cpc": 0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "trying to conceive pills",
+   "volume": 40,
+   "sd": 18,
+   "cpc": 6.12,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "yeast infection while trying to conceive",
+   "volume": 40,
+   "sd": 22,
+   "cpc": 0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "fasting while trying to conceive",
+   "volume": 40,
+   "sd": 26,
+   "cpc": 3.31,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "men trying to conceive",
+   "volume": 40,
+   "sd": 30,
+   "cpc": 3.285,
+   "intent": null,
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "emily oster trying to conceive",
+   "volume": 40,
+   "sd": 29,
+   "cpc": 2.24,
+   "intent": [
+    3,
+    4,
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "trying to conceive after copper iud removal",
+   "volume": 40,
+   "sd": 20,
+   "cpc": 0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "can a man take finasteride while trying to conceive reddit",
+   "volume": 40,
+   "sd": 30,
+   "cpc": 0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "can i eat sushi while trying to conceive",
+   "volume": 40,
+   "sd": 22,
+   "cpc": 0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "best prenatal vitamins to take while trying to conceive",
+   "volume": 40,
+   "sd": 12,
+   "cpc": 6.24,
+   "intent": null,
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "how much caffeine when trying to conceive",
+   "volume": 40,
+   "sd": 17,
+   "cpc": 0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "choline trying to conceive",
+   "volume": 40,
+   "sd": 35,
+   "cpc": 11.68,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "gabapentin while trying to conceive",
+   "volume": 40,
+   "sd": 42,
+   "cpc": 0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "adderall and trying to conceive",
+   "volume": 40,
+   "sd": 23,
+   "cpc": 0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "what vitamins should my husband take while trying to conceive",
+   "volume": 40,
+   "sd": 31,
+   "cpc": 3.27,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "trying to conceive cycle",
+   "volume": 40,
+   "sd": 25,
+   "cpc": 0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "maca root trying to conceive",
+   "volume": 40,
+   "sd": 21,
+   "cpc": 0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "is creatine safe when trying to conceive",
+   "volume": 40,
+   "sd": 13,
+   "cpc": 0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "4 months trying to conceive",
+   "volume": 40,
+   "sd": 31,
+   "cpc": 1,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "fruits to avoid while trying to conceive",
+   "volume": 40,
+   "sd": 15,
+   "cpc": 0,
+   "intent": [
+    1,
+    3
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "antibiotics for uti while trying to conceive",
+   "volume": 40,
+   "sd": 22,
+   "cpc": 5.78,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "trying to conceive chart",
+   "volume": 40,
+   "sd": 57,
+   "cpc": 0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "gift for someone trying to conceive",
+   "volume": 40,
+   "sd": 24,
+   "cpc": 2.66,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "best vitamins when trying to conceive",
+   "volume": 40,
+   "sd": 21,
+   "cpc": 7.18,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "can men take accutane while trying to conceive",
+   "volume": 40,
+   "sd": 29,
+   "cpc": 0,
+   "intent": [
+    3,
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "how to prepare for trying to conceive",
+   "volume": 40,
+   "sd": 12,
+   "cpc": 0.95,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "food trying to conceive",
+   "volume": 40,
+   "sd": 31,
+   "cpc": 4.94,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "how to lay after sex when trying to conceive",
+   "volume": 40,
+   "sd": 50,
+   "cpc": 0.03,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "what should a man do before trying to conceive",
+   "volume": 40,
+   "sd": 37,
+   "cpc": 4.29,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "guaifenesin trying to conceive",
+   "volume": 40,
+   "sd": 32,
+   "cpc": 0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "can you take sudafed while trying to conceive",
+   "volume": 40,
+   "sd": 38,
+   "cpc": 0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "coconut oil as lubricant when trying to conceive",
+   "volume": 40,
+   "sd": 19,
+   "cpc": 0.02,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "fish oil trying to conceive",
+   "volume": 40,
+   "sd": 33,
+   "cpc": 12.4,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "vitamin c trying to conceive",
+   "volume": 40,
+   "sd": 12,
+   "cpc": 0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "diet when trying to conceive",
+   "volume": 40,
+   "sd": 35,
+   "cpc": 3.41,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "prenatals for trying to conceive",
+   "volume": 40,
+   "sd": 34,
+   "cpc": 5.7,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "can you use lube when trying to conceive",
+   "volume": 40,
+   "sd": 20,
+   "cpc": 0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "can i poop after sex when trying to conceive",
+   "volume": 40,
+   "sd": 29,
+   "cpc": 0,
+   "intent": [
+    3,
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "trying to conceive",
+   "keyword": "when trying to conceive what to do",
+   "volume": 40,
+   "sd": 63,
+   "cpc": 2.84,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "how long does it take to get pregnant",
+   "keyword": "usually how long does it take to get pregnant",
+   "volume": 1900,
+   "sd": 7,
+   "cpc": 1.925,
+   "intent": null,
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "how long does it take to get pregnant",
+   "keyword": "on average how long does it take to get pregnant",
+   "volume": 1000,
+   "sd": 9,
+   "cpc": 1.595,
+   "intent": null,
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "how long does it take to get pregnant",
+   "keyword": "how long does it take to get pregnant first time",
+   "volume": 390,
+   "sd": 30,
+   "cpc": 1.49,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "how long does it take to get pregnant",
+   "keyword": "how long does it take to get pregnant after miscarriage",
+   "volume": 210,
+   "sd": 29,
+   "cpc": 3.44,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "how long does it take to get pregnant",
+   "keyword": "ivf how long does it take to get pregnant",
+   "volume": 140,
+   "sd": 24,
+   "cpc": 3.46,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "how long does it take to get pregnant",
+   "keyword": "how long does it take to get pregnant with pcos",
+   "volume": 110,
+   "sd": 6,
+   "cpc": 0,
+   "intent": null,
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "how long does it take to get pregnant",
+   "keyword": "how long does it take to get pregnant after birth",
+   "volume": 70,
+   "sd": 29,
+   "cpc": 0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "how long does it take to get pregnant",
+   "keyword": "how long does it take to get pregnant after insemination",
+   "volume": 50,
+   "sd": 14,
+   "cpc": 0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "how long does it take to get pregnant",
+   "keyword": "how long does it take to get pregnant after 35",
+   "volume": 40,
+   "sd": 23,
+   "cpc": 0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "how long does it take to get pregnant",
+   "keyword": "how long does it take to get pregnant with metformin",
+   "volume": 30,
+   "sd": 23,
+   "cpc": 0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "fertile window",
+   "keyword": "what does the fertile window mean",
+   "volume": 1000,
+   "sd": 36,
+   "cpc": 1.59,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "fertile window",
+   "keyword": "when is my fertile window",
+   "volume": 720,
+   "sd": 16,
+   "cpc": 1.77,
+   "intent": null,
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "fertile window",
+   "keyword": "whats a fertile window",
+   "volume": 590,
+   "sd": 7,
+   "cpc": 1.37,
+   "intent": null,
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "fertile window",
+   "keyword": "spotting during fertile window",
+   "volume": 480,
+   "sd": 21,
+   "cpc": 0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "fertile window",
+   "keyword": "cramping during fertile window",
+   "volume": 480,
+   "sd": 6,
+   "cpc": 0.44,
+   "intent": null,
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "fertile window",
+   "keyword": "cramps during fertile window",
+   "volume": 390,
+   "sd": 18,
+   "cpc": 0.94,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "fertile window",
+   "keyword": "can you get pregnant outside of fertile window",
+   "volume": 390,
+   "sd": 21,
+   "cpc": 0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "fertile window",
+   "keyword": "female fertile window",
+   "volume": 320,
+   "sd": 18,
+   "cpc": 1.29,
+   "intent": null,
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "fertile window",
+   "keyword": "bleeding during fertile window",
+   "volume": 260,
+   "sd": 16,
+   "cpc": 0.05,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "fertile window",
+   "keyword": "chance of getting pregnant during fertile window",
+   "volume": 210,
+   "sd": 8,
+   "cpc": 1.6,
+   "intent": null,
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "fertile window",
+   "keyword": "how often to have sex during fertile window",
+   "volume": 170,
+   "sd": 9,
+   "cpc": 0.925,
+   "intent": null,
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "fertile window",
+   "keyword": "how long is a woman's fertile window",
+   "volume": 110,
+   "sd": 8,
+   "cpc": 1.445,
+   "intent": null,
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "fertile window",
+   "keyword": "what is the fertile window for a woman",
+   "volume": 110,
+   "sd": 11,
+   "cpc": 0.945,
+   "intent": null,
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "fertile window",
+   "keyword": "fertile window for conception",
+   "volume": 90,
+   "sd": 11,
+   "cpc": 0,
+   "intent": null,
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "fertile window",
+   "keyword": "negative ovulation test during fertile window",
+   "volume": 90,
+   "sd": 19,
+   "cpc": 0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "fertile window",
+   "keyword": "chance of getting pregnant in fertile window",
+   "volume": 70,
+   "sd": 7,
+   "cpc": 0,
+   "intent": null,
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "fertile window",
+   "keyword": "having sex everyday during fertile window",
+   "volume": 50,
+   "sd": 6,
+   "cpc": 0,
+   "intent": null,
+   "added": "2026-10-20"
+  },
+  {
+   "brand": "shared",
+   "pillar": "conception-basics",
+   "seed": "fertile window",
+   "keyword": "cervical mucus during fertile window",
+   "volume": 40,
+   "sd": 22,
+   "cpc": 1.27,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-20"
   }
  ]
 }

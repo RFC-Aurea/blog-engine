@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19",
+ "updated": "2026-10-20",
  "min_volume": 20,
  "clusters": [
   {
@@ -565,8 +565,8 @@
    ],
    "suggested_format": "deep-guide",
    "score": 81.6,
-   "status": "available",
-   "note": ""
+   "status": "used",
+   "note": "published 2026-10-20 https://www.aureafertility.com/post/trying-to-conceive-fertility"
   },
   {
    "id": "aurea-7-steps-to-getting-pregnant-with-blocked-fallopian-tubes",
@@ -1740,6 +1740,27 @@
    "note": ""
   },
   {
+   "id": "aurea-usually-how-long-does-it-take-to-get-pregnant",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "usually how long does it take to get pregnant",
+   "volume": 1900,
+   "sd": 7,
+   "cpc": 1.925,
+   "total_volume": 1900,
+   "keywords": [
+    {
+     "term": "usually how long does it take to get pregnant",
+     "volume": 1900,
+     "sd": 7
+    }
+   ],
+   "suggested_format": "step-by-step",
+   "score": 75.2,
+   "status": "available",
+   "note": ""
+  },
+  {
    "id": "aurea-is-egg-freezing-covered-by-insurance",
    "brand": "aurea",
    "pillar": "egg-freezing",
@@ -2767,6 +2788,48 @@
    "note": ""
   },
   {
+   "id": "aurea-on-average-how-long-does-it-take-to-get-pregnant",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "on average how long does it take to get pregnant",
+   "volume": 1000,
+   "sd": 9,
+   "cpc": 1.595,
+   "total_volume": 1000,
+   "keywords": [
+    {
+     "term": "on average how long does it take to get pregnant",
+     "volume": 1000,
+     "sd": 9
+    }
+   ],
+   "suggested_format": "step-by-step",
+   "score": 70.9,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-trying-to-conceive-with-polycystic-ovaries",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "trying to conceive with polycystic ovaries",
+   "volume": 480,
+   "sd": 21,
+   "cpc": 6.4,
+   "total_volume": 480,
+   "keywords": [
+    {
+     "term": "trying to conceive with polycystic ovaries",
+     "volume": 480,
+     "sd": 21
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 70.9,
+   "status": "available",
+   "note": ""
+  },
+  {
    "id": "rfc-donor-eggs-new-york",
    "brand": "rfc",
    "pillar": "donor-surrogacy",
@@ -3091,6 +3154,32 @@
    ],
    "suggested_format": "deep-guide",
    "score": 70.3,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-cramping-during-fertile-window",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "cramping during fertile window",
+   "volume": 480,
+   "sd": 6,
+   "cpc": 0.44,
+   "total_volume": 870,
+   "keywords": [
+    {
+     "term": "cramping during fertile window",
+     "volume": 480,
+     "sd": 6
+    },
+    {
+     "term": "cramps during fertile window",
+     "volume": 390,
+     "sd": 18
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 70.1,
    "status": "available",
    "note": ""
   },
@@ -3462,6 +3551,27 @@
    "note": ""
   },
   {
+   "id": "aurea-whats-a-fertile-window",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "whats a fertile window",
+   "volume": 590,
+   "sd": 7,
+   "cpc": 1.37,
+   "total_volume": 590,
+   "keywords": [
+    {
+     "term": "whats a fertile window",
+     "volume": 590,
+     "sd": 7
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 69.3,
+   "status": "available",
+   "note": ""
+  },
+  {
    "id": "rfc-fertility-treatment-for-high-fsh",
    "brand": "rfc",
    "pillar": "low-amh-dor",
@@ -3641,6 +3751,32 @@
      "term": "blocked fallopian tubes natural treatment",
      "volume": 90,
      "sd": 16
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 69.2,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-trying-to-conceive-yeast-infection",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "trying to conceive yeast infection",
+   "volume": 90,
+   "sd": 14,
+   "cpc": 11.11,
+   "total_volume": 130,
+   "keywords": [
+    {
+     "term": "trying to conceive yeast infection",
+     "volume": 90,
+     "sd": 14
+    },
+    {
+     "term": "yeast infection while trying to conceive",
+     "volume": 40,
+     "sd": 22
     }
    ],
    "suggested_format": "deep-guide",
@@ -4606,27 +4742,6 @@
    "note": "secondary keyword of https://www.rejuvenatingfertility.com/post/donor-eggs-procedure"
   },
   {
-   "id": "aurea-trying-to-conceive-yeast-infection",
-   "brand": "aurea",
-   "pillar": "conception-basics",
-   "primary": "trying to conceive yeast infection",
-   "volume": 90,
-   "sd": 14,
-   "cpc": 11.11,
-   "total_volume": 90,
-   "keywords": [
-    {
-     "term": "trying to conceive yeast infection",
-     "volume": 90,
-     "sd": 14
-    }
-   ],
-   "suggested_format": "deep-guide",
-   "score": 67.6,
-   "status": "available",
-   "note": ""
-  },
-  {
    "id": "aurea-egg-freezing-after-40",
    "brand": "aurea",
    "pillar": "egg-freezing",
@@ -5085,6 +5200,52 @@
    "note": ""
   },
   {
+   "id": "aurea-trying-to-conceive-tips",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "trying to conceive tips",
+   "volume": 880,
+   "sd": 32,
+   "cpc": 1.8,
+   "total_volume": 3180,
+   "keywords": [
+    {
+     "term": "trying to conceive tips",
+     "volume": 880,
+     "sd": 32
+    },
+    {
+     "term": "tips trying to conceive",
+     "volume": 880,
+     "sd": 58
+    },
+    {
+     "term": "tips to trying to conceive",
+     "volume": 720,
+     "sd": 60
+    },
+    {
+     "term": "tips for trying to conceive",
+     "volume": 590,
+     "sd": 51
+    },
+    {
+     "term": "tips when trying to conceive",
+     "volume": 70,
+     "sd": 33
+    },
+    {
+     "term": "best tips for trying to conceive",
+     "volume": 40,
+     "sd": 22
+    }
+   ],
+   "suggested_format": "numbered-list",
+   "score": 66.7,
+   "status": "used",
+   "note": "secondary keyword of https://www.aureafertility.com/post/trying-to-conceive-fertility"
+  },
+  {
    "id": "aurea-ivf-process-step",
    "brand": "aurea",
    "pillar": "ivf-protocols",
@@ -5111,42 +5272,6 @@
    "note": ""
   },
   {
-   "id": "aurea-trying-to-conceive-tips",
-   "brand": "aurea",
-   "pillar": "conception-basics",
-   "primary": "trying to conceive tips",
-   "volume": 880,
-   "sd": 32,
-   "cpc": 1.8,
-   "total_volume": 3070,
-   "keywords": [
-    {
-     "term": "trying to conceive tips",
-     "volume": 880,
-     "sd": 32
-    },
-    {
-     "term": "tips trying to conceive",
-     "volume": 880,
-     "sd": 58
-    },
-    {
-     "term": "tips to trying to conceive",
-     "volume": 720,
-     "sd": 60
-    },
-    {
-     "term": "tips for trying to conceive",
-     "volume": 590,
-     "sd": 51
-    }
-   ],
-   "suggested_format": "numbered-list",
-   "score": 66.6,
-   "status": "available",
-   "note": ""
-  },
-  {
    "id": "aurea-fda-approved-male-fertility-supplements",
    "brand": "aurea",
    "pillar": "male-factor",
@@ -5166,6 +5291,67 @@
    "score": 66.6,
    "status": "available",
    "note": ""
+  },
+  {
+   "id": "aurea-what-to-eat-trying-to-conceive",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "what to eat trying to conceive",
+   "volume": 260,
+   "sd": 18,
+   "cpc": 1.425,
+   "total_volume": 1080,
+   "keywords": [
+    {
+     "term": "what to eat trying to conceive",
+     "volume": 260,
+     "sd": 18
+    },
+    {
+     "term": "what to eat when trying to conceive",
+     "volume": 210,
+     "sd": 36
+    },
+    {
+     "term": "trying to conceive what to eat",
+     "volume": 210,
+     "sd": 24
+    },
+    {
+     "term": "best things to eat when trying to conceive",
+     "volume": 140,
+     "sd": 30
+    },
+    {
+     "term": "can i eat crab while trying to conceive",
+     "volume": 70,
+     "sd": 34
+    },
+    {
+     "term": "can you eat sushi when trying to conceive",
+     "volume": 70,
+     "sd": 24
+    },
+    {
+     "term": "can i eat pineapple while trying to conceive",
+     "volume": 40,
+     "sd": 21
+    },
+    {
+     "term": "things to eat when trying to conceive",
+     "volume": 40,
+     "sd": 22
+    },
+    {
+     "term": "can i eat sushi while trying to conceive",
+     "volume": 40,
+     "sd": 22
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 66.5,
+   "status": "used",
+   "note": "secondary keyword of https://www.aureafertility.com/post/trying-to-conceive-fertility"
   },
   {
    "id": "aurea-sex-during-ivf-stimulation",
@@ -5346,6 +5532,42 @@
    "note": ""
   },
   {
+   "id": "aurea-what-should-a-man-do-when-trying-to-conceive",
+   "brand": "aurea",
+   "pillar": "male-factor",
+   "primary": "what should a man do when trying to conceive",
+   "volume": 140,
+   "sd": 18,
+   "cpc": 1.1,
+   "total_volume": 360,
+   "keywords": [
+    {
+     "term": "what should a man do when trying to conceive",
+     "volume": 140,
+     "sd": 18
+    },
+    {
+     "term": "what a man should do when trying to conceive",
+     "volume": 110,
+     "sd": 22
+    },
+    {
+     "term": "what should a man eat when trying to conceive",
+     "volume": 70,
+     "sd": 42
+    },
+    {
+     "term": "what should a man do before trying to conceive",
+     "volume": 40,
+     "sd": 37
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 66.2,
+   "status": "used",
+   "note": "secondary keyword of https://www.aureafertility.com/post/trying-to-conceive-fertility"
+  },
+  {
    "id": "aurea-walnut-sperm-count",
    "brand": "aurea",
    "pillar": "male-factor",
@@ -5384,52 +5606,6 @@
    ],
    "suggested_format": "straight-answer",
    "score": 66.1,
-   "status": "available",
-   "note": ""
-  },
-  {
-   "id": "aurea-what-to-eat-trying-to-conceive",
-   "brand": "aurea",
-   "pillar": "conception-basics",
-   "primary": "what to eat trying to conceive",
-   "volume": 260,
-   "sd": 18,
-   "cpc": 1.425,
-   "total_volume": 960,
-   "keywords": [
-    {
-     "term": "what to eat trying to conceive",
-     "volume": 260,
-     "sd": 18
-    },
-    {
-     "term": "what to eat when trying to conceive",
-     "volume": 210,
-     "sd": 36
-    },
-    {
-     "term": "trying to conceive what to eat",
-     "volume": 210,
-     "sd": 24
-    },
-    {
-     "term": "best things to eat when trying to conceive",
-     "volume": 140,
-     "sd": 30
-    },
-    {
-     "term": "can i eat crab while trying to conceive",
-     "volume": 70,
-     "sd": 34
-    },
-    {
-     "term": "can you eat sushi when trying to conceive",
-     "volume": 70,
-     "sd": 24
-    }
-   ],
-   "suggested_format": "deep-guide",
-   "score": 66.0,
    "status": "available",
    "note": ""
   },
@@ -5487,6 +5663,32 @@
    ],
    "suggested_format": "step-by-step",
    "score": 66.0,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-chance-of-getting-pregnant-during-fertile-window",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "chance of getting pregnant during fertile window",
+   "volume": 210,
+   "sd": 8,
+   "cpc": 1.6,
+   "total_volume": 280,
+   "keywords": [
+    {
+     "term": "chance of getting pregnant during fertile window",
+     "volume": 210,
+     "sd": 8
+    },
+    {
+     "term": "chance of getting pregnant in fertile window",
+     "volume": 70,
+     "sd": 7
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 65.9,
    "status": "available",
    "note": ""
   },
@@ -5567,37 +5769,6 @@
      "term": "fertility preservation cancer patients",
      "volume": 260,
      "sd": 33
-    }
-   ],
-   "suggested_format": "deep-guide",
-   "score": 65.7,
-   "status": "available",
-   "note": ""
-  },
-  {
-   "id": "aurea-what-should-a-man-do-when-trying-to-conceive",
-   "brand": "aurea",
-   "pillar": "male-factor",
-   "primary": "what should a man do when trying to conceive",
-   "volume": 140,
-   "sd": 18,
-   "cpc": 1.1,
-   "total_volume": 320,
-   "keywords": [
-    {
-     "term": "what should a man do when trying to conceive",
-     "volume": 140,
-     "sd": 18
-    },
-    {
-     "term": "what a man should do when trying to conceive",
-     "volume": 110,
-     "sd": 22
-    },
-    {
-     "term": "what should a man eat when trying to conceive",
-     "volume": 70,
-     "sd": 42
     }
    ],
    "suggested_format": "deep-guide",
@@ -5784,27 +5955,6 @@
     }
    ],
    "suggested_format": "straight-answer",
-   "score": 65.5,
-   "status": "available",
-   "note": ""
-  },
-  {
-   "id": "aurea-trying-to-conceive-and-uti",
-   "brand": "aurea",
-   "pillar": "conception-basics",
-   "primary": "trying to conceive and uti",
-   "volume": 70,
-   "sd": 16,
-   "cpc": 12.56,
-   "total_volume": 70,
-   "keywords": [
-    {
-     "term": "trying to conceive and uti",
-     "volume": 70,
-     "sd": 16
-    }
-   ],
-   "suggested_format": "deep-guide",
    "score": 65.5,
    "status": "available",
    "note": ""
@@ -6040,6 +6190,57 @@
    ],
    "suggested_format": "cost-breakdown",
    "score": 65.1,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-6-months-trying-to-conceive",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "6 months trying to conceive",
+   "volume": 110,
+   "sd": 18,
+   "cpc": 2.23,
+   "total_volume": 370,
+   "keywords": [
+    {
+     "term": "6 months trying to conceive",
+     "volume": 110,
+     "sd": 18
+    },
+    {
+     "term": "3 months trying to conceive",
+     "volume": 50,
+     "sd": 38
+    },
+    {
+     "term": "9 months trying to conceive",
+     "volume": 50,
+     "sd": 22
+    },
+    {
+     "term": "8 months trying to conceive",
+     "volume": 40,
+     "sd": 22
+    },
+    {
+     "term": "7 months trying to conceive",
+     "volume": 40,
+     "sd": 24
+    },
+    {
+     "term": "trying to conceive for 4 months",
+     "volume": 40,
+     "sd": 68
+    },
+    {
+     "term": "4 months trying to conceive",
+     "volume": 40,
+     "sd": 31
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 65.0,
    "status": "available",
    "note": ""
   },
@@ -6580,7 +6781,7 @@
    "volume": 8100,
    "sd": 54,
    "cpc": 3.99,
-   "total_volume": 9920,
+   "total_volume": 10050,
    "keywords": [
     {
      "term": "prenatal vitamins for trying to conceive",
@@ -6621,6 +6822,21 @@
      "term": "vitamin d trying to conceive",
      "volume": 70,
      "sd": 28
+    },
+    {
+     "term": "best prenatal vitamins to take when trying to conceive",
+     "volume": 50,
+     "sd": 23
+    },
+    {
+     "term": "vitamin c trying to conceive",
+     "volume": 40,
+     "sd": 12
+    },
+    {
+     "term": "prenatals for trying to conceive",
+     "volume": 40,
+     "sd": 34
     }
    ],
    "suggested_format": "deep-guide",
@@ -6813,7 +7029,7 @@
    "volume": 12100,
    "sd": 43,
    "cpc": 0,
-   "total_volume": 20460,
+   "total_volume": 20550,
    "keywords": [
     {
      "term": "trying to conceive meaning",
@@ -7648,6 +7864,27 @@
    "note": ""
   },
   {
+   "id": "aurea-how-often-to-have-sex-during-fertile-window",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "how often to have sex during fertile window",
+   "volume": 170,
+   "sd": 9,
+   "cpc": 0.925,
+   "total_volume": 170,
+   "keywords": [
+    {
+     "term": "how often to have sex during fertile window",
+     "volume": 170,
+     "sd": 9
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 62.2,
+   "status": "available",
+   "note": ""
+  },
+  {
    "id": "aurea-how-painful-is-egg-retrieval-without-anesthesia",
    "brand": "aurea",
    "pillar": "ivf-protocols",
@@ -7696,6 +7933,32 @@
    ],
    "suggested_format": "cost-breakdown",
    "score": 62.2,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-melatonin-and-trying-to-conceive",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "melatonin and trying to conceive",
+   "volume": 110,
+   "sd": 6,
+   "cpc": 0,
+   "total_volume": 160,
+   "keywords": [
+    {
+     "term": "melatonin and trying to conceive",
+     "volume": 110,
+     "sd": 6
+    },
+    {
+     "term": "melatonin while trying to conceive",
+     "volume": 50,
+     "sd": 22
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 62.1,
    "status": "available",
    "note": ""
   },
@@ -7842,6 +8105,53 @@
    ],
    "suggested_format": "cost-breakdown",
    "score": 61.9,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-what-does-the-fertile-window-mean",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "what does the fertile window mean",
+   "volume": 1000,
+   "sd": 36,
+   "cpc": 1.59,
+   "total_volume": 1720,
+   "keywords": [
+    {
+     "term": "what does the fertile window mean",
+     "volume": 1000,
+     "sd": 36
+    },
+    {
+     "term": "when is my fertile window",
+     "volume": 720,
+     "sd": 16
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 61.7,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-how-long-is-a-woman-s-fertile-window",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "how long is a woman's fertile window",
+   "volume": 110,
+   "sd": 8,
+   "cpc": 1.445,
+   "total_volume": 110,
+   "keywords": [
+    {
+     "term": "how long is a woman's fertile window",
+     "volume": 110,
+     "sd": 8
+    }
+   ],
+   "suggested_format": "step-by-step",
+   "score": 61.6,
    "status": "available",
    "note": ""
   },
@@ -8113,6 +8423,27 @@
    "note": ""
   },
   {
+   "id": "aurea-spotting-during-fertile-window",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "spotting during fertile window",
+   "volume": 480,
+   "sd": 21,
+   "cpc": 0,
+   "total_volume": 480,
+   "keywords": [
+    {
+     "term": "spotting during fertile window",
+     "volume": 480,
+     "sd": 21
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 61.3,
+   "status": "available",
+   "note": ""
+  },
+  {
    "id": "aurea-folic-acid-while-trying-to-conceive",
    "brand": "aurea",
    "pillar": "conception-basics",
@@ -8166,6 +8497,69 @@
    ],
    "suggested_format": "deep-guide",
    "score": 61.3,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-trying-to-conceive-pills",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "trying to conceive pills",
+   "volume": 40,
+   "sd": 18,
+   "cpc": 6.12,
+   "total_volume": 40,
+   "keywords": [
+    {
+     "term": "trying to conceive pills",
+     "volume": 40,
+     "sd": 18
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 61.3,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-bleeding-during-fertile-window",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "bleeding during fertile window",
+   "volume": 260,
+   "sd": 16,
+   "cpc": 0.05,
+   "total_volume": 260,
+   "keywords": [
+    {
+     "term": "bleeding during fertile window",
+     "volume": 260,
+     "sd": 16
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 61.2,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-female-fertile-window",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "female fertile window",
+   "volume": 320,
+   "sd": 18,
+   "cpc": 1.29,
+   "total_volume": 320,
+   "keywords": [
+    {
+     "term": "female fertile window",
+     "volume": 320,
+     "sd": 18
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 61.0,
    "status": "available",
    "note": ""
   },
@@ -8452,27 +8846,6 @@
    "note": ""
   },
   {
-   "id": "aurea-melatonin-and-trying-to-conceive",
-   "brand": "aurea",
-   "pillar": "conception-basics",
-   "primary": "melatonin and trying to conceive",
-   "volume": 110,
-   "sd": 6,
-   "cpc": 0,
-   "total_volume": 110,
-   "keywords": [
-    {
-     "term": "melatonin and trying to conceive",
-     "volume": 110,
-     "sd": 6
-    }
-   ],
-   "suggested_format": "deep-guide",
-   "score": 60.5,
-   "status": "available",
-   "note": ""
-  },
-  {
    "id": "aurea-euploid-embryo-miscarriage-rate-by-week",
    "brand": "aurea",
    "pillar": "embryology-lab",
@@ -8489,6 +8862,27 @@
     }
    ],
    "suggested_format": "deep-guide",
+   "score": 60.5,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-how-long-does-it-take-to-get-pregnant-with-pcos",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "how long does it take to get pregnant with pcos",
+   "volume": 110,
+   "sd": 6,
+   "cpc": 0,
+   "total_volume": 110,
+   "keywords": [
+    {
+     "term": "how long does it take to get pregnant with pcos",
+     "volume": 110,
+     "sd": 6
+    }
+   ],
+   "suggested_format": "step-by-step",
    "score": 60.5,
    "status": "available",
    "note": ""
@@ -8546,6 +8940,27 @@
     }
    ],
    "suggested_format": "number-explained",
+   "score": 60.4,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-can-you-get-pregnant-outside-of-fertile-window",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "can you get pregnant outside of fertile window",
+   "volume": 390,
+   "sd": 21,
+   "cpc": 0,
+   "total_volume": 390,
+   "keywords": [
+    {
+     "term": "can you get pregnant outside of fertile window",
+     "volume": 390,
+     "sd": 21
+    }
+   ],
+   "suggested_format": "straight-answer",
    "score": 60.4,
    "status": "available",
    "note": ""
@@ -8656,6 +9071,48 @@
     }
    ],
    "suggested_format": "step-by-step",
+   "score": 60.1,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-tirzepatide-while-trying-to-conceive",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "tirzepatide while trying to conceive",
+   "volume": 50,
+   "sd": 24,
+   "cpc": 16.28,
+   "total_volume": 50,
+   "keywords": [
+    {
+     "term": "tirzepatide while trying to conceive",
+     "volume": 50,
+     "sd": 24
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 60.1,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-trying-to-conceive-irregular-periods",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "trying to conceive irregular periods",
+   "volume": 40,
+   "sd": 22,
+   "cpc": 8.71,
+   "total_volume": 40,
+   "keywords": [
+    {
+     "term": "trying to conceive irregular periods",
+     "volume": 40,
+     "sd": 22
+    }
+   ],
+   "suggested_format": "deep-guide",
    "score": 60.1,
    "status": "available",
    "note": ""
@@ -8957,27 +9414,6 @@
    "note": ""
   },
   {
-   "id": "aurea-6-months-trying-to-conceive",
-   "brand": "aurea",
-   "pillar": "conception-basics",
-   "primary": "6 months trying to conceive",
-   "volume": 110,
-   "sd": 18,
-   "cpc": 2.23,
-   "total_volume": 110,
-   "keywords": [
-    {
-     "term": "6 months trying to conceive",
-     "volume": 110,
-     "sd": 18
-    }
-   ],
-   "suggested_format": "deep-guide",
-   "score": 59.8,
-   "status": "available",
-   "note": ""
-  },
-  {
    "id": "aurea-how-to-get-sperm-count-up",
    "brand": "aurea",
    "pillar": "male-factor",
@@ -9009,6 +9445,27 @@
     }
    ],
    "suggested_format": "number-explained",
+   "score": 59.7,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-ivf-how-long-does-it-take-to-get-pregnant",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "ivf how long does it take to get pregnant",
+   "volume": 140,
+   "sd": 24,
+   "cpc": 3.46,
+   "total_volume": 140,
+   "keywords": [
+    {
+     "term": "ivf how long does it take to get pregnant",
+     "volume": 140,
+     "sd": 24
+    }
+   ],
+   "suggested_format": "step-by-step",
    "score": 59.7,
    "status": "available",
    "note": ""
@@ -9150,6 +9607,68 @@
    "note": ""
   },
   {
+   "id": "aurea-peeing-after-sex-when-trying-to-conceive",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "peeing after sex when trying to conceive",
+   "volume": 110,
+   "sd": 21,
+   "cpc": 0.15,
+   "total_volume": 300,
+   "keywords": [
+    {
+     "term": "peeing after sex when trying to conceive",
+     "volume": 110,
+     "sd": 21
+    },
+    {
+     "term": "what to do after sex when trying to conceive",
+     "volume": 90,
+     "sd": 54
+    },
+    {
+     "term": "peeing after sex trying to conceive",
+     "volume": 50,
+     "sd": 17
+    },
+    {
+     "term": "should you pee after sex if trying to conceive",
+     "volume": 50,
+     "sd": 20
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 59.5,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-multivitamin-for-men-trying-to-conceive",
+   "brand": "aurea",
+   "pillar": "male-factor",
+   "primary": "multivitamin for men trying to conceive",
+   "volume": 90,
+   "sd": 30,
+   "cpc": 4.89,
+   "total_volume": 130,
+   "keywords": [
+    {
+     "term": "multivitamin for men trying to conceive",
+     "volume": 90,
+     "sd": 30
+    },
+    {
+     "term": "men trying to conceive",
+     "volume": 40,
+     "sd": 30
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 59.5,
+   "status": "available",
+   "note": ""
+  },
+  {
    "id": "aurea-antagonist-ivf-protocol-calendar",
    "brand": "aurea",
    "pillar": "ivf-protocols",
@@ -9212,6 +9731,27 @@
    "note": ""
   },
   {
+   "id": "aurea-what-is-the-fertile-window-for-a-woman",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "what is the fertile window for a woman",
+   "volume": 110,
+   "sd": 11,
+   "cpc": 0.945,
+   "total_volume": 110,
+   "keywords": [
+    {
+     "term": "what is the fertile window for a woman",
+     "volume": 110,
+     "sd": 11
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 59.4,
+   "status": "available",
+   "note": ""
+  },
+  {
    "id": "rfc-donor-eggs-from-sister",
    "brand": "rfc",
    "pillar": "donor-surrogacy",
@@ -9264,6 +9804,52 @@
    "note": ""
   },
   {
+   "id": "aurea-foods-to-eat-while-trying-to-conceive",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "foods to eat while trying to conceive",
+   "volume": 390,
+   "sd": 38,
+   "cpc": 2.05,
+   "total_volume": 1040,
+   "keywords": [
+    {
+     "term": "foods to eat while trying to conceive",
+     "volume": 390,
+     "sd": 38
+    },
+    {
+     "term": "food to eat when trying to conceive",
+     "volume": 260,
+     "sd": 33
+    },
+    {
+     "term": "foods to eat when trying to conceive",
+     "volume": 210,
+     "sd": 36
+    },
+    {
+     "term": "trying to conceive foods to eat",
+     "volume": 70,
+     "sd": 36
+    },
+    {
+     "term": "what food to eat when trying to conceive",
+     "volume": 70,
+     "sd": 36
+    },
+    {
+     "term": "what to eat while trying to conceive",
+     "volume": 40,
+     "sd": 37
+    }
+   ],
+   "suggested_format": "numbered-list",
+   "score": 59.2,
+   "status": "available",
+   "note": ""
+  },
+  {
    "id": "rfc-pcos-pregnancy-metformin",
    "brand": "rfc",
    "pillar": "pcos-bmi",
@@ -9311,43 +9897,38 @@
    "note": ""
   },
   {
-   "id": "aurea-foods-to-eat-while-trying-to-conceive",
+   "id": "aurea-should-i-take-a-prenatal-vitamin-while-trying-to-conceive",
    "brand": "aurea",
    "pillar": "conception-basics",
-   "primary": "foods to eat while trying to conceive",
-   "volume": 390,
-   "sd": 38,
-   "cpc": 2.05,
-   "total_volume": 1000,
+   "primary": "should i take a prenatal vitamin while trying to conceive",
+   "volume": 70,
+   "sd": 37,
+   "cpc": 6.46,
+   "total_volume": 200,
    "keywords": [
     {
-     "term": "foods to eat while trying to conceive",
-     "volume": 390,
-     "sd": 38
-    },
-    {
-     "term": "food to eat when trying to conceive",
-     "volume": 260,
-     "sd": 33
-    },
-    {
-     "term": "foods to eat when trying to conceive",
-     "volume": 210,
-     "sd": 36
-    },
-    {
-     "term": "trying to conceive foods to eat",
+     "term": "should i take a prenatal vitamin while trying to conceive",
      "volume": 70,
-     "sd": 36
+     "sd": 37
     },
     {
-     "term": "what food to eat when trying to conceive",
-     "volume": 70,
-     "sd": 36
+     "term": "should i take prenatals while trying to conceive",
+     "volume": 50,
+     "sd": 20
+    },
+    {
+     "term": "best prenatal vitamins to take while trying to conceive",
+     "volume": 40,
+     "sd": 12
+    },
+    {
+     "term": "what vitamins should my husband take while trying to conceive",
+     "volume": 40,
+     "sd": 31
     }
    ],
-   "suggested_format": "numbered-list",
-   "score": 59.1,
+   "suggested_format": "decision-guide",
+   "score": 59.2,
    "status": "available",
    "note": ""
   },
@@ -9529,6 +10110,27 @@
     }
    ],
    "suggested_format": "number-explained",
+   "score": 58.9,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-how-long-does-it-take-to-get-pregnant-after-miscarriage",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "how long does it take to get pregnant after miscarriage",
+   "volume": 210,
+   "sd": 29,
+   "cpc": 3.44,
+   "total_volume": 210,
+   "keywords": [
+    {
+     "term": "how long does it take to get pregnant after miscarriage",
+     "volume": 210,
+     "sd": 29
+    }
+   ],
+   "suggested_format": "step-by-step",
    "score": 58.9,
    "status": "available",
    "note": ""
@@ -10203,6 +10805,47 @@
    "note": ""
   },
   {
+   "id": "aurea-trying-to-conceive-lube",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "trying to conceive lube",
+   "volume": 260,
+   "sd": 34,
+   "cpc": 1.22,
+   "total_volume": 700,
+   "keywords": [
+    {
+     "term": "trying to conceive lube",
+     "volume": 260,
+     "sd": 34
+    },
+    {
+     "term": "best lube when trying to conceive",
+     "volume": 210,
+     "sd": 30
+    },
+    {
+     "term": "lube when trying to conceive",
+     "volume": 140,
+     "sd": 34
+    },
+    {
+     "term": "best lube to use when trying to conceive",
+     "volume": 50,
+     "sd": 35
+    },
+    {
+     "term": "can you use lube when trying to conceive",
+     "volume": 40,
+     "sd": 20
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 58.3,
+   "status": "available",
+   "note": ""
+  },
+  {
    "id": "aurea-where-to-go-to-check-sperm-count",
    "brand": "aurea",
    "pillar": "male-factor",
@@ -10241,6 +10884,48 @@
    ],
    "suggested_format": "condition-guide",
    "score": 58.3,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-how-long-does-it-take-to-get-pregnant-first-time",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "how long does it take to get pregnant first time",
+   "volume": 390,
+   "sd": 30,
+   "cpc": 1.49,
+   "total_volume": 390,
+   "keywords": [
+    {
+     "term": "how long does it take to get pregnant first time",
+     "volume": 390,
+     "sd": 30
+    }
+   ],
+   "suggested_format": "step-by-step",
+   "score": 58.2,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-trying-to-conceive-first-time",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "trying to conceive first time",
+   "volume": 40,
+   "sd": 18,
+   "cpc": 4.08,
+   "total_volume": 40,
+   "keywords": [
+    {
+     "term": "trying to conceive first time",
+     "volume": 40,
+     "sd": 18
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 58.2,
    "status": "available",
    "note": ""
   },
@@ -10490,27 +11175,6 @@
    "note": ""
   },
   {
-   "id": "aurea-multivitamin-for-men-trying-to-conceive",
-   "brand": "aurea",
-   "pillar": "male-factor",
-   "primary": "multivitamin for men trying to conceive",
-   "volume": 90,
-   "sd": 30,
-   "cpc": 4.89,
-   "total_volume": 90,
-   "keywords": [
-    {
-     "term": "multivitamin for men trying to conceive",
-     "volume": 90,
-     "sd": 30
-    }
-   ],
-   "suggested_format": "deep-guide",
-   "score": 57.9,
-   "status": "available",
-   "note": ""
-  },
-  {
    "id": "aurea-embryo-grading-3bb",
    "brand": "aurea",
    "pillar": "embryology-lab",
@@ -10528,32 +11192,6 @@
    ],
    "suggested_format": "number-explained",
    "score": 57.9,
-   "status": "available",
-   "note": ""
-  },
-  {
-   "id": "aurea-best-lube-when-trying-to-conceive",
-   "brand": "aurea",
-   "pillar": "conception-basics",
-   "primary": "best lube when trying to conceive",
-   "volume": 210,
-   "sd": 30,
-   "cpc": 1.55,
-   "total_volume": 350,
-   "keywords": [
-    {
-     "term": "best lube when trying to conceive",
-     "volume": 210,
-     "sd": 30
-    },
-    {
-     "term": "lube when trying to conceive",
-     "volume": 140,
-     "sd": 34
-    }
-   ],
-   "suggested_format": "deep-guide",
-   "score": 57.8,
    "status": "available",
    "note": ""
   },
@@ -10595,32 +11233,6 @@
     }
    ],
    "suggested_format": "step-by-step",
-   "score": 57.8,
-   "status": "available",
-   "note": ""
-  },
-  {
-   "id": "aurea-peeing-after-sex-when-trying-to-conceive",
-   "brand": "aurea",
-   "pillar": "conception-basics",
-   "primary": "peeing after sex when trying to conceive",
-   "volume": 110,
-   "sd": 21,
-   "cpc": 0.15,
-   "total_volume": 200,
-   "keywords": [
-    {
-     "term": "peeing after sex when trying to conceive",
-     "volume": 110,
-     "sd": 21
-    },
-    {
-     "term": "what to do after sex when trying to conceive",
-     "volume": 90,
-     "sd": 54
-    }
-   ],
-   "suggested_format": "deep-guide",
    "score": 57.8,
    "status": "available",
    "note": ""
@@ -10686,6 +11298,37 @@
      "term": "donor eggs meaning",
      "volume": 210,
      "sd": 41
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 57.7,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-best-multivitamin-when-trying-to-conceive",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "best multivitamin when trying to conceive",
+   "volume": 210,
+   "sd": 36,
+   "cpc": 4.315,
+   "total_volume": 420,
+   "keywords": [
+    {
+     "term": "best multivitamin when trying to conceive",
+     "volume": 210,
+     "sd": 36
+    },
+    {
+     "term": "best multivitamin for trying to conceive",
+     "volume": 170,
+     "sd": 30
+    },
+    {
+     "term": "best multivitamin for men trying to conceive",
+     "volume": 40,
+     "sd": 22
     }
    ],
    "suggested_format": "deep-guide",
@@ -10856,6 +11499,74 @@
    "note": ""
   },
   {
+   "id": "aurea-trying-to-conceive-video",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "trying to conceive video",
+   "volume": 50,
+   "sd": 5,
+   "cpc": 0,
+   "total_volume": 50,
+   "keywords": [
+    {
+     "term": "trying to conceive video",
+     "volume": 50,
+     "sd": 5
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 57.6,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-sauna-when-trying-to-conceive",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "sauna when trying to conceive",
+   "volume": 50,
+   "sd": 14,
+   "cpc": 0,
+   "total_volume": 90,
+   "keywords": [
+    {
+     "term": "sauna when trying to conceive",
+     "volume": 50,
+     "sd": 14
+    },
+    {
+     "term": "sauna while trying to conceive female",
+     "volume": 40,
+     "sd": 12
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 57.6,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-how-long-trying-to-conceive-before-seeing-doctor",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "how long trying to conceive before seeing doctor",
+   "volume": 50,
+   "sd": 16,
+   "cpc": 2.38,
+   "total_volume": 50,
+   "keywords": [
+    {
+     "term": "how long trying to conceive before seeing doctor",
+     "volume": 50,
+     "sd": 16
+    }
+   ],
+   "suggested_format": "step-by-step",
+   "score": 57.6,
+   "status": "available",
+   "note": ""
+  },
+  {
    "id": "aurea-can-you-drink-alcohol-between-egg-retrieval-and-transfer",
    "brand": "aurea",
    "pillar": "ivf-protocols",
@@ -10961,6 +11672,32 @@
    "note": ""
   },
   {
+   "id": "aurea-vitamins-while-trying-to-conceive",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "vitamins while trying to conceive",
+   "volume": 140,
+   "sd": 40,
+   "cpc": 6.11,
+   "total_volume": 210,
+   "keywords": [
+    {
+     "term": "vitamins while trying to conceive",
+     "volume": 140,
+     "sd": 40
+    },
+    {
+     "term": "vitamins to take while trying to conceive",
+     "volume": 70,
+     "sd": 36
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 57.4,
+   "status": "available",
+   "note": ""
+  },
+  {
    "id": "aurea-been-trying-to-conceive-for-a-year",
    "brand": "aurea",
    "pillar": "conception-basics",
@@ -10999,32 +11736,6 @@
    ],
    "suggested_format": "deep-guide",
    "score": 57.4,
-   "status": "available",
-   "note": ""
-  },
-  {
-   "id": "aurea-best-multivitamin-when-trying-to-conceive",
-   "brand": "aurea",
-   "pillar": "conception-basics",
-   "primary": "best multivitamin when trying to conceive",
-   "volume": 210,
-   "sd": 36,
-   "cpc": 4.315,
-   "total_volume": 380,
-   "keywords": [
-    {
-     "term": "best multivitamin when trying to conceive",
-     "volume": 210,
-     "sd": 36
-    },
-    {
-     "term": "best multivitamin for trying to conceive",
-     "volume": 170,
-     "sd": 30
-    }
-   ],
-   "suggested_format": "deep-guide",
-   "score": 57.3,
    "status": "available",
    "note": ""
   },
@@ -11128,6 +11839,27 @@
    "note": ""
   },
   {
+   "id": "aurea-tea-for-trying-to-conceive",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "tea for trying to conceive",
+   "volume": 50,
+   "sd": 21,
+   "cpc": 3.78,
+   "total_volume": 50,
+   "keywords": [
+    {
+     "term": "tea for trying to conceive",
+     "volume": 50,
+     "sd": 21
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 57.2,
+   "status": "available",
+   "note": ""
+  },
+  {
    "id": "aurea-trying-to-conceive-app",
    "brand": "aurea",
    "pillar": "conception-basics",
@@ -11149,6 +11881,37 @@
     }
    ],
    "suggested_format": "deep-guide",
+   "score": 57.1,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-can-you-drink-during-ovulation-when-trying-to-conceive",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "can you drink during ovulation when trying to conceive",
+   "volume": 210,
+   "sd": 26,
+   "cpc": 0,
+   "total_volume": 320,
+   "keywords": [
+    {
+     "term": "can you drink during ovulation when trying to conceive",
+     "volume": 210,
+     "sd": 26
+    },
+    {
+     "term": "drinking when trying to conceive",
+     "volume": 70,
+     "sd": 34
+    },
+    {
+     "term": "trying to conceive ovulation",
+     "volume": 40,
+     "sd": 59
+    }
+   ],
+   "suggested_format": "straight-answer",
    "score": 57.1,
    "status": "available",
    "note": ""
@@ -11196,6 +11959,27 @@
    "note": ""
   },
   {
+   "id": "aurea-fertile-window-for-conception",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "fertile window for conception",
+   "volume": 90,
+   "sd": 11,
+   "cpc": 0,
+   "total_volume": 90,
+   "keywords": [
+    {
+     "term": "fertile window for conception",
+     "volume": 90,
+     "sd": 11
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 57.1,
+   "status": "available",
+   "note": ""
+  },
+  {
    "id": "aurea-positive-pregnancy-test-4-days-after-frozen-embryo-transfer",
    "brand": "aurea",
    "pillar": "embryology-lab",
@@ -11214,6 +11998,48 @@
      "term": "positive pregnancy test after frozen embryo transfer",
      "volume": 40,
      "sd": 23
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 57.1,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-creatine-while-trying-to-conceive",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "creatine while trying to conceive",
+   "volume": 50,
+   "sd": 6,
+   "cpc": 0,
+   "total_volume": 50,
+   "keywords": [
+    {
+     "term": "creatine while trying to conceive",
+     "volume": 50,
+     "sd": 6
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 57.1,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-having-sex-everyday-during-fertile-window",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "having sex everyday during fertile window",
+   "volume": 50,
+   "sd": 6,
+   "cpc": 0,
+   "total_volume": 50,
+   "keywords": [
+    {
+     "term": "having sex everyday during fertile window",
+     "volume": 50,
+     "sd": 6
     }
    ],
    "suggested_format": "deep-guide",
@@ -11526,6 +12352,32 @@
    "note": ""
   },
   {
+   "id": "aurea-best-vitamins-for-trying-to-conceive",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "best vitamins for trying to conceive",
+   "volume": 90,
+   "sd": 39,
+   "cpc": 7.47,
+   "total_volume": 130,
+   "keywords": [
+    {
+     "term": "best vitamins for trying to conceive",
+     "volume": 90,
+     "sd": 39
+    },
+    {
+     "term": "best vitamins when trying to conceive",
+     "volume": 40,
+     "sd": 21
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 56.7,
+   "status": "available",
+   "note": ""
+  },
+  {
    "id": "aurea-sperm-count-after-7-day-abstinence",
    "brand": "aurea",
    "pillar": "male-factor",
@@ -11620,6 +12472,27 @@
    "note": ""
   },
   {
+   "id": "aurea-trying-to-conceive-with-irregular-cycles",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "trying to conceive with irregular cycles",
+   "volume": 50,
+   "sd": 15,
+   "cpc": 2.67,
+   "total_volume": 50,
+   "keywords": [
+    {
+     "term": "trying to conceive with irregular cycles",
+     "volume": 50,
+     "sd": 15
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 56.6,
+   "status": "available",
+   "note": ""
+  },
+  {
    "id": "aurea-egg-freezing-diet",
    "brand": "aurea",
    "pillar": "egg-freezing",
@@ -11662,28 +12535,23 @@
    "note": ""
   },
   {
-   "id": "aurea-can-you-drink-during-ovulation-when-trying-to-conceive",
+   "id": "aurea-how-to-prepare-for-trying-to-conceive",
    "brand": "aurea",
    "pillar": "conception-basics",
-   "primary": "can you drink during ovulation when trying to conceive",
-   "volume": 210,
-   "sd": 26,
-   "cpc": 0,
-   "total_volume": 280,
+   "primary": "how to prepare for trying to conceive",
+   "volume": 40,
+   "sd": 12,
+   "cpc": 0.95,
+   "total_volume": 40,
    "keywords": [
     {
-     "term": "can you drink during ovulation when trying to conceive",
-     "volume": 210,
-     "sd": 26
-    },
-    {
-     "term": "drinking when trying to conceive",
-     "volume": 70,
-     "sd": 34
+     "term": "how to prepare for trying to conceive",
+     "volume": 40,
+     "sd": 12
     }
    ],
-   "suggested_format": "straight-answer",
-   "score": 56.5,
+   "suggested_format": "step-by-step",
+   "score": 56.6,
    "status": "available",
    "note": ""
   },
@@ -11756,6 +12624,27 @@
     }
    ],
    "suggested_format": "research-roundup",
+   "score": 56.5,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-trying-to-conceive-at-35",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "trying to conceive at 35",
+   "volume": 40,
+   "sd": 23,
+   "cpc": 4.56,
+   "total_volume": 40,
+   "keywords": [
+    {
+     "term": "trying to conceive at 35",
+     "volume": 40,
+     "sd": 23
+    }
+   ],
+   "suggested_format": "patient-scenarios",
    "score": 56.5,
    "status": "available",
    "note": ""
@@ -11946,8 +12835,8 @@
    ],
    "suggested_format": "patient-scenarios",
    "score": 56.3,
-   "status": "available",
-   "note": ""
+   "status": "used",
+   "note": "covered by existing post: Trying to Conceive Under 40: Fertility Odds, Tests and When to Get Help"
   },
   {
    "id": "aurea-low-sperm-count-mean",
@@ -11971,6 +12860,32 @@
     }
    ],
    "suggested_format": "number-explained",
+   "score": 56.2,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-losing-weight-while-trying-to-conceive",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "losing weight while trying to conceive",
+   "volume": 70,
+   "sd": 33,
+   "cpc": 4.56,
+   "total_volume": 120,
+   "keywords": [
+    {
+     "term": "losing weight while trying to conceive",
+     "volume": 70,
+     "sd": 33
+    },
+    {
+     "term": "weight loss while trying to conceive",
+     "volume": 50,
+     "sd": 25
+    }
+   ],
+   "suggested_format": "deep-guide",
    "score": 56.2,
    "status": "available",
    "note": ""
@@ -12119,6 +13034,72 @@
    ],
    "suggested_format": "deep-guide",
    "score": 56.1,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-what-to-take-when-trying-to-conceive",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "what to take when trying to conceive",
+   "volume": 170,
+   "sd": 48,
+   "cpc": 4,
+   "total_volume": 800,
+   "keywords": [
+    {
+     "term": "what to take when trying to conceive",
+     "volume": 170,
+     "sd": 48
+    },
+    {
+     "term": "vitamins to take when trying to conceive",
+     "volume": 140,
+     "sd": 36
+    },
+    {
+     "term": "can you take ibuprofen when trying to conceive",
+     "volume": 110,
+     "sd": 31
+    },
+    {
+     "term": "can i take ibuprofen while trying to conceive",
+     "volume": 70,
+     "sd": 25
+    },
+    {
+     "term": "how long should you take prenatals before trying to conceive",
+     "volume": 70,
+     "sd": 21
+    },
+    {
+     "term": "can a man take viagra when trying to conceive",
+     "volume": 50,
+     "sd": 28
+    },
+    {
+     "term": "can you take tylenol while trying to conceive",
+     "volume": 50,
+     "sd": 38
+    },
+    {
+     "term": "can you take ashwagandha while trying to conceive",
+     "volume": 50,
+     "sd": 22
+    },
+    {
+     "term": "can you take advil when trying to conceive",
+     "volume": 50,
+     "sd": 29
+    },
+    {
+     "term": "can you take sudafed while trying to conceive",
+     "volume": 40,
+     "sd": 38
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 56.0,
    "status": "available",
    "note": ""
   },
@@ -12364,6 +13345,37 @@
    "note": ""
   },
   {
+   "id": "aurea-foods-to-avoid-when-trying-to-conceive",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "foods to avoid when trying to conceive",
+   "volume": 320,
+   "sd": 36,
+   "cpc": 1.51,
+   "total_volume": 450,
+   "keywords": [
+    {
+     "term": "foods to avoid when trying to conceive",
+     "volume": 320,
+     "sd": 36
+    },
+    {
+     "term": "trying to conceive food",
+     "volume": 90,
+     "sd": 31
+    },
+    {
+     "term": "food trying to conceive",
+     "volume": 40,
+     "sd": 31
+    }
+   ],
+   "suggested_format": "numbered-list",
+   "score": 55.8,
+   "status": "available",
+   "note": ""
+  },
+  {
    "id": "aurea-salpingostomy-for-hydrosalpinx",
    "brand": "aurea",
    "pillar": "tubes-uterus-iui",
@@ -12419,27 +13431,6 @@
      "term": "trying to conceive acronyms",
      "volume": 140,
      "sd": 23
-    }
-   ],
-   "suggested_format": "deep-guide",
-   "score": 55.7,
-   "status": "available",
-   "note": ""
-  },
-  {
-   "id": "aurea-vitamins-while-trying-to-conceive",
-   "brand": "aurea",
-   "pillar": "conception-basics",
-   "primary": "vitamins while trying to conceive",
-   "volume": 140,
-   "sd": 40,
-   "cpc": 6.11,
-   "total_volume": 140,
-   "keywords": [
-    {
-     "term": "vitamins while trying to conceive",
-     "volume": 140,
-     "sd": 40
     }
    ],
    "suggested_format": "deep-guide",
@@ -12693,6 +13684,37 @@
    "note": ""
   },
   {
+   "id": "aurea-what-to-know-when-trying-to-conceive",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "what to know when trying to conceive",
+   "volume": 90,
+   "sd": 27,
+   "cpc": 2.465,
+   "total_volume": 170,
+   "keywords": [
+    {
+     "term": "what to know when trying to conceive",
+     "volume": 90,
+     "sd": 27
+    },
+    {
+     "term": "what to know before trying to conceive",
+     "volume": 40,
+     "sd": 11
+    },
+    {
+     "term": "things to know when trying to conceive",
+     "volume": 40,
+     "sd": 31
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 55.5,
+   "status": "available",
+   "note": ""
+  },
+  {
    "id": "rfc-did-mariah-carey-use-donor-eggs",
    "brand": "rfc",
    "pillar": "donor-surrogacy",
@@ -12752,32 +13774,6 @@
    ],
    "suggested_format": "cost-breakdown",
    "score": 55.5,
-   "status": "available",
-   "note": ""
-  },
-  {
-   "id": "aurea-foods-to-avoid-when-trying-to-conceive",
-   "brand": "aurea",
-   "pillar": "conception-basics",
-   "primary": "foods to avoid when trying to conceive",
-   "volume": 320,
-   "sd": 36,
-   "cpc": 1.51,
-   "total_volume": 410,
-   "keywords": [
-    {
-     "term": "foods to avoid when trying to conceive",
-     "volume": 320,
-     "sd": 36
-    },
-    {
-     "term": "trying to conceive food",
-     "volume": 90,
-     "sd": 31
-    }
-   ],
-   "suggested_format": "numbered-list",
-   "score": 55.4,
    "status": "available",
    "note": ""
   },
@@ -13114,19 +14110,19 @@
    "note": ""
   },
   {
-   "id": "aurea-best-vitamins-for-trying-to-conceive",
+   "id": "aurea-negative-ovulation-test-during-fertile-window",
    "brand": "aurea",
    "pillar": "conception-basics",
-   "primary": "best vitamins for trying to conceive",
+   "primary": "negative ovulation test during fertile window",
    "volume": 90,
-   "sd": 39,
-   "cpc": 7.47,
+   "sd": 19,
+   "cpc": 0,
    "total_volume": 90,
    "keywords": [
     {
-     "term": "best vitamins for trying to conceive",
+     "term": "negative ovulation test during fertile window",
      "volume": 90,
-     "sd": 39
+     "sd": 19
     }
    ],
    "suggested_format": "deep-guide",
@@ -13172,6 +14168,27 @@
     }
    ],
    "suggested_format": "deep-guide",
+   "score": 55.1,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-how-long-does-it-take-to-get-pregnant-after-insemination",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "how long does it take to get pregnant after insemination",
+   "volume": 50,
+   "sd": 14,
+   "cpc": 0,
+   "total_volume": 50,
+   "keywords": [
+    {
+     "term": "how long does it take to get pregnant after insemination",
+     "volume": 50,
+     "sd": 14
+    }
+   ],
+   "suggested_format": "step-by-step",
    "score": 55.1,
    "status": "available",
    "note": ""
@@ -13298,52 +14315,6 @@
     }
    ],
    "suggested_format": "step-by-step",
-   "score": 54.9,
-   "status": "available",
-   "note": ""
-  },
-  {
-   "id": "aurea-what-to-take-when-trying-to-conceive",
-   "brand": "aurea",
-   "pillar": "conception-basics",
-   "primary": "what to take when trying to conceive",
-   "volume": 170,
-   "sd": 48,
-   "cpc": 4,
-   "total_volume": 610,
-   "keywords": [
-    {
-     "term": "what to take when trying to conceive",
-     "volume": 170,
-     "sd": 48
-    },
-    {
-     "term": "vitamins to take when trying to conceive",
-     "volume": 140,
-     "sd": 36
-    },
-    {
-     "term": "can you take ibuprofen when trying to conceive",
-     "volume": 110,
-     "sd": 31
-    },
-    {
-     "term": "can i take ibuprofen while trying to conceive",
-     "volume": 70,
-     "sd": 25
-    },
-    {
-     "term": "how long should you take prenatals before trying to conceive",
-     "volume": 70,
-     "sd": 21
-    },
-    {
-     "term": "can a man take viagra when trying to conceive",
-     "volume": 50,
-     "sd": 28
-    }
-   ],
-   "suggested_format": "deep-guide",
    "score": 54.9,
    "status": "available",
    "note": ""
@@ -13485,27 +14456,6 @@
    "note": ""
   },
   {
-   "id": "aurea-should-i-take-a-prenatal-vitamin-while-trying-to-conceive",
-   "brand": "aurea",
-   "pillar": "conception-basics",
-   "primary": "should i take a prenatal vitamin while trying to conceive",
-   "volume": 70,
-   "sd": 37,
-   "cpc": 6.46,
-   "total_volume": 70,
-   "keywords": [
-    {
-     "term": "should i take a prenatal vitamin while trying to conceive",
-     "volume": 70,
-     "sd": 37
-    }
-   ],
-   "suggested_format": "decision-guide",
-   "score": 54.7,
-   "status": "available",
-   "note": ""
-  },
-  {
    "id": "aurea-ideal-follicle-size-for-egg-retrieval",
    "brand": "aurea",
    "pillar": "ivf-protocols",
@@ -13600,6 +14550,48 @@
    "note": ""
   },
   {
+   "id": "aurea-is-creatine-safe-when-trying-to-conceive",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "is creatine safe when trying to conceive",
+   "volume": 40,
+   "sd": 13,
+   "cpc": 0,
+   "total_volume": 40,
+   "keywords": [
+    {
+     "term": "is creatine safe when trying to conceive",
+     "volume": 40,
+     "sd": 13
+    }
+   ],
+   "suggested_format": "straight-answer",
+   "score": 54.6,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-fish-oil-trying-to-conceive",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "fish oil trying to conceive",
+   "volume": 40,
+   "sd": 33,
+   "cpc": 12.4,
+   "total_volume": 40,
+   "keywords": [
+    {
+     "term": "fish oil trying to conceive",
+     "volume": 40,
+     "sd": 33
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 54.6,
+   "status": "available",
+   "note": ""
+  },
+  {
    "id": "aurea-pomegranate-juice-for-sperm-count",
    "brand": "aurea",
    "pillar": "male-factor",
@@ -13655,6 +14647,42 @@
      "term": "hydrosalpinx radiology",
      "volume": 110,
      "sd": 28
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 54.5,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-uti-while-trying-to-conceive",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "uti while trying to conceive",
+   "volume": 90,
+   "sd": 29,
+   "cpc": 0,
+   "total_volume": 250,
+   "keywords": [
+    {
+     "term": "uti while trying to conceive",
+     "volume": 90,
+     "sd": 29
+    },
+    {
+     "term": "trying to conceive and uti",
+     "volume": 70,
+     "sd": 16
+    },
+    {
+     "term": "trying to conceive uti",
+     "volume": 50,
+     "sd": 19
+    },
+    {
+     "term": "antibiotics for uti while trying to conceive",
+     "volume": 40,
+     "sd": 22
     }
    ],
    "suggested_format": "deep-guide",
@@ -13862,6 +14890,27 @@
    "note": ""
   },
   {
+   "id": "aurea-does-saliva-kill-sperm-when-trying-to-conceive",
+   "brand": "aurea",
+   "pillar": "male-factor",
+   "primary": "does saliva kill sperm when trying to conceive",
+   "volume": 50,
+   "sd": 22,
+   "cpc": 0,
+   "total_volume": 50,
+   "keywords": [
+    {
+     "term": "does saliva kill sperm when trying to conceive",
+     "volume": 50,
+     "sd": 22
+    }
+   ],
+   "suggested_format": "straight-answer",
+   "score": 54.1,
+   "status": "available",
+   "note": ""
+  },
+  {
    "id": "aurea-hydrosalpinx-removal",
    "brand": "aurea",
    "pillar": "tubes-uterus-iui",
@@ -13993,6 +15042,32 @@
    "note": ""
   },
   {
+   "id": "aurea-irregular-cycle-trying-to-conceive",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "irregular cycle trying to conceive",
+   "volume": 90,
+   "sd": 32,
+   "cpc": 2.56,
+   "total_volume": 130,
+   "keywords": [
+    {
+     "term": "irregular cycle trying to conceive",
+     "volume": 90,
+     "sd": 32
+    },
+    {
+     "term": "trying to conceive cycle",
+     "volume": 40,
+     "sd": 25
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 54.0,
+   "status": "available",
+   "note": ""
+  },
+  {
    "id": "aurea-hycosy-ultrasound",
    "brand": "aurea",
    "pillar": "tubes-uterus-iui",
@@ -14014,23 +15089,28 @@
    "note": ""
   },
   {
-   "id": "aurea-losing-weight-while-trying-to-conceive",
+   "id": "aurea-icd-10-trying-to-conceive",
    "brand": "aurea",
    "pillar": "conception-basics",
-   "primary": "losing weight while trying to conceive",
-   "volume": 70,
-   "sd": 33,
-   "cpc": 4.56,
-   "total_volume": 70,
+   "primary": "icd 10 trying to conceive",
+   "volume": 50,
+   "sd": 22,
+   "cpc": 0,
+   "total_volume": 100,
    "keywords": [
     {
-     "term": "losing weight while trying to conceive",
-     "volume": 70,
-     "sd": 33
+     "term": "icd 10 trying to conceive",
+     "volume": 50,
+     "sd": 22
+    },
+    {
+     "term": "icd 10 code for trying to conceive",
+     "volume": 50,
+     "sd": 19
     }
    ],
    "suggested_format": "deep-guide",
-   "score": 53.9,
+   "score": 54.0,
    "status": "available",
    "note": ""
   },
@@ -14197,6 +15277,32 @@
    "note": ""
   },
   {
+   "id": "aurea-trying-to-conceive-after-iud-removal",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "trying to conceive after iud removal",
+   "volume": 40,
+   "sd": 22,
+   "cpc": 0.5,
+   "total_volume": 80,
+   "keywords": [
+    {
+     "term": "trying to conceive after iud removal",
+     "volume": 40,
+     "sd": 22
+    },
+    {
+     "term": "trying to conceive after copper iud removal",
+     "volume": 40,
+     "sd": 20
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 53.8,
+   "status": "available",
+   "note": ""
+  },
+  {
    "id": "aurea-coffee-and-trying-to-conceive",
    "brand": "aurea",
    "pillar": "conception-basics",
@@ -14325,6 +15431,48 @@
      "term": "endometrial thickness 13mm",
      "volume": 40,
      "sd": 21
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 53.6,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-choline-trying-to-conceive",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "choline trying to conceive",
+   "volume": 40,
+   "sd": 35,
+   "cpc": 11.68,
+   "total_volume": 40,
+   "keywords": [
+    {
+     "term": "choline trying to conceive",
+     "volume": 40,
+     "sd": 35
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 53.6,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-fruits-to-avoid-while-trying-to-conceive",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "fruits to avoid while trying to conceive",
+   "volume": 40,
+   "sd": 15,
+   "cpc": 0,
+   "total_volume": 40,
+   "keywords": [
+    {
+     "term": "fruits to avoid while trying to conceive",
+     "volume": 40,
+     "sd": 15
     }
    ],
    "suggested_format": "deep-guide",
@@ -14484,6 +15632,32 @@
    "note": ""
   },
   {
+   "id": "aurea-berberine-trying-to-conceive",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "berberine trying to conceive",
+   "volume": 50,
+   "sd": 23,
+   "cpc": 0,
+   "total_volume": 100,
+   "keywords": [
+    {
+     "term": "berberine trying to conceive",
+     "volume": 50,
+     "sd": 23
+    },
+    {
+     "term": "berberine while trying to conceive",
+     "volume": 50,
+     "sd": 14
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 53.5,
+   "status": "available",
+   "note": ""
+  },
+  {
    "id": "aurea-can-low-sperm-count-be-treated",
    "brand": "aurea",
    "pillar": "male-factor",
@@ -14578,6 +15752,27 @@
    "note": ""
   },
   {
+   "id": "aurea-when-should-i-start-taking-progesterone-when-trying-to-conce",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "when should i start taking progesterone when trying to conceive",
+   "volume": 140,
+   "sd": 30,
+   "cpc": 1.22,
+   "total_volume": 140,
+   "keywords": [
+    {
+     "term": "when should i start taking progesterone when trying to conceive",
+     "volume": 140,
+     "sd": 30
+    }
+   ],
+   "suggested_format": "decision-guide",
+   "score": 53.3,
+   "status": "available",
+   "note": ""
+  },
+  {
    "id": "aurea-what-does-a-chemical-pregnancy-miscarriage-look-like",
    "brand": "aurea",
    "pillar": "pregnancy-loss",
@@ -14633,6 +15828,48 @@
      "term": "geritol pcos pregnancy",
      "volume": 40,
      "sd": 20
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 53.1,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-fasting-while-trying-to-conceive",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "fasting while trying to conceive",
+   "volume": 40,
+   "sd": 26,
+   "cpc": 3.31,
+   "total_volume": 40,
+   "keywords": [
+    {
+     "term": "fasting while trying to conceive",
+     "volume": 40,
+     "sd": 26
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 53.1,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-gift-for-someone-trying-to-conceive",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "gift for someone trying to conceive",
+   "volume": 40,
+   "sd": 24,
+   "cpc": 2.66,
+   "total_volume": 40,
+   "keywords": [
+    {
+     "term": "gift for someone trying to conceive",
+     "volume": 40,
+     "sd": 24
     }
    ],
    "suggested_format": "deep-guide",
@@ -14756,23 +15993,90 @@
    "note": ""
   },
   {
-   "id": "aurea-what-to-know-when-trying-to-conceive",
+   "id": "aurea-caffeine-while-trying-to-conceive",
    "brand": "aurea",
    "pillar": "conception-basics",
-   "primary": "what to know when trying to conceive",
-   "volume": 90,
-   "sd": 27,
-   "cpc": 2.465,
-   "total_volume": 90,
+   "primary": "caffeine while trying to conceive",
+   "volume": 110,
+   "sd": 36,
+   "cpc": 0,
+   "total_volume": 380,
    "keywords": [
     {
-     "term": "what to know when trying to conceive",
+     "term": "caffeine while trying to conceive",
+     "volume": 110,
+     "sd": 36
+    },
+    {
+     "term": "caffeine when trying to conceive",
      "volume": 90,
-     "sd": 27
+     "sd": 23
+    },
+    {
+     "term": "caffeine trying to conceive",
+     "volume": 70,
+     "sd": 25
+    },
+    {
+     "term": "caffeine and trying to conceive",
+     "volume": 70,
+     "sd": 23
+    },
+    {
+     "term": "how much caffeine when trying to conceive",
+     "volume": 40,
+     "sd": 17
     }
    ],
    "suggested_format": "deep-guide",
    "score": 52.8,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-lubricant-when-trying-to-conceive",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "lubricant when trying to conceive",
+   "volume": 140,
+   "sd": 33,
+   "cpc": 1.04,
+   "total_volume": 180,
+   "keywords": [
+    {
+     "term": "lubricant when trying to conceive",
+     "volume": 140,
+     "sd": 33
+    },
+    {
+     "term": "coconut oil as lubricant when trying to conceive",
+     "volume": 40,
+     "sd": 19
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 52.6,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-husband-smoking-while-trying-to-conceive",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "husband smoking while trying to conceive",
+   "volume": 50,
+   "sd": 19,
+   "cpc": 0,
+   "total_volume": 50,
+   "keywords": [
+    {
+     "term": "husband smoking while trying to conceive",
+     "volume": 50,
+     "sd": 19
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 52.6,
    "status": "available",
    "note": ""
   },
@@ -14903,6 +16207,27 @@
    "note": ""
   },
   {
+   "id": "aurea-when-trying-to-conceive-should-you-pee-after",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "when trying to conceive should you pee after",
+   "volume": 50,
+   "sd": 22,
+   "cpc": 0.94,
+   "total_volume": 50,
+   "keywords": [
+    {
+     "term": "when trying to conceive should you pee after",
+     "volume": 50,
+     "sd": 22
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 52.5,
+   "status": "available",
+   "note": ""
+  },
+  {
    "id": "aurea-reason-for-low-sperm-count",
    "brand": "aurea",
    "pillar": "male-factor",
@@ -14924,27 +16249,6 @@
     }
    ],
    "suggested_format": "number-explained",
-   "score": 52.4,
-   "status": "available",
-   "note": ""
-  },
-  {
-   "id": "aurea-irregular-cycle-trying-to-conceive",
-   "brand": "aurea",
-   "pillar": "conception-basics",
-   "primary": "irregular cycle trying to conceive",
-   "volume": 90,
-   "sd": 32,
-   "cpc": 2.56,
-   "total_volume": 90,
-   "keywords": [
-    {
-     "term": "irregular cycle trying to conceive",
-     "volume": 90,
-     "sd": 32
-    }
-   ],
-   "suggested_format": "deep-guide",
    "score": 52.4,
    "status": "available",
    "note": ""
@@ -15039,42 +16343,6 @@
    "note": ""
   },
   {
-   "id": "aurea-caffeine-while-trying-to-conceive",
-   "brand": "aurea",
-   "pillar": "conception-basics",
-   "primary": "caffeine while trying to conceive",
-   "volume": 110,
-   "sd": 36,
-   "cpc": 0,
-   "total_volume": 340,
-   "keywords": [
-    {
-     "term": "caffeine while trying to conceive",
-     "volume": 110,
-     "sd": 36
-    },
-    {
-     "term": "caffeine when trying to conceive",
-     "volume": 90,
-     "sd": 23
-    },
-    {
-     "term": "caffeine trying to conceive",
-     "volume": 70,
-     "sd": 25
-    },
-    {
-     "term": "caffeine and trying to conceive",
-     "volume": 70,
-     "sd": 23
-    }
-   ],
-   "suggested_format": "deep-guide",
-   "score": 52.3,
-   "status": "available",
-   "note": ""
-  },
-  {
    "id": "rfc-causes-low-libido-women",
    "brand": "rfc",
    "pillar": "perimenopause-sexual",
@@ -15122,6 +16390,32 @@
     }
    ],
    "suggested_format": "straight-answer",
+   "score": 52.1,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-exercise-during-trying-to-conceive",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "exercise during trying to conceive",
+   "volume": 70,
+   "sd": 29,
+   "cpc": 0.75,
+   "total_volume": 110,
+   "keywords": [
+    {
+     "term": "exercise during trying to conceive",
+     "volume": 70,
+     "sd": 29
+    },
+    {
+     "term": "exercise when trying to conceive",
+     "volume": 40,
+     "sd": 20
+    }
+   ],
+   "suggested_format": "deep-guide",
    "score": 52.1,
    "status": "available",
    "note": ""
@@ -15242,6 +16536,27 @@
    "note": ""
   },
   {
+   "id": "aurea-cervical-mucus-during-fertile-window",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "cervical mucus during fertile window",
+   "volume": 40,
+   "sd": 22,
+   "cpc": 1.27,
+   "total_volume": 40,
+   "keywords": [
+    {
+     "term": "cervical mucus during fertile window",
+     "volume": 40,
+     "sd": 22
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 52.0,
+   "status": "available",
+   "note": ""
+  },
+  {
    "id": "aurea-how-to-grow-sperm-count",
    "brand": "aurea",
    "pillar": "male-factor",
@@ -15357,27 +16672,6 @@
    "note": ""
   },
   {
-   "id": "aurea-lubricant-when-trying-to-conceive",
-   "brand": "aurea",
-   "pillar": "conception-basics",
-   "primary": "lubricant when trying to conceive",
-   "volume": 140,
-   "sd": 33,
-   "cpc": 1.04,
-   "total_volume": 140,
-   "keywords": [
-    {
-     "term": "lubricant when trying to conceive",
-     "volume": 140,
-     "sd": 33
-    }
-   ],
-   "suggested_format": "deep-guide",
-   "score": 51.6,
-   "status": "available",
-   "note": ""
-  },
-  {
    "id": "aurea-yoga-when-trying-to-conceive",
    "brand": "aurea",
    "pillar": "conception-basics",
@@ -15436,6 +16730,27 @@
    "keywords": [
     {
      "term": "did janet jackson use donor eggs",
+     "volume": 50,
+     "sd": 21
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 51.6,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-evening-primrose-oil-trying-to-conceive",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "evening primrose oil trying to conceive",
+   "volume": 50,
+   "sd": 21,
+   "cpc": 0,
+   "total_volume": 50,
+   "keywords": [
+    {
+     "term": "evening primrose oil trying to conceive",
      "volume": 50,
      "sd": 21
     }
@@ -15740,6 +17055,27 @@
    "note": ""
   },
   {
+   "id": "aurea-finasteride-while-trying-to-conceive",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "finasteride while trying to conceive",
+   "volume": 50,
+   "sd": 22,
+   "cpc": 0,
+   "total_volume": 50,
+   "keywords": [
+    {
+     "term": "finasteride while trying to conceive",
+     "volume": 50,
+     "sd": 22
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 51.1,
+   "status": "available",
+   "note": ""
+  },
+  {
    "id": "rfc-how-to-get-donor-eggs",
    "brand": "rfc",
    "pillar": "donor-surrogacy",
@@ -15798,6 +17134,48 @@
     }
    ],
    "suggested_format": "comparison",
+   "score": 51.1,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-boric-acid-trying-to-conceive",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "boric acid trying to conceive",
+   "volume": 40,
+   "sd": 20,
+   "cpc": 0,
+   "total_volume": 40,
+   "keywords": [
+    {
+     "term": "boric acid trying to conceive",
+     "volume": 40,
+     "sd": 20
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 51.1,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-when-to-stop-botox-before-trying-to-conceive",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "when to stop botox before trying to conceive",
+   "volume": 40,
+   "sd": 20,
+   "cpc": 0,
+   "total_volume": 40,
+   "keywords": [
+    {
+     "term": "when to stop botox before trying to conceive",
+     "volume": 40,
+     "sd": 20
+    }
+   ],
+   "suggested_format": "deep-guide",
    "score": 51.1,
    "status": "available",
    "note": ""
@@ -15929,6 +17307,27 @@
    "note": ""
   },
   {
+   "id": "aurea-should-a-man-take-folic-acid-when-trying-to-conceive",
+   "brand": "aurea",
+   "pillar": "male-factor",
+   "primary": "should a man take folic acid when trying to conceive",
+   "volume": 50,
+   "sd": 29,
+   "cpc": 0,
+   "total_volume": 50,
+   "keywords": [
+    {
+     "term": "should a man take folic acid when trying to conceive",
+     "volume": 50,
+     "sd": 29
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 50.6,
+   "status": "available",
+   "note": ""
+  },
+  {
    "id": "rfc-pcos-pregnancy-test-negative",
    "brand": "rfc",
    "pillar": "pcos-bmi",
@@ -15984,6 +17383,27 @@
      "term": "postmenopausal hydrosalpinx",
      "volume": 40,
      "sd": 27
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 50.6,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-maca-root-trying-to-conceive",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "maca root trying to conceive",
+   "volume": 40,
+   "sd": 21,
+   "cpc": 0,
+   "total_volume": 40,
+   "keywords": [
+    {
+     "term": "maca root trying to conceive",
+     "volume": 40,
+     "sd": 21
     }
    ],
    "suggested_format": "deep-guide",
@@ -16202,27 +17622,6 @@
    "note": ""
   },
   {
-   "id": "aurea-exercise-during-trying-to-conceive",
-   "brand": "aurea",
-   "pillar": "conception-basics",
-   "primary": "exercise during trying to conceive",
-   "volume": 70,
-   "sd": 29,
-   "cpc": 0.75,
-   "total_volume": 70,
-   "keywords": [
-    {
-     "term": "exercise during trying to conceive",
-     "volume": 70,
-     "sd": 29
-    }
-   ],
-   "suggested_format": "deep-guide",
-   "score": 50.1,
-   "status": "available",
-   "note": ""
-  },
-  {
    "id": "aurea-ivf-success-rates-embryo-quality-embryo-grading-chart",
    "brand": "aurea",
    "pillar": "embryology-lab",
@@ -16380,6 +17779,27 @@
    "note": ""
   },
   {
+   "id": "aurea-emily-oster-trying-to-conceive",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "emily oster trying to conceive",
+   "volume": 40,
+   "sd": 29,
+   "cpc": 2.24,
+   "total_volume": 40,
+   "keywords": [
+    {
+     "term": "emily oster trying to conceive",
+     "volume": 40,
+     "sd": 29
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 50.0,
+   "status": "available",
+   "note": ""
+  },
+  {
    "id": "rfc-how-do-you-get-chronic-endometritis",
    "brand": "rfc",
    "pillar": "immunology-rpl",
@@ -16527,6 +17947,69 @@
     }
    ],
    "suggested_format": "deep-guide",
+   "score": 49.6,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-adderall-and-trying-to-conceive",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "adderall and trying to conceive",
+   "volume": 40,
+   "sd": 23,
+   "cpc": 0,
+   "total_volume": 40,
+   "keywords": [
+    {
+     "term": "adderall and trying to conceive",
+     "volume": 40,
+     "sd": 23
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 49.6,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-can-men-take-accutane-while-trying-to-conceive",
+   "brand": "aurea",
+   "pillar": "male-factor",
+   "primary": "can men take accutane while trying to conceive",
+   "volume": 40,
+   "sd": 29,
+   "cpc": 0,
+   "total_volume": 40,
+   "keywords": [
+    {
+     "term": "can men take accutane while trying to conceive",
+     "volume": 40,
+     "sd": 29
+    }
+   ],
+   "suggested_format": "straight-answer",
+   "score": 49.6,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-how-long-does-it-take-to-get-pregnant-after-35",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "how long does it take to get pregnant after 35",
+   "volume": 40,
+   "sd": 23,
+   "cpc": 0,
+   "total_volume": 40,
+   "keywords": [
+    {
+     "term": "how long does it take to get pregnant after 35",
+     "volume": 40,
+     "sd": 23
+    }
+   ],
+   "suggested_format": "step-by-step",
    "score": 49.6,
    "status": "available",
    "note": ""
@@ -16700,6 +18183,48 @@
    "note": ""
   },
   {
+   "id": "aurea-trying-to-conceive-podcast",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "trying to conceive podcast",
+   "volume": 50,
+   "sd": 26,
+   "cpc": 0,
+   "total_volume": 50,
+   "keywords": [
+    {
+     "term": "trying to conceive podcast",
+     "volume": 50,
+     "sd": 26
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 49.1,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-antibiotics-while-trying-to-conceive",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "antibiotics while trying to conceive",
+   "volume": 50,
+   "sd": 26,
+   "cpc": 0,
+   "total_volume": 50,
+   "keywords": [
+    {
+     "term": "antibiotics while trying to conceive",
+     "volume": 50,
+     "sd": 26
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 49.1,
+   "status": "available",
+   "note": ""
+  },
+  {
    "id": "aurea-embryo-grading-good-fair-poor",
    "brand": "aurea",
    "pillar": "embryology-lab",
@@ -16738,6 +18263,48 @@
    ],
    "suggested_format": "number-explained",
    "score": 49.1,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-how-long-does-it-take-to-get-pregnant-after-birth",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "how long does it take to get pregnant after birth",
+   "volume": 70,
+   "sd": 29,
+   "cpc": 0,
+   "total_volume": 70,
+   "keywords": [
+    {
+     "term": "how long does it take to get pregnant after birth",
+     "volume": 70,
+     "sd": 29
+    }
+   ],
+   "suggested_format": "step-by-step",
+   "score": 49.0,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-when-trying-to-conceive-how-often-should-you-try",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "when trying to conceive how often should you try",
+   "volume": 50,
+   "sd": 28,
+   "cpc": 0.62,
+   "total_volume": 50,
+   "keywords": [
+    {
+     "term": "when trying to conceive how often should you try",
+     "volume": 50,
+     "sd": 28
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 49.0,
    "status": "available",
    "note": ""
   },
@@ -17108,6 +18675,27 @@
    "note": ""
   },
   {
+   "id": "aurea-how-long-does-it-take-to-get-pregnant-with-metformin",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "how long does it take to get pregnant with metformin",
+   "volume": 30,
+   "sd": 23,
+   "cpc": 0,
+   "total_volume": 30,
+   "keywords": [
+    {
+     "term": "how long does it take to get pregnant with metformin",
+     "volume": 30,
+     "sd": 23
+    }
+   ],
+   "suggested_format": "step-by-step",
+   "score": 48.4,
+   "status": "available",
+   "note": ""
+  },
+  {
    "id": "aurea-endometrial-thickness-6mm",
    "brand": "aurea",
    "pillar": "tubes-uterus-iui",
@@ -17268,6 +18856,27 @@
      "term": "endometrial thickness 3mm",
      "volume": 40,
      "sd": 33
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 47.6,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-doxycycline-while-trying-to-conceive",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "doxycycline while trying to conceive",
+   "volume": 40,
+   "sd": 27,
+   "cpc": 0,
+   "total_volume": 40,
+   "keywords": [
+    {
+     "term": "doxycycline while trying to conceive",
+     "volume": 40,
+     "sd": 27
     }
    ],
    "suggested_format": "deep-guide",
@@ -17444,6 +19053,27 @@
    "note": ""
   },
   {
+   "id": "aurea-cramping-after-trying-to-conceive",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "cramping after trying to conceive",
+   "volume": 40,
+   "sd": 38,
+   "cpc": 3.36,
+   "total_volume": 40,
+   "keywords": [
+    {
+     "term": "cramping after trying to conceive",
+     "volume": 40,
+     "sd": 38
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 47.2,
+   "status": "available",
+   "note": ""
+  },
+  {
    "id": "aurea-endometrial-thickness-of-7mm-after-menopause-without-bleedin",
    "brand": "aurea",
    "pillar": "tubes-uterus-iui",
@@ -17457,6 +19087,27 @@
      "term": "endometrial thickness of 7mm after menopause without bleeding",
      "volume": 50,
      "sd": 36
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 47.1,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-vitex-trying-to-conceive",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "vitex trying to conceive",
+   "volume": 50,
+   "sd": 30,
+   "cpc": 0,
+   "total_volume": 50,
+   "keywords": [
+    {
+     "term": "vitex trying to conceive",
+     "volume": 50,
+     "sd": 30
     }
    ],
    "suggested_format": "deep-guide",
@@ -17717,6 +19368,27 @@
    "note": ""
   },
   {
+   "id": "aurea-can-i-poop-after-sex-when-trying-to-conceive",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "can i poop after sex when trying to conceive",
+   "volume": 40,
+   "sd": 29,
+   "cpc": 0,
+   "total_volume": 40,
+   "keywords": [
+    {
+     "term": "can i poop after sex when trying to conceive",
+     "volume": 40,
+     "sd": 29
+    }
+   ],
+   "suggested_format": "straight-answer",
+   "score": 46.6,
+   "status": "available",
+   "note": ""
+  },
+  {
    "id": "aurea-trying-to-conceive-tracker",
    "brand": "aurea",
    "pillar": "conception-basics",
@@ -17937,6 +19609,27 @@
    "note": ""
   },
   {
+   "id": "aurea-running-while-trying-to-conceive",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "running while trying to conceive",
+   "volume": 50,
+   "sd": 32,
+   "cpc": 0.06,
+   "total_volume": 50,
+   "keywords": [
+    {
+     "term": "running while trying to conceive",
+     "volume": 50,
+     "sd": 32
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 46.2,
+   "status": "available",
+   "note": ""
+  },
+  {
    "id": "aurea-antibiotics-for-low-sperm-count",
    "brand": "aurea",
    "pillar": "male-factor",
@@ -18000,6 +19693,27 @@
     }
    ],
    "suggested_format": "deep-guide",
+   "score": 46.1,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-how-long-after-trying-to-conceive-can-i-test",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "how long after trying to conceive can i test",
+   "volume": 40,
+   "sd": 30,
+   "cpc": 0,
+   "total_volume": 40,
+   "keywords": [
+    {
+     "term": "how long after trying to conceive can i test",
+     "volume": 40,
+     "sd": 30
+    }
+   ],
+   "suggested_format": "step-by-step",
    "score": 46.1,
    "status": "available",
    "note": ""
@@ -18241,6 +19955,105 @@
    "note": ""
   },
   {
+   "id": "aurea-retinol-while-trying-to-conceive",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "retinol while trying to conceive",
+   "volume": 70,
+   "sd": 44,
+   "cpc": 0,
+   "total_volume": 160,
+   "keywords": [
+    {
+     "term": "retinol while trying to conceive",
+     "volume": 70,
+     "sd": 44
+    },
+    {
+     "term": "can you use retinol while trying to conceive",
+     "volume": 50,
+     "sd": 5
+    },
+    {
+     "term": "retinol trying to conceive",
+     "volume": 40,
+     "sd": 30
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 45.1,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-tylenol-while-trying-to-conceive",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "tylenol while trying to conceive",
+   "volume": 50,
+   "sd": 39,
+   "cpc": 0,
+   "total_volume": 90,
+   "keywords": [
+    {
+     "term": "tylenol while trying to conceive",
+     "volume": 50,
+     "sd": 39
+    },
+    {
+     "term": "can i take tylenol while trying to conceive",
+     "volume": 40,
+     "sd": 26
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 45.1,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-guaifenesin-trying-to-conceive",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "guaifenesin trying to conceive",
+   "volume": 40,
+   "sd": 32,
+   "cpc": 0,
+   "total_volume": 40,
+   "keywords": [
+    {
+     "term": "guaifenesin trying to conceive",
+     "volume": 40,
+     "sd": 32
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 45.1,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-actively-trying-to-conceive",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "actively trying to conceive",
+   "volume": 50,
+   "sd": 50,
+   "cpc": 5.21,
+   "total_volume": 50,
+   "keywords": [
+    {
+     "term": "actively trying to conceive",
+     "volume": 50,
+     "sd": 50
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 44.9,
+   "status": "available",
+   "note": ""
+  },
+  {
    "id": "aurea-stage-2-endometriosis-fertility",
    "brand": "aurea",
    "pillar": "endometriosis",
@@ -18346,6 +20159,27 @@
    "note": ""
   },
   {
+   "id": "aurea-prednisone-while-trying-to-conceive",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "prednisone while trying to conceive",
+   "volume": 50,
+   "sd": 35,
+   "cpc": 0,
+   "total_volume": 50,
+   "keywords": [
+    {
+     "term": "prednisone while trying to conceive",
+     "volume": 50,
+     "sd": 35
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 44.6,
+   "status": "available",
+   "note": ""
+  },
+  {
    "id": "aurea-total-motile-sperm-count-formula",
    "brand": "aurea",
    "pillar": "male-factor",
@@ -18384,6 +20218,42 @@
    ],
    "suggested_format": "deep-guide",
    "score": 44.3,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-trying-to-conceive-diet",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "trying to conceive diet",
+   "volume": 170,
+   "sd": 60,
+   "cpc": 2.31,
+   "total_volume": 370,
+   "keywords": [
+    {
+     "term": "trying to conceive diet",
+     "volume": 170,
+     "sd": 60
+    },
+    {
+     "term": "healthy diet for trying to conceive",
+     "volume": 90,
+     "sd": 11
+    },
+    {
+     "term": "diet for trying to conceive",
+     "volume": 70,
+     "sd": 55
+    },
+    {
+     "term": "diet when trying to conceive",
+     "volume": 40,
+     "sd": 35
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 44.2,
    "status": "available",
    "note": ""
   },
@@ -18473,63 +20343,6 @@
    ],
    "suggested_format": "deep-guide",
    "score": 43.9,
-   "status": "available",
-   "note": ""
-  },
-  {
-   "id": "aurea-retinol-while-trying-to-conceive",
-   "brand": "aurea",
-   "pillar": "conception-basics",
-   "primary": "retinol while trying to conceive",
-   "volume": 70,
-   "sd": 44,
-   "cpc": 0,
-   "total_volume": 120,
-   "keywords": [
-    {
-     "term": "retinol while trying to conceive",
-     "volume": 70,
-     "sd": 44
-    },
-    {
-     "term": "can you use retinol while trying to conceive",
-     "volume": 50,
-     "sd": 5
-    }
-   ],
-   "suggested_format": "deep-guide",
-   "score": 43.8,
-   "status": "available",
-   "note": ""
-  },
-  {
-   "id": "aurea-trying-to-conceive-diet",
-   "brand": "aurea",
-   "pillar": "conception-basics",
-   "primary": "trying to conceive diet",
-   "volume": 170,
-   "sd": 60,
-   "cpc": 2.31,
-   "total_volume": 330,
-   "keywords": [
-    {
-     "term": "trying to conceive diet",
-     "volume": 170,
-     "sd": 60
-    },
-    {
-     "term": "healthy diet for trying to conceive",
-     "volume": 90,
-     "sd": 11
-    },
-    {
-     "term": "diet for trying to conceive",
-     "volume": 70,
-     "sd": 55
-    }
-   ],
-   "suggested_format": "deep-guide",
-   "score": 43.7,
    "status": "available",
    "note": ""
   },
@@ -18639,6 +20452,37 @@
    "note": ""
   },
   {
+   "id": "aurea-when-trying-to-conceive-what-to-do-after-intercourse",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "when trying to conceive what to do after intercourse",
+   "volume": 140,
+   "sd": 56,
+   "cpc": 1,
+   "total_volume": 260,
+   "keywords": [
+    {
+     "term": "when trying to conceive what to do after intercourse",
+     "volume": 140,
+     "sd": 56
+    },
+    {
+     "term": "can we pee after intercourse if trying to conceive",
+     "volume": 70,
+     "sd": 19
+    },
+    {
+     "term": "trying to conceive what to do after intercourse",
+     "volume": 50,
+     "sd": 12
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 42.7,
+   "status": "available",
+   "note": ""
+  },
+  {
    "id": "aurea-normal-endometrial-thickness-on-birth-control",
    "brand": "aurea",
    "pillar": "tubes-uterus-iui",
@@ -18744,32 +20588,6 @@
    "note": ""
   },
   {
-   "id": "aurea-when-trying-to-conceive-what-to-do-after-intercourse",
-   "brand": "aurea",
-   "pillar": "conception-basics",
-   "primary": "when trying to conceive what to do after intercourse",
-   "volume": 140,
-   "sd": 56,
-   "cpc": 1,
-   "total_volume": 210,
-   "keywords": [
-    {
-     "term": "when trying to conceive what to do after intercourse",
-     "volume": 140,
-     "sd": 56
-    },
-    {
-     "term": "can we pee after intercourse if trying to conceive",
-     "volume": 70,
-     "sd": 19
-    }
-   ],
-   "suggested_format": "deep-guide",
-   "score": 41.7,
-   "status": "available",
-   "note": ""
-  },
-  {
    "id": "rfc-premature-ovarian-failure-meaning",
    "brand": "rfc",
    "pillar": "poi",
@@ -18812,6 +20630,42 @@
    "note": ""
   },
   {
+   "id": "aurea-things-to-do-when-trying-to-conceive",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "things to do when trying to conceive",
+   "volume": 70,
+   "sd": 61,
+   "cpc": 1.89,
+   "total_volume": 210,
+   "keywords": [
+    {
+     "term": "things to do when trying to conceive",
+     "volume": 70,
+     "sd": 61
+    },
+    {
+     "term": "things to do before trying to conceive",
+     "volume": 50,
+     "sd": 22
+    },
+    {
+     "term": "things to avoid when trying to conceive",
+     "volume": 50,
+     "sd": 25
+    },
+    {
+     "term": "best things to do when trying to conceive",
+     "volume": 40,
+     "sd": 63
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 41.1,
+   "status": "available",
+   "note": ""
+  },
+  {
    "id": "aurea-is-sperm-count-declining",
    "brand": "aurea",
    "pillar": "male-factor",
@@ -18850,6 +20704,48 @@
    ],
    "suggested_format": "deep-guide",
    "score": 40.4,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-precautions-after-ovulation-when-trying-to-conceive",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "precautions after ovulation when trying to conceive",
+   "volume": 50,
+   "sd": 44,
+   "cpc": 0,
+   "total_volume": 50,
+   "keywords": [
+    {
+     "term": "precautions after ovulation when trying to conceive",
+     "volume": 50,
+     "sd": 44
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 40.1,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-gabapentin-while-trying-to-conceive",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "gabapentin while trying to conceive",
+   "volume": 40,
+   "sd": 42,
+   "cpc": 0,
+   "total_volume": 40,
+   "keywords": [
+    {
+     "term": "gabapentin while trying to conceive",
+     "volume": 40,
+     "sd": 42
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 40.1,
    "status": "available",
    "note": ""
   },
@@ -18938,6 +20834,27 @@
    "note": ""
   },
   {
+   "id": "aurea-trying-to-conceive-naturally",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "trying to conceive naturally",
+   "volume": 40,
+   "sd": 61,
+   "cpc": 4.995,
+   "total_volume": 40,
+   "keywords": [
+    {
+     "term": "trying to conceive naturally",
+     "volume": 40,
+     "sd": 61
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 38.6,
+   "status": "available",
+   "note": ""
+  },
+  {
    "id": "aurea-best-time-to-have-intercourse-when-trying-to-conceive",
    "brand": "aurea",
    "pillar": "conception-basics",
@@ -19022,6 +20939,27 @@
    "note": ""
   },
   {
+   "id": "aurea-trying-to-conceive-tools",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "trying to conceive tools",
+   "volume": 40,
+   "sd": 49,
+   "cpc": 0,
+   "total_volume": 40,
+   "keywords": [
+    {
+     "term": "trying to conceive tools",
+     "volume": 40,
+     "sd": 49
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 36.6,
+   "status": "available",
+   "note": ""
+  },
+  {
    "id": "aurea-ovulation-calculator-based-on-due-date",
    "brand": "aurea",
    "pillar": "conception-basics",
@@ -19043,23 +20981,70 @@
    "note": ""
   },
   {
-   "id": "aurea-things-to-do-when-trying-to-conceive",
+   "id": "aurea-how-to-lay-after-sex-when-trying-to-conceive",
    "brand": "aurea",
    "pillar": "conception-basics",
-   "primary": "things to do when trying to conceive",
-   "volume": 70,
-   "sd": 61,
-   "cpc": 1.89,
-   "total_volume": 70,
+   "primary": "how to lay after sex when trying to conceive",
+   "volume": 40,
+   "sd": 50,
+   "cpc": 0.03,
+   "total_volume": 40,
    "keywords": [
     {
-     "term": "things to do when trying to conceive",
+     "term": "how to lay after sex when trying to conceive",
+     "volume": 40,
+     "sd": 50
+    }
+   ],
+   "suggested_format": "step-by-step",
+   "score": 36.2,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-trying-to-conceive-plan",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "trying to conceive plan",
+   "volume": 70,
+   "sd": 62,
+   "cpc": 0.16,
+   "total_volume": 110,
+   "keywords": [
+    {
+     "term": "trying to conceive plan",
      "volume": 70,
-     "sd": 61
+     "sd": 62
+    },
+    {
+     "term": "trying to conceive meal plan",
+     "volume": 40,
+     "sd": 27
     }
    ],
    "suggested_format": "deep-guide",
-   "score": 36.3,
+   "score": 35.7,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-when-trying-to-conceive-how-long-should-i-lay-down",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "when trying to conceive how long should i lay down",
+   "volume": 40,
+   "sd": 53,
+   "cpc": 0.7,
+   "total_volume": 40,
+   "keywords": [
+    {
+     "term": "when trying to conceive how long should i lay down",
+     "volume": 40,
+     "sd": 53
+    }
+   ],
+   "suggested_format": "decision-guide",
+   "score": 35.7,
    "status": "available",
    "note": ""
   },
@@ -19106,6 +21091,27 @@
    "note": ""
   },
   {
+   "id": "aurea-what-cold-medicine-can-i-take-while-trying-to-conceive",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "what cold medicine can i take while trying to conceive",
+   "volume": 50,
+   "sd": 55,
+   "cpc": 0,
+   "total_volume": 50,
+   "keywords": [
+    {
+     "term": "what cold medicine can i take while trying to conceive",
+     "volume": 50,
+     "sd": 55
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 34.6,
+   "status": "available",
+   "note": ""
+  },
+  {
    "id": "rfc-why-do-i-have-low-libido-women",
    "brand": "rfc",
    "pillar": "perimenopause-sexual",
@@ -19127,23 +21133,23 @@
    "note": ""
   },
   {
-   "id": "aurea-trying-to-conceive-plan",
+   "id": "aurea-how-to-change-natural-cycles-to-trying-to-conceive",
    "brand": "aurea",
    "pillar": "conception-basics",
-   "primary": "trying to conceive plan",
-   "volume": 70,
-   "sd": 62,
-   "cpc": 0.16,
-   "total_volume": 70,
+   "primary": "how to change natural cycles to trying to conceive",
+   "volume": 50,
+   "sd": 58,
+   "cpc": 0,
+   "total_volume": 50,
    "keywords": [
     {
-     "term": "trying to conceive plan",
-     "volume": 70,
-     "sd": 62
+     "term": "how to change natural cycles to trying to conceive",
+     "volume": 50,
+     "sd": 58
     }
    ],
-   "suggested_format": "deep-guide",
-   "score": 33.8,
+   "suggested_format": "step-by-step",
+   "score": 33.1,
    "status": "available",
    "note": ""
   },
@@ -19164,6 +21170,27 @@
     }
    ],
    "suggested_format": "deep-guide",
+   "score": 32.6,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-trying-to-conceive-chart",
+   "brand": "aurea",
+   "pillar": "conception-basics",
+   "primary": "trying to conceive chart",
+   "volume": 40,
+   "sd": 57,
+   "cpc": 0,
+   "total_volume": 40,
+   "keywords": [
+    {
+     "term": "trying to conceive chart",
+     "volume": 40,
+     "sd": 57
+    }
+   ],
+   "suggested_format": "number-explained",
    "score": 32.6,
    "status": "available",
    "note": ""

@@ -40,7 +40,32 @@
   }
  ],
  "hero": "IMAGE1",
- "images": {},
+ "images": {
+  "IMAGE1": {
+   "wix_id": "ca2223_cedace740589417d8f28723d48e48ef3~mv2.png",
+   "width": 1800,
+   "height": 945,
+   "alt": "Labelled uterus, tubes and ovaries showing trying to conceive fertility timing and the 6-day fertile window",
+   "kind": "medical illustration with data",
+   "source": "img/image1.html",
+   "file": "img/image1.png",
+   "md5": "c5cfe2afce30d0da231b2fd26812f888",
+   "wix_hash": "c5cfe2afce30d0da231b2fd26812f888",
+   "preview_src": "img/image1.png"
+  },
+  "IMAGE2": {
+   "wix_id": "ca2223_353525fbb7524b308c124cbd95f18c2b~mv2.png",
+   "width": 1800,
+   "height": 945,
+   "alt": "Month-by-month trying to conceive timeline with when to get tests and Aurea prices for testing",
+   "kind": "labelled timeline",
+   "source": "img/image2.html",
+   "file": "img/image2.png",
+   "md5": "efd3d809ff1a558c6efbeec53d446d3c",
+   "wix_hash": "efd3d809ff1a558c6efbeec53d446d3c",
+   "preview_src": "img/image2.png"
+  }
+ },
  "citations": [
   {"url": "https://www.ovid.com/journals/nejm/pdf/10.1056/nejm199512073332301~timing-of-sexual-intercourse-in-relation-to-ovulation---"},
   {"url": "https://www.asrm.org/practice-guidance/practice-committee-documents/optimizing-natural-fertility-a-committee-opinion-2021"},

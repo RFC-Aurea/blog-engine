@@ -10,3 +10,4 @@
 | 2026-10-18 | rfc | published | Pregnancy at 45: Four Real Situations and the Path That Fits Each | pregnancy at 45 | https://www.rejuvenatingfertility.com/post/pregnancy-at-45 |
 | 2026-10-18 | aurea | published | HSG Test vs. HyCoSy: Which Tube Check Is Right for You? | hsg test | https://www.aureafertility.com/post/hsg-test |
 | 2026-10-19 | rfc | published | Premature Ovarian Insufficiency (POI): Why It Happens and What Actually Helps | poi premature ovarian insufficiency | https://www.rejuvenatingfertility.com/post/premature-ovarian-insufficiency-poi |
+| 2026-10-20 | aurea | published | Trying to Conceive Under 40: Fertility Odds, Tests and When to Get Help | trying to conceive fertility | https://www.aureafertility.com/post/trying-to-conceive-fertility |

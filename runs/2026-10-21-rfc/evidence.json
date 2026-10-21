@@ -1,0 +1,25 @@
+{
+ "sources": [
+  {"url": "https://academic.oup.com/humrep/article/39/4/760/7616814", "title": "Intraovarian platelet-rich plasma injection and IVF outcomes in patients with poor ovarian response: a double-blind randomized controlled trial", "journal": "Human Reproduction", "year": 2024,
+   "claim": "60 women with poor ovarian reserve, 3 retrievals each; cumulative mature eggs 10.45 with PRP vs 8.91 placebo; euploid blastocyst rate and pregnancy not improved (clinical pregnancy 27% vs 60%)",
+   "quote": "cumulative number of mature oocytes 10.45 ± 0.41 vs 8.91 ± 0.39 (P = 0.008); PRP increases the number of retrieved oocytes without increasing the quality of developed blastocysts", "verified": true, "checked_with": "WebFetch 2026-10-21"},
+  {"url": "https://academic.oup.com/humrep/article/39/7/1495/7667973", "title": "Effect of intraovarian platelet-rich plasma injection on IVF outcomes in women with poor ovarian response: the PROVA randomized controlled trial", "journal": "Human Reproduction", "year": 2024,
+   "claim": "83 women under 38 with 2+ prior cycles of fewer than 3 eggs; mature eggs 2.8 vs 3.1, no improvement in egg yield or euploid embryos",
+   "quote": "Metaphase II oocytes 2.8 ± 2.4 (PRP) vs 3.1 ± 3.3 (control), P = 0.9; 83 randomized, 41 PRP and 42 no intervention", "verified": true, "checked_with": "WebFetch 2026-10-21"},
+  {"url": "https://academic.oup.com/humrep/article/40/4/764/8045480", "title": "Intraovarian platelet-rich plasma injection for ovarian rejuvenation (letter)", "journal": "Human Reproduction", "year": 2025,
+   "claim": "PROVA retrieved eggs about 28 days after PRP; in the Barrenetxea trial the first retrieval at 24 days showed no significant increase while the second at 49 days did; author proposes 'reactivation'",
+   "quote": "oocyte retrieval at an average of 28 days after PRP; first retrieval at 24 days no significant increase, second at 49 days did", "verified": true, "checked_with": "WebFetch 2026-10-21"},
+  {"url": "https://link.springer.com/article/10.1186/s13048-024-01423-2", "title": "Platelet-rich plasma (PRP) treatment of the ovaries significantly improves fertility parameters and reproductive outcomes in diminished ovarian reserve patients: a systematic review and meta-analysis", "journal": "Journal of Ovarian Research", "year": 2024,
+   "claim": "AMH up 0.36 ng/ml at 3 months, FSH down, AFC up 1.6 follicles (15 studies, 1,418 patients); live birth pooled 11% (12 studies, 1,482 patients); spontaneous pregnancy 7%; evidence mostly observational, low certainty",
+   "quote": "AFC: 15 studies, 1,418 patients, +1.60 follicles; live birth: 12 studies, 1,482 patients, pooled proportion 0.11; AMH 3 months +0.36 ng/ml", "verified": true, "checked_with": "WebFetch 2026-10-21"},
+  {"url": "https://www.mdpi.com/2227-9059/13/5/1257", "title": "Platelet-Rich Plasma (PRP) in Reproductive Medicine: A Critical Review of PRP Therapy in Low-Reserve and Premature Ovarian Insufficiency", "journal": "Biomedicines", "year": 2025,
+   "claim": "PRP is spun from the patient's blood; platelets release growth factors (VEGF, PDGF, IGF-1, TGF-beta) linked to blood vessel growth and follicle support; preparation is not standardized; PRP still experimental",
+   "quote": "the preparation process remains non-standardized, leading to inconsistencies in the results; VEGF is essential for angiogenesis", "verified": true, "checked_with": "WebFetch 2026-10-21"},
+  {"url": "https://link.springer.com/article/10.1186/s13048-020-00743-3", "title": "Evaluation of safety, feasibility and efficacy of intra-ovarian transplantation of autologous adipose derived mesenchymal stromal cells in idiopathic premature ovarian failure patients: phase I", "journal": "Journal of Ovarian Research", "year": 2021,
+   "claim": "9 women with POF given their own fat-derived stromal cells into one ovary; no side effects over 12 months; 4 resumed periods; FSH fell below 25 in 4",
+   "quote": "the intra-ovarian embedding of ADSCs is safe and feasible; menstruation resumption was observed in four patients", "verified": true, "checked_with": "WebFetch 2026-10-21"},
+  {"url": "https://e-century.us/files/ajsc/14/5/ajsc0169433.pdf", "title": "First live births after adipose-derived stem cells and platelet-rich plasma intraovarian administration", "journal": "American Journal of Stem Cells", "year": 2025,
+   "claim": "Two women aged 45 and 46 had live births after adipose-PRP; about 20 mL of fat via 2 mm incision, processed to nanofat, mixed with PRP from about 30 mL blood, about 3 mL per ovary transvaginally under IV sedation; case 1 AMH 0.29, AFC 2 to 14, conceived naturally about 6 months later, delivered at 47; case 2 had five failed IVF cycles elsewhere, euploid embryo after treatment",
+   "quote": "two women aged 45 and older who achieved live births following intraovarian administration; delivered a healthy infant at age 47", "verified": true, "checked_with": "WebFetch 2026-10-21"}
+ ]
+}

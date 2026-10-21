@@ -2,6 +2,26 @@
  "note": "Every post live on either blog. The engine appends here after each publish.",
  "posts": [
   {
+   "brand": "rfc",
+   "title": "PRP for Ovaries vs. Adipose-PRP: Which Rejuvenation Option Fits You?",
+   "slug": "prp-ovaries-vs-adipose-prp",
+   "date": "2026-10-21",
+   "category": "Treatments & IVF",
+   "post_id": "9d6ae74b-4536-4b9b-96ab-f5e7563c4080",
+   "url": "https://www.rejuvenatingfertility.com/post/prp-ovaries-vs-adipose-prp",
+   "source": "engine",
+   "pillar": "rejuvenation",
+   "format": "comparison",
+   "title_shape": "T4",
+   "primary_keyword": "prp ovaries",
+   "cluster_id": "rfc-prp-ovaries",
+   "secondary_keywords": [
+    "adipose ovarian prp",
+    "prp ovarian rejuvenation",
+    "adipose prp ovarian rejuvenation"
+   ]
+  },
+  {
    "brand": "aurea",
    "title": "Trying to Conceive Under 40: Fertility Odds, Tests and When to Get Help",
    "slug": "trying-to-conceive-fertility",

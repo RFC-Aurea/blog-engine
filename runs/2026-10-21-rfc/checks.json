@@ -1,6 +1,6 @@
 {
- "pass": false,
- "hard_failures": 2,
+ "pass": true,
+ "hard_failures": 0,
  "warnings": 0,
  "checks": [
   {
@@ -85,7 +85,7 @@
    "check": "alt text under 125 chars",
    "ok": true,
    "hard": true,
-   "detail": "[62, 8]"
+   "detail": "[107, 118]"
   },
   {
    "check": "a keyword appears in an alt text",
@@ -97,7 +97,7 @@
    "check": "wix image ids look like real Wix media ids",
    "ok": true,
    "hard": true,
-   "detail": "['ca2223_00000000000000000000000000000000~mv2.png', 'ca2223_00000000000000000000000000000000~mv2.png']"
+   "detail": "['ca2223_263813920466474c96141bc9c3612c6d~mv2.png', 'ca2223_9ea2337e58bd417d8ffe2b19601d4f9d~mv2.png']"
   },
   {
    "check": "no 'image of' in alt text",
@@ -298,16 +298,52 @@
    "detail": ""
   },
   {
-   "check": "IMAGE1: source html and rendered png in the run folder",
-   "ok": false,
+   "check": "IMAGE1: Wix stored exactly the reviewed image (md5 = Wix hash)",
+   "ok": true,
    "hard": true,
-   "detail": "img/x.html / img/x.png"
+   "detail": "file 185d005760f3425c69dd6a777dc60dc1, front matter 185d005760f3425c69dd6a777dc60dc1, Wix 185d005760f3425c69dd6a777dc60dc1"
   },
   {
-   "check": "IMAGE2: source html and rendered png in the run folder",
-   "ok": false,
+   "check": "IMAGE1: label check passed when rendered (no overlaps, nothing cut off)",
+   "ok": true,
    "hard": true,
-   "detail": "img/x.html / img/x.png"
+   "detail": "no report for this file"
+  },
+  {
+   "check": "IMAGE1: no banned words in the image",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  },
+  {
+   "check": "IMAGE1: every number in the image also appears in the post",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  },
+  {
+   "check": "IMAGE2: Wix stored exactly the reviewed image (md5 = Wix hash)",
+   "ok": true,
+   "hard": true,
+   "detail": "file 97d276e4e278241d869f21f7106e4e82, front matter 97d276e4e278241d869f21f7106e4e82, Wix 97d276e4e278241d869f21f7106e4e82"
+  },
+  {
+   "check": "IMAGE2: label check passed when rendered (no overlaps, nothing cut off)",
+   "ok": true,
+   "hard": true,
+   "detail": "no report for this file"
+  },
+  {
+   "check": "IMAGE2: no banned words in the image",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  },
+  {
+   "check": "IMAGE2: every number in the image also appears in the post",
+   "ok": true,
+   "hard": true,
+   "detail": ""
   },
   {
    "check": "slug not already used on this site",

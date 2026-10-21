@@ -42,20 +42,28 @@
  "hero": "IMAGE1",
  "images": {
   "IMAGE1": {
-   "wix_id": "ca2223_00000000000000000000000000000000~mv2.png",
+   "wix_id": "ca2223_263813920466474c96141bc9c3612c6d~mv2.png",
    "width": 1800,
    "height": 945,
-   "alt": "Labelled comparison of PRP for ovaries and adipose ovarian PRP",
-   "source": "img/x.html",
-   "file": "img/x.png"
+   "alt": "Labelled comparison of PRP for the ovaries and adipose ovarian PRP: blood draw, fat harvest, nanofat, ovary",
+   "kind": "labelled medical illustration",
+   "source": "img/image1.html",
+   "file": "img/image1.png",
+   "md5": "185d005760f3425c69dd6a777dc60dc1",
+   "wix_hash": "185d005760f3425c69dd6a777dc60dc1",
+   "preview_src": "img/image1.png"
   },
   "IMAGE2": {
-   "wix_id": "ca2223_00000000000000000000000000000000~mv2.png",
+   "wix_id": "ca2223_9ea2337e58bd417d8ffe2b19601d4f9d~mv2.png",
    "width": 1800,
    "height": 945,
-   "alt": "Timeline",
-   "source": "img/x.html",
-   "file": "img/x.png"
+   "alt": "Timeline for egg retrieval after PRP ovarian rejuvenation, from baseline tests to months 3 to 6, with doctor questions",
+   "kind": "labelled timeline",
+   "source": "img/image2.html",
+   "file": "img/image2.png",
+   "md5": "97d276e4e278241d869f21f7106e4e82",
+   "wix_hash": "97d276e4e278241d869f21f7106e4e82",
+   "preview_src": "img/image2.png"
   }
  },
  "citations": [

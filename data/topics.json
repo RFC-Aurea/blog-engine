@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20",
+ "updated": "2026-10-21",
  "min_volume": 20,
  "clusters": [
   {
@@ -1339,6 +1339,62 @@
    "note": ""
   },
   {
+   "id": "rfc-ovarian-prp",
+   "brand": "rfc",
+   "pillar": "rejuvenation",
+   "primary": "ovarian prp",
+   "volume": 720,
+   "sd": 30,
+   "cpc": 9.565,
+   "total_volume": 1530,
+   "keywords": [
+    {
+     "term": "ovarian prp",
+     "volume": 720,
+     "sd": 30
+    },
+    {
+     "term": "prp ovarian rejuvenation",
+     "volume": 390,
+     "sd": 18
+    },
+    {
+     "term": "adipose ovarian prp",
+     "volume": 170,
+     "sd": 11
+    },
+    {
+     "term": "ovarian prp cost",
+     "volume": 90,
+     "sd": 14
+    },
+    {
+     "term": "adipose prp ovarian rejuvenation",
+     "volume": 70,
+     "sd": 11
+    },
+    {
+     "term": "how long does ovarian prp last",
+     "volume": 30,
+     "sd": 13
+    },
+    {
+     "term": "ovarian prp success rate",
+     "volume": 30,
+     "sd": 14
+    },
+    {
+     "term": "ovarian prp procedure",
+     "volume": 30,
+     "sd": 27
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 76.8,
+   "status": "used",
+   "note": "covered by existing post: Ovarian PRP: What It Is, Who It Helps, and What the Research Actually Shows"
+  },
+  {
    "id": "aurea-embryo-grading-scale",
    "brand": "aurea",
    "pillar": "embryology-lab",
@@ -2216,8 +2272,8 @@
    ],
    "suggested_format": "deep-guide",
    "score": 73.1,
-   "status": "available",
-   "note": ""
+   "status": "used",
+   "note": "published 2026-10-21 https://www.rejuvenatingfertility.com/post/prp-ovaries-vs-adipose-prp"
   },
   {
    "id": "aurea-gaia-ivf-cost",
@@ -3785,6 +3841,37 @@
    "note": ""
   },
   {
+   "id": "rfc-stem-cell-ovarian-rejuvenation",
+   "brand": "rfc",
+   "pillar": "rejuvenation",
+   "primary": "stem cell ovarian rejuvenation",
+   "volume": 70,
+   "sd": 27,
+   "cpc": 9.27,
+   "total_volume": 180,
+   "keywords": [
+    {
+     "term": "stem cell ovarian rejuvenation",
+     "volume": 70,
+     "sd": 27
+    },
+    {
+     "term": "stem cells ovarian rejuvenation",
+     "volume": 70,
+     "sd": 17
+    },
+    {
+     "term": "stem cell ovarian rejuvenation cost",
+     "volume": 40,
+     "sd": 16
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 69.1,
+   "status": "available",
+   "note": ""
+  },
+  {
    "id": "rfc-supplement-for-low-libido-women",
    "brand": "rfc",
    "pillar": "perimenopause-sexual",
@@ -4963,32 +5050,6 @@
    ],
    "suggested_format": "cost-breakdown",
    "score": 67.1,
-   "status": "available",
-   "note": ""
-  },
-  {
-   "id": "rfc-stem-cell-ovarian-rejuvenation",
-   "brand": "rfc",
-   "pillar": "rejuvenation",
-   "primary": "stem cell ovarian rejuvenation",
-   "volume": 70,
-   "sd": 27,
-   "cpc": 9.27,
-   "total_volume": 110,
-   "keywords": [
-    {
-     "term": "stem cell ovarian rejuvenation",
-     "volume": 70,
-     "sd": 27
-    },
-    {
-     "term": "stem cell ovarian rejuvenation cost",
-     "volume": 40,
-     "sd": 16
-    }
-   ],
-   "suggested_format": "deep-guide",
-   "score": 67.0,
    "status": "available",
    "note": ""
   },
@@ -7271,27 +7332,6 @@
     }
    ],
    "suggested_format": "cost-breakdown",
-   "score": 63.0,
-   "status": "available",
-   "note": ""
-  },
-  {
-   "id": "rfc-adipose-prp-ovarian-rejuvenation",
-   "brand": "rfc",
-   "pillar": "rejuvenation",
-   "primary": "adipose prp ovarian rejuvenation",
-   "volume": 70,
-   "sd": 11,
-   "cpc": 0,
-   "total_volume": 70,
-   "keywords": [
-    {
-     "term": "adipose prp ovarian rejuvenation",
-     "volume": 70,
-     "sd": 11
-    }
-   ],
-   "suggested_format": "deep-guide",
    "score": 63.0,
    "status": "available",
    "note": ""

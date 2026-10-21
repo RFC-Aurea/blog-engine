@@ -1,0 +1,144 @@
+[
+ {
+  "keyword": "stem cell ovarian rejuvenation",
+  "volume": 70,
+  "sd": 27,
+  "cpc": 9.27,
+  "intent": [
+   1
+  ]
+ },
+ {
+  "keyword": "platelet rich plasma ovarian rejuvenation",
+  "volume": 390,
+  "sd": 31,
+  "cpc": 0,
+  "intent": [
+   4
+  ]
+ },
+ {
+  "keyword": "ovarian rejuvenation cost",
+  "volume": 170,
+  "sd": 15,
+  "cpc": 26.38,
+  "intent": [
+   1
+  ]
+ },
+ {
+  "keyword": "ovarian rejuvenation age limit",
+  "volume": 140,
+  "sd": 11,
+  "cpc": 9.46,
+  "intent": [
+   1
+  ]
+ },
+ {
+  "keyword": "ovarian rejuvenation near me",
+  "volume": 140,
+  "sd": 17,
+  "cpc": 9.8,
+  "intent": [
+   3,
+   4
+  ]
+ },
+ {
+  "keyword": "prp ovarian rejuvenation near me",
+  "volume": 110,
+  "sd": 16,
+  "cpc": 0,
+  "intent": [
+   4,
+   3
+  ]
+ },
+ {
+  "keyword": "ovarian rejuvenation therapy",
+  "volume": 70,
+  "sd": 29,
+  "cpc": 7.69,
+  "intent": [
+   1
+  ]
+ },
+ {
+  "keyword": "stem cells ovarian rejuvenation",
+  "volume": 70,
+  "sd": 17,
+  "cpc": 9.27,
+  "intent": [
+   1
+  ]
+ },
+ {
+  "keyword": "adipose prp ovarian rejuvenation",
+  "volume": 70,
+  "sd": 11,
+  "cpc": 0,
+  "intent": [
+   3,
+   1,
+   4
+  ]
+ },
+ {
+  "keyword": "ovarian rejuvenation treatment",
+  "volume": 50,
+  "sd": 13,
+  "cpc": 11.06,
+  "intent": [
+   4
+  ]
+ },
+ {
+  "keyword": "prp ovarian rejuvenation success stories",
+  "volume": 50,
+  "sd": 15,
+  "cpc": 0,
+  "intent": [
+   1
+  ]
+ },
+ {
+  "keyword": "stem cell ovarian rejuvenation cost",
+  "volume": 40,
+  "sd": 16,
+  "cpc": 7.72,
+  "intent": [
+   1
+  ]
+ },
+ {
+  "keyword": "prp ovarian rejuvenation cost",
+  "volume": 30,
+  "sd": 18,
+  "cpc": 0,
+  "intent": [
+   1,
+   3
+  ]
+ },
+ {
+  "keyword": "best clinic for ovarian rejuvenation",
+  "volume": 30,
+  "sd": 21,
+  "cpc": 8.21,
+  "intent": [
+   3,
+   4
+  ]
+ },
+ {
+  "keyword": "ovarian rejuvenation procedure",
+  "volume": 30,
+  "sd": 12,
+  "cpc": 8.395,
+  "intent": [
+   3,
+   4
+  ]
+ }
+]

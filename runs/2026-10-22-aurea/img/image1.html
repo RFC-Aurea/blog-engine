@@ -1,0 +1,75 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><style>{{BASE_CSS}}</style></head>
+<body>
+{{COMPONENTS}}
+<svg class="canvas" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <rect class="bg" width="1200" height="630"/>
+  <text class="title" x="40" y="62">How egg retrieval works</text>
+  <text class="subtitle" x="40" y="96">An ultrasound-guided needle drains each follicle while you are sedated or numbed.</text>
+
+  <rect class="card" x="32" y="128" width="720" height="464" rx="22"/>
+  <rect class="card" x="776" y="128" width="392" height="464" rx="22"/>
+
+  <!-- anatomy: X = 150 + (vx+235)*0.95, Y = 170 + (vy+165)*0.95 -->
+  <use href="#uterus" x="150" y="170" width="446.5" height="408.5"/>
+
+  <!-- ultrasound with ultrasound -->
+  <path d="M370,566 L404,446" stroke="#BDB4A9" stroke-width="26" stroke-linecap="round" fill="none"/>
+  <path d="M370,566 L404,446" stroke="#D9D2C8" stroke-width="14" stroke-linecap="round" fill="none"/>
+  <!-- needle -->
+  <path d="M396,470 L530,322" stroke="#6F665D" stroke-width="2.6" stroke-linecap="round" fill="none"/>
+  <!-- ultrasound fan -->
+  <path d="M404,446 L470,370 A 100 100 0 0 1 492,410 Z" fill="#E4E0EA" opacity="0.55"/>
+  <!-- tubing to the lab vial -->
+  <path d="M370,566 C350,592 290,596 252,566" stroke="#A39A90" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <use href="#icon-vial" x="206" y="508" width="56" height="56"/>
+
+  <!-- magnified follicle -->
+  <circle cx="540" cy="318" r="22" fill="none" stroke="#9C9186" stroke-width="1.6" stroke-dasharray="5 5"/>
+  <path d="M556,302 L590,272" class="arrow" />
+  <use href="#ovary-section" x="575" y="160" width="170" height="111.6"/>
+
+  <!-- labels -->
+  <text class="label" x="596" y="152">Inside a follicle</text>
+
+  <path class="leader" d="M300,170 L352,214"/><circle class="leader-dot" cx="352" cy="214" r="4"/>
+  <text class="label" x="232" y="160">Uterus</text>
+
+  <path class="leader" d="M596,322 L566,322"/><circle class="leader-dot" cx="566" cy="322" r="4"/>
+  <text class="label" x="604" y="328">Ovary</text>
+
+  <path class="leader" d="M596,394 L478,384"/><circle class="leader-dot" cx="478" cy="384" r="4"/>
+  <text class="label" x="604" y="400">Fine needle</text>
+
+  <path class="leader" d="M596,470 L390,500"/><circle class="leader-dot" cx="390" cy="500" r="4"/>
+  <text class="label" x="604" y="466">Vaginal probe</text>
+  <text class="label-sub" x="604" y="488" dy="-2">with ultrasound</text>
+
+  <path class="leader" d="M120,470 L330,470"/><circle class="leader-dot" cx="330" cy="470" r="4"/>
+  <text class="label" x="48" y="476">Cervix</text>
+
+  <text class="label" x="48" y="530">To the lab</text>
+  <text class="label-sub" x="48" y="552" dy="-2">fluid + eggs</text>
+
+  <!-- right: data panel -->
+  <text class="step-title" x="804" y="172">2017 study, 481 women</text>
+  <text class="label-sub" x="804" y="198">Patients chose their pain relief</text>
+
+  <text class="label" x="804" y="242">Very or somewhat satisfied</text>
+  <text class="label-sub" x="804" y="272">General anesthesia</text>
+  <rect x="804" y="282" width="246" height="24" rx="6" fill="#C8C1D3"/>
+  <text class="label" x="1060" y="301" font-weight="600">98.4%</text>
+  <text class="label-sub" x="804" y="332">Local numbing block</text>
+  <rect x="804" y="342" width="202" height="24" rx="6" fill="#E4E0EA" stroke="#B4ADC2" stroke-width="1.5"/>
+  <text class="label" x="1016" y="361" font-weight="600">80.8%</text>
+
+  <path class="card-line" d="M804,394 L1140,394"/>
+  <text class="label" x="804" y="432">Live birth rate</text>
+  <text class="label-sub" x="804" y="464">General anesthesia</text>
+  <text class="big-number" x="804" y="508">19.8%</text>
+  <text class="label-sub" x="984" y="464">Local block</text>
+  <text class="big-number" x="984" y="508">20.9%</text>
+
+  <text class="note" x="804" y="568">Source: J Assist Reprod Genet, 2017</text>
+</svg>
+</body></html>

@@ -1,0 +1,32 @@
+{
+ "keyword_overview": {"keyword": "egg retrieval", "locId": 2840, "search_volume": 4400, "seo_difficulty": 39, "paid_difficulty": 11, "cpc": 22.48, "search_intent": "Informational", "checked": "2026-10-22"},
+ "secondary_keywords": [
+  {"term": "is egg retrieval painful", "volume": 720, "sd": 19, "source": "Ubersuggest keyword_suggestions (data/keywords_raw.json)"},
+  {"term": "egg retrieval recovery", "volume": 1000, "sd": 14, "source": "Ubersuggest keyword_suggestions (data/keywords_raw.json)"},
+  {"term": "egg retrieval anesthesia", "volume": 210, "sd": 17, "source": "Ubersuggest keyword_suggestions (data/keywords_raw.json)"}
+ ],
+ "serp_top": [
+  {"pos": 1, "type": "ai_overview"},
+  {"pos": 2, "url": "https://ivfflorida.com/resources/blog/what-to-expect-during-an-egg-retrieval-and-embryo-transfer/", "da": 30},
+  {"pos": 3, "type": "people_also_ask"},
+  {"pos": 4, "type": "video"},
+  {"pos": 6, "url": "https://www.yalemedicine.org/clinical-keywords/egg-retrieval", "da": 70},
+  {"pos": 7, "url": "https://www.shadygrovefertility.com/article/ivf-process-egg-retrieval/", "da": 58},
+  {"pos": 8, "url": "https://www.kentuckyfertility.com/blog/behind-the-scenes-of-ivf-what-happens-in-the-lab-after-egg-retrieval", "da": 23},
+  {"pos": 9, "url": "https://ivfny.org/category/egg-retrieval", "da": 22},
+  {"pos": 10, "url": "https://ivflondon.co.uk/complete-guide-to-egg-retrieval-preparing-procedure-and-recovery/", "da": 14}
+ ],
+ "serp_updated_at": "2026-10-22",
+ "pages_read": {
+  "ivfflorida.com": "IV sedation, 'very comfortable', pelvic discomfort about a day, risks 'extremely rare'; no comparison of anesthesia types, no pain scores or complication rates",
+  "yalemedicine.org": "keyword hub page only; no procedure content",
+  "shadygrovefertility.com": "quick-acting sedation (not general), 20-30 minutes, ~36 h after trigger, follicles 18-22 mm; no pain, recovery, risk numbers or anesthesia comparison"
+ },
+ "patient_sources": [
+  "https://www.mumsnet.com/talk/infertility/5565876-sedation-for-er-conscious-or-deep",
+  "https://forums.thebump.com/discussion/comment/43613330"
+ ],
+ "ubersuggest_reports_used": 2,
+ "aurea_prices": "brands/aurea.md (live /pricing 2026): IV sedation $750; egg freezing cycle $5,400; IVF freeze-all $6,950; complete IVF package $11,200; physician consult $350",
+ "gap": "Top results say retrieval is done under sedation and is comfortable, but none compare the anesthesia options (deep IV sedation, light conscious sedation, local paracervical block) with real pain scores and outcomes, or explain that how many eggs are collected changes how retrieval and recovery feel."
+}

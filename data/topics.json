@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21",
+ "updated": "2026-10-22",
  "min_volume": 20,
  "clusters": [
   {
@@ -673,7 +673,7 @@
    "volume": 4400,
    "sd": 39,
    "cpc": 22.48,
-   "total_volume": 32640,
+   "total_volume": 32770,
    "keywords": [
     {
      "term": "egg retrieval",
@@ -738,8 +738,8 @@
    ],
    "suggested_format": "deep-guide",
    "score": 80.5,
-   "status": "available",
-   "note": ""
+   "status": "used",
+   "note": "published 2026-10-22 https://www.aureafertility.com/post/egg-retrieval"
   },
   {
    "id": "rfc-pregnancy-at-45",
@@ -1136,6 +1136,27 @@
    ],
    "suggested_format": "cost-breakdown",
    "score": 77.7,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-ohss-syndrome",
+   "brand": "aurea",
+   "pillar": "ivf-protocols",
+   "primary": "ohss syndrome",
+   "volume": 18100,
+   "sd": 45,
+   "cpc": 9.12,
+   "total_volume": 18100,
+   "keywords": [
+    {
+     "term": "ohss syndrome",
+     "volume": 18100,
+     "sd": 45
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 77.5,
    "status": "available",
    "note": ""
   },
@@ -2113,6 +2134,27 @@
    "score": 74.2,
    "status": "used",
    "note": "covered by existing post: Can You Get Pregnant During Perimenopause?"
+  },
+  {
+   "id": "aurea-what-is-ohss",
+   "brand": "aurea",
+   "pillar": "ivf-protocols",
+   "primary": "what is ohss",
+   "volume": 1300,
+   "sd": 34,
+   "cpc": 22.89,
+   "total_volume": 1300,
+   "keywords": [
+    {
+     "term": "what is ohss",
+     "volume": 1300,
+     "sd": 34
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 74.1,
+   "status": "available",
+   "note": ""
   },
   {
    "id": "aurea-what-is-a-hydrosalpinx",
@@ -5838,6 +5880,42 @@
    "note": ""
   },
   {
+   "id": "aurea-symptoms-of-ohss",
+   "brand": "aurea",
+   "pillar": "ivf-protocols",
+   "primary": "symptoms of ohss",
+   "volume": 4400,
+   "sd": 50,
+   "cpc": 0.9,
+   "total_volume": 8390,
+   "keywords": [
+    {
+     "term": "symptoms of ohss",
+     "volume": 4400,
+     "sd": 50
+    },
+    {
+     "term": "ohss symptoms",
+     "volume": 3600,
+     "sd": 52
+    },
+    {
+     "term": "ohss signs",
+     "volume": 320,
+     "sd": 57
+    },
+    {
+     "term": "mild ohss symptoms",
+     "volume": 70,
+     "sd": 33
+    }
+   ],
+   "suggested_format": "condition-guide",
+   "score": 65.6,
+   "status": "available",
+   "note": ""
+  },
+  {
    "id": "aurea-salpingectomy-for-hydrosalpinx",
    "brand": "aurea",
    "pillar": "tubes-uterus-iui",
@@ -6226,6 +6304,27 @@
      "term": "radiology endometrial thickness",
      "volume": 720,
      "sd": 23
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 65.1,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-treatment-of-ohss",
+   "brand": "aurea",
+   "pillar": "ivf-protocols",
+   "primary": "treatment of ohss",
+   "volume": 720,
+   "sd": 47,
+   "cpc": 9.55,
+   "total_volume": 720,
+   "keywords": [
+    {
+     "term": "treatment of ohss",
+     "volume": 720,
+     "sd": 47
     }
    ],
    "suggested_format": "deep-guide",
@@ -7721,6 +7820,32 @@
    "note": ""
   },
   {
+   "id": "aurea-ohss-bloating",
+   "brand": "aurea",
+   "pillar": "ivf-protocols",
+   "primary": "ohss bloating",
+   "volume": 50,
+   "sd": 14,
+   "cpc": 0.0,
+   "total_volume": 90,
+   "keywords": [
+    {
+     "term": "ohss bloating",
+     "volume": 50,
+     "sd": 14
+    },
+    {
+     "term": "how to reduce ohss bloating",
+     "volume": 40,
+     "sd": 13
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 62.6,
+   "status": "available",
+   "note": ""
+  },
+  {
    "id": "aurea-low-motility-sperm",
    "brand": "aurea",
    "pillar": "male-factor",
@@ -8834,6 +8959,27 @@
     }
    ],
    "suggested_format": "number-explained",
+   "score": 60.6,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-ohss-when-to-go-to-hospital",
+   "brand": "aurea",
+   "pillar": "ivf-protocols",
+   "primary": "ohss when to go to hospital",
+   "volume": 320,
+   "sd": 29,
+   "cpc": 0.0,
+   "total_volume": 320,
+   "keywords": [
+    {
+     "term": "ohss when to go to hospital",
+     "volume": 320,
+     "sd": 29
+    }
+   ],
+   "suggested_format": "deep-guide",
    "score": 60.6,
    "status": "available",
    "note": ""
@@ -10051,6 +10197,27 @@
    "note": ""
   },
   {
+   "id": "aurea-how-long-does-ohss-last",
+   "brand": "aurea",
+   "pillar": "ivf-protocols",
+   "primary": "how long does ohss last",
+   "volume": 40,
+   "sd": 14,
+   "cpc": 0.0,
+   "total_volume": 40,
+   "keywords": [
+    {
+     "term": "how long does ohss last",
+     "volume": 40,
+     "sd": 14
+    }
+   ],
+   "suggested_format": "step-by-step",
+   "score": 59.1,
+   "status": "available",
+   "note": ""
+  },
+  {
    "id": "aurea-low-sperm-count-signs",
    "brand": "aurea",
    "pillar": "male-factor",
@@ -10373,6 +10540,48 @@
    ],
    "suggested_format": "step-by-step",
    "score": 58.8,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-cabergoline-ohss",
+   "brand": "aurea",
+   "pillar": "ivf-protocols",
+   "primary": "cabergoline ohss",
+   "volume": 210,
+   "sd": 25,
+   "cpc": 0.0,
+   "total_volume": 210,
+   "keywords": [
+    {
+     "term": "cabergoline ohss",
+     "volume": 210,
+     "sd": 25
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 58.7,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-ohss-after-egg-collection",
+   "brand": "aurea",
+   "pillar": "ivf-protocols",
+   "primary": "ohss after egg collection",
+   "volume": 210,
+   "sd": 29,
+   "cpc": 0.0,
+   "total_volume": 210,
+   "keywords": [
+    {
+     "term": "ohss after egg collection",
+     "volume": 210,
+     "sd": 29
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 58.7,
    "status": "available",
    "note": ""
   },
@@ -11012,6 +11221,27 @@
    "note": ""
   },
   {
+   "id": "aurea-ohss-estrogen-levels",
+   "brand": "aurea",
+   "pillar": "ivf-protocols",
+   "primary": "ohss estrogen levels",
+   "volume": 50,
+   "sd": 18,
+   "cpc": 0.0,
+   "total_volume": 50,
+   "keywords": [
+    {
+     "term": "ohss estrogen levels",
+     "volume": 50,
+     "sd": 18
+    }
+   ],
+   "suggested_format": "number-explained",
+   "score": 58.1,
+   "status": "available",
+   "note": ""
+  },
+  {
    "id": "aurea-is-egg-freezing-tax-deductible",
    "brand": "aurea",
    "pillar": "egg-freezing",
@@ -11602,6 +11832,27 @@
     }
    ],
    "suggested_format": "step-by-step",
+   "score": 57.6,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-gatorade-for-ohss",
+   "brand": "aurea",
+   "pillar": "ivf-protocols",
+   "primary": "gatorade for ohss",
+   "volume": 50,
+   "sd": 19,
+   "cpc": 0.0,
+   "total_volume": 50,
+   "keywords": [
+    {
+     "term": "gatorade for ohss",
+     "volume": 50,
+     "sd": 19
+    }
+   ],
+   "suggested_format": "deep-guide",
    "score": 57.6,
    "status": "available",
    "note": ""
@@ -12371,6 +12622,37 @@
    "note": ""
   },
   {
+   "id": "aurea-ohss-risk",
+   "brand": "aurea",
+   "pillar": "ivf-protocols",
+   "primary": "ohss risk",
+   "volume": 70,
+   "sd": 30,
+   "cpc": 0.0,
+   "total_volume": 150,
+   "keywords": [
+    {
+     "term": "ohss risk",
+     "volume": 70,
+     "sd": 30
+    },
+    {
+     "term": "ohss risk factors",
+     "volume": 50,
+     "sd": 26
+    },
+    {
+     "term": "risk factors for ohss",
+     "volume": 30,
+     "sd": 29
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 56.8,
+   "status": "available",
+   "note": ""
+  },
+  {
    "id": "aurea-what-decreases-sperm-count",
    "brand": "aurea",
    "pillar": "male-factor",
@@ -12877,6 +13159,32 @@
    "score": 56.3,
    "status": "used",
    "note": "covered by existing post: Trying to Conceive Under 40: Fertility Odds, Tests and When to Get Help"
+  },
+  {
+   "id": "aurea-how-to-avoid-ohss",
+   "brand": "aurea",
+   "pillar": "ivf-protocols",
+   "primary": "how to avoid ohss",
+   "volume": 70,
+   "sd": 29,
+   "cpc": 0.0,
+   "total_volume": 120,
+   "keywords": [
+    {
+     "term": "how to avoid ohss",
+     "volume": 70,
+     "sd": 29
+    },
+    {
+     "term": "how to avoid ohss during ivf",
+     "volume": 50,
+     "sd": 38
+    }
+   ],
+   "suggested_format": "step-by-step",
+   "score": 56.3,
+   "status": "available",
+   "note": ""
   },
   {
    "id": "aurea-low-sperm-count-mean",
@@ -14815,6 +15123,27 @@
    "note": ""
   },
   {
+   "id": "aurea-how-to-prevent-ohss",
+   "brand": "aurea",
+   "pillar": "ivf-protocols",
+   "primary": "how to prevent ohss",
+   "volume": 170,
+   "sd": 36,
+   "cpc": 0.0,
+   "total_volume": 170,
+   "keywords": [
+    {
+     "term": "how to prevent ohss",
+     "volume": 170,
+     "sd": 36
+    }
+   ],
+   "suggested_format": "step-by-step",
+   "score": 54.3,
+   "status": "available",
+   "note": ""
+  },
+  {
    "id": "aurea-male-infertility-caffeine",
    "brand": "aurea",
    "pillar": "male-factor",
@@ -15981,6 +16310,27 @@
    "note": ""
   },
   {
+   "id": "aurea-ohss-weight-gain",
+   "brand": "aurea",
+   "pillar": "ivf-protocols",
+   "primary": "ohss weight gain",
+   "volume": 30,
+   "sd": 24,
+   "cpc": 0.0,
+   "total_volume": 30,
+   "keywords": [
+    {
+     "term": "ohss weight gain",
+     "volume": 30,
+     "sd": 24
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 52.9,
+   "status": "available",
+   "note": ""
+  },
+  {
    "id": "aurea-what-increases-sperm-count",
    "brand": "aurea",
    "pillar": "male-factor",
@@ -16247,6 +16597,27 @@
    "note": ""
   },
   {
+   "id": "aurea-how-common-is-ohss",
+   "brand": "aurea",
+   "pillar": "ivf-protocols",
+   "primary": "how common is ohss",
+   "volume": 70,
+   "sd": 32,
+   "cpc": 0.0,
+   "total_volume": 70,
+   "keywords": [
+    {
+     "term": "how common is ohss",
+     "volume": 70,
+     "sd": 32
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 52.5,
+   "status": "available",
+   "note": ""
+  },
+  {
    "id": "aurea-when-trying-to-conceive-should-you-pee-after",
    "brand": "aurea",
    "pillar": "conception-basics",
@@ -16375,6 +16746,27 @@
      "term": "endometrial thickness on day 11",
      "volume": 30,
      "sd": 21
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 52.4,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-ohss-diet",
+   "brand": "aurea",
+   "pillar": "ivf-protocols",
+   "primary": "ohss diet",
+   "volume": 30,
+   "sd": 25,
+   "cpc": 0.0,
+   "total_volume": 30,
+   "keywords": [
+    {
+     "term": "ohss diet",
+     "volume": 30,
+     "sd": 25
     }
    ],
    "suggested_format": "deep-guide",
@@ -16673,6 +17065,48 @@
      "term": "hydrosalpinx diagnosis",
      "volume": 30,
      "sd": 22
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 51.9,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-estradiol-levels-ohss",
+   "brand": "aurea",
+   "pillar": "ivf-protocols",
+   "primary": "estradiol levels ohss",
+   "volume": 30,
+   "sd": 26,
+   "cpc": 0.0,
+   "total_volume": 30,
+   "keywords": [
+    {
+     "term": "estradiol levels ohss",
+     "volume": 30,
+     "sd": 26
+    }
+   ],
+   "suggested_format": "number-explained",
+   "score": 51.9,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-ohss-diagnosis",
+   "brand": "aurea",
+   "pillar": "ivf-protocols",
+   "primary": "ohss diagnosis",
+   "volume": 30,
+   "sd": 26,
+   "cpc": 0.0,
+   "total_volume": 30,
+   "keywords": [
+    {
+     "term": "ohss diagnosis",
+     "volume": 30,
+     "sd": 26
     }
    ],
    "suggested_format": "deep-guide",
@@ -17032,6 +17466,27 @@
    "note": ""
   },
   {
+   "id": "aurea-ohss-management",
+   "brand": "aurea",
+   "pillar": "ivf-protocols",
+   "primary": "ohss management",
+   "volume": 30,
+   "sd": 23,
+   "cpc": 0.0,
+   "total_volume": 30,
+   "keywords": [
+    {
+     "term": "ohss management",
+     "volume": 30,
+     "sd": 23
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 51.4,
+   "status": "available",
+   "note": ""
+  },
+  {
    "id": "aurea-cause-for-male-infertility",
    "brand": "aurea",
    "pillar": "male-factor",
@@ -17284,6 +17739,27 @@
    "note": ""
   },
   {
+   "id": "aurea-letrozole-ohss",
+   "brand": "aurea",
+   "pillar": "ivf-protocols",
+   "primary": "letrozole ohss",
+   "volume": 30,
+   "sd": 28,
+   "cpc": 0.0,
+   "total_volume": 30,
+   "keywords": [
+    {
+     "term": "letrozole ohss",
+     "volume": 30,
+     "sd": 28
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 50.9,
+   "status": "available",
+   "note": ""
+  },
+  {
    "id": "aurea-what-is-considered-excessive-exercise-when-trying-to-conceiv",
    "brand": "aurea",
    "pillar": "conception-basics",
@@ -17326,6 +17802,27 @@
    "note": ""
   },
   {
+   "id": "aurea-how-to-treat-ohss",
+   "brand": "aurea",
+   "pillar": "ivf-protocols",
+   "primary": "how to treat ohss",
+   "volume": 90,
+   "sd": 38,
+   "cpc": 0.0,
+   "total_volume": 90,
+   "keywords": [
+    {
+     "term": "how to treat ohss",
+     "volume": 90,
+     "sd": 38
+    }
+   ],
+   "suggested_format": "step-by-step",
+   "score": 50.6,
+   "status": "available",
+   "note": ""
+  },
+  {
    "id": "aurea-chemical-pregnancy-line-progression-easy-at-home",
    "brand": "aurea",
    "pillar": "pregnancy-loss",
@@ -17360,6 +17857,27 @@
      "term": "should a man take folic acid when trying to conceive",
      "volume": 50,
      "sd": 29
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 50.6,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-how-is-ohss-treated",
+   "brand": "aurea",
+   "pillar": "ivf-protocols",
+   "primary": "how is ohss treated",
+   "volume": 50,
+   "sd": 33,
+   "cpc": 0.0,
+   "total_volume": 50,
+   "keywords": [
+    {
+     "term": "how is ohss treated",
+     "volume": 50,
+     "sd": 33
     }
    ],
    "suggested_format": "deep-guide",
@@ -17819,6 +18337,27 @@
    "note": ""
   },
   {
+   "id": "aurea-mild-ohss",
+   "brand": "aurea",
+   "pillar": "ivf-protocols",
+   "primary": "mild ohss",
+   "volume": 70,
+   "sd": 37,
+   "cpc": 0.0,
+   "total_volume": 70,
+   "keywords": [
+    {
+     "term": "mild ohss",
+     "volume": 70,
+     "sd": 37
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 50.0,
+   "status": "available",
+   "note": ""
+  },
+  {
    "id": "aurea-emily-oster-trying-to-conceive",
    "brand": "aurea",
    "pillar": "conception-basics",
@@ -17853,6 +18392,27 @@
      "term": "how do you get chronic endometritis",
      "volume": 30,
      "sd": 28
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 49.9,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-when-does-ohss-occur",
+   "brand": "aurea",
+   "pillar": "ivf-protocols",
+   "primary": "when does ohss occur",
+   "volume": 30,
+   "sd": 30,
+   "cpc": 0.0,
+   "total_volume": 30,
+   "keywords": [
+    {
+     "term": "when does ohss occur",
+     "volume": 30,
+     "sd": 30
     }
    ],
    "suggested_format": "deep-guide",
@@ -17942,6 +18502,27 @@
      "term": "hydrosalpinx ct",
      "volume": 50,
      "sd": 31
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 49.6,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-what-does-ohss-feel-like",
+   "brand": "aurea",
+   "pillar": "ivf-protocols",
+   "primary": "what does ohss feel like",
+   "volume": 50,
+   "sd": 35,
+   "cpc": 0.0,
+   "total_volume": 50,
+   "keywords": [
+    {
+     "term": "what does ohss feel like",
+     "volume": 50,
+     "sd": 35
     }
    ],
    "suggested_format": "deep-guide",
@@ -18089,6 +18670,27 @@
      "term": "endometrial thickness and ivf",
      "volume": 140,
      "sd": 40
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 49.5,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-ohss-prevention",
+   "brand": "aurea",
+   "pillar": "ivf-protocols",
+   "primary": "ohss prevention",
+   "volume": 110,
+   "sd": 42,
+   "cpc": 0.0,
+   "total_volume": 110,
+   "keywords": [
+    {
+     "term": "ohss prevention",
+     "volume": 110,
+     "sd": 42
     }
    ],
    "suggested_format": "deep-guide",
@@ -18736,6 +19338,27 @@
    "note": ""
   },
   {
+   "id": "aurea-does-ohss-go-away-on-its-own",
+   "brand": "aurea",
+   "pillar": "ivf-protocols",
+   "primary": "does ohss go away on its own",
+   "volume": 30,
+   "sd": 33,
+   "cpc": 0.0,
+   "total_volume": 30,
+   "keywords": [
+    {
+     "term": "does ohss go away on its own",
+     "volume": 30,
+     "sd": 33
+    }
+   ],
+   "suggested_format": "straight-answer",
+   "score": 48.4,
+   "status": "available",
+   "note": ""
+  },
+  {
    "id": "aurea-endometrial-thickness-6mm",
    "brand": "aurea",
    "pillar": "tubes-uterus-iui",
@@ -18925,6 +19548,27 @@
    "note": ""
   },
   {
+   "id": "aurea-can-you-still-have-embryo-transfer-with-mild-ohss",
+   "brand": "aurea",
+   "pillar": "ivf-protocols",
+   "primary": "can you still have embryo transfer with mild ohss",
+   "volume": 40,
+   "sd": 37,
+   "cpc": 0.0,
+   "total_volume": 40,
+   "keywords": [
+    {
+     "term": "can you still have embryo transfer with mild ohss",
+     "volume": 40,
+     "sd": 37
+    }
+   ],
+   "suggested_format": "straight-answer",
+   "score": 47.6,
+   "status": "available",
+   "note": ""
+  },
+  {
    "id": "aurea-does-position-matter-when-trying-to-conceive",
    "brand": "aurea",
    "pillar": "conception-basics",
@@ -19005,6 +19649,48 @@
    ],
    "suggested_format": "deep-guide",
    "score": 47.4,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-how-is-ohss-diagnosed",
+   "brand": "aurea",
+   "pillar": "ivf-protocols",
+   "primary": "how is ohss diagnosed",
+   "volume": 30,
+   "sd": 35,
+   "cpc": 0.0,
+   "total_volume": 30,
+   "keywords": [
+    {
+     "term": "how is ohss diagnosed",
+     "volume": 30,
+     "sd": 35
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 47.4,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-ohss-means",
+   "brand": "aurea",
+   "pillar": "ivf-protocols",
+   "primary": "ohss means",
+   "volume": 480,
+   "sd": 59,
+   "cpc": 0.0,
+   "total_volume": 480,
+   "keywords": [
+    {
+     "term": "ohss means",
+     "volume": 480,
+     "sd": 59
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 47.3,
    "status": "available",
    "note": ""
   },
@@ -19358,6 +20044,27 @@
      "term": "did hilary swank use donor eggs",
      "volume": 50,
      "sd": 27
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 46.6,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-severe-ohss",
+   "brand": "aurea",
+   "pillar": "ivf-protocols",
+   "primary": "severe ohss",
+   "volume": 50,
+   "sd": 41,
+   "cpc": 0.0,
+   "total_volume": 50,
+   "keywords": [
+    {
+     "term": "severe ohss",
+     "volume": 50,
+     "sd": 41
     }
    ],
    "suggested_format": "deep-guide",
@@ -20387,6 +21094,32 @@
    "note": ""
   },
   {
+   "id": "aurea-ohss-and-pregnancy",
+   "brand": "aurea",
+   "pillar": "ivf-protocols",
+   "primary": "ohss and pregnancy",
+   "volume": 30,
+   "sd": 48,
+   "cpc": 0.0,
+   "total_volume": 60,
+   "keywords": [
+    {
+     "term": "ohss and pregnancy",
+     "volume": 30,
+     "sd": 48
+    },
+    {
+     "term": "ohss pregnancy",
+     "volume": 30,
+     "sd": 44
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 43.9,
+   "status": "available",
+   "note": ""
+  },
+  {
    "id": "aurea-ways-to-boost-sperm-count",
    "brand": "aurea",
    "pillar": "male-factor",
@@ -20722,6 +21455,32 @@
     }
    ],
    "suggested_format": "number-explained",
+   "score": 40.5,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-what-causes-ohss",
+   "brand": "aurea",
+   "pillar": "ivf-protocols",
+   "primary": "what causes ohss",
+   "volume": 70,
+   "sd": 69,
+   "cpc": 0.0,
+   "total_volume": 110,
+   "keywords": [
+    {
+     "term": "what causes ohss",
+     "volume": 70,
+     "sd": 69
+    },
+    {
+     "term": "ohss causes",
+     "volume": 40,
+     "sd": 49
+    }
+   ],
+   "suggested_format": "numbered-list",
    "score": 40.5,
    "status": "available",
    "note": ""

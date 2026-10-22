@@ -444,6 +444,16 @@
    "ok": true,
    "rows_kept": 9,
    "date": "2026-10-21"
+  },
+  {
+   "brand": "aurea",
+   "pillar": "ivf-protocols",
+   "seeds": [
+    "ohss"
+   ],
+   "ok": true,
+   "rows_kept": 49,
+   "date": "2026-10-22"
   }
  ],
  "rows": [
@@ -32718,6 +32728,643 @@
     1
    ],
    "added": "2026-10-21"
+  },
+  {
+   "brand": "aurea",
+   "pillar": "ivf-protocols",
+   "seed": "ohss",
+   "keyword": "ohss syndrome",
+   "volume": 18100,
+   "sd": 45,
+   "cpc": 9.12,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-22"
+  },
+  {
+   "brand": "aurea",
+   "pillar": "ivf-protocols",
+   "seed": "ohss",
+   "keyword": "symptoms of ohss",
+   "volume": 4400,
+   "sd": 50,
+   "cpc": 0.9,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-22"
+  },
+  {
+   "brand": "aurea",
+   "pillar": "ivf-protocols",
+   "seed": "ohss",
+   "keyword": "ohss symptoms",
+   "volume": 3600,
+   "sd": 52,
+   "cpc": 8.69,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-22"
+  },
+  {
+   "brand": "aurea",
+   "pillar": "ivf-protocols",
+   "seed": "ohss",
+   "keyword": "what is ohss",
+   "volume": 1300,
+   "sd": 34,
+   "cpc": 22.89,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-22"
+  },
+  {
+   "brand": "aurea",
+   "pillar": "ivf-protocols",
+   "seed": "ohss",
+   "keyword": "treatment of ohss",
+   "volume": 720,
+   "sd": 47,
+   "cpc": 9.55,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-22"
+  },
+  {
+   "brand": "aurea",
+   "pillar": "ivf-protocols",
+   "seed": "ohss",
+   "keyword": "ohss means",
+   "volume": 480,
+   "sd": 59,
+   "cpc": 0.0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-22"
+  },
+  {
+   "brand": "aurea",
+   "pillar": "ivf-protocols",
+   "seed": "ohss",
+   "keyword": "ohss signs",
+   "volume": 320,
+   "sd": 57,
+   "cpc": 0.01,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-22"
+  },
+  {
+   "brand": "aurea",
+   "pillar": "ivf-protocols",
+   "seed": "ohss",
+   "keyword": "ohss when to go to hospital",
+   "volume": 320,
+   "sd": 29,
+   "cpc": 0.0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-22"
+  },
+  {
+   "brand": "aurea",
+   "pillar": "ivf-protocols",
+   "seed": "ohss",
+   "keyword": "cabergoline ohss",
+   "volume": 210,
+   "sd": 25,
+   "cpc": 0.0,
+   "intent": [
+    2
+   ],
+   "added": "2026-10-22"
+  },
+  {
+   "brand": "aurea",
+   "pillar": "ivf-protocols",
+   "seed": "ohss",
+   "keyword": "ohss after egg collection",
+   "volume": 210,
+   "sd": 29,
+   "cpc": 0.0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-22"
+  },
+  {
+   "brand": "aurea",
+   "pillar": "ivf-protocols",
+   "seed": "ohss",
+   "keyword": "how to prevent ohss",
+   "volume": 170,
+   "sd": 36,
+   "cpc": 0.0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-22"
+  },
+  {
+   "brand": "aurea",
+   "pillar": "ivf-protocols",
+   "seed": "ohss",
+   "keyword": "ohss prevention",
+   "volume": 110,
+   "sd": 42,
+   "cpc": 0.0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-22"
+  },
+  {
+   "brand": "aurea",
+   "pillar": "ivf-protocols",
+   "seed": "ohss",
+   "keyword": "ohss reddit",
+   "volume": 90,
+   "sd": 30,
+   "cpc": 0.0,
+   "intent": [
+    2
+   ],
+   "added": "2026-10-22"
+  },
+  {
+   "brand": "aurea",
+   "pillar": "ivf-protocols",
+   "seed": "ohss",
+   "keyword": "how to treat ohss",
+   "volume": 90,
+   "sd": 38,
+   "cpc": 0.0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-22"
+  },
+  {
+   "brand": "aurea",
+   "pillar": "ivf-protocols",
+   "seed": "ohss",
+   "keyword": "mild ohss",
+   "volume": 70,
+   "sd": 37,
+   "cpc": 0.0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-22"
+  },
+  {
+   "brand": "aurea",
+   "pillar": "ivf-protocols",
+   "seed": "ohss",
+   "keyword": "how to avoid ohss",
+   "volume": 70,
+   "sd": 29,
+   "cpc": 0.0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-22"
+  },
+  {
+   "brand": "aurea",
+   "pillar": "ivf-protocols",
+   "seed": "ohss",
+   "keyword": "how common is ohss",
+   "volume": 70,
+   "sd": 32,
+   "cpc": 0.0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-22"
+  },
+  {
+   "brand": "aurea",
+   "pillar": "ivf-protocols",
+   "seed": "ohss",
+   "keyword": "what causes ohss",
+   "volume": 70,
+   "sd": 69,
+   "cpc": 0.0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-22"
+  },
+  {
+   "brand": "aurea",
+   "pillar": "ivf-protocols",
+   "seed": "ohss",
+   "keyword": "mild ohss symptoms",
+   "volume": 70,
+   "sd": 33,
+   "cpc": 0.0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-22"
+  },
+  {
+   "brand": "aurea",
+   "pillar": "ivf-protocols",
+   "seed": "ohss",
+   "keyword": "ohss risk",
+   "volume": 70,
+   "sd": 30,
+   "cpc": 0.0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-22"
+  },
+  {
+   "brand": "aurea",
+   "pillar": "ivf-protocols",
+   "seed": "ohss",
+   "keyword": "how to avoid ohss during ivf",
+   "volume": 50,
+   "sd": 38,
+   "cpc": 0.0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-22"
+  },
+  {
+   "brand": "aurea",
+   "pillar": "ivf-protocols",
+   "seed": "ohss",
+   "keyword": "severe ohss",
+   "volume": 50,
+   "sd": 41,
+   "cpc": 0.0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-22"
+  },
+  {
+   "brand": "aurea",
+   "pillar": "ivf-protocols",
+   "seed": "ohss",
+   "keyword": "what does ohss feel like",
+   "volume": 50,
+   "sd": 35,
+   "cpc": 0.0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-22"
+  },
+  {
+   "brand": "aurea",
+   "pillar": "ivf-protocols",
+   "seed": "ohss",
+   "keyword": "ohss bloating",
+   "volume": 50,
+   "sd": 14,
+   "cpc": 0.0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-22"
+  },
+  {
+   "brand": "aurea",
+   "pillar": "ivf-protocols",
+   "seed": "ohss",
+   "keyword": "ohss estrogen levels",
+   "volume": 50,
+   "sd": 18,
+   "cpc": 0.0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-22"
+  },
+  {
+   "brand": "aurea",
+   "pillar": "ivf-protocols",
+   "seed": "ohss",
+   "keyword": "ohss risk factors",
+   "volume": 50,
+   "sd": 26,
+   "cpc": 0.09,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-22"
+  },
+  {
+   "brand": "aurea",
+   "pillar": "ivf-protocols",
+   "seed": "ohss",
+   "keyword": "how is ohss treated",
+   "volume": 50,
+   "sd": 33,
+   "cpc": 0.0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-22"
+  },
+  {
+   "brand": "aurea",
+   "pillar": "ivf-protocols",
+   "seed": "ohss",
+   "keyword": "gatorade for ohss",
+   "volume": 50,
+   "sd": 19,
+   "cpc": 0.0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-22"
+  },
+  {
+   "brand": "aurea",
+   "pillar": "ivf-protocols",
+   "seed": "ohss",
+   "keyword": "ohss causes",
+   "volume": 40,
+   "sd": 49,
+   "cpc": 0.0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-22"
+  },
+  {
+   "brand": "aurea",
+   "pillar": "ivf-protocols",
+   "seed": "ohss",
+   "keyword": "can you still have embryo transfer with mild ohss",
+   "volume": 40,
+   "sd": 37,
+   "cpc": 0.0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-22"
+  },
+  {
+   "brand": "aurea",
+   "pillar": "ivf-protocols",
+   "seed": "ohss",
+   "keyword": "how to reduce ohss bloating",
+   "volume": 40,
+   "sd": 13,
+   "cpc": 0.0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-22"
+  },
+  {
+   "brand": "aurea",
+   "pillar": "ivf-protocols",
+   "seed": "ohss",
+   "keyword": "how long does ohss last",
+   "volume": 40,
+   "sd": 14,
+   "cpc": 0.0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-22"
+  },
+  {
+   "brand": "aurea",
+   "pillar": "ivf-protocols",
+   "seed": "ohss",
+   "keyword": "can you get ohss before egg retrieval",
+   "volume": 40,
+   "sd": 13,
+   "cpc": 0.0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-22"
+  },
+  {
+   "brand": "aurea",
+   "pillar": "ivf-protocols",
+   "seed": "ohss",
+   "keyword": "ohss before egg retrieval",
+   "volume": 30,
+   "sd": 29,
+   "cpc": 0.0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-22"
+  },
+  {
+   "brand": "aurea",
+   "pillar": "ivf-protocols",
+   "seed": "ohss",
+   "keyword": "how is ohss diagnosed",
+   "volume": 30,
+   "sd": 35,
+   "cpc": 0.0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-22"
+  },
+  {
+   "brand": "aurea",
+   "pillar": "ivf-protocols",
+   "seed": "ohss",
+   "keyword": "ohss diet",
+   "volume": 30,
+   "sd": 25,
+   "cpc": 0.0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-22"
+  },
+  {
+   "brand": "aurea",
+   "pillar": "ivf-protocols",
+   "seed": "ohss",
+   "keyword": "does ohss go away on its own",
+   "volume": 30,
+   "sd": 33,
+   "cpc": 0.0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-22"
+  },
+  {
+   "brand": "aurea",
+   "pillar": "ivf-protocols",
+   "seed": "ohss",
+   "keyword": "how to avoid ohss after egg retrieval",
+   "volume": 30,
+   "sd": 30,
+   "cpc": 0.0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-22"
+  },
+  {
+   "brand": "aurea",
+   "pillar": "ivf-protocols",
+   "seed": "ohss",
+   "keyword": "ohss management",
+   "volume": 30,
+   "sd": 23,
+   "cpc": 0.0,
+   "intent": [
+    2
+   ],
+   "added": "2026-10-22"
+  },
+  {
+   "brand": "aurea",
+   "pillar": "ivf-protocols",
+   "seed": "ohss",
+   "keyword": "estradiol levels ohss",
+   "volume": 30,
+   "sd": 26,
+   "cpc": 0.0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-22"
+  },
+  {
+   "brand": "aurea",
+   "pillar": "ivf-protocols",
+   "seed": "ohss",
+   "keyword": "what to eat after egg retrieval ohss",
+   "volume": 30,
+   "sd": 20,
+   "cpc": 0.0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-22"
+  },
+  {
+   "brand": "aurea",
+   "pillar": "ivf-protocols",
+   "seed": "ohss",
+   "keyword": "ohss weight gain",
+   "volume": 30,
+   "sd": 24,
+   "cpc": 0.0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-22"
+  },
+  {
+   "brand": "aurea",
+   "pillar": "ivf-protocols",
+   "seed": "ohss",
+   "keyword": "ohss and pregnancy",
+   "volume": 30,
+   "sd": 48,
+   "cpc": 0.0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-22"
+  },
+  {
+   "brand": "aurea",
+   "pillar": "ivf-protocols",
+   "seed": "ohss",
+   "keyword": "ohss pregnancy",
+   "volume": 30,
+   "sd": 44,
+   "cpc": 0.0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-22"
+  },
+  {
+   "brand": "aurea",
+   "pillar": "ivf-protocols",
+   "seed": "ohss",
+   "keyword": "ohss diagnosis",
+   "volume": 30,
+   "sd": 26,
+   "cpc": 0.0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-22"
+  },
+  {
+   "brand": "aurea",
+   "pillar": "ivf-protocols",
+   "seed": "ohss",
+   "keyword": "letrozole ohss",
+   "volume": 30,
+   "sd": 28,
+   "cpc": 0.0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-22"
+  },
+  {
+   "brand": "aurea",
+   "pillar": "ivf-protocols",
+   "seed": "ohss",
+   "keyword": "risk factors for ohss",
+   "volume": 30,
+   "sd": 29,
+   "cpc": 0.0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-22"
+  },
+  {
+   "brand": "aurea",
+   "pillar": "ivf-protocols",
+   "seed": "ohss",
+   "keyword": "when does ohss occur",
+   "volume": 30,
+   "sd": 30,
+   "cpc": 0.0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-22"
+  },
+  {
+   "brand": "aurea",
+   "pillar": "ivf-protocols",
+   "seed": "ohss",
+   "keyword": "ohss symptoms reddit",
+   "volume": 30,
+   "sd": 30,
+   "cpc": 0.0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-22"
   }
  ]
 }

@@ -2,6 +2,26 @@
  "note": "Every post live on either blog. The engine appends here after each publish.",
  "posts": [
   {
+   "brand": "aurea",
+   "title": "Egg Retrieval With Sedation vs. Local Anesthesia: Which Is Right for You?",
+   "slug": "egg-retrieval",
+   "date": "2026-10-22",
+   "category": "Treatments & IVF",
+   "post_id": "043301da-bde3-4571-81f7-b2d013111a32",
+   "url": "https://www.aureafertility.com/post/egg-retrieval",
+   "source": "engine",
+   "pillar": "ivf-protocols",
+   "format": "comparison",
+   "title_shape": "T4",
+   "primary_keyword": "egg retrieval",
+   "cluster_id": "aurea-egg-retrieval",
+   "secondary_keywords": [
+    "is egg retrieval painful",
+    "egg retrieval recovery",
+    "egg retrieval anesthesia"
+   ]
+  },
+  {
    "brand": "rfc",
    "title": "PRP for Ovaries vs. Adipose-PRP: Which Rejuvenation Option Fits You?",
    "slug": "prp-ovaries-vs-adipose-prp",

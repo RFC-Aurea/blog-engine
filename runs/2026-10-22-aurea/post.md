@@ -40,7 +40,32 @@
   }
  ],
  "hero": "IMAGE1",
- "images": {},
+ "images": {
+ "IMAGE1": {
+  "wix_id": "ca2223_9bf3e0ea8f514210834a724583fb08ac~mv2.png",
+  "width": 1800,
+  "height": 945,
+  "alt": "Labelled illustration of egg retrieval: ultrasound probe and fine needle reaching the ovary, with sedation study results",
+  "kind": "medical illustration with data",
+  "source": "img/image1.html",
+  "file": "img/image1.png",
+  "md5": "706077406ba5f887fc8a3baeceff6c07",
+  "wix_hash": "706077406ba5f887fc8a3baeceff6c07",
+  "preview_src": "img/image1.png"
+ },
+ "IMAGE2": {
+  "wix_id": "ca2223_feb4670d247d468dbeb84eceaec62ff2~mv2.png",
+  "width": 1800,
+  "height": 945,
+  "alt": "Timeline from first visit to egg retrieval recovery, with Aurea prices for egg freezing, IVF and IV sedation",
+  "kind": "labelled timeline and cost diagram",
+  "source": "img/image2.html",
+  "file": "img/image2.png",
+  "md5": "f97d275206b59cffbd26b07dbc8feb42",
+  "wix_hash": "f97d275206b59cffbd26b07dbc8feb42",
+  "preview_src": "img/image2.png"
+ }
+},
  "citations": [
   {"url": "https://pubmed.ncbi.nlm.nih.gov/23440796/"},
   {"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5699983"},
@@ -132,7 +157,7 @@ How deep the sedation goes matters too. In a [2025 randomized trial in Human Rep
 
 ### Is egg retrieval painful? The honest answer
 
-Under deep IV sedation, most people feel little or nothing during the procedure. Under local numbing or light sedation, expect moderate cramping for a few minutes. "It was horrendous, felt everything," wrote one patient whose sedation was lighter than she expected, which is why it is worth asking exactly what kind of sedation you will get.
+Under deep IV sedation, most people feel little or nothing during the procedure. Under local numbing or light sedation, expect moderate cramping for a few minutes. "It was horrendous, felt everything," wrote one patient whose sedation was lighter than expected, which is why it is worth asking exactly what kind of sedation you will get.
 
 ## Who Each Option Suits {#who-it-suits}
 

@@ -454,6 +454,36 @@
    "ok": true,
    "rows_kept": 49,
    "date": "2026-10-22"
+  },
+  {
+   "brand": "rfc",
+   "pillar": "immunology-rpl",
+   "seeds": [
+    "chronic endometritis"
+   ],
+   "ok": true,
+   "rows_kept": 1,
+   "date": "2026-10-23"
+  },
+  {
+   "brand": "aurea",
+   "pillar": "male-factor",
+   "seeds": [
+    "sperm dna fragmentation"
+   ],
+   "ok": true,
+   "rows_kept": 8,
+   "date": "2026-10-23"
+  },
+  {
+   "brand": "rfc",
+   "pillar": "immunology-rpl",
+   "seeds": [
+    "recurrent miscarriage"
+   ],
+   "ok": true,
+   "rows_kept": 10,
+   "date": "2026-10-23"
   }
  ],
  "rows": [
@@ -33365,6 +33395,253 @@
     1
    ],
    "added": "2026-10-22"
+  },
+  {
+   "brand": "rfc",
+   "pillar": "immunology-rpl",
+   "seed": "chronic endometritis",
+   "keyword": "can chronic endometritis be cured",
+   "volume": 40,
+   "sd": 30,
+   "cpc": 0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-23"
+  },
+  {
+   "brand": "aurea",
+   "pillar": "male-factor",
+   "seed": "sperm dna fragmentation",
+   "keyword": "sperm dna fragmentation test price",
+   "volume": 70,
+   "sd": 14,
+   "cpc": 4.9,
+   "intent": [
+    3
+   ],
+   "added": "2026-10-23"
+  },
+  {
+   "brand": "aurea",
+   "pillar": "male-factor",
+   "seed": "sperm dna fragmentation",
+   "keyword": "how long does it take to improve sperm dna fragmentation",
+   "volume": 40,
+   "sd": 20,
+   "cpc": 0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-23"
+  },
+  {
+   "brand": "aurea",
+   "pillar": "male-factor",
+   "seed": "sperm dna fragmentation",
+   "keyword": "at home sperm dna fragmentation test",
+   "volume": 40,
+   "sd": 11,
+   "cpc": 12.1,
+   "intent": [
+    1,
+    4
+   ],
+   "added": "2026-10-23"
+  },
+  {
+   "brand": "aurea",
+   "pillar": "male-factor",
+   "seed": "sperm dna fragmentation",
+   "keyword": "how to fix sperm dna fragmentation",
+   "volume": 30,
+   "sd": 38,
+   "cpc": 0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-23"
+  },
+  {
+   "brand": "aurea",
+   "pillar": "male-factor",
+   "seed": "sperm dna fragmentation",
+   "keyword": "sperm dna fragmentation test kit",
+   "volume": 30,
+   "sd": 13,
+   "cpc": 11.845,
+   "intent": [
+    4
+   ],
+   "added": "2026-10-23"
+  },
+  {
+   "brand": "aurea",
+   "pillar": "male-factor",
+   "seed": "sperm dna fragmentation",
+   "keyword": "sperm dna fragmentation index",
+   "volume": 30,
+   "sd": 23,
+   "cpc": 18.24,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-23"
+  },
+  {
+   "brand": "aurea",
+   "pillar": "male-factor",
+   "seed": "sperm dna fragmentation",
+   "keyword": "sperm dna fragmentation test normal range",
+   "volume": 30,
+   "sd": 13,
+   "cpc": 0,
+   "intent": [
+    3,
+    1,
+    4
+   ],
+   "added": "2026-10-23"
+  },
+  {
+   "brand": "aurea",
+   "pillar": "male-factor",
+   "seed": "sperm dna fragmentation",
+   "keyword": "sperm dna fragmentation causes",
+   "volume": 30,
+   "sd": 10,
+   "cpc": 0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-23"
+  },
+  {
+   "brand": "rfc",
+   "pillar": "immunology-rpl",
+   "seed": "recurrent miscarriage",
+   "keyword": "recurrent pregnancy loss work up",
+   "volume": 260,
+   "sd": 39,
+   "cpc": 11.105,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-23"
+  },
+  {
+   "brand": "rfc",
+   "pillar": "immunology-rpl",
+   "seed": "recurrent miscarriage",
+   "keyword": "icd 10 for recurrent pregnancy loss",
+   "volume": 170,
+   "sd": 5,
+   "cpc": 0,
+   "intent": null,
+   "added": "2026-10-23"
+  },
+  {
+   "brand": "rfc",
+   "pillar": "immunology-rpl",
+   "seed": "recurrent miscarriage",
+   "keyword": "icd 10 code for recurrent pregnancy loss",
+   "volume": 110,
+   "sd": 5,
+   "cpc": 0,
+   "intent": null,
+   "added": "2026-10-23"
+  },
+  {
+   "brand": "rfc",
+   "pillar": "immunology-rpl",
+   "seed": "recurrent miscarriage",
+   "keyword": "progesterone recurrent pregnancy loss",
+   "volume": 70,
+   "sd": 25,
+   "cpc": 0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-23"
+  },
+  {
+   "brand": "rfc",
+   "pillar": "immunology-rpl",
+   "seed": "recurrent miscarriage",
+   "keyword": "recurrent pregnancy loss in pregnancy icd 10",
+   "volume": 40,
+   "sd": 20,
+   "cpc": 0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-23"
+  },
+  {
+   "brand": "rfc",
+   "pillar": "immunology-rpl",
+   "seed": "recurrent miscarriage",
+   "keyword": "recurrent pregnancy loss reddit",
+   "volume": 40,
+   "sd": 30,
+   "cpc": 0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-23"
+  },
+  {
+   "brand": "rfc",
+   "pillar": "immunology-rpl",
+   "seed": "recurrent miscarriage",
+   "keyword": "recurrent pregnancy loss panel labcorp",
+   "volume": 30,
+   "sd": 31,
+   "cpc": 0,
+   "intent": [
+    3,
+    1
+   ],
+   "added": "2026-10-23"
+  },
+  {
+   "brand": "rfc",
+   "pillar": "immunology-rpl",
+   "seed": "recurrent miscarriage",
+   "keyword": "what is considered recurrent pregnancy loss",
+   "volume": 30,
+   "sd": 35,
+   "cpc": 0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-23"
+  },
+  {
+   "brand": "rfc",
+   "pillar": "immunology-rpl",
+   "seed": "recurrent miscarriage",
+   "keyword": "lovenox for recurrent pregnancy loss",
+   "volume": 30,
+   "sd": 17,
+   "cpc": 0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-23"
+  },
+  {
+   "brand": "rfc",
+   "pillar": "immunology-rpl",
+   "seed": "recurrent miscarriage",
+   "keyword": "history of recurrent pregnancy loss icd 10",
+   "volume": 30,
+   "sd": 19,
+   "cpc": 0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-23"
   }
  ]
 }

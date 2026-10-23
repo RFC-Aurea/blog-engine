@@ -13,3 +13,4 @@
 | 2026-10-20 | aurea | published | Trying to Conceive Under 40: Fertility Odds, Tests and When to Get Help | trying to conceive fertility | https://www.aureafertility.com/post/trying-to-conceive-fertility |
 | 2026-10-21 | rfc | published | PRP for Ovaries vs. Adipose-PRP: Which Rejuvenation Option Fits You? | prp ovaries | https://www.rejuvenatingfertility.com/post/prp-ovaries-vs-adipose-prp |
 | 2026-10-22 | aurea | published | Egg Retrieval With Sedation vs. Local Anesthesia: Which Is Right for You? | egg retrieval | https://www.aureafertility.com/post/egg-retrieval |
+| 2026-10-23 | rfc | published | 8 Things Recurrent Miscarriage Specialists Look For After Two Losses | recurrent miscarriage specialists | https://www.rejuvenatingfertility.com/post/recurrent-miscarriage-specialists |

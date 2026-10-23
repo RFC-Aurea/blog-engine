@@ -40,7 +40,32 @@
   }
  ],
  "hero": "IMAGE1",
- "images": {},
+ "images": {
+ "IMAGE1": {
+  "wix_id": "ca2223_0475948cb1db4db4b0ee610c6007009f~mv2.png",
+  "width": 1800,
+  "height": 945,
+  "alt": "Labelled illustration of where recurrent miscarriage specialists look: uterine lining, cavity, embryo, ovary and blood tests",
+  "kind": "labelled medical illustration",
+  "source": "img/image1.html",
+  "file": "img/image1.png",
+  "md5": "e7689198efe8947b03f025a7befaaa00",
+  "wix_hash": "e7689198efe8947b03f025a7befaaa00",
+  "preview_src": "img/image1.png"
+ },
+ "IMAGE2": {
+  "wix_id": "ca2223_13efd2b062cf431fba2516cba53a0b12~mv2.png",
+  "width": 1800,
+  "height": 945,
+  "alt": "Six steps of a recurrent pregnancy loss work up, from gathering records to a plan, with questions for your doctor",
+  "kind": "labelled timeline",
+  "source": "img/image2.html",
+  "file": "img/image2.png",
+  "md5": "23c37c9dc56cebce8a6e3e7e117c50b6",
+  "wix_hash": "23c37c9dc56cebce8a6e3e7e117c50b6",
+  "preview_src": "img/image2.png"
+ }
+},
  "citations": [
   {"url": "https://www.asrm.org/practice-guidance/practice-committee-documents/recurrent-pregnancy-loss-a-committee-opinion-2026/"},
   {"url": "https://integration.asrm.org/globalassets/_asrm/practice-guidance/practice-guidelines/pdf/evaluation_and_treatment_of_recurrent_pregnancy_loss.pdf"},

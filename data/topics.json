@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22",
+ "updated": "2026-10-23",
  "min_volume": 20,
  "clusters": [
   {
@@ -216,6 +216,57 @@
    "note": ""
   },
   {
+   "id": "aurea-sperm-dna-fragmentation-test",
+   "brand": "aurea",
+   "pillar": "male-factor",
+   "primary": "sperm dna fragmentation test",
+   "volume": 1900,
+   "sd": 16,
+   "cpc": 9.86,
+   "total_volume": 3760,
+   "keywords": [
+    {
+     "term": "sperm dna fragmentation test",
+     "volume": 1900,
+     "sd": 16
+    },
+    {
+     "term": "sperm dna fragmentation testing",
+     "volume": 1600,
+     "sd": 19
+    },
+    {
+     "term": "sperm dna fragmentation test cost",
+     "volume": 90,
+     "sd": 15
+    },
+    {
+     "term": "sperm dna fragmentation test price",
+     "volume": 70,
+     "sd": 14
+    },
+    {
+     "term": "at home sperm dna fragmentation test",
+     "volume": 40,
+     "sd": 11
+    },
+    {
+     "term": "sperm dna fragmentation test kit",
+     "volume": 30,
+     "sd": 13
+    },
+    {
+     "term": "sperm dna fragmentation test normal range",
+     "volume": 30,
+     "sd": 13
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 85.8,
+   "status": "available",
+   "note": ""
+  },
+  {
    "id": "aurea-how-much-does-sperm-freezing-cost",
    "brand": "aurea",
    "pillar": "male-factor",
@@ -265,37 +316,6 @@
    "score": 85.7,
    "status": "used",
    "note": "published 2026-10-16 https://www.aureafertility.com/post/sperm-freezing-cost"
-  },
-  {
-   "id": "aurea-sperm-dna-fragmentation-test",
-   "brand": "aurea",
-   "pillar": "male-factor",
-   "primary": "sperm dna fragmentation test",
-   "volume": 1900,
-   "sd": 16,
-   "cpc": 9.86,
-   "total_volume": 3590,
-   "keywords": [
-    {
-     "term": "sperm dna fragmentation test",
-     "volume": 1900,
-     "sd": 16
-    },
-    {
-     "term": "sperm dna fragmentation testing",
-     "volume": 1600,
-     "sd": 19
-    },
-    {
-     "term": "sperm dna fragmentation test cost",
-     "volume": 90,
-     "sd": 15
-    }
-   ],
-   "suggested_format": "deep-guide",
-   "score": 85.6,
-   "status": "available",
-   "note": ""
   },
   {
    "id": "aurea-pgt-a-testing",
@@ -2680,8 +2700,8 @@
    ],
    "suggested_format": "deep-guide",
    "score": 71.8,
-   "status": "available",
-   "note": ""
+   "status": "used",
+   "note": "published 2026-10-23 https://www.rejuvenatingfertility.com/post/recurrent-miscarriage-specialists"
   },
   {
    "id": "rfc-jewish-donor-eggs",
@@ -3320,6 +3340,42 @@
    ],
    "suggested_format": "step-by-step",
    "score": 70.1,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "rfc-icd-10-for-recurrent-pregnancy-loss",
+   "brand": "rfc",
+   "pillar": "immunology-rpl",
+   "primary": "icd 10 for recurrent pregnancy loss",
+   "volume": 170,
+   "sd": 5,
+   "cpc": 0,
+   "total_volume": 350,
+   "keywords": [
+    {
+     "term": "icd 10 for recurrent pregnancy loss",
+     "volume": 170,
+     "sd": 5
+    },
+    {
+     "term": "icd 10 code for recurrent pregnancy loss",
+     "volume": 110,
+     "sd": 5
+    },
+    {
+     "term": "recurrent pregnancy loss in pregnancy icd 10",
+     "volume": 40,
+     "sd": 20
+    },
+    {
+     "term": "history of recurrent pregnancy loss icd 10",
+     "volume": 30,
+     "sd": 19
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 70.0,
    "status": "available",
    "note": ""
   },
@@ -7130,6 +7186,27 @@
    "note": ""
   },
   {
+   "id": "rfc-recurrent-pregnancy-loss-work-up",
+   "brand": "rfc",
+   "pillar": "immunology-rpl",
+   "primary": "recurrent pregnancy loss work up",
+   "volume": 260,
+   "sd": 39,
+   "cpc": 11.105,
+   "total_volume": 260,
+   "keywords": [
+    {
+     "term": "recurrent pregnancy loss work up",
+     "volume": 260,
+     "sd": 39
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 63.7,
+   "status": "available",
+   "note": ""
+  },
+  {
    "id": "aurea-sperm-count-motility",
    "brand": "aurea",
    "pillar": "male-factor",
@@ -7156,6 +7233,32 @@
     }
    ],
    "suggested_format": "number-explained",
+   "score": 63.6,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-how-to-improve-sperm-dna-fragmentation",
+   "brand": "aurea",
+   "pillar": "male-factor",
+   "primary": "how to improve sperm dna fragmentation",
+   "volume": 110,
+   "sd": 19,
+   "cpc": 2.22,
+   "total_volume": 150,
+   "keywords": [
+    {
+     "term": "how to improve sperm dna fragmentation",
+     "volume": 110,
+     "sd": 19
+    },
+    {
+     "term": "how long does it take to improve sperm dna fragmentation",
+     "volume": 40,
+     "sd": 20
+    }
+   ],
+   "suggested_format": "step-by-step",
    "score": 63.6,
    "status": "available",
    "note": ""
@@ -8008,27 +8111,6 @@
    "note": ""
   },
   {
-   "id": "aurea-how-to-improve-sperm-dna-fragmentation",
-   "brand": "aurea",
-   "pillar": "male-factor",
-   "primary": "how to improve sperm dna fragmentation",
-   "volume": 110,
-   "sd": 19,
-   "cpc": 2.22,
-   "total_volume": 110,
-   "keywords": [
-    {
-     "term": "how to improve sperm dna fragmentation",
-     "volume": 110,
-     "sd": 19
-    }
-   ],
-   "suggested_format": "step-by-step",
-   "score": 62.3,
-   "status": "available",
-   "note": ""
-  },
-  {
    "id": "aurea-how-often-to-have-sex-during-fertile-window",
    "brand": "aurea",
    "pillar": "conception-basics",
@@ -8580,6 +8662,27 @@
      "term": "egg freezing service",
      "volume": 30,
      "sd": 21
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 61.4,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-sperm-dna-fragmentation-index",
+   "brand": "aurea",
+   "pillar": "male-factor",
+   "primary": "sperm dna fragmentation index",
+   "volume": 30,
+   "sd": 23,
+   "cpc": 18.24,
+   "total_volume": 30,
+   "keywords": [
+    {
+     "term": "sperm dna fragmentation index",
+     "volume": 30,
+     "sd": 23
     }
    ],
    "suggested_format": "deep-guide",
@@ -11466,6 +11569,27 @@
    "note": ""
   },
   {
+   "id": "aurea-sperm-dna-fragmentation-causes",
+   "brand": "aurea",
+   "pillar": "male-factor",
+   "primary": "sperm dna fragmentation causes",
+   "volume": 30,
+   "sd": 10,
+   "cpc": 0,
+   "total_volume": 30,
+   "keywords": [
+    {
+     "term": "sperm dna fragmentation causes",
+     "volume": 30,
+     "sd": 10
+    }
+   ],
+   "suggested_format": "numbered-list",
+   "score": 57.9,
+   "status": "available",
+   "note": ""
+  },
+  {
    "id": "aurea-how-long-does-a-hot-tub-affect-sperm-count",
    "brand": "aurea",
    "pillar": "male-factor",
@@ -14199,6 +14323,27 @@
    "note": ""
   },
   {
+   "id": "rfc-lovenox-for-recurrent-pregnancy-loss",
+   "brand": "rfc",
+   "pillar": "immunology-rpl",
+   "primary": "lovenox for recurrent pregnancy loss",
+   "volume": 30,
+   "sd": 17,
+   "cpc": 0,
+   "total_volume": 30,
+   "keywords": [
+    {
+     "term": "lovenox for recurrent pregnancy loss",
+     "volume": 30,
+     "sd": 17
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 55.4,
+   "status": "available",
+   "note": ""
+  },
+  {
    "id": "aurea-saunas-and-sperm-count",
    "brand": "aurea",
    "pillar": "male-factor",
@@ -14639,6 +14784,27 @@
      "term": "ovulation headache trying to conceive",
      "volume": 70,
      "sd": 17
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 55.0,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "rfc-progesterone-recurrent-pregnancy-loss",
+   "brand": "rfc",
+   "pillar": "immunology-rpl",
+   "primary": "progesterone recurrent pregnancy loss",
+   "volume": 70,
+   "sd": 25,
+   "cpc": 0,
+   "total_volume": 70,
+   "keywords": [
+    {
+     "term": "progesterone recurrent pregnancy loss",
+     "volume": 70,
+     "sd": 25
     }
    ],
    "suggested_format": "deep-guide",
@@ -18264,6 +18430,27 @@
    "note": ""
   },
   {
+   "id": "rfc-can-chronic-endometritis-be-cured",
+   "brand": "rfc",
+   "pillar": "immunology-rpl",
+   "primary": "can chronic endometritis be cured",
+   "volume": 40,
+   "sd": 30,
+   "cpc": 0,
+   "total_volume": 40,
+   "keywords": [
+    {
+     "term": "can chronic endometritis be cured",
+     "volume": 40,
+     "sd": 30
+    }
+   ],
+   "suggested_format": "straight-answer",
+   "score": 50.1,
+   "status": "available",
+   "note": ""
+  },
+  {
    "id": "rfc-premature-ovarian-failure-cause",
    "brand": "rfc",
    "pillar": "poi",
@@ -19359,6 +19546,27 @@
    "note": ""
   },
   {
+   "id": "rfc-recurrent-pregnancy-loss-panel-labcorp",
+   "brand": "rfc",
+   "pillar": "immunology-rpl",
+   "primary": "recurrent pregnancy loss panel labcorp",
+   "volume": 30,
+   "sd": 31,
+   "cpc": 0,
+   "total_volume": 30,
+   "keywords": [
+    {
+     "term": "recurrent pregnancy loss panel labcorp",
+     "volume": 30,
+     "sd": 31
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 48.4,
+   "status": "available",
+   "note": ""
+  },
+  {
    "id": "aurea-endometrial-thickness-6mm",
    "brand": "aurea",
    "pillar": "tubes-uterus-iui",
@@ -20335,6 +20543,27 @@
    "note": ""
   },
   {
+   "id": "rfc-what-is-considered-recurrent-pregnancy-loss",
+   "brand": "rfc",
+   "pillar": "immunology-rpl",
+   "primary": "what is considered recurrent pregnancy loss",
+   "volume": 30,
+   "sd": 35,
+   "cpc": 0,
+   "total_volume": 30,
+   "keywords": [
+    {
+     "term": "what is considered recurrent pregnancy loss",
+     "volume": 30,
+     "sd": 35
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 46.4,
+   "status": "available",
+   "note": ""
+  },
+  {
    "id": "aurea-health-sperm-count",
    "brand": "aurea",
    "pillar": "male-factor",
@@ -21115,6 +21344,27 @@
     }
    ],
    "suggested_format": "deep-guide",
+   "score": 43.9,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-how-to-fix-sperm-dna-fragmentation",
+   "brand": "aurea",
+   "pillar": "male-factor",
+   "primary": "how to fix sperm dna fragmentation",
+   "volume": 30,
+   "sd": 38,
+   "cpc": 0,
+   "total_volume": 30,
+   "keywords": [
+    {
+     "term": "how to fix sperm dna fragmentation",
+     "volume": 30,
+     "sd": 38
+    }
+   ],
+   "suggested_format": "step-by-step",
    "score": 43.9,
    "status": "available",
    "note": ""

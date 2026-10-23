@@ -1,0 +1,32 @@
+{
+ "keyword_overview": {"keyword": "recurrent miscarriage specialists", "locId": 2840, "search_volume": 140, "seo_difficulty": 15, "paid_difficulty": 3, "cpc": 5.86, "search_intent": "Informational", "checked": "2026-10-23"},
+ "secondary_keywords": [
+  {"term": "recurrent pregnancy loss work up", "volume": 260, "sd": 39, "source": "Ubersuggest keyword_suggestions locId 2840, 2026-10-23"},
+  {"term": "progesterone recurrent pregnancy loss", "volume": 70, "sd": 25, "source": "Ubersuggest keyword_suggestions locId 2840, 2026-10-23"},
+  {"term": "lovenox for recurrent pregnancy loss", "volume": 30, "sd": 17, "source": "Ubersuggest keyword_suggestions locId 2840, 2026-10-23"}
+ ],
+ "serp_top": [
+  {"pos": 1, "type": "ai_overview"},
+  {"pos": 2, "url": "http://www.nm.org/conditions-and-care-areas/recurrent-pregnancy-loss", "da": 73},
+  {"pos": 3, "url": "http://www.yalemedicine.org/departments/recurrent-pregnancy-loss-program", "da": 70},
+  {"pos": 4, "type": "people_also_ask"},
+  {"pos": 5, "url": "http://drsteverad.com/consultation/recurrent-miscarriages-and-pregnancy-loss/", "da": 17},
+  {"pos": 6, "url": "http://www.fertilityny.org/fertility-treatment/recurrent-miscarriage", "da": 24},
+  {"pos": 7, "url": "http://pnwfertility.com/treatments/miscarriage-services", "da": 38},
+  {"pos": 8, "url": "http://www.fertilitytexas.com/female-infertility/recurrent-miscarriage-pregnancy-loss/", "da": 34},
+  {"pos": 9, "url": "http://crh.ucsf.edu/fertility-treatment/recurrent-pregnancy-loss/", "da": 86},
+  {"pos": 10, "url": "http://www.hcrmfertility.com/recurrent-miscarriage-lincoln-ne/", "da": 36}
+ ],
+ "serp_updated_at": "2026-09-17",
+ "pages_read": {
+  "fertility.nm.org/rpl.html": "clinic page: definition, cause found in about half, team list; names no specific tests or treatments, no outcomes, no guidance on what happens when tests are normal",
+  "yalemedicine.org": "program page: definition, causes, team (REI, MFM, immunologist, geneticist); no test-by-test detail, no treatment evidence, nothing on normal results",
+  "drsteverad.com": "consultation page listing tests and treatments (aspirin, heparin, progesterone, 'autoimmune protocol'); no evidence for any of them, no outcome data"
+ },
+ "patient_sources": [
+  "https://www.mumsnet.com/talk/miscarriage/5555915-recurrent-loss-despite-normal-rpl-panel-pgta-embryos-what-further-testing-helped-you",
+  "https://www.mumsnet.com/talk/am_i_being_unreasonable/3574169-3-MCs-no-known-cause-What-next"
+ ],
+ "ubersuggest_reports_used": 3,
+ "gap": "Top results list the specialists and tests but none says which tests the 2026 ASRM and 2022 ESHRE guidance actually recommend, which add-ons the newest trials (ALIFE2 heparin 2023, CERM doxycycline 2026, PRISM progesterone) found helpful or not, or what a specialist does next when the whole panel comes back normal."
+}

@@ -1,6 +1,6 @@
 {
- "pass": false,
- "hard_failures": 4,
+ "pass": true,
+ "hard_failures": 0,
  "warnings": 0,
  "checks": [
   {
@@ -85,19 +85,19 @@
    "check": "alt text under 125 chars",
    "ok": true,
    "hard": true,
-   "detail": "[7, 7]"
+   "detail": "[122, 112]"
   },
   {
    "check": "a keyword appears in an alt text",
-   "ok": false,
+   "ok": true,
    "hard": true,
    "detail": ""
   },
   {
    "check": "wix image ids look like real Wix media ids",
-   "ok": false,
+   "ok": true,
    "hard": true,
-   "detail": "['PENDING', 'PENDING']"
+   "detail": "['ca2223_8a50e872456b4d85a0a9bf511f315c14~mv2.png', 'ca2223_716e85b1206d452eb93a005fa564ed16~mv2.png']"
   },
   {
    "check": "no 'image of' in alt text",
@@ -223,7 +223,7 @@
    "check": "word count 2000-2800",
    "ok": true,
    "hard": true,
-   "detail": "2229"
+   "detail": "2216"
   },
   {
    "check": "primary keyword in first 100 words",
@@ -235,7 +235,7 @@
    "check": "primary keyword density 0.5-2.5%",
    "ok": true,
    "hard": false,
-   "detail": "1.79% (10 uses)"
+   "detail": "1.81% (10 uses)"
   },
   {
    "check": "internal links >= 8",
@@ -292,16 +292,52 @@
    "detail": ""
   },
   {
-   "check": "IMAGE1: source html and rendered png in the run folder",
-   "ok": false,
+   "check": "IMAGE1: Wix stored exactly the reviewed image (md5 = Wix hash)",
+   "ok": true,
    "hard": true,
-   "detail": "img/image1.html / img/image1.png"
+   "detail": "file 0204f2809699f9e4332703909922be2a, front matter 0204f2809699f9e4332703909922be2a, Wix 0204f2809699f9e4332703909922be2a"
   },
   {
-   "check": "IMAGE2: source html and rendered png in the run folder",
-   "ok": false,
+   "check": "IMAGE1: label check passed when rendered (no overlaps, nothing cut off)",
+   "ok": true,
    "hard": true,
-   "detail": "img/image2.html / img/image2.png"
+   "detail": "no report for this file"
+  },
+  {
+   "check": "IMAGE1: no banned words in the image",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  },
+  {
+   "check": "IMAGE1: every number in the image also appears in the post",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  },
+  {
+   "check": "IMAGE2: Wix stored exactly the reviewed image (md5 = Wix hash)",
+   "ok": true,
+   "hard": true,
+   "detail": "file 25d4a608832872a185af37e98287682e, front matter 25d4a608832872a185af37e98287682e, Wix 25d4a608832872a185af37e98287682e"
+  },
+  {
+   "check": "IMAGE2: label check passed when rendered (no overlaps, nothing cut off)",
+   "ok": true,
+   "hard": true,
+   "detail": "no report for this file"
+  },
+  {
+   "check": "IMAGE2: no banned words in the image",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  },
+  {
+   "check": "IMAGE2: every number in the image also appears in the post",
+   "ok": true,
+   "hard": true,
+   "detail": ""
   },
   {
    "check": "slug not already used on this site",

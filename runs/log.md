@@ -14,3 +14,4 @@
 | 2026-10-21 | rfc | published | PRP for Ovaries vs. Adipose-PRP: Which Rejuvenation Option Fits You? | prp ovaries | https://www.rejuvenatingfertility.com/post/prp-ovaries-vs-adipose-prp |
 | 2026-10-22 | aurea | published | Egg Retrieval With Sedation vs. Local Anesthesia: Which Is Right for You? | egg retrieval | https://www.aureafertility.com/post/egg-retrieval |
 | 2026-10-23 | rfc | published | 8 Things Recurrent Miscarriage Specialists Look For After Two Losses | recurrent miscarriage specialists | https://www.rejuvenatingfertility.com/post/recurrent-miscarriage-specialists |
+| 2026-10-24 | aurea | published | 7 Signs You Need a Sperm DNA Fragmentation Test Before IVF or IUI | sperm dna fragmentation test | https://www.aureafertility.com/post/sperm-dna-fragmentation-test |

@@ -484,6 +484,16 @@
    "ok": true,
    "rows_kept": 10,
    "date": "2026-10-23"
+  },
+  {
+   "brand": "aurea",
+   "pillar": "male-factor",
+   "seeds": [
+    "varicocele infertility / how to improve sperm quality"
+   ],
+   "ok": true,
+   "rows_kept": 3,
+   "date": "2026-10-24"
   }
  ],
  "rows": [
@@ -33642,6 +33652,45 @@
     1
    ],
    "added": "2026-10-23"
+  },
+  {
+   "brand": "aurea",
+   "pillar": "male-factor",
+   "seed": "varicocele infertility / how to improve sperm quality",
+   "keyword": "varicocele infertility rates",
+   "volume": 70,
+   "sd": 37,
+   "cpc": 0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-24"
+  },
+  {
+   "brand": "aurea",
+   "pillar": "male-factor",
+   "seed": "varicocele infertility / how to improve sperm quality",
+   "keyword": "how to improve sperm quality",
+   "volume": 1300,
+   "sd": 43,
+   "cpc": 2.6,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-24"
+  },
+  {
+   "brand": "aurea",
+   "pillar": "male-factor",
+   "seed": "varicocele infertility / how to improve sperm quality",
+   "keyword": "how to improve sperm quality naturally",
+   "volume": 30,
+   "sd": 59,
+   "cpc": 0.48,
+   "intent": [
+    4
+   ],
+   "added": "2026-10-24"
   }
  ]
 }

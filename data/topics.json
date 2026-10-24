@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23",
+ "updated": "2026-10-24",
  "min_volume": 20,
  "clusters": [
   {
@@ -263,8 +263,8 @@
    ],
    "suggested_format": "deep-guide",
    "score": 85.8,
-   "status": "available",
-   "note": ""
+   "status": "used",
+   "note": "published 2026-10-24 https://www.aureafertility.com/post/sperm-dna-fragmentation-test"
   },
   {
    "id": "aurea-how-much-does-sperm-freezing-cost",
@@ -8378,6 +8378,32 @@
    ],
    "suggested_format": "deep-guide",
    "score": 61.7,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-how-to-improve-sperm-quality",
+   "brand": "aurea",
+   "pillar": "male-factor",
+   "primary": "how to improve sperm quality",
+   "volume": 1300,
+   "sd": 43,
+   "cpc": 2.6,
+   "total_volume": 1330,
+   "keywords": [
+    {
+     "term": "how to improve sperm quality",
+     "volume": 1300,
+     "sd": 43
+    },
+    {
+     "term": "how to improve sperm quality naturally",
+     "volume": 30,
+     "sd": 59
+    }
+   ],
+   "suggested_format": "step-by-step",
+   "score": 61.6,
    "status": "available",
    "note": ""
   },
@@ -19604,6 +19630,27 @@
     }
    ],
    "suggested_format": "number-explained",
+   "score": 48.0,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-varicocele-infertility-rates",
+   "brand": "aurea",
+   "pillar": "male-factor",
+   "primary": "varicocele infertility rates",
+   "volume": 70,
+   "sd": 37,
+   "cpc": 0,
+   "total_volume": 70,
+   "keywords": [
+    {
+     "term": "varicocele infertility rates",
+     "volume": 70,
+     "sd": 37
+    }
+   ],
+   "suggested_format": "deep-guide",
    "score": 48.0,
    "status": "available",
    "note": ""

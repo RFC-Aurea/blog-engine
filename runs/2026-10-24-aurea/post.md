@@ -42,38 +42,52 @@
  "hero": "IMAGE1",
  "images": {
   "IMAGE1": {
-   "wix_id": "PENDING",
+   "wix_id": "ca2223_8a50e872456b4d85a0a9bf511f315c14~mv2.png",
    "width": 1800,
    "height": 945,
-   "alt": "PENDING",
+   "alt": "Labelled illustration of what a sperm DNA fragmentation test looks for: sperm head, intact vs broken DNA, miscarriage risk",
    "kind": "labelled medical illustration",
    "source": "img/image1.html",
    "file": "img/image1.png",
-   "md5": "PENDING",
-   "wix_hash": "PENDING",
+   "md5": "0204f2809699f9e4332703909922be2a",
+   "wix_hash": "0204f2809699f9e4332703909922be2a",
    "preview_src": "img/image1.png"
   },
   "IMAGE2": {
-   "wix_id": "PENDING",
+   "wix_id": "ca2223_716e85b1206d452eb93a005fa564ed16~mv2.png",
    "width": 1800,
    "height": 945,
-   "alt": "PENDING",
+   "alt": "Five next steps after a sperm DNA fragmentation test, with Aurea prices, retest timing and normal range cut-offs",
    "kind": "labelled timeline",
    "source": "img/image2.html",
    "file": "img/image2.png",
-   "md5": "PENDING",
-   "wix_hash": "PENDING",
+   "md5": "25d4a608832872a185af37e98287682e",
+   "wix_hash": "25d4a608832872a185af37e98287682e",
    "preview_src": "img/image2.png"
   }
  },
  "citations": [
-  {"url": "https://academic.oup.com/humrep/article/41/7/1024/8664338"},
-  {"url": "https://academic.oup.com/humrep/article-abstract/27/10/2908/749072"},
-  {"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12870536"},
-  {"url": "https://integration.asrm.org/globalassets/_asrm/practice-guidance/practice-guidelines/pdf/diagnosis_and_treatment_of_infertility_in_men-aua-asrm_guideline_part_1.pdf"},
-  {"url": "https://academic.oup.com/hropen/article/2023/1/hoad002/7068067"},
-  {"url": "https://link.springer.com/article/10.1186/s12610-020-00112-6"},
-  {"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11851878"}
+  {
+   "url": "https://academic.oup.com/humrep/article/41/7/1024/8664338"
+  },
+  {
+   "url": "https://academic.oup.com/humrep/article-abstract/27/10/2908/749072"
+  },
+  {
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12870536"
+  },
+  {
+   "url": "https://integration.asrm.org/globalassets/_asrm/practice-guidance/practice-guidelines/pdf/diagnosis_and_treatment_of_infertility_in_men-aua-asrm_guideline_part_1.pdf"
+  },
+  {
+   "url": "https://academic.oup.com/hropen/article/2023/1/hoad002/7068067"
+  },
+  {
+   "url": "https://link.springer.com/article/10.1186/s12610-020-00112-6"
+  },
+  {
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11851878"
+  }
  ],
  "serp_gap": "The top results list who should be tested but none explain what to do after a high result: which fixes lower the number, when to retest, and how the result changes the choice between IUI, IVF, ICSI and testicular sperm.",
  "patient_phrases": [
@@ -155,7 +169,7 @@ A [2012 meta-analysis in Human Reproduction](https://academic.oup.com/humrep/art
 | ICSI | Live birth | 0.94 | No significant difference |
 | ICSI | Miscarriage | 2.29 | More than twice the risk |
 
-Two things stand out. First, the lab method matters: IUI and conventional IVF, where sperm have to reach and enter the egg by themselves, show the biggest drop in pregnancy rates. Second, intracytoplasmic sperm injection (ICSI), where one sperm is injected into each egg, protects the live birth rate on average, yet miscarriage risk still rises. Choosing a sperm by eye does not reliably pick an undamaged one.
+Two things stand out. First, the lab method matters: IUI and conventional IVF, where sperm have to reach and enter the egg by themselves, show the biggest drop in pregnancy rates. Second, intracytoplasmic sperm injection (ICSI), where one sperm is injected into each egg, protects the live birth rate on average, yet miscarriage risk still rises. ICSI gets a sperm into the egg, but it does not repair damaged DNA.
 
 The authors rated the certainty of evidence as low for every outcome and suggested using the test as an add-on to a full workup rather than a routine stand-alone screen. That matches the guideline position: test when the result will change a decision.
 
@@ -167,10 +181,10 @@ There is no single normal range because each method has its own scale. As a work
 
 This is the part most articles leave out. A high result is the start of a plan, and the plan usually follows these steps:
 
-1. **Repeat or confirm with a standard sample.** Ask the lab about abstinence first; the review suggests about 2 to 3 days. Very long abstinence can raise the number.
+1. **Repeat or confirm with a standard sample.** Ask the lab about abstinence first; the review suggests about 2 to 3 days.
 2. **Find and treat the cause.** That means checking for a varicocele, treating any infection, stopping smoking, working on weight and blood sugar, and reducing heat exposure. In the review, these steps were linked to roughly a **20% to 40% fall in fragmentation**.
 3. **Repair a clinical varicocele if present.** A [meta-analysis in Basic and Clinical Andrology](https://link.springer.com/article/10.1186/s12610-020-00112-6) of 7 studies and 289 men found the fragmentation index fell by 6.86 percentage points after varicocele surgery.
-4. **Be careful with supplements.** Antioxidants are popular, but the review warns they "should not be prescribed reflexively" for an abnormal result, because too much can disturb normal sperm development. Use them for a specific reason, with your doctor.
+4. **Be careful with supplements.** Antioxidants are popular, but the review warns they "should not be prescribed reflexively" for an abnormal result. Use them for a specific reason, with your doctor.
 5. **Retest after 10 to 12 weeks.** New sperm take about one full production cycle to reach the ejaculate, so testing sooner will not show the effect of your changes.
 6. **Choose the treatment that fits the new number.** If fragmentation is now normal, IUI or standard IVF may be reasonable. If it stays high, ICSI is usually preferred.
 7. **Consider testicular sperm only if it stays high.** Sperm taken directly from the testicle often carry less DNA damage. A [2025 meta-analysis in Biology](https://pmc.ncbi.nlm.nih.gov/articles/PMC11851878) of 13 studies found lower fragmentation, higher live birth (odds ratio 2.40) and fewer miscarriages (odds ratio 0.31) with testicular sperm, analysed in 530 men for fragmentation, but rated the studies at moderate to serious risk of bias. The review reserves this for men whose fragmentation stays above 30% despite treatment, mainly after a failed cycle.

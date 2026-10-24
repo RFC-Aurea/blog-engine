@@ -1,0 +1,36 @@
+{
+ "keyword_overview": {
+  "keyword": "sperm dna fragmentation test",
+  "locId": 2840,
+  "search_volume": 1900,
+  "seo_difficulty": 16,
+  "paid_difficulty": 55,
+  "cpc": 9.86,
+  "search_intent": "Informational",
+  "checked": "2026-10-24"
+ },
+ "secondary_keywords": [
+  {"term": "sperm dna fragmentation test cost", "volume": 90, "sd": 15, "source": "Ubersuggest keyword_suggestions locId 2840, 2026-10-24"},
+  {"term": "sperm dna fragmentation test price", "volume": 70, "sd": 14, "source": "Ubersuggest keyword_suggestions locId 2840, 2026-10-24"},
+  {"term": "sperm dna fragmentation test normal range", "volume": 30, "sd": 13, "source": "Ubersuggest keyword_suggestions locId 2840, 2026-10-24"}
+ ],
+ "serp_top": [
+  {"pos": 1, "type": "ai_overview"},
+  {"pos": 2, "url": "http://pmc.ncbi.nlm.nih.gov/articles/PMC11432134/", "da": 95},
+  {"pos": 3, "url": "http://progyny.com/education/exercise-diet-improving-male-fertility", "da": 56},
+  {"pos": 4, "type": "people_also_ask"},
+  {"pos": 5, "url": "http://theyfactor.com/blog/when-you-should-get-sperm-dna-fragmentation-testing", "da": 22},
+  {"pos": 6, "url": "http://repromed.ie/testing/male-testing/semen-analysis-dna-fragmentation", "da": 30},
+  {"pos": 7, "url": "http://www.olivefertility.com/blog/sperm-dna-fragmentation", "da": 33},
+  {"pos": 8, "url": "http://www.reprosource.com/testing/male-fertility-testing", "da": 26},
+  {"pos": 9, "url": "http://examenlab.com/male-fertility-tests/understanding-sdf-test-results/", "da": 30},
+  {"pos": 10, "url": "http://maleinfertility.org/understanding-male-infertility/fertility-evaluation/sperm-dna-integrity-tests", "da": 39},
+  {"pos": 11, "url": "http://www.austinfertility.com/sperm-dna-fragmentation-testing-male-infertility/", "da": 29}
+ ],
+ "serp_updated_at": "2026-10-24",
+ "other_variants_checked": [
+  {"term": "sperm dna fragmentation test near me", "volume": 90, "sd": 12},
+  {"term": "at home sperm dna fragmentation test", "volume": 40, "sd": 11},
+  {"term": "sperm dna fragmentation test kit", "volume": 30, "sd": 13}
+ ]
+}

@@ -1,0 +1,11 @@
+{
+ "ok": true,
+ "output": "runs/2026-10-24-aurea/img/image1.png",
+ "width": 1800,
+ "height": 945,
+ "bytes": 158174,
+ "labels": 18,
+ "min_font_px": 17,
+ "problems": [],
+ "md5": "0204f2809699f9e4332703909922be2a"
+}

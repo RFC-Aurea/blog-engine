@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24",
+ "updated": "2026-10-25",
  "min_volume": 20,
  "clusters": [
   {
@@ -682,8 +682,8 @@
    ],
    "suggested_format": "deep-guide",
    "score": 80.6,
-   "status": "available",
-   "note": ""
+   "status": "used",
+   "note": "published 2026-10-25 https://www.rejuvenatingfertility.com/post/egg-donor-ivf-vs-own-eggs"
   },
   {
    "id": "aurea-egg-retrieval",
@@ -3478,6 +3478,62 @@
    "note": ""
   },
   {
+   "id": "rfc-donor-eggs-success-rate",
+   "brand": "rfc",
+   "pillar": "donor-surrogacy",
+   "primary": "donor eggs success rate",
+   "volume": 260,
+   "sd": 28,
+   "cpc": 11.83,
+   "total_volume": 740,
+   "keywords": [
+    {
+     "term": "donor eggs success rate",
+     "volume": 260,
+     "sd": 28
+    },
+    {
+     "term": "ivf success rates donor eggs",
+     "volume": 170,
+     "sd": 16
+    },
+    {
+     "term": "donor egg success rates",
+     "volume": 140,
+     "sd": 32
+    },
+    {
+     "term": "donor egg success rates by age",
+     "volume": 40,
+     "sd": 22
+    },
+    {
+     "term": "donor egg success rates over 45",
+     "volume": 40,
+     "sd": 13
+    },
+    {
+     "term": "success with donor eggs",
+     "volume": 30,
+     "sd": 29
+    },
+    {
+     "term": "donor egg success rates over 40",
+     "volume": 30,
+     "sd": 10
+    },
+    {
+     "term": "frozen donor egg success rates",
+     "volume": 30,
+     "sd": 28
+    }
+   ],
+   "suggested_format": "research-roundup",
+   "score": 69.7,
+   "status": "used",
+   "note": "secondary keyword of https://www.rejuvenatingfertility.com/post/donor-eggs-procedure"
+  },
+  {
    "id": "aurea-costco-egg-freezing",
    "brand": "aurea",
    "pillar": "egg-freezing",
@@ -4894,37 +4950,6 @@
    "score": 67.6,
    "status": "available",
    "note": ""
-  },
-  {
-   "id": "rfc-donor-eggs-success-rate",
-   "brand": "rfc",
-   "pillar": "donor-surrogacy",
-   "primary": "donor eggs success rate",
-   "volume": 260,
-   "sd": 28,
-   "cpc": 11.83,
-   "total_volume": 460,
-   "keywords": [
-    {
-     "term": "donor eggs success rate",
-     "volume": 260,
-     "sd": 28
-    },
-    {
-     "term": "ivf success rates donor eggs",
-     "volume": 170,
-     "sd": 16
-    },
-    {
-     "term": "success with donor eggs",
-     "volume": 30,
-     "sd": 29
-    }
-   ],
-   "suggested_format": "research-roundup",
-   "score": 67.6,
-   "status": "used",
-   "note": "secondary keyword of https://www.rejuvenatingfertility.com/post/donor-eggs-procedure"
   },
   {
    "id": "aurea-egg-freezing-after-40",
@@ -8111,6 +8136,37 @@
    "note": ""
   },
   {
+   "id": "rfc-fresh-donor-eggs",
+   "brand": "rfc",
+   "pillar": "donor-surrogacy",
+   "primary": "fresh donor eggs",
+   "volume": 70,
+   "sd": 26,
+   "cpc": 59.43,
+   "total_volume": 170,
+   "keywords": [
+    {
+     "term": "fresh donor eggs",
+     "volume": 70,
+     "sd": 26
+    },
+    {
+     "term": "frozen vs fresh donor eggs",
+     "volume": 50,
+     "sd": 13
+    },
+    {
+     "term": "frozen donor eggs vs fresh",
+     "volume": 50,
+     "sd": 20
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 62.3,
+   "status": "available",
+   "note": ""
+  },
+  {
    "id": "aurea-how-often-to-have-sex-during-fertile-window",
    "brand": "aurea",
    "pillar": "conception-basics",
@@ -8968,32 +9024,6 @@
     }
    ],
    "suggested_format": "straight-answer",
-   "score": 60.8,
-   "status": "available",
-   "note": ""
-  },
-  {
-   "id": "rfc-fresh-donor-eggs",
-   "brand": "rfc",
-   "pillar": "donor-surrogacy",
-   "primary": "fresh donor eggs",
-   "volume": 70,
-   "sd": 26,
-   "cpc": 59.43,
-   "total_volume": 120,
-   "keywords": [
-    {
-     "term": "fresh donor eggs",
-     "volume": 70,
-     "sd": 26
-    },
-    {
-     "term": "frozen vs fresh donor eggs",
-     "volume": 50,
-     "sd": 13
-    }
-   ],
-   "suggested_format": "deep-guide",
    "score": 60.8,
    "status": "available",
    "note": ""

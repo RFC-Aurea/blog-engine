@@ -2,6 +2,26 @@
  "note": "Every post live on either blog. The engine appends here after each publish.",
  "posts": [
   {
+   "brand": "rfc",
+   "title": "Egg Donor IVF vs. IVF With Your Own Eggs: Which Path Fits You After 40?",
+   "slug": "egg-donor-ivf-vs-own-eggs",
+   "date": "2026-10-25",
+   "category": "Treatments & IVF",
+   "post_id": "5e184c77-9315-4f75-a5c8-5f41ef006871",
+   "url": "https://www.rejuvenatingfertility.com/post/egg-donor-ivf-vs-own-eggs",
+   "source": "engine",
+   "pillar": "donor-surrogacy",
+   "format": "comparison",
+   "title_shape": "T4",
+   "primary_keyword": "egg donor ivf",
+   "cluster_id": "rfc-egg-donor-ivf",
+   "secondary_keywords": [
+    "cost of egg donor ivf",
+    "how much is egg donor ivf",
+    "how does egg donor ivf work"
+   ]
+  },
+  {
    "brand": "aurea",
    "title": "7 Signs You Need a Sperm DNA Fragmentation Test Before IVF or IUI",
    "slug": "sperm-dna-fragmentation-test",

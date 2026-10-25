@@ -494,6 +494,16 @@
    "ok": true,
    "rows_kept": 3,
    "date": "2026-10-24"
+  },
+  {
+   "brand": "rfc",
+   "pillar": "donor-surrogacy",
+   "seeds": [
+    "donor egg success rates"
+   ],
+   "ok": true,
+   "rows_kept": 6,
+   "date": "2026-10-25"
   }
  ],
  "rows": [
@@ -33691,6 +33701,86 @@
     4
    ],
    "added": "2026-10-24"
+  },
+  {
+   "brand": "rfc",
+   "pillar": "donor-surrogacy",
+   "seed": "donor egg success rates",
+   "keyword": "frozen donor eggs vs fresh",
+   "volume": 50,
+   "sd": 20,
+   "cpc": 13.065,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-25"
+  },
+  {
+   "brand": "rfc",
+   "pillar": "donor-surrogacy",
+   "seed": "donor egg success rates",
+   "keyword": "donor egg success rates",
+   "volume": 140,
+   "sd": 32,
+   "cpc": 11.94,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-25"
+  },
+  {
+   "brand": "rfc",
+   "pillar": "donor-surrogacy",
+   "seed": "donor egg success rates",
+   "keyword": "donor egg success rates by age",
+   "volume": 40,
+   "sd": 22,
+   "cpc": 6.7,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-25"
+  },
+  {
+   "brand": "rfc",
+   "pillar": "donor-surrogacy",
+   "seed": "donor egg success rates",
+   "keyword": "donor egg success rates over 45",
+   "volume": 40,
+   "sd": 13,
+   "cpc": 8.71,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-25"
+  },
+  {
+   "brand": "rfc",
+   "pillar": "donor-surrogacy",
+   "seed": "donor egg success rates",
+   "keyword": "donor egg success rates over 40",
+   "volume": 30,
+   "sd": 10,
+   "cpc": 4.9,
+   "intent": [
+    3,
+    1
+   ],
+   "added": "2026-10-25"
+  },
+  {
+   "brand": "rfc",
+   "pillar": "donor-surrogacy",
+   "seed": "donor egg success rates",
+   "keyword": "frozen donor egg success rates",
+   "volume": 30,
+   "sd": 28,
+   "cpc": 34.51,
+   "intent": [
+    3,
+    1
+   ],
+   "added": "2026-10-25"
   }
  ]
 }

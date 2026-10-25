@@ -20,7 +20,32 @@
   {"term": "how does egg donor ivf work", "volume": 30, "sd": 29}
  ],
  "hero": "IMAGE1",
- "images": {},
+ "images": {
+ "IMAGE1": {
+  "wix_id": "ca2223_ea1f40fbe6684e60a37f4b8b694c6b48~mv2.png",
+  "width": 1800,
+  "height": 945,
+  "alt": "Labelled illustration comparing egg donor IVF with IVF using your own eggs, both carried in your uterus",
+  "kind": "medical illustration",
+  "source": "img/image1.html",
+  "file": "img/image1.png",
+  "md5": "cbc73da45a38003e981019ebc132d03f",
+  "wix_hash": "cbc73da45a38003e981019ebc132d03f",
+  "preview_src": "img/image1.png"
+ },
+ "IMAGE2": {
+  "wix_id": "ca2223_8343e1db5900452680d3c91ddd7cc0a2~mv2.png",
+  "width": 1800,
+  "height": 945,
+  "alt": "Timeline of months to live birth with donor eggs first vs. own eggs first, and the six steps of egg donor IVF",
+  "kind": "labelled timeline",
+  "source": "img/image2.html",
+  "file": "img/image2.png",
+  "md5": "4673316e0e6245928b1f986f4825dada",
+  "wix_hash": "4673316e0e6245928b1f986f4825dada",
+  "preview_src": "img/image2.png"
+ }
+},
  "citations": [
   {"url": "https://link.springer.com/article/10.1007/s10815-025-03708-x"},
   {"url": "https://academic.oup.com/humrep/article/33/11/2010/5110586"},
@@ -48,7 +73,7 @@
 
 ## The Short Verdict: Egg Donor IVF vs. Your Own Eggs {#short-verdict}
 
-Egg donor IVF is the faster, more predictable route to a live birth once egg quality is the main barrier, and IVF with your own eggs is the route that keeps your genes in the picture. Neither is a lesser choice. Many women at Rejuvenating Fertility Center try one, then the other, and some plan both from day one.
+Using donor eggs is the faster, more predictable route to a live birth once egg quality is the main barrier, and IVF with your own eggs is the route that keeps your genes in the picture. Neither is a lesser choice. Many women at Rejuvenating Fertility Center try one, then the other, and some plan both from day one.
 
 Here is how the two paths compare at a glance.
 
@@ -61,7 +86,7 @@ Here is how the two paths compare at a glance.
 | Time to start | Can begin next cycle | Weeks to months for donor matching |
 | Typical number of cycles | Often several, sometimes with embryo banking | Often one donor cycle gives several embryos |
 
-Women describe this choice in very personal terms. One wrote, "I would struggle if I knew that he or she had nothing of my genes." Another, a mother through egg donor IVF, said simply, "the child was ours regardless." Both feelings are valid, and both are worth bringing to your consultation.
+Women describe this choice in very personal terms. One wrote, "I would struggle if I knew that he or she had nothing of my genes." Another, a mother through egg donation, said simply, "the child was ours regardless." Both feelings are valid, and both are worth bringing to your consultation.
 
 ## How IVF With Your Own Eggs Works After 40 {#own-eggs}
 
@@ -96,7 +121,7 @@ Both work well. In a national analysis of 30,160 US donor egg cycles, [fresh don
 
 ## Head-to-Head: What the Research Shows {#research}
 
-The research is clear on one point: the age of the egg, not the age of the uterus, drives most of the difference in success. That is why egg donor IVF performs well even when the woman carrying the pregnancy is in her 40s.
+The research is clear on one point: the age of the egg, not the age of the uterus, drives most of the difference in success. That is why donor eggs perform well even when the woman carrying the pregnancy is in her 40s.
 
 With your own eggs, success per retrieval falls with age, and more eggs means better odds. A [Human Reproduction study of 4,500 women aged 38 and older](https://academic.oup.com/humrep/article/33/11/2010/5110586) found cumulative live birth rates per retrieval of 25.9% at 38 to 39, 16.4% at 40 to 41, 7% at 42 to 43 and 1.2% from 44 onward. Those are averages from one large center, not your prognosis. They are the reason RFC builds own-egg plans around embryo banking, gentle stimulation and rejuvenation rather than one standard cycle.
 
@@ -107,14 +132,14 @@ With donor eggs, the recipient's age matters far less. An analysis of [27,959 fr
 | Devesa et al., Human Reproduction, 2018 | 4,500 women 38+ using their own eggs | Cumulative live birth per retrieval: 25.9% at 38–39, 16.4% at 40–41, 7% at 42–43 |
 | Yeh et al., Fertility and Sterility, 2014 | 27,959 fresh donor egg cycles | Recipient outcomes stable before age 45 |
 | Kushnir et al., Journal of Ovarian Research, 2018 | 30,160 donor egg cycles | Live birth per cycle start: 51.1% fresh vs. 39.7% frozen |
-| Clarke et al., J Assist Reprod Genet, 2025 | 353 women using donor eggs | Live birth after first donor transfer: 59.2% donor-first vs. 53.1% after own-egg IVF |
+| Clarke et al., 2025, J Assist Reprod Genet | 353 women using donor eggs | Live birth after first donor transfer: 59.2% donor-first vs. 53.1% after own-egg IVF |
 | Lee and Zhang, BMC Health Services Research, 2022 | Cost model, women 35 to 45 | Donor eggs gave the highest cumulative live birth rate |
 
 [[IMAGE1]]
 
 ### The pregnancy itself
 
-Egg donor IVF pregnancies need careful prenatal care. A [meta-analysis in JBRA Assisted Reproduction](https://pmc.ncbi.nlm.nih.gov/articles/PMC5844654/) (2018) found a higher risk of preeclampsia, a blood pressure condition in pregnancy, with donor eggs than with IVF using your own eggs (odds ratio 4.50). This is a risk we plan for, not a reason to avoid treatment. Screening before transfer, single embryo transfer and close monitoring with your obstetrician are standard parts of the plan.
+Donor egg pregnancies need careful prenatal care. A [meta-analysis in JBRA Assisted Reproduction](https://pmc.ncbi.nlm.nih.gov/articles/PMC5844654/) (2018) found a higher risk of preeclampsia, a blood pressure condition in pregnancy, with donor eggs than with IVF using your own eggs (odds ratio 4.50). This is a risk we plan for, not a reason to avoid treatment. Screening before transfer, single embryo transfer and close monitoring with your obstetrician are standard parts of the plan.
 
 ## Who Each Path Suits {#who-each-suits}
 

@@ -1,0 +1,9 @@
+[
+ {"keyword": "ivf success rates donor eggs over 40", "volume": 50, "sd": 11, "cpc": 11.28, "intent": [1]},
+ {"keyword": "frozen donor eggs vs fresh", "volume": 50, "sd": 20, "cpc": 13.065, "intent": [1]},
+ {"keyword": "donor egg success rates", "volume": 140, "sd": 32, "cpc": 11.94, "intent": [1]},
+ {"keyword": "donor egg success rates by age", "volume": 40, "sd": 22, "cpc": 6.7, "intent": [1]},
+ {"keyword": "donor egg success rates over 45", "volume": 40, "sd": 13, "cpc": 8.71, "intent": [1]},
+ {"keyword": "donor egg success rates over 40", "volume": 30, "sd": 10, "cpc": 4.9, "intent": [3, 1]},
+ {"keyword": "frozen donor egg success rates", "volume": 30, "sd": 28, "cpc": 34.51, "intent": [3, 1]}
+]

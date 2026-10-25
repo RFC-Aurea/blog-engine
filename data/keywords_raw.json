@@ -504,6 +504,26 @@
    "ok": true,
    "rows_kept": 6,
    "date": "2026-10-25"
+  },
+  {
+   "brand": "aurea",
+   "pillar": "embryology-lab",
+   "seeds": [
+    "frozen embryo transfer success rate"
+   ],
+   "ok": true,
+   "rows_kept": 1,
+   "date": "2026-10-25"
+  },
+  {
+   "brand": "aurea",
+   "pillar": "embryology-lab",
+   "seeds": [
+    "euploid embryo"
+   ],
+   "ok": true,
+   "rows_kept": 0,
+   "date": "2026-10-25"
   }
  ],
  "rows": [
@@ -33778,6 +33798,19 @@
    "cpc": 34.51,
    "intent": [
     3,
+    1
+   ],
+   "added": "2026-10-25"
+  },
+  {
+   "brand": "aurea",
+   "pillar": "embryology-lab",
+   "seed": "frozen embryo transfer success rate",
+   "keyword": "ivf frozen embryo transfer success rate",
+   "volume": 50,
+   "sd": 34,
+   "cpc": 0,
+   "intent": [
     1
    ],
    "added": "2026-10-25"

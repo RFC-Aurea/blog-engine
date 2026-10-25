@@ -16,3 +16,4 @@
 | 2026-10-23 | rfc | published | 8 Things Recurrent Miscarriage Specialists Look For After Two Losses | recurrent miscarriage specialists | https://www.rejuvenatingfertility.com/post/recurrent-miscarriage-specialists |
 | 2026-10-24 | aurea | published | 7 Signs You Need a Sperm DNA Fragmentation Test Before IVF or IUI | sperm dna fragmentation test | https://www.aureafertility.com/post/sperm-dna-fragmentation-test |
 | 2026-10-25 | rfc | published | Egg Donor IVF vs. IVF With Your Own Eggs: Which Path Fits You After 40? | egg donor ivf | https://www.rejuvenatingfertility.com/post/egg-donor-ivf-vs-own-eggs |
+| 2026-10-25 | aurea | published | What Is a Euploid Embryo? Better Odds, Not a Guarantee | euploid embryo | https://www.aureafertility.com/post/euploid-embryo |

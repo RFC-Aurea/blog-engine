@@ -20,7 +20,32 @@
   {"term": "euploid embryo success rate", "volume": 70, "sd": 23}
  ],
  "hero": "IMAGE1",
- "images": {},
+ "images": {
+ "IMAGE1": {
+  "wix_id": "ca2223_3c623d6775b848048803e1bf3501d83e~mv2.png",
+  "width": 1800,
+  "height": 945,
+  "alt": "Labelled illustration of a euploid embryo: blastocyst layers, 23 chromosome pairs and live birth rates by age",
+  "kind": "medical illustration",
+  "source": "img/image1.html",
+  "file": "img/image1.png",
+  "md5": "c74e1940ab4e6be0ba7fe04fae453dd3",
+  "wix_hash": "c74e1940ab4e6be0ba7fe04fae453dd3",
+  "preview_src": "img/image1.png"
+ },
+ "IMAGE2": {
+  "wix_id": "ca2223_0cf63f8ba3cf449f9ecc4565c937dbea~mv2.png",
+  "width": 1800,
+  "height": 945,
+  "alt": "Six next steps after a euploid embryo result, with prices, plus what ASRM 2026 says to check and to skip",
+  "kind": "labelled workflow",
+  "source": "img/image2.html",
+  "file": "img/image2.png",
+  "md5": "16e451aef5124d479e4498babaeff081",
+  "wix_hash": "16e451aef5124d479e4498babaeff081",
+  "preview_src": "img/image2.png"
+ }
+},
  "citations": [
   {"url": "https://link.springer.com/article/10.1186/s13048-025-01602-9"},
   {"url": "https://link.springer.com/doi/10.1007/s10815-020-01739-0"},
@@ -45,11 +70,11 @@
 
 ## The Short Answer: What Is a Euploid Embryo? {#short-answer}
 
-A euploid embryo is one whose tested cells show exactly 46 chromosomes, with no extra or missing copies. The word comes from Greek: "eu" means good or normal, and "ploid" refers to sets of chromosomes. The opposite is an aneuploid embryo, which has too many or too few chromosomes and usually cannot lead to a healthy pregnancy.
+It is an embryo whose tested cells show exactly 46 chromosomes, with no extra or missing copies. The word comes from Greek: "eu" means good or normal, and "ploid" refers to sets of chromosomes. The opposite is an aneuploid embryo, which has too many or too few chromosomes and usually cannot lead to a healthy pregnancy.
 
 So the euploid embryo meaning is simple: as far as the test can tell, the embryo's chromosome count is normal. You learn this from [PGT-A testing](https://www.aureafertility.com/post/pgt-a-testing), where an embryologist removes a few cells from the outer layer of a day 5 to 7 blastocyst and sends them for analysis. At Aurea Fertility Center, PGT costs $950 per embryo, and the embryo is frozen while you wait for results.
 
-A euploid result tells you about chromosome number only. It does not test every gene, and it does not test your uterus, your lining or the timing of your transfer. That is why a euploid embryo raises your odds but cannot promise a pregnancy.
+A euploid result tells you about chromosome number only. It does not test every gene, and it does not test your uterus, your lining or the timing of your transfer. That is why a normal result raises your odds but cannot promise a pregnancy.
 
 ### Euploid, aneuploid and mosaic at a glance
 
@@ -59,7 +84,7 @@ A euploid result tells you about chromosome number only. It does not test every 
 
 ## When a Euploid Embryo Gives You the Best Odds {#best-odds}
 
-A euploid embryo gives you the strongest odds when you are under 38, your uterus is healthy, and the embryo has good quality. In that setting, about half to more than half of single euploid transfers lead to a live birth.
+The odds are strongest when you are under 38, your uterus is healthy, and the embryo has good quality. In that setting, about half to more than half of single euploid transfers lead to a live birth.
 
 A [2025 study in the Journal of Ovarian Research](https://link.springer.com/article/10.1186/s13048-025-01602-9) followed 1,037 single euploid embryo transfers. The live birth rate was 54.5% for women under 35 and 54.0% for women aged 35 to 37. That is a strong number, and it is one reason many people choose a single embryo transfer instead of two embryos at once, which avoids the risks of twins.
 
@@ -67,7 +92,7 @@ Being under 40 is a good position to act from. You are more likely to make sever
 
 ## When It's Harder, and What Helps {#harder}
 
-Some factors lower the odds even when an embryo is euploid. Each one has a practical response.
+Some factors lower the odds even after a normal result. Each one has a practical response.
 
 - **Age at egg retrieval of 38 or older.** In the same 2025 study, live birth fell to 41.7% at 38 and over. *What helps:* banking embryos earlier, and for women over 40 or with low reserve, care at our sister clinic, [Rejuvenating Fertility Center](https://www.rejuvenatingfertility.com).
 - **Lower trophectoderm grade.** The outer layer of the blastocyst becomes the placenta. *What helps:* transferring your highest-graded euploid embryo first.
@@ -99,7 +124,7 @@ The research shows that a euploid embryo success rate is high but not 100%, that
 
 ## Why Does a Euploid Embryo Transfer Fail? {#why-it-fails}
 
-A euploid embryo transfer can fail because chromosomes are only one part of implantation. The embryo still has to attach to a receptive lining at the right time, and the test itself has small limits. Women in fertility forums ask this again and again, often after a loss that felt impossible: "Was it fifth time lucky for anyone?"
+A transfer can fail because chromosomes are only one part of implantation. The embryo still has to attach to a receptive lining at the right time, and the test itself has small limits. Women in fertility forums ask this again and again, often after a loss that felt impossible: "Was it fifth time lucky for anyone?"
 
 Here are the main reasons, in plain terms:
 
@@ -158,7 +183,7 @@ A little. A 2025 study found that trophectoderm grade A embryos had higher live 
 
 ### Can a euploid embryo result in miscarriage?
 
-Yes, though less often than untested embryos. In the 2025 study, miscarriage after euploid transfer was 13.0% under 35 and 12.8% at 35 to 37. A loss after a euploid transfer is a reason to check the uterus and review your plan.
+Yes. In the 2025 study, miscarriage after euploid transfer was 13.0% under 35 and 12.8% at 35 to 37. A loss after a euploid transfer is a reason to check the uterus and review your plan.
 
 ### How many euploid embryo transfers should I try before more testing?
 
@@ -166,10 +191,10 @@ The 2026 ASRM committee opinion defines recurrent implantation failure after 3 t
 
 ### Is a day 6 euploid embryo as good as a day 5?
 
-In a 2025 study of euploid frozen transfers, day 5, 6 and 7 euploid embryos had similar live birth rates. Across all blastocysts, day 5 transfers do slightly better, so a day 5 euploid embryo usually goes first when you have both.
+In a 2025 study of euploid frozen transfers, day 5, 6 and 7 euploid embryos had similar live birth rates. Across all blastocysts, day 5 transfers do slightly better, so the day 5 embryo usually goes first when you have both.
 
 ## The Bottom Line {#bottom-line}
 
-A euploid embryo is the strongest embryo you can transfer, and under 38 about half of single euploid transfers lead to a baby. **Euploid means better odds, not a guarantee, and a failed transfer is a reason to review the plan, not a verdict on your future.**
+A chromosomally normal embryo is the strongest one you can transfer, and under 38 about half of single euploid transfers lead to a baby. **Euploid means better odds, not a guarantee, and a failed transfer is a reason to review the plan, not a verdict on your future.**
 
 At Aurea Fertility Center, we combine AI precision with human understanding to help you choose, time and transfer your embryos with care. [Book a free 20-minute nurse call or a $350 physician consult](https://www.aureafertility.com/contact) to talk through your embryo report and your next step.

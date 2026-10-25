@@ -1,0 +1,10 @@
+[
+ {"keyword": "euploid embryo miscarriage rate by week", "volume": 110, "sd": 18, "cpc": 0, "intent": [1]},
+ {"keyword": "day 7 euploid embryo success rate", "volume": 50, "sd": 17, "cpc": 0, "intent": [1]},
+ {"keyword": "5aa euploid embryo success rate", "volume": 40, "sd": 16, "cpc": 0, "intent": [1]},
+ {"keyword": "4aa euploid embryo success rate", "volume": 40, "sd": 16, "cpc": 0, "intent": [1]},
+ {"keyword": "euploid embryo miscarriage rate after heartbeat", "volume": 40, "sd": 25, "cpc": 0, "intent": [1]},
+ {"keyword": "day 6 euploid embryo success rate", "volume": 30, "sd": 19, "cpc": 0, "intent": [1]},
+ {"keyword": "4bb euploid embryo success rate", "volume": 30, "sd": 18, "cpc": 0, "intent": [1]},
+ {"keyword": "chance of euploid embryo implantation", "volume": 30, "sd": 19, "cpc": 0, "intent": [1]}
+]

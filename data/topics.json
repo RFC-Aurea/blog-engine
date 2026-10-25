@@ -136,8 +136,8 @@
    ],
    "suggested_format": "deep-guide",
    "score": 88.1,
-   "status": "available",
-   "note": ""
+   "status": "used",
+   "note": "published 2026-10-25 https://www.aureafertility.com/post/euploid-embryo"
   },
   {
    "id": "aurea-mosaic-embryo",
@@ -2380,6 +2380,52 @@
    "note": ""
   },
   {
+   "id": "aurea-frozen-embryo-transfer-success-rate-calculator",
+   "brand": "aurea",
+   "pillar": "embryology-lab",
+   "primary": "frozen embryo transfer success rate calculator",
+   "volume": 90,
+   "sd": 24,
+   "cpc": 10.51,
+   "total_volume": 360,
+   "keywords": [
+    {
+     "term": "frozen embryo transfer success rate calculator",
+     "volume": 90,
+     "sd": 24
+    },
+    {
+     "term": "frozen embryo transfer success rate by age",
+     "volume": 70,
+     "sd": 23
+    },
+    {
+     "term": "2 frozen embryo transfer success rate",
+     "volume": 70,
+     "sd": 21
+    },
+    {
+     "term": "ivf success rate frozen embryo transfer",
+     "volume": 50,
+     "sd": 9
+    },
+    {
+     "term": "ivf frozen embryo transfer success rate",
+     "volume": 50,
+     "sd": 34
+    },
+    {
+     "term": "day 3 frozen embryo transfer success rates",
+     "volume": 30,
+     "sd": 20
+    }
+   ],
+   "suggested_format": "research-roundup",
+   "score": 72.6,
+   "status": "available",
+   "note": ""
+  },
+  {
    "id": "aurea-how-many-days-after-egg-retrieval-is-embryo-transfer",
    "brand": "aurea",
    "pillar": "ivf-protocols",
@@ -2640,47 +2686,6 @@
    "score": 72.0,
    "status": "used",
    "note": "secondary keyword of https://www.rejuvenatingfertility.com/post/donor-eggs-procedure"
-  },
-  {
-   "id": "aurea-frozen-embryo-transfer-success-rate-calculator",
-   "brand": "aurea",
-   "pillar": "embryology-lab",
-   "primary": "frozen embryo transfer success rate calculator",
-   "volume": 90,
-   "sd": 24,
-   "cpc": 10.51,
-   "total_volume": 310,
-   "keywords": [
-    {
-     "term": "frozen embryo transfer success rate calculator",
-     "volume": 90,
-     "sd": 24
-    },
-    {
-     "term": "frozen embryo transfer success rate by age",
-     "volume": 70,
-     "sd": 23
-    },
-    {
-     "term": "2 frozen embryo transfer success rate",
-     "volume": 70,
-     "sd": 21
-    },
-    {
-     "term": "ivf success rate frozen embryo transfer",
-     "volume": 50,
-     "sd": 9
-    },
-    {
-     "term": "day 3 frozen embryo transfer success rates",
-     "volume": 30,
-     "sd": 20
-    }
-   ],
-   "suggested_format": "research-roundup",
-   "score": 71.9,
-   "status": "available",
-   "note": ""
   },
   {
    "id": "rfc-recurrent-miscarriage-specialists",
@@ -13127,8 +13132,8 @@
    ],
    "suggested_format": "research-roundup",
    "score": 56.5,
-   "status": "available",
-   "note": ""
+   "status": "used",
+   "note": "secondary keyword of https://www.aureafertility.com/post/euploid-embryo"
   },
   {
    "id": "aurea-trying-to-conceive-at-35",

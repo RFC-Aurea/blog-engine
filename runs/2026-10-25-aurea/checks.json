@@ -1,0 +1,361 @@
+{
+ "pass": true,
+ "hard_failures": 0,
+ "warnings": 0,
+ "checks": [
+  {
+   "check": "front matter complete",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  },
+  {
+   "check": "primary keyword has real Ubersuggest volume and SD",
+   "ok": true,
+   "hard": true,
+   "detail": "euploid embryo: volume=2900 sd=13"
+  },
+  {
+   "check": "2-3 secondary keywords with volume and SD",
+   "ok": true,
+   "hard": true,
+   "detail": "euploid embryo meaning 260/24; euploid embryo success rate by age 70/22; euploid embryo success rate 70/23"
+  },
+  {
+   "check": "category exists on this site",
+   "ok": true,
+   "hard": true,
+   "detail": "Treatments & IVF"
+  },
+  {
+   "check": "slug format",
+   "ok": true,
+   "hard": true,
+   "detail": "euploid-embryo"
+  },
+  {
+   "check": "meta title <= 60 chars",
+   "ok": true,
+   "hard": true,
+   "detail": "48: Euploid Embryo: What It Means and Your Real Odds"
+  },
+  {
+   "check": "meta title has primary keyword near the front",
+   "ok": true,
+   "hard": true,
+   "detail": "Euploid Embryo: What It Means and Your Real Odds"
+  },
+  {
+   "check": "meta description <= 155 chars",
+   "ok": true,
+   "hard": true,
+   "detail": "146"
+  },
+  {
+   "check": "meta description has primary keyword",
+   "ok": true,
+   "hard": true,
+   "detail": "A euploid embryo has the right number of chromosomes, but it is not a guarantee. See success rates by age, why transfers fail and what to do next."
+  },
+  {
+   "check": "excerpt <= 300 chars",
+   "ok": true,
+   "hard": true,
+   "detail": "212"
+  },
+  {
+   "check": "title (H1) has primary keyword",
+   "ok": true,
+   "hard": true,
+   "detail": "What Is a Euploid Embryo? Better Odds, Not a Guarantee"
+  },
+  {
+   "check": "title length <= 100",
+   "ok": true,
+   "hard": true,
+   "detail": "54"
+  },
+  {
+   "check": "2 images uploaded to Wix with size and alt text",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  },
+  {
+   "check": "alt text under 125 chars",
+   "ok": true,
+   "hard": true,
+   "detail": "[109, 104]"
+  },
+  {
+   "check": "a keyword appears in an alt text",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  },
+  {
+   "check": "wix image ids look like real Wix media ids",
+   "ok": true,
+   "hard": true,
+   "detail": "['ca2223_3c623d6775b848048803e1bf3501d83e~mv2.png', 'ca2223_0cf63f8ba3cf449f9ecc4565c937dbea~mv2.png']"
+  },
+  {
+   "check": "no 'image of' in alt text",
+   "ok": true,
+   "hard": false,
+   "detail": ""
+  },
+  {
+   "check": "[[IMAGE1]] and [[IMAGE2]] placed once each",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  },
+  {
+   "check": "no H1 in body",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  },
+  {
+   "check": "[[TOC]] once",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  },
+  {
+   "check": "opens with **Quick answer:**",
+   "ok": true,
+   "hard": true,
+   "detail": "**Quick answer:** A **euploid embryo** is an embryo with the"
+  },
+  {
+   "check": "Quick answer has primary keyword",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  },
+  {
+   "check": "every H2 has an {#anchor}",
+   "ok": true,
+   "hard": true,
+   "detail": "[]"
+  },
+  {
+   "check": "H2 anchors unique",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  },
+  {
+   "check": "6-10 H2 sections",
+   "ok": true,
+   "hard": true,
+   "detail": "8"
+  },
+  {
+   "check": "primary keyword in >= 2 H2s",
+   "ok": true,
+   "hard": true,
+   "detail": "['The Short Answer: What Is a Euploid Embryo?', 'When a Euploid Embryo Gives You the Best Odds', \"When It's Harder, and What Helps\", 'What the Research Shows About Euploid Embryo Success Rates', 'Why Does a Euploid Embryo Transfer Fail?', 'Your Options, Step by Step', 'Frequently Asked Questions', 'The Bottom Line']"
+  },
+  {
+   "check": "FAQ section {#faq}",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  },
+  {
+   "check": "Bottom line section {#bottom-line}",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  },
+  {
+   "check": "5-6 FAQ questions as H3",
+   "ok": true,
+   "hard": true,
+   "detail": "6"
+  },
+  {
+   "check": "FAQ questions end with ?",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  },
+  {
+   "check": "primary keyword in an FAQ question",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  },
+  {
+   "check": "has a table with 3+ columns",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  },
+  {
+   "check": "has a numbered list",
+   "ok": true,
+   "hard": false,
+   "detail": ""
+  },
+  {
+   "check": "markdown bold markers balanced",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  },
+  {
+   "check": "no raw HTML",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  },
+  {
+   "check": "no bare URLs",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  },
+  {
+   "check": "word count 2000-2800",
+   "ok": true,
+   "hard": true,
+   "detail": "2129"
+  },
+  {
+   "check": "primary keyword in first 100 words",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  },
+  {
+   "check": "primary keyword density 0.5-2.5%",
+   "ok": true,
+   "hard": false,
+   "detail": "2.16% (23 uses)"
+  },
+  {
+   "check": "internal links >= 8",
+   "ok": true,
+   "hard": true,
+   "detail": "13"
+  },
+  {
+   "check": "every internal link is a verified page or live post",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  },
+  {
+   "check": "no 'click here' link text",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  },
+  {
+   "check": "every external link is a verified source in evidence.json",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  },
+  {
+   "check": "at least 4 research citations",
+   "ok": true,
+   "hard": true,
+   "detail": "6"
+  },
+  {
+   "check": "citations listed in front matter match evidence",
+   "ok": true,
+   "hard": false,
+   "detail": ""
+  },
+  {
+   "check": "CTA links the booking page",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  },
+  {
+   "check": "no banned words or unsupported claims",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  },
+  {
+   "check": "paragraphs are 5 sentences or fewer",
+   "ok": true,
+   "hard": false,
+   "detail": ""
+  },
+  {
+   "check": "IMAGE1: Wix stored exactly the reviewed image (md5 = Wix hash)",
+   "ok": true,
+   "hard": true,
+   "detail": "file c74e1940ab4e6be0ba7fe04fae453dd3, front matter c74e1940ab4e6be0ba7fe04fae453dd3, Wix c74e1940ab4e6be0ba7fe04fae453dd3"
+  },
+  {
+   "check": "IMAGE1: label check passed when rendered (no overlaps, nothing cut off)",
+   "ok": true,
+   "hard": true,
+   "detail": "no report for this file"
+  },
+  {
+   "check": "IMAGE1: no banned words in the image",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  },
+  {
+   "check": "IMAGE1: every number in the image also appears in the post",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  },
+  {
+   "check": "IMAGE2: Wix stored exactly the reviewed image (md5 = Wix hash)",
+   "ok": true,
+   "hard": true,
+   "detail": "file 16e451aef5124d479e4498babaeff081, front matter 16e451aef5124d479e4498babaeff081, Wix 16e451aef5124d479e4498babaeff081"
+  },
+  {
+   "check": "IMAGE2: label check passed when rendered (no overlaps, nothing cut off)",
+   "ok": true,
+   "hard": true,
+   "detail": "no report for this file"
+  },
+  {
+   "check": "IMAGE2: no banned words in the image",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  },
+  {
+   "check": "IMAGE2: every number in the image also appears in the post",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  },
+  {
+   "check": "slug not already used on this site",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  },
+  {
+   "check": "title not too similar to any existing post (< 0.6)",
+   "ok": true,
+   "hard": true,
+   "detail": "0.11 vs 'How to Prepare for Embryo Transfer for Best Results'"
+  },
+  {
+   "check": "primary keyword not already targeted",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  }
+ ]
+}

@@ -1,0 +1,62 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><style>{{BASE_CSS}}</style></head>
+<body>
+{{COMPONENTS}}
+<svg class="canvas" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <rect class="bg" width="1200" height="630"/>
+  <text class="title" x="40" y="62">Egg donor IVF vs. your own eggs</text>
+  <text class="subtitle" x="40" y="96">Only the egg changes. In both paths, your uterus carries the pregnancy.</text>
+
+  <!-- row 1: own eggs -->
+  <rect class="card" x="32" y="124" width="760" height="226" rx="22"/>
+  <text class="step-title" x="60" y="162">Your own egg</text>
+  <text class="label-sub" x="60" y="188">Odds follow your age</text>
+  <use href="#ovary-section" x="60" y="206" width="170" height="111.6"/>
+  <text class="label" x="145" y="338" text-anchor="middle">Your ovary</text>
+  <path class="arrow-solid" d="M250,262 L318,262" marker-end="url(#m-arrow)"/>
+  <use href="#oocyte" x="335" y="212" width="100" height="100"/>
+  <text class="label" x="385" y="338" text-anchor="middle">Egg</text>
+  <path class="arrow-solid" d="M452,262 L520,262" marker-end="url(#m-arrow)"/>
+  <use href="#blastocyst" x="537" y="212" width="100" height="100"/>
+  <text class="label" x="587" y="338" text-anchor="middle">Embryo</text>
+  <text class="label-sub" x="660" y="250">Keeps your</text>
+  <text class="label-sub" x="660" y="273">genetic link</text>
+
+  <!-- row 2: donor eggs -->
+  <rect class="card" x="32" y="366" width="760" height="238" rx="22"/>
+  <text class="step-title" x="60" y="404">Donor egg</text>
+  <text class="label-sub" x="60" y="430">Donor usually 21 to 34</text>
+  <use href="#ovary-section" x="60" y="450" width="170" height="111.6"/>
+  <text class="label" x="145" y="584" text-anchor="middle">Donor's ovary</text>
+  <path class="arrow-solid" d="M250,506 L318,506" marker-end="url(#m-arrow)"/>
+  <use href="#oocyte" x="335" y="456" width="100" height="100"/>
+  <text class="label" x="385" y="584" text-anchor="middle">Egg</text>
+  <path class="arrow-solid" d="M452,506 L520,506" marker-end="url(#m-arrow)"/>
+  <use href="#blastocyst" x="537" y="456" width="100" height="100"/>
+  <text class="label" x="587" y="584" text-anchor="middle">Embryo</text>
+  <text class="label-sub" x="656" y="484">53.5% birth</text>
+  <text class="label-sub" x="656" y="507">per transfer</text>
+  <text class="label-sub" x="656" y="530">(fresh eggs)</text>
+
+  <!-- connectors to uterus -->
+  <circle cx="806" cy="262" r="16" fill="#FBF8F3" stroke="#D9CFC2" stroke-width="1.5"/>
+  <path d="M802,255 L809,262 L802,269" fill="none" stroke="#8C8279" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="806" cy="506" r="16" fill="#FBF8F3" stroke="#D9CFC2" stroke-width="1.5"/>
+  <path d="M802,499 L809,506 L802,513" fill="none" stroke="#8C8279" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- uterus card -->
+  <rect class="card" x="820" y="124" width="348" height="480" rx="22"/>
+  <text class="step-title" x="848" y="162">Your uterus</text>
+  <text class="label-sub" x="848" y="188">carries either embryo</text>
+  <use href="#uterus-body" x="850" y="212" width="133" height="260"/>
+  <use href="#blastocyst" x="905" y="284" width="24" height="24"/>
+  <path class="leader" d="M1010,268 L955,290"/><circle class="leader-dot" cx="955" cy="290" r="4"/>
+  <text class="label" x="1016" y="262">Lining</text>
+  <text class="label-sub" x="1016" y="284">(endometrium)</text>
+  <path class="leader" d="M1010,330 L925,298"/><circle class="leader-dot" cx="925" cy="298" r="4"/>
+  <text class="label" x="1016" y="336">Embryo</text>
+  <text class="note" x="848" y="530">Recipient results stable</text>
+  <text class="note" x="848" y="554">before age 45</text>
+  <text class="label-sub" x="848" y="580">SART, 27,959 cycles</text>
+</svg>
+</body></html>

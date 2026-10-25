@@ -1,0 +1,29 @@
+{
+ "keyword_overview": {"keyword": "egg donor ivf", "locId": 2840, "search_volume": 1600, "seo_difficulty": 23, "paid_difficulty": 37, "cpc": 19.95, "search_intent": "Informational", "checked": "2026-10-25"},
+ "secondary_keywords": [
+  {"term": "cost of egg donor ivf", "volume": 480, "sd": 19, "source": "Ubersuggest keyword_suggestions locId 2840, 2026-10-25"},
+  {"term": "how much is egg donor ivf", "volume": 140, "sd": 21, "source": "Ubersuggest keyword_suggestions locId 2840, 2026-10-25"},
+  {"term": "how does egg donor ivf work", "volume": 30, "sd": 29, "source": "Ubersuggest keyword_suggestions locId 2840, 2026-10-25"}
+ ],
+ "serp_top": [
+  {"pos": 1, "type": "ai_overview"},
+  {"pos": 2, "url": "http://ivf.org/treatments-and-services/crms-pioneering-donor-egg-program/more-information-donor-egg", "da": 46},
+  {"pos": 3, "type": "people_also_ask"},
+  {"pos": 4, "url": "http://txfertility.com/in-vitro-fertilization-ivf/ivf-with-donor-eggs/", "da": 43},
+  {"pos": 5, "type": "discussions_and_forums"},
+  {"pos": 6, "url": "http://hatch.us/", "type": "local_pack"},
+  {"pos": 9, "url": "http://www.wakehealth.edu/treatment/d/donor-egg-ivf", "da": 66},
+  {"pos": 10, "url": "http://www.fertilitybristol.com/news-and-blog/ivf-journey-using-donor-eggs", "da": 30},
+  {"pos": 11, "url": "http://resolve.org/learn/family-building-options/donor-options/", "da": 64},
+  {"pos": 12, "url": "http://winfertility.com/blog/my-doctor-suggested-donor-eggs/", "da": 47}
+ ],
+ "serp_updated_at": "2026-10-25",
+ "pages_read": {
+  "ivf.org": "program process page: consult, prep cycle, matching, fresh/frozen/shared options; no comparison with own eggs, no switch guidance, no rates, no costs, no risks",
+  "txfertility.com": "who benefits list + how it works; no own-egg comparison, no rates, no costs, no risks",
+  "wakehealth.edu": "short overview; links SART for rates; no comparison, no timing guidance, no costs, no risks"
+ },
+ "patient_sources": ["https://www.mumsnet.com/talk/infertility/2410416-Donor-eggs", "https://www.mumsnet.com/talk/infertility/3526055-My-AMH-is-1"],
+ "ubersuggest_reports_used": 3,
+ "gap": "None of the top pages compares egg donor IVF with another round using your own eggs, or answers when to switch and whether trying your own eggs first lowers your later donor-egg odds (Clarke 2025: similar live birth, but 13.2 vs 21.0 months)."
+}

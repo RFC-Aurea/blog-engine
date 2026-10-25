@@ -1,0 +1,29 @@
+{
+ "keyword_overview": {"keyword": "euploid embryo", "locId": 2840, "search_volume": 2900, "seo_difficulty": 13, "paid_difficulty": 1, "cpc": 51.125, "search_intent": "Informational", "checked": "2026-10-25"},
+ "secondary_keywords": [
+  {"term": "euploid embryo meaning", "volume": 260, "sd": 24, "source": "Ubersuggest keyword_suggestions locId 2840, 2026-10-25"},
+  {"term": "euploid embryo success rate by age", "volume": 70, "sd": 22, "source": "Ubersuggest keyword_suggestions locId 2840, 2026-10-25"},
+  {"term": "euploid embryo success rate", "volume": 70, "sd": 23, "source": "Ubersuggest keyword_suggestions locId 2840, 2026-10-25"}
+ ],
+ "serp_top": [
+  {"pos": 1, "type": "ai_overview"},
+  {"pos": 2, "url": "http://www.fertstert.org/article/S0015-0282(24)00411-4/fulltext", "da": 63},
+  {"pos": 3, "type": "people_also_ask"},
+  {"pos": 4, "url": "http://www.fertstert.org/article/S0015-0282(16)63070-4/pdf", "da": 63},
+  {"pos": 5, "url": "http://facebook.com/HRCFertilityCommunity/posts/what-exactly-is-a-euploid-embryo-dr-ghadir-of-hrc-fertility-beverly-hills-breaks/1571189721688324/", "da": 96},
+  {"pos": 6, "url": "http://www.contemporaryobgyn.net/view/euploid-single-embryo-transfer-new-ivf-paradigm", "da": 60},
+  {"pos": 7, "url": "http://www.sciencedirect.com/science/article/pii/S2666334125001400", "da": 93},
+  {"pos": 8, "url": "http://remembryo.com/study-finds-that-female-age-doesnt-impact-euploid-embryo-success-rates/", "da": 24},
+  {"pos": 10, "url": "http://draksoyivf.com/blog/embryo-grading-4aa-3bb-5bc-decoding-ivf-lab-report/", "da": 11},
+  {"pos": 11, "url": "http://www.inviafertility.com/blog/preimplantation-genetic-screening-how-age-affects-number-of-eggs", "da": 39}
+ ],
+ "serp_updated_at": "2026-10-25",
+ "pages_read": {
+  "fertstert.org (x2)": "journal articles for clinicians (fetch blocked in sandbox); not patient-facing",
+  "contemporaryobgyn.net": "2014 clinician feature on euploid single embryo transfer (BEST trial); no explanation of why euploid embryos fail, no rates by age, no next steps after failure",
+  "remembryo.com": "summary of one 2024 single-center study; embryo quality and BMI linked to outcome; no next-step pathway after a failed euploid transfer"
+ },
+ "patient_sources": ["https://www.mumsnet.com/talk/infertility/5586185-secondary-infertility-4-failed-euploid-transfers", "https://www.mumsnet.com/talk/infertility/5547244-should-we-try-our-last-euploid-embryo-transfer-or-stop-now"],
+ "ubersuggest_reports_used": 3,
+ "gap": "No top result explains in patient language why a euploid embryo still fails about half the time, whether grade, day and age still matter once an embryo is euploid, or what to check (and what 2026 ASRM guidance says not to bother with) after a failed euploid transfer."
+}

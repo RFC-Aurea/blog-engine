@@ -1,0 +1,134 @@
+{
+ "parts": [
+  {
+   "use": "m-ovary-cortex-prp",
+   "name": "ov",
+   "x": 170,
+   "y": 118,
+   "width": 700
+  },
+  {
+   "use": "m-prp-cloud",
+   "name": "cloud",
+   "width": 190,
+   "pin": [
+    "platelets",
+    [
+     420,
+     268
+    ]
+   ]
+  },
+  {
+   "use": "m-syringe",
+   "name": "sy",
+   "width": 470,
+   "rotate": 35,
+   "pin": [
+    "tip",
+    [
+     402,
+     258
+    ]
+   ]
+  },
+  {
+   "use": "m-prp-tube",
+   "name": "tube",
+   "x": 46,
+   "y": 392,
+   "width": 58
+  }
+ ],
+ "labels": [
+  {
+   "text": "Fine needle",
+   "x": 40,
+   "y": 250,
+   "to": "sy.needle"
+  },
+  {
+   "text": "PRP or adipose-PRP",
+   "x": 214,
+   "y": 46,
+   "to": "sy.barrel"
+  },
+  {
+   "text": "Growth factors",
+   "sub": "VEGF, PDGF, IGF-1",
+   "x": 528,
+   "y": 58,
+   "align": "middle",
+   "to": "cloud.growth_factors"
+  },
+  {
+   "text": "Resting follicles",
+   "x": 742,
+   "y": 58,
+   "align": "middle",
+   "to": [
+    "ov.resting_top",
+    "ov.resting_top_right"
+   ]
+  },
+  {
+   "text": "Ovary",
+   "x": 905,
+   "y": 206,
+   "to": [
+    784,
+    262
+   ]
+  },
+  {
+   "text": "Growing follicles",
+   "x": 905,
+   "y": 318,
+   "to": [
+    "ov.antral.antrum",
+    "ov.secondary2.egg"
+   ]
+  },
+  {
+   "text": "Blood vessels",
+   "x": 905,
+   "y": 470,
+   "to": "ov.vessels_right"
+  },
+  {
+   "text": "Plasma",
+   "x": 122,
+   "y": 462,
+   "to": "tube.plasma"
+  },
+  {
+   "text": "Platelets",
+   "x": 122,
+   "y": 496,
+   "to": "tube.platelets"
+  },
+  {
+   "text": "Red cells",
+   "x": 122,
+   "y": 532,
+   "to": "tube.red_cells"
+  },
+  {
+   "text": "Your blood after the centrifuge",
+   "x": 40,
+   "y": 598
+  }
+ ],
+ "panels": [
+  {
+   "text": "A",
+   "x": 22,
+   "y": 52
+  },
+  {
+   "text": "B",
+   "x": 22,
+   "y": 398
+  }
+ ]
+}

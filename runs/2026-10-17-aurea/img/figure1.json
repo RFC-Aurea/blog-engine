@@ -1,0 +1,108 @@
+{
+ "parts": [
+  {
+   "use": "m-blastocyst-hatching",
+   "name": "bl",
+   "x": 214,
+   "y": 72,
+   "width": 520
+  },
+  {
+   "use": "m-holding-pipette",
+   "name": "hp",
+   "width": 262,
+   "pin": [
+    "tip",
+    [
+     238,
+     315.75
+    ]
+   ]
+  },
+  {
+   "use": "m-biopsy-pipette",
+   "name": "bp",
+   "width": 400,
+   "pin": [
+    "tip",
+    [
+     704,
+     315.75
+    ]
+   ]
+  },
+  {
+   "use": "m-karyotype",
+   "name": "ka",
+   "x": 884,
+   "y": 428,
+   "width": 262
+  }
+ ],
+ "labels": [
+  {
+   "text": "Zona pellucida",
+   "x": 40,
+   "y": 96,
+   "to": "bl.zona"
+  },
+  {
+   "text": "Holding pipette",
+   "x": 40,
+   "y": 236,
+   "to": "hp.body"
+  },
+  {
+   "text": "Inner cell mass",
+   "sub": "becomes the baby",
+   "x": 40,
+   "y": 452,
+   "to": "bl.inner_cell_mass"
+  },
+  {
+   "text": "Fluid-filled cavity",
+   "x": 470,
+   "y": 604,
+   "align": "middle",
+   "to": "bl.blastocoel"
+  },
+  {
+   "text": "Trophectoderm",
+   "sub": "later forms the placenta",
+   "x": 700,
+   "y": 62,
+   "to": "bl.trophectoderm"
+  },
+  {
+   "text": "A few cells taken",
+   "sub": "for testing",
+   "x": 790,
+   "y": 172,
+   "to": "bl.herniated_cells"
+  },
+  {
+   "text": "Biopsy pipette",
+   "x": 1000,
+   "y": 262,
+   "to": "bp.body"
+  },
+  {
+   "text": "Chromosomes counted",
+   "sub": "46 expected",
+   "x": 884,
+   "y": 394
+  }
+ ],
+ "panels": [
+  {
+   "text": "A",
+   "x": 22,
+   "y": 46
+  },
+  {
+   "text": "B",
+   "x": 846,
+   "y": 396
+  }
+ ]
+}

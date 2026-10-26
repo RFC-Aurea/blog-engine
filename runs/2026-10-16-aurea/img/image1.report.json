@@ -1,11 +1,12 @@
 {
  "ok": true,
- "output": "runs/2026-10-16-aurea/img/image1.png",
+ "generator": "gamma",
+ "source_url": "https://cdn.gamma.app/bf3xeoj6c9vvzjl/design-anything/HLPLmJ7cSuF7BuVJZwfPD/KaLGu08B9StgdHbxigbfR.jpg",
+ "output": "runs/2026-10-16-aurea/img/image1.jpg",
  "width": 1800,
- "height": 945,
- "bytes": 189144,
- "labels": 23,
- "min_font_px": 17,
- "problems": [],
- "md5": "3ed50f62cbb9a4e2932f011060ea0ca3"
+ "height": 1005,
+ "bytes": 108920,
+ "md5": "24e83131a60578473c2710aa60ceb5b0",
+ "prompt_md5": "b2fa05b84bb68f327265f6506bb3e7ea",
+ "credits_remaining": 6854
 }

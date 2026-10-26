@@ -6,8 +6,8 @@ Thursday, Saturday and Sunday. Sunday therefore publishes two posts, RFC first, 
 **live automatically** (no drafts) once every hard check passes. Writer is always Dr. Zaher Merhi. Owner: Alifiya (RFC Fertility).
 
 If you were started by the daily schedule, do the run below from start to finish without asking anyone anything.
-The scheduled prompt was written on 2026-10-16 and still says brands alternate daily; where it and this file
-disagree, this file wins (weekday schedule above, images per `rules/images.md`).
+The scheduled prompt was written on 2026-10-16 and still says brands alternate daily and images come from Gamma;
+where it and this file disagree, this file wins (weekday schedule above; images drawn by Claude per `rules/images.md`).
 Every outside tool you need is a connector: Wix, Ubersuggest (`Uber_suggest_SEO`), plus WebSearch/WebFetch.
 Images are research-grade medical illustrations drawn by Claude in code and rendered with the sandbox's Chromium
 (see `rules/images.md`). Never use Gamma or any other image generator.

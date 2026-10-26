@@ -85,7 +85,7 @@
    "check": "alt text under 125 chars",
    "ok": true,
    "hard": true,
-   "detail": "[110, 117]"
+   "detail": "[116, 90]"
   },
   {
    "check": "a keyword appears in an alt text",
@@ -97,7 +97,7 @@
    "check": "wix image ids look like real Wix media ids",
    "ok": true,
    "hard": true,
-   "detail": "['ca2223_6406e1b936394174ac3a119cbb23105c~mv2.png', 'ca2223_3474454e0c93488fae86d518243f6a8c~mv2.png']"
+   "detail": "['ca2223_1524f8cce1c543a5b85665fcfad0ae0c~mv2.jpg', 'ca2223_fb834b3efeeb4439b0dfc060a01a1e0c~mv2.jpg']"
   },
   {
    "check": "no 'image of' in alt text",
@@ -295,13 +295,31 @@
    "check": "IMAGE1: Wix stored exactly the reviewed image (md5 = Wix hash)",
    "ok": true,
    "hard": true,
-   "detail": "file 3ed50f62cbb9a4e2932f011060ea0ca3, front matter 3ed50f62cbb9a4e2932f011060ea0ca3, Wix 3ed50f62cbb9a4e2932f011060ea0ca3"
+   "detail": "file 24e83131a60578473c2710aa60ceb5b0, front matter 24e83131a60578473c2710aa60ceb5b0, Wix 24e83131a60578473c2710aa60ceb5b0"
   },
   {
-   "check": "IMAGE1: label check passed when rendered (no overlaps, nothing cut off)",
+   "check": "IMAGE1: made by gamma and unchanged since (report md5)",
    "ok": true,
    "hard": true,
-   "detail": "no report for this file"
+   "detail": "no matching report"
+  },
+  {
+   "check": "IMAGE1: front matter size matches the file",
+   "ok": true,
+   "hard": true,
+   "detail": "1800x1005 vs 1800x1005"
+  },
+  {
+   "check": "IMAGE1: looked at before upload, every visible word listed in 'labels'",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  },
+  {
+   "check": "IMAGE1: illustration has labels",
+   "ok": true,
+   "hard": false,
+   "detail": ""
   },
   {
    "check": "IMAGE1: no banned words in the image",
@@ -319,13 +337,25 @@
    "check": "IMAGE2: Wix stored exactly the reviewed image (md5 = Wix hash)",
    "ok": true,
    "hard": true,
-   "detail": "file 6160b5cd34dc969bbdc9a62612c0fd4f, front matter 6160b5cd34dc969bbdc9a62612c0fd4f, Wix 6160b5cd34dc969bbdc9a62612c0fd4f"
+   "detail": "file e86a9f368e9def572cc2b079080f5799, front matter e86a9f368e9def572cc2b079080f5799, Wix e86a9f368e9def572cc2b079080f5799"
   },
   {
-   "check": "IMAGE2: label check passed when rendered (no overlaps, nothing cut off)",
+   "check": "IMAGE2: made by gamma and unchanged since (report md5)",
    "ok": true,
    "hard": true,
-   "detail": "no report for this file"
+   "detail": "no matching report"
+  },
+  {
+   "check": "IMAGE2: front matter size matches the file",
+   "ok": true,
+   "hard": true,
+   "detail": "1800x1005 vs 1800x1005"
+  },
+  {
+   "check": "IMAGE2: looked at before upload, every visible word listed in 'labels'",
+   "ok": true,
+   "hard": true,
+   "detail": ""
   },
   {
    "check": "IMAGE2: no banned words in the image",

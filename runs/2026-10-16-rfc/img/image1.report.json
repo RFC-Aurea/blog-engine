@@ -1,11 +1,12 @@
 {
  "ok": true,
- "output": "runs/2026-10-16-rfc/img/image1.png",
+ "generator": "gamma",
+ "source_url": "https://cdn.gamma.app/bf3xeoj6c9vvzjl/design-anything/VqHTdhunP8saYLHryR9CK/Uq90K6ObQww234wFWkzP1.jpg",
+ "output": "runs/2026-10-16-rfc/img/image1.jpg",
  "width": 1800,
- "height": 945,
- "bytes": 300659,
- "labels": 27,
- "min_font_px": 17,
- "problems": [],
- "md5": "87c3d4525ffc34d9895eb31c705ec92a"
+ "height": 1005,
+ "bytes": 160886,
+ "md5": "71e5b6f14b1b4ab0c335cc8ec7ff6ebc",
+ "prompt_md5": "aa3a769e385b8bfc25cc9a75b09b23fa",
+ "credits_remaining": 6784
 }

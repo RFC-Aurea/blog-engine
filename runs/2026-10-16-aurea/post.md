@@ -39,43 +39,45 @@
    "sd": 23
   }
  ],
- "hero": "IMAGE1",
+ "hero": "IMAGE2",
  "images": {
   "IMAGE1": {
-   "wix_id": "ca2223_6406e1b936394174ac3a119cbb23105c~mv2.png",
+   "generator": "gamma",
+   "gamma_url": "https://cdn.gamma.app/bf3xeoj6c9vvzjl/design-anything/HLPLmJ7cSuF7BuVJZwfPD/KaLGu08B9StgdHbxigbfR.jpg",
+   "kind": "medical illustration",
+   "source": "img/image1.prompt.txt",
+   "file": "img/image1.jpg",
    "width": 1800,
-   "height": 945,
-   "alt": "Labelled sperm cell diagram and chart showing sperm freezing lowers motility once, while storage time does not",
-   "kind": "medical illustration with data",
-   "source": "img/image1.html",
-   "file": "img/image1.png",
-   "md5": "3ed50f62cbb9a4e2932f011060ea0ca3",
-   "wix_hash": "3ed50f62cbb9a4e2932f011060ea0ca3",
-   "wix_labels": [
-    "dna testing",
-    "human fertility",
-    "data processing",
-    "storage space"
+   "height": 1005,
+   "md5": "24e83131a60578473c2710aa60ceb5b0",
+   "wix_id": "ca2223_1524f8cce1c543a5b85665fcfad0ae0c~mv2.jpg",
+   "wix_hash": "24e83131a60578473c2710aa60ceb5b0",
+   "alt": "Labelled illustration of a sperm cell, the cell that sperm freezing protects: head, acrosome, DNA, midpiece and tail",
+   "labels": [
+    "Head",
+    "Acrosome",
+    "Nucleus (DNA)",
+    "Midpiece",
+    "Tail"
    ],
-   "preview_src": "img/image1.png"
+   "reviewed": true,
+   "preview_src": "img/image1.jpg"
   },
   "IMAGE2": {
-   "wix_id": "ca2223_3474454e0c93488fae86d518243f6a8c~mv2.png",
+   "generator": "gamma",
+   "gamma_url": "https://cdn.gamma.app/bf3xeoj6c9vvzjl/design-anything/X0rzPzzz7px8TbHbPtImk/COYiFyccWX82f8IKj85Ta.jpg",
+   "kind": "photo",
+   "source": "img/image2.prompt.txt",
+   "file": "img/image2.jpg",
    "width": 1800,
-   "height": 945,
-   "alt": "Sperm freezing cost at Aurea step by step: nurse call, semen analysis, freezing, storage and thaw, with 10-year total",
-   "kind": "labelled cost diagram",
-   "source": "img/image2.html",
-   "file": "img/image2.png",
-   "md5": "6160b5cd34dc969bbdc9a62612c0fd4f",
-   "wix_hash": "6160b5cd34dc969bbdc9a62612c0fd4f",
-   "wix_labels": [
-    "fees",
-    "pricing",
-    "medical expenses",
-    "monetary"
-   ],
-   "preview_src": "img/image2.png"
+   "height": 1005,
+   "md5": "e86a9f368e9def572cc2b079080f5799",
+   "wix_id": "ca2223_fb834b3efeeb4439b0dfc060a01a1e0c~mv2.jpg",
+   "wix_hash": "e86a9f368e9def572cc2b079080f5799",
+   "alt": "Sperm freezing storage: a lab specialist lowers frozen samples into a liquid nitrogen tank",
+   "labels": [],
+   "reviewed": true,
+   "preview_src": "img/image2.jpg"
   }
  },
  "citations": [
@@ -105,15 +107,31 @@
   "it would be worth your time to do this"
  ],
  "replaced_images": {
-  "IMAGE1": {
-   "wix_id": "ca2223_1c98094416f74ad3a0f63e14b80f6cf5~mv2.jpg",
-   "alt": "Microscope-style illustration of sperm cells with frost crystals at the edge, showing sperm freezing",
-   "why": "Gamma images without labels; replaced 2026-10-16 at Alifiya's request with labelled illustrations"
+  "2026-10-16": {
+   "IMAGE1": {
+    "wix_id": "ca2223_1c98094416f74ad3a0f63e14b80f6cf5~mv2.jpg",
+    "alt": "Microscope-style illustration of sperm cells with frost crystals at the edge, showing sperm freezing",
+    "why": "Gamma images without labels; replaced 2026-10-16 at Alifiya's request with labelled illustrations"
+   },
+   "IMAGE2": {
+    "wix_id": "ca2223_a3306cf12dcb46fc8002d2fbcf4c6b33~mv2.jpg",
+    "alt": "Man talking with a fertility doctor in a calm clinic room about sperm freezing cost and storage",
+    "why": "Gamma images without labels; replaced 2026-10-16 at Alifiya's request with labelled illustrations"
+   }
   },
-  "IMAGE2": {
-   "wix_id": "ca2223_a3306cf12dcb46fc8002d2fbcf4c6b33~mv2.jpg",
-   "alt": "Man talking with a fertility doctor in a calm clinic room about sperm freezing cost and storage",
-   "why": "Gamma images without labels; replaced 2026-10-16 at Alifiya's request with labelled illustrations"
+  "2026-10-26": {
+   "IMAGE1": {
+    "wix_id": "ca2223_6406e1b936394174ac3a119cbb23105c~mv2.png",
+    "alt": "Labelled sperm cell diagram and chart showing sperm freezing lowers motility once, while storage time does not",
+    "file": "img/image1.png",
+    "why": "drawn images looked the same daily and covers had text; replaced 2026-10-26 at Alifiya's request with a painted illustration and a natural photo"
+   },
+   "IMAGE2": {
+    "wix_id": "ca2223_3474454e0c93488fae86d518243f6a8c~mv2.png",
+    "alt": "Sperm freezing cost at Aurea step by step: nurse call, semen analysis, freezing, storage and thaw, with 10-year total",
+    "file": "img/image2.png",
+    "why": "drawn images looked the same daily and covers had text; replaced 2026-10-26 at Alifiya's request with a painted illustration and a natural photo"
+   }
   }
  }
 }

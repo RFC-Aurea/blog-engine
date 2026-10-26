@@ -23,5 +23,5 @@
 | 2026-10-26 | aurea | updated | PGT-A Testing: What It Is, Who It's For, and When It's Worth the Cost (new images: painted illustration + photo) | pgt-a testing | https://www.aureafertility.com/post/pgt-a-testing |
 | 2026-10-26 | aurea | updated | Trying to Conceive Under 40: Fertility Odds, Tests and When to Get Help (new images: painted illustration + photo) | trying to conceive fertility | https://www.aureafertility.com/post/trying-to-conceive-fertility |
 | 2026-10-26 | rfc | updated | PRP for Ovaries vs. Adipose-PRP: Which Rejuvenation Option Fits You? (new images: painted illustration + photo) | prp ovaries | https://www.rejuvenatingfertility.com/post/prp-ovaries-vs-adipose-prp |
-| 2026-10-26 | aurea | updated | pgt-a-testing | new image: Claude-drawn blastocyst biopsy illustration + Gamma photo cover |
-| 2026-10-26 | rfc | updated | prp-ovaries-vs-adipose-prp | new image: Claude-drawn PRP ovary illustration + Gamma photo cover |
+| 2026-10-26 | aurea | updated | PGT-A Testing: What It Is, Who It's For, and When It's Worth the Cost (new illustration: Claude-drawn, research grade) | pgt-a testing | https://www.aureafertility.com/post/pgt-a-testing |
+| 2026-10-26 | rfc | updated | PRP for Ovaries vs. Adipose-PRP: Which Rejuvenation Option Fits You? (new illustration: Claude-drawn, research grade) | prp ovaries | https://www.rejuvenatingfertility.com/post/prp-ovaries-vs-adipose-prp |

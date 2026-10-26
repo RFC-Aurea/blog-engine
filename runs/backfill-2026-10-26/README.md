@@ -7,15 +7,16 @@ photo (IMAGE2, replaces the old diagram and becomes the cover: `"hero": "IMAGE2"
 `plan.json` lists, per post: the illustration subject, action, exact labels and alt text, the photo scene and alt text.
 The prompts are already written to `runs/<run>/img/new/image1.prompt.txt` and `image2.prompt.txt`.
 
-For each post in `plan.json` (needs `GEMINI_API_KEY`, or Gamma with `cdn.gamma.app` allowed):
-1. `python3 scripts/gen_image.py runs/<run>/img/new/image1.prompt.txt runs/<run>/img/new/image1.jpg` and the same
-   for image2.
+For each post in `plan.json` (needs `cdn.gamma.app` allowed: `python3 scripts/fetch_image.py --check`):
+1. Generate each prompt with `mcp__Gamma__generate_image` (`type` `illustration` for image1, `photo` for image2,
+   `sizePreset` `banner`), poll `get_image_generation_status`, then
+   `python3 scripts/fetch_image.py <url> runs/<run>/img/new/imageN.jpg --prompt runs/<run>/img/new/imageN.prompt.txt --credits <left>`.
 2. Look at both with the Read tool. The illustration's labels must match `plan.json` letter for letter and point at
    the right parts; the photo must look real with no text. Fix the prompt and generate again if not (3 tries).
 3. Move them to `runs/<run>/img/image1.jpg` / `image2.jpg` with their `.report.json` and `.prompt.txt` (keep the old
    `.png`/`.html` files), commit and push, upload both from commit-pinned raw URLs, confirm the Wix hash = md5.
 4. Front matter: move the old `images` block into `replaced_images` (with today's date), write the new block
-   (`generator`, `model`, `kind`, `source`, `file`, `width`, `height`, `md5`, `wix_id`, `wix_hash`, `alt`, `labels`,
+   (`generator` `gamma`, `gamma_url`, `kind`, `source`, `file`, `width`, `height`, `md5`, `wix_id`, `wix_hash`, `alt`, `labels`,
    `reviewed`, `preview_src`) and set `"hero": "IMAGE2"`.
 5. `python3 scripts/check_post.py runs/<run> --update <post_id>`, `python3 scripts/build_post.py runs/<run> --update <post_id>`,
    `node scripts/test_publish_js.js runs/<run>`, publish with `templates/publish.js` (CLAUDE.md step 10), save

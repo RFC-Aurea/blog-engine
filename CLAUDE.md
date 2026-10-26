@@ -6,11 +6,11 @@ Thursday, Saturday and Sunday. Sunday therefore publishes two posts, RFC first, 
 **live automatically** (no drafts) once every hard check passes. Writer is always Dr. Zaher Merhi. Owner: Alifiya (RFC Fertility).
 
 If you were started by the daily schedule, do the run below from start to finish without asking anyone anything.
-The scheduled prompt was written on 2026-10-16 and still says brands alternate daily and images come from Gamma;
-where it and this file disagree, this file wins (weekday schedule above, drawn illustrations per `rules/images.md`).
+The scheduled prompt was written on 2026-10-16 and still says brands alternate daily; where it and this file
+disagree, this file wins (weekday schedule above, images per `rules/images.md`).
 Every outside tool you need is a connector: Wix, Ubersuggest (`Uber_suggest_SEO`), plus WebSearch/WebFetch.
-Images come from Gemini when `GEMINI_API_KEY` is set, otherwise they are drawn in code and rendered with the
-sandbox's Chromium (see `rules/images.md`).
+Images are made with the Gamma connector and downloaded from `cdn.gamma.app` to be checked; if that host is
+blocked they are drawn in code and rendered with the sandbox's Chromium (see `rules/images.md`).
 `wixapis.com`, PubMed and the clinic sites are blocked for curl in this sandbox — use the connectors and
 WebSearch/WebFetch, never curl them.
 
@@ -52,8 +52,8 @@ Read before writing: `config.json`, `brands/<brand>.md`, `rules/writing.md`, `ru
    file. 2,000–2,800 words. Spacing between blocks is added by the builder; just separate blocks with a blank line.
 7. **Images.** Follow `rules/images.md`: choose two images for the finished post (labelled medical illustration,
    natural photo or labelled diagram; white background, natural colours, different from the brand's last posts; a
-   text-free cover). Make them with `python3 scripts/gen_image.py` (Gemini) when `GEMINI_API_KEY` is set, otherwise
-   draw them with `node scripts/render_image.js`. Look at each with the Read tool and fix until it is right, push
+   text-free cover). Make them with Gamma (`mcp__Gamma__generate_image`, then `python3 scripts/fetch_image.py`)
+   when `python3 scripts/fetch_image.py --check` passes, otherwise draw them with `node scripts/render_image.js`. Look at each with the Read tool and fix until it is right, push
    them, upload them to the brand's site from their commit-pinned GitHub URL, confirm Wix's file hash equals the
    file's md5, and record them in the front matter.
 8. **Quality gate.** `python3 scripts/check_post.py RUN`. Fix every FAIL and re-run (one rewrite round). If it still
@@ -83,7 +83,8 @@ Read before writing: `config.json`, `brands/<brand>.md`, `rules/writing.md`, `ru
     its own `RUN` folder. Do this even when the first brand was blocked: one brand failing does not stop the other.
 15. **Report** (final message, it is sent to Alifiya), one block per brand published or attempted today: brand,
     title, live URL, primary keyword with volume/SD, number of citations and internal links, word count, any warnings
-    from the checker, topics blocked today and why.
+    from the checker, topics blocked today and why, how the images were made, and Gamma credits left (flag it
+    when under `images.gamma_credits_warn_below` in `config.json`).
 
 ## Fixing a post the engine already published
 Only for posts in `data/published.json` with `"source": "engine"` (the builder refuses any other id). Edit

@@ -29,19 +29,23 @@
 ## How images are made
 Use the first route that is available; record it as `generator` in the front matter.
 
-### 1. Gemini (`generator: "gemini"`), when `GEMINI_API_KEY` is set
-1. Write the prompt to `RUN/img/imageN.prompt.txt` from the templates below.
-2. `python3 scripts/gen_image.py RUN/img/imageN.prompt.txt RUN/img/imageN.jpg`
-   (model from `config.json` `images`; it saves an 1800 px wide JPEG and `imageN.report.json`).
-   Exit code 4 = no key or the API is unreachable: use route 3 for this image.
-3. **Look at the JPEG with the Read tool.** Check every label letter by letter against your list, that each leader
+### 1. Gamma (`generator: "gamma"`), chosen by Alifiya 2026-10-26
+1. `python3 scripts/fetch_image.py --check`. Exit code 4 = this environment cannot download from `cdn.gamma.app`:
+   do not spend credits, use route 2 for both images and say so in the run report.
+2. Write the prompt to `RUN/img/imageN.prompt.txt` from the templates below.
+3. `mcp__Gamma__generate_image` with that prompt, `type` `illustration` (medical illustration) or `photo`, and
+   `sizePreset` `banner`. Poll `mcp__Gamma__get_image_generation_status` every few seconds until `completed` (never
+   call generate_image again to check). Note `credits.remaining` from the result.
+4. `python3 scripts/fetch_image.py <image url> RUN/img/imageN.jpg --prompt RUN/img/imageN.prompt.txt --credits <remaining>`
+   (saves an 1800 px wide JPEG and `imageN.report.json`).
+5. **Look at the JPEG with the Read tool.** Check every label letter by letter against your list, that each leader
    line points at the part it names, the anatomy, no stray or garbled text, white background, no brand colours, and for
    photos: real-looking hands, faces and objects. If anything is wrong, change the prompt and generate again (at most
-   3 tries per image). Still wrong: draw that image instead (route 3).
-4. Push, upload and confirm as in "Upload" below. Front matter: `generator`, `model` (from the report), `kind`
-   (`medical illustration`, `photo` or `labelled diagram`), `source` (`img/imageN.prompt.txt`), `file`
-   (`img/imageN.jpg`), `width`/`height` (from the report), `md5`, `wix_hash`, `alt`, `labels` (every word visible in
-   the image, exactly as shown; `[]` for a photo), `reviewed: true`, `preview_src` (= `file`).
+   3 tries per image, about 70 credits each). Still wrong: draw that image instead (route 2).
+6. Push, upload and confirm as in "Upload" below. Front matter: `generator`, `kind` (`medical illustration`,
+   `photo` or `labelled diagram`), `source` (`img/imageN.prompt.txt`), `file` (`img/imageN.jpg`), `width`/`height`
+   (from the report), `md5`, `wix_hash`, `alt`, `labels` (every word visible in the image, exactly as shown; `[]` for
+   a photo), `reviewed: true`, `preview_src` (= `file`), `gamma_url`.
 
 **Illustration prompt template** (fill the brackets; list every label):
 ```
@@ -65,13 +69,7 @@ staged or glossy. No text, logos or readable screens; no babies, pregnant bellie
 subject centred.
 ```
 
-### 2. Gamma (`generator: "gamma"`), only when `cdn.gamma.app` is allowed in the environment
-`mcp__Gamma__generate_image` (`type` `illustration` or `photo`, `sizePreset` `banner`, same prompts), poll
-`mcp__Gamma__get_image_generation_status` until `completed`, then
-`python3 scripts/gen_image.py --url <image url> RUN/img/imageN.jpg` (exit code 4 = host not allowed: use route 3).
-Then steps 3 and 4 of route 1, with `source` = a text file holding the prompt and the Gamma URL.
-
-### 3. Drawn in code (`generator: "drawn"`), the fallback and the route for number-heavy diagrams
+### 2. Drawn in code (`generator: "drawn"`), the fallback and the route for number-heavy diagrams
 SVG in `RUN/img/imageN.html` using `{{BASE_CSS}}` (`illustrations/base.css`: white background, natural colours) and
 `{{COMPONENTS}}` (`illustrations/components.svg` parts). Copy the closest past `image*.html` from `runs/` and change
 the layout, do not reuse it unchanged.
@@ -87,7 +85,7 @@ the layout, do not reuse it unchanged.
   A point (vx, vy) in a symbol's viewBox lands at x + (vx - minX) * width / vbWidth. A missing part: add a new
   `<symbol>` in the same style and say so in the run report.
 - Labels 17px or larger; **\*no label may overlap another, run into a drawing, leave its card or the canvas**.
-- Look at the PNG with the Read tool and fix until it is right. Front matter as in route 1 with `source`
+- Look at the PNG with the Read tool and fix until it is right. Front matter as in route 1 with `generator` `drawn`, `source`
   `img/imageN.html`, `file` `img/imageN.png`, width 1800, height 945 (`labels`/`reviewed` not needed).
 
 ## Upload (all routes)

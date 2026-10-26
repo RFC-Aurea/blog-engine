@@ -1,0 +1,29 @@
+{
+ "keyword_overview": {"keyword": "diminished ovarian reserve treatment", "locId": 2840, "search_volume": 50, "seo_difficulty": 12, "paid_difficulty": 35, "cpc": 9.87, "search_intent": "Informational", "checked": "2026-10-26"},
+ "secondary_keywords": [
+  {"term": "how to get pregnant with diminished ovarian reserve", "volume": 40, "sd": 29, "source": "Ubersuggest keyword_suggestions locId 2840, 2026-10-26"},
+  {"term": "getting pregnant with diminished ovarian reserve", "volume": 20, "sd": 20, "source": "Ubersuggest keyword_suggestions locId 2840, 2026-10-26"},
+  {"term": "dhea for diminished ovarian reserve", "volume": 20, "sd": 20, "source": "Ubersuggest keyword_suggestions locId 2840, 2026-10-26"}
+ ],
+ "serp_top": [
+  {"pos": 1, "type": "ai_overview"},
+  {"pos": 2, "url": "http://www.rmia.com/ivf/understanding-diminished-ovarian-reserve-your-ivf-options/", "da": 26},
+  {"pos": 3, "type": "people_also_ask"},
+  {"pos": 4, "url": "http://globalmedicare.ch/en/low-ovarian-reserve-strategies-and-treatments-to-improve-ovarian-response/", "da": 10},
+  {"pos": 5, "type": "discussions_and_forums"},
+  {"pos": 6, "url": "http://amritafertility.com/en/fertility-treatments/ivf-low-ovarian-reserve/", "da": 8},
+  {"pos": 7, "url": "http://www.advancedfertility.com/blog/tag/diminished-ovarian-reserve", "da": 57},
+  {"pos": 8, "url": "http://yeditepehastaneleri.com/en/health-guide/womens-health-and-obstetrics/low-ovarian-reserve-amh", "da": 33},
+  {"pos": 9, "url": "http://www.infertilitynaturopath.com/post/diminished-ovarian-reserve-tcm", "da": 14},
+  {"pos": 10, "url": "http://www.bloomivf.com/blog/understanding-everything-about-the-diminished-ovarian-reserve-a-leading-cause-of-female-infertility/", "da": 30}
+ ],
+ "serp_updated_at": "2026-10-01",
+ "pages_read": {
+  "rmia.com": "lists IVF, add-ons, supplements, donor eggs; no numbers, no costs, no order of treatments, no guidance on number of cycles or when to switch",
+  "globalmedicare.ch": "IVF, egg donation, PRP; no citations, no numbers, no order, no switching criteria",
+  "amritafertility.com": "one mild IVF program page; no studies, no order, no cumulative cycles, donor eggs only as menu link"
+ },
+ "patient_sources": ["https://www.mumsnet.com/talk/infertility/3998510-dor-at-31-what-now", "https://www.mumsnet.com/talk/infertility/4695764-low-amh-and-ivf"],
+ "ubersuggest_reports_used": 3,
+ "gap": "None of the top pages says in what order to try diminished ovarian reserve treatments, how many cycles to give each step, or what result should make you change plan."
+}

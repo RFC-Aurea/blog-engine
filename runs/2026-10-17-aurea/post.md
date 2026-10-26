@@ -42,27 +42,32 @@
  "hero": "IMAGE2",
  "images": {
   "IMAGE1": {
-   "generator": "gamma",
-   "gamma_url": "https://cdn.gamma.app/bf3xeoj6c9vvzjl/design-anything/IMAGPu6kYdNhzOoyguJ6w/bg8zgrKjvX37Kfzxz6qO-.jpg",
+   "generator": "drawn",
    "kind": "medical illustration",
-   "source": "img/image1.prompt.txt",
-   "file": "img/image1.jpg",
+   "source": "img/figure1.html",
+   "file": "img/figure1.png",
    "width": 1800,
-   "height": 1005,
-   "md5": "b43dd841450950757d8ca0fcf280fe26",
-   "wix_id": "ca2223_192f052d9a3b4d958f8c0ec8d78c951a~mv2.jpg",
-   "wix_hash": "b43dd841450950757d8ca0fcf280fe26",
+   "height": 945,
+   "md5": "054f686c06ec05b3a6c0e7229d754f65",
+   "wix_id": "ca2223_b452cb92f3804028a356ca4c9e2ae129~mv2.png",
+   "wix_hash": "054f686c06ec05b3a6c0e7229d754f65",
    "alt": "Labelled illustration of PGT-A testing: a few trophectoderm cells taken from a blastocyst with a biopsy pipette",
    "labels": [
-    "Inner cell mass",
-    "Trophectoderm",
-    "Fluid-filled cavity",
     "Zona pellucida",
     "Holding pipette",
-    "Biopsy pipette"
+    "Inner cell mass",
+    "Fluid-filled cavity",
+    "Trophectoderm",
+    "A few cells taken",
+    "Biopsy pipette",
+    "Chromosomes counted",
+    "becomes the baby",
+    "later forms the placenta",
+    "for testing",
+    "46 expected"
    ],
    "reviewed": true,
-   "preview_src": "img/image1.jpg"
+   "preview_src": "img/figure1.png"
   },
   "IMAGE2": {
    "generator": "gamma",
@@ -128,6 +133,15 @@
     "alt": "PGT-A testing cost and timeline at Aurea in six steps, from consult to frozen embryo transfer",
     "file": "img/image2.png",
     "why": "drawn images looked the same daily and covers had text; replaced 2026-10-26 at Alifiya's request with a painted illustration and a natural photo"
+   }
+  },
+  "2026-10-26 illustration": {
+   "IMAGE1": {
+    "generator": "gamma",
+    "wix_id": "ca2223_192f052d9a3b4d958f8c0ec8d78c951a~mv2.jpg",
+    "alt": "Labelled illustration of PGT-A testing: a few trophectoderm cells taken from a blastocyst with a biopsy pipette",
+    "file": "img/image1.jpg",
+    "why": "Alifiya asked for research-grade medical illustrations drawn by Claude instead of image-model illustrations (2026-10-26)"
    }
   }
  }

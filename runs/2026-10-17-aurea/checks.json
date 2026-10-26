@@ -97,7 +97,7 @@
    "check": "wix image ids look like real Wix media ids",
    "ok": true,
    "hard": true,
-   "detail": "['ca2223_192f052d9a3b4d958f8c0ec8d78c951a~mv2.jpg', 'ca2223_ad10219fa07c4ba0949003284576b3e6~mv2.jpg']"
+   "detail": "['ca2223_b452cb92f3804028a356ca4c9e2ae129~mv2.png', 'ca2223_ad10219fa07c4ba0949003284576b3e6~mv2.jpg']"
   },
   {
    "check": "no 'image of' in alt text",
@@ -295,31 +295,13 @@
    "check": "IMAGE1: Wix stored exactly the reviewed image (md5 = Wix hash)",
    "ok": true,
    "hard": true,
-   "detail": "file b43dd841450950757d8ca0fcf280fe26, front matter b43dd841450950757d8ca0fcf280fe26, Wix b43dd841450950757d8ca0fcf280fe26"
+   "detail": "file 054f686c06ec05b3a6c0e7229d754f65, front matter 054f686c06ec05b3a6c0e7229d754f65, Wix 054f686c06ec05b3a6c0e7229d754f65"
   },
   {
-   "check": "IMAGE1: made by gamma and unchanged since (report md5)",
+   "check": "IMAGE1: label check passed when rendered (no overlaps, nothing cut off)",
    "ok": true,
    "hard": true,
-   "detail": "no matching report"
-  },
-  {
-   "check": "IMAGE1: front matter size matches the file",
-   "ok": true,
-   "hard": true,
-   "detail": "1800x1005 vs 1800x1005"
-  },
-  {
-   "check": "IMAGE1: looked at before upload, every visible word listed in 'labels'",
-   "ok": true,
-   "hard": true,
-   "detail": ""
-  },
-  {
-   "check": "IMAGE1: illustration has labels",
-   "ok": true,
-   "hard": false,
-   "detail": ""
+   "detail": "no report for this file"
   },
   {
    "check": "IMAGE1: no banned words in the image",

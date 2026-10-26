@@ -42,27 +42,32 @@
  "hero": "IMAGE2",
  "images": {
   "IMAGE1": {
-   "generator": "gamma",
-   "gamma_url": "https://cdn.gamma.app/bf3xeoj6c9vvzjl/design-anything/rqvn48zHcoU5MrKwS1ik1/h7TmXNxHcFgIn7JqD9JaV.jpg",
+   "generator": "drawn",
    "kind": "medical illustration",
-   "source": "img/image1.prompt.txt",
-   "file": "img/image1.jpg",
+   "source": "img/figure1.html",
+   "file": "img/figure1.png",
    "width": 1800,
-   "height": 1005,
-   "md5": "2200e8a4c229693078d62bca9ed21431",
-   "wix_id": "ca2223_96fb5fd414c441829ffe2e096aa81755~mv2.jpg",
-   "wix_hash": "2200e8a4c229693078d62bca9ed21431",
+   "height": 945,
+   "md5": "5da78aa6ebbac950bf066dc3c812f611",
+   "wix_id": "ca2223_7b9af4e26e6d4f47b4bd18cac34c0e4f~mv2.png",
+   "wix_hash": "5da78aa6ebbac950bf066dc3c812f611",
    "alt": "Labelled illustration of PRP ovaries treatment: a fine needle delivers growth factors among resting follicles",
    "labels": [
-    "Ovary",
     "Fine needle",
     "PRP or adipose-PRP",
     "Growth factors",
     "Resting follicles",
-    "Growing follicles"
+    "Ovary",
+    "Growing follicles",
+    "Blood vessels",
+    "Plasma",
+    "Platelets",
+    "Red cells",
+    "Your blood after the centrifuge",
+    "VEGF, PDGF, IGF-1"
    ],
    "reviewed": true,
-   "preview_src": "img/image1.jpg"
+   "preview_src": "img/figure1.png"
   },
   "IMAGE2": {
    "generator": "gamma",
@@ -125,6 +130,15 @@
     "alt": "Timeline for egg retrieval after PRP ovarian rejuvenation, from baseline tests to months 3 to 6, with doctor questions",
     "file": "img/image2.png",
     "why": "drawn images looked the same daily and covers had text; replaced 2026-10-26 at Alifiya's request with a painted illustration and a natural photo"
+   }
+  },
+  "2026-10-26 illustration": {
+   "IMAGE1": {
+    "generator": "gamma",
+    "wix_id": "ca2223_96fb5fd414c441829ffe2e096aa81755~mv2.jpg",
+    "alt": "Labelled illustration of PRP ovaries treatment: a fine needle delivers growth factors among resting follicles",
+    "file": "img/image1.jpg",
+    "why": "Alifiya asked for research-grade medical illustrations drawn by Claude instead of image-model illustrations (2026-10-26)"
    }
   }
  }

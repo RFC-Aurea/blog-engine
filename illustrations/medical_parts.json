@@ -1746,5 +1746,541 @@
     80
    ]
   }
+ },
+ "m-us-probe": {
+  "viewBox": "0 0 1000 160",
+  "what": "Transvaginal ultrasound probe with a needle guide along the top, tip on the right",
+  "anchors": {
+   "tip": [
+    1000,
+    92
+   ],
+   "shaft": [
+    760,
+    92
+   ],
+   "handle": [
+    160,
+    92
+   ],
+   "guide": [
+    760,
+    63
+   ],
+   "guide_end": [
+    940,
+    63
+   ]
+  }
+ },
+ "m-sperm": {
+  "viewBox": "0 0 1200 300",
+  "what": "One sperm, head first: acrosome, nucleus with packed DNA, neck, midpiece, tail, end piece",
+  "anchors": {
+   "head": [
+    124.0,
+    144.6
+   ],
+   "acrosome": [
+    77.0,
+    117.7
+   ],
+   "nucleus": [
+    161.0,
+    158.6
+   ],
+   "neck": [
+    212.5,
+    150
+   ],
+   "midpiece": [
+    315.1,
+    156.5
+   ],
+   "annulus": [
+    417.9,
+    164.7
+   ],
+   "tail": [
+    731.6,
+    124.1
+   ],
+   "end_piece": [
+    1136.2,
+    210.3
+   ],
+   "tip": [
+    1160.0,
+    214.7
+   ]
+  }
+ },
+ "m-sperm-plain": {
+  "viewBox": "0 0 1200 300",
+  "what": "One sperm, head first, without the DNA cut-away (for scenes with several sperm)",
+  "anchors": {
+   "head": [
+    124.0,
+    144.6
+   ],
+   "acrosome": [
+    77.0,
+    117.7
+   ],
+   "nucleus": [
+    161.0,
+    158.6
+   ],
+   "neck": [
+    212.5,
+    150
+   ],
+   "midpiece": [
+    315.1,
+    156.5
+   ],
+   "annulus": [
+    417.9,
+    164.7
+   ],
+   "tail": [
+    731.6,
+    124.1
+   ],
+   "end_piece": [
+    1136.2,
+    210.3
+   ],
+   "tip": [
+    1160.0,
+    214.7
+   ]
+  }
+ },
+ "m-sperm-head-dna": {
+  "viewBox": "0 0 600 380",
+  "what": "Sperm head cut open: DNA strands neatly packed (intact)",
+  "anchors": {
+   "head": [
+    210.0,
+    93.2
+   ],
+   "dna": [
+    282.0,
+    201.5
+   ],
+   "midpiece": [
+    483.2,
+    188.5
+   ],
+   "nucleus": [
+    289.2,
+    259.1
+   ],
+   "acrosome": [
+    80.4,
+    132.4
+   ]
+  }
+ },
+ "m-sperm-head-dna-broken": {
+  "viewBox": "0 0 600 380",
+  "what": "Sperm head cut open: DNA strands with breaks (fragmented DNA)",
+  "anchors": {
+   "head": [
+    210.0,
+    93.2
+   ],
+   "dna": [
+    282.0,
+    201.5
+   ],
+   "midpiece": [
+    483.2,
+    188.5
+   ],
+   "nucleus": [
+    289.2,
+    259.1
+   ],
+   "acrosome": [
+    80.4,
+    132.4
+   ],
+   "break": [
+    182.0,
+    136.7
+   ],
+   "break_2": [
+    246.0,
+    249.4
+   ]
+  }
+ },
+ "m-tract": {
+  "viewBox": "0 0 1200 760",
+  "what": "Uterus, cervix, top of vagina, both fallopian tubes and ovaries, frontal section",
+  "anchors": {
+   "ovary_left.follicle": [
+    266.2,
+    305.0
+   ],
+   "ovary_left": [
+    265,
+    340
+   ],
+   "ovary_right.follicle": [
+    933.8,
+    305.0
+   ],
+   "ovary_right.antral": [
+    1003,
+    302
+   ],
+   "ovary_right.egg": [
+    991.8,
+    308.4
+   ],
+   "ovary_right": [
+    935,
+    340
+   ],
+   "tube_left": [
+    348.8,
+    128.7
+   ],
+   "tube_left.isthmus": [
+    383.8,
+    133.9
+   ],
+   "tube_left.ampulla": [
+    190.2,
+    161.7
+   ],
+   "tube_left.fimbriae": [
+    179.7,
+    315.6
+   ],
+   "tube_left.lumen": [
+    190.2,
+    161.7
+   ],
+   "tube_left.end": [
+    166.0,
+    278.0
+   ],
+   "tube_right": [
+    851.2,
+    128.7
+   ],
+   "tube_right.isthmus": [
+    816.2,
+    133.9
+   ],
+   "tube_right.ampulla": [
+    1009.8,
+    161.7
+   ],
+   "tube_right.fimbriae": [
+    1020.3,
+    315.6
+   ],
+   "tube_right.lumen": [
+    1009.8,
+    161.7
+   ],
+   "tube_right.end": [
+    1034.0,
+    278.0
+   ],
+   "uterus": [
+    728,
+    360
+   ],
+   "myometrium": [
+    472,
+    350
+   ],
+   "fundus": [
+    600,
+    132
+   ],
+   "lining": [
+    708.0,
+    206.0
+   ],
+   "lining_left": [
+    510.0,
+    276.0
+   ],
+   "cavity": [
+    600,
+    300
+   ],
+   "cervix": [
+    644,
+    570
+   ],
+   "cervical_canal": [
+    600,
+    550
+   ],
+   "vagina": [
+    698,
+    740
+   ]
+  }
+ },
+ "m-tract-hsg": {
+  "viewBox": "0 0 1200 760",
+  "what": "HSG: catheter in the cervix, contrast fills the cavity and both tubes and spills out",
+  "anchors": {
+   "ovary_left.follicle": [
+    266.2,
+    305.0
+   ],
+   "ovary_left": [
+    265,
+    340
+   ],
+   "ovary_right.follicle": [
+    933.8,
+    305.0
+   ],
+   "ovary_right.antral": [
+    1003,
+    302
+   ],
+   "ovary_right.egg": [
+    991.8,
+    308.4
+   ],
+   "ovary_right": [
+    935,
+    340
+   ],
+   "tube_left": [
+    348.8,
+    128.7
+   ],
+   "tube_left.isthmus": [
+    383.8,
+    133.9
+   ],
+   "tube_left.ampulla": [
+    190.2,
+    161.7
+   ],
+   "tube_left.fimbriae": [
+    179.7,
+    315.6
+   ],
+   "tube_left.lumen": [
+    190.2,
+    161.7
+   ],
+   "tube_left.end": [
+    166.0,
+    278.0
+   ],
+   "tube_right": [
+    851.2,
+    128.7
+   ],
+   "tube_right.isthmus": [
+    816.2,
+    133.9
+   ],
+   "tube_right.ampulla": [
+    1009.8,
+    161.7
+   ],
+   "tube_right.fimbriae": [
+    1020.3,
+    315.6
+   ],
+   "tube_right.lumen": [
+    1009.8,
+    161.7
+   ],
+   "tube_right.end": [
+    1034.0,
+    278.0
+   ],
+   "spill_left": [
+    102.0,
+    360.0
+   ],
+   "spill_right": [
+    1098.0,
+    360.0
+   ],
+   "contrast": [
+    600,
+    270
+   ],
+   "uterus": [
+    728,
+    360
+   ],
+   "myometrium": [
+    472,
+    350
+   ],
+   "fundus": [
+    600,
+    132
+   ],
+   "lining": [
+    708.0,
+    206.0
+   ],
+   "lining_left": [
+    510.0,
+    276.0
+   ],
+   "cavity": [
+    600,
+    300
+   ],
+   "cervix": [
+    644,
+    570
+   ],
+   "cervical_canal": [
+    600,
+    550
+   ],
+   "vagina": [
+    698,
+    740
+   ],
+   "catheter": [
+    614.8,
+    783.1
+   ]
+  }
+ },
+ "m-tract-transfer": {
+  "viewBox": "0 0 1200 760",
+  "what": "Embryo transfer: soft catheter through the cervix into the uterine cavity",
+  "anchors": {
+   "ovary_left.follicle": [
+    266.2,
+    305.0
+   ],
+   "ovary_left": [
+    265,
+    340
+   ],
+   "ovary_right.follicle": [
+    933.8,
+    305.0
+   ],
+   "ovary_right.antral": [
+    1003,
+    302
+   ],
+   "ovary_right.egg": [
+    991.8,
+    308.4
+   ],
+   "ovary_right": [
+    935,
+    340
+   ],
+   "tube_left": [
+    348.8,
+    128.7
+   ],
+   "tube_left.isthmus": [
+    383.8,
+    133.9
+   ],
+   "tube_left.ampulla": [
+    190.2,
+    161.7
+   ],
+   "tube_left.fimbriae": [
+    179.7,
+    315.6
+   ],
+   "tube_left.lumen": [
+    190.2,
+    161.7
+   ],
+   "tube_left.end": [
+    166.0,
+    278.0
+   ],
+   "tube_right": [
+    851.2,
+    128.7
+   ],
+   "tube_right.isthmus": [
+    816.2,
+    133.9
+   ],
+   "tube_right.ampulla": [
+    1009.8,
+    161.7
+   ],
+   "tube_right.fimbriae": [
+    1020.3,
+    315.6
+   ],
+   "tube_right.lumen": [
+    1009.8,
+    161.7
+   ],
+   "tube_right.end": [
+    1034.0,
+    278.0
+   ],
+   "uterus": [
+    728,
+    360
+   ],
+   "myometrium": [
+    472,
+    350
+   ],
+   "fundus": [
+    600,
+    132
+   ],
+   "lining": [
+    708.0,
+    206.0
+   ],
+   "lining_left": [
+    510.0,
+    276.0
+   ],
+   "cavity": [
+    600,
+    300
+   ],
+   "cervix": [
+    644,
+    570
+   ],
+   "cervical_canal": [
+    600,
+    550
+   ],
+   "vagina": [
+    698,
+    740
+   ],
+   "catheter": [
+    617.1,
+    769.7
+   ],
+   "embryo": [
+    630,
+    270
+   ]
+  }
  }
 }

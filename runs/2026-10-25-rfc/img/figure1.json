@@ -1,0 +1,18 @@
+{
+ "parts": [
+  {"use": "m-egg-mii", "name": "own", "x": 60, "y": 90, "width": 140},
+  {"use": "m-egg-mii", "name": "don", "x": 60, "y": 390, "width": 140},
+  {"use": "m-blastocyst", "name": "em", "x": 360, "y": 240, "width": 150},
+  {"use": "m-tract-transfer", "name": "t", "x": 620, "y": 60, "width": 560},
+  {"use": "m-blastocyst", "name": "e2", "x": 903, "y": 176, "width": 22}
+ ],
+ "svg": "<defs><marker id='ah' viewBox='0 0 10 10' refX='8' refY='5' markerWidth='7' markerHeight='7' orient='auto'><path d='M0 0 L10 5 L0 10 z' fill='#666'/></marker></defs><g stroke='#666' stroke-width='2' fill='none' marker-end='url(#ah)'><path d='M212 170 C280 180 320 230 352 270'/><path d='M212 450 C280 440 320 390 352 350'/><path d='M520 310 C640 320 760 290 836 266'/></g>",
+ "labels": [
+  {"text": "Your own egg", "sub": "IVF with your own eggs", "x": 220, "y": 70, "to": "own.egg"},
+  {"text": "Donor egg", "sub": "egg donor IVF", "x": 220, "y": 560, "to": "don.egg"},
+  {"text": "Embryo", "x": 435, "y": 210, "align": "middle"},
+  {"text": "Uterine lining", "x": 640, "y": 500, "to": "t.lining_left"},
+  {"text": "Your uterus", "x": 1180, "y": 480, "align": "end", "to": "t.uterus"},
+  {"text": "Embryo transfer", "x": 1000, "y": 580, "to": [914, 186]}
+ ]
+}

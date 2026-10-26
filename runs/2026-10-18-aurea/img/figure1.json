@@ -1,0 +1,14 @@
+{
+ "parts": [
+  {"use": "m-tract-hsg", "name": "t", "x": 170, "y": -70, "width": 860}
+ ],
+ "labels": [
+  {"text": "Fluid spills from an open tube", "x": 20, "y": 290, "to": "t.spill_left"},
+  {"text": "Ovary", "x": 340, "y": 330, "to": "t.ovary_left"},
+  {"text": "Catheter", "sub": "through the cervix", "x": 690, "y": 560, "to": "t.catheter"},
+  {"text": "Fallopian tube", "x": 1180, "y": 250, "align": "end", "to": "t.tube_right.ampulla"},
+  {"text": "Contrast dye", "x": 1180, "y": 330, "align": "end", "to": "t.contrast"},
+  {"text": "Uterus", "x": 1180, "y": 420, "align": "end", "to": "t.uterus"},
+  {"text": "Cervix", "x": 1180, "y": 510, "align": "end", "to": "t.cervix"}
+ ]
+}

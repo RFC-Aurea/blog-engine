@@ -1,0 +1,63 @@
+{
+ "parts": [
+  {
+   "use": "m-tract",
+   "name": "t",
+   "x": 20,
+   "y": 20,
+   "width": 640
+  },
+  {
+   "use": "m-karyotype",
+   "name": "k",
+   "x": 760,
+   "y": 170,
+   "width": 410
+  }
+ ],
+ "labels": [
+  {
+   "text": "Uterine lining",
+   "x": 560,
+   "y": 410,
+   "to": "t.lining"
+  },
+  {
+   "text": "Uterine cavity",
+   "x": 120,
+   "y": 420,
+   "to": "t.cavity"
+  },
+  {
+   "text": "Cervix",
+   "x": 430,
+   "y": 510,
+   "to": "t.cervix"
+  },
+  {
+   "text": "Ovary",
+   "x": 545,
+   "y": 320,
+   "to": "t.ovary_right"
+  },
+  {
+   "text": "Karyotype",
+   "sub": "maps each partner's chromosomes",
+   "x": 965,
+   "y": 120,
+   "align": "middle"
+  }
+ ],
+ "panels": [
+  {
+   "text": "A",
+   "x": 20,
+   "y": 44
+  },
+  {
+   "text": "B",
+   "x": 760,
+   "y": 120
+  }
+ ]
+}

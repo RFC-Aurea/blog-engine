@@ -1,0 +1,66 @@
+{
+ "parts": [
+  {
+   "use": "m-sperm-plain",
+   "name": "sp",
+   "x": 40,
+   "y": 30,
+   "width": 720
+  },
+  {
+   "use": "m-sperm-head-dna",
+   "name": "hd",
+   "x": 420,
+   "y": 240,
+   "width": 600
+  }
+ ],
+ "svg": "<g fill='none' stroke='#8a8a8a' stroke-width='1.4' stroke-dasharray='6 5'><circle cx='114' cy='117' r='44'/></g>",
+ "labels": [
+  {
+   "text": "Head",
+   "x": 190,
+   "y": 48,
+   "to": "sp.head"
+  },
+  {
+   "text": "Tail",
+   "x": 560,
+   "y": 48,
+   "to": "sp.tail"
+  },
+  {
+   "text": "Acrosome",
+   "sub": "cap that helps it enter the egg",
+   "x": 150,
+   "y": 372,
+   "to": "hd.acrosome"
+  },
+  {
+   "text": "Nucleus (DNA)",
+   "sub": "tightly packed",
+   "x": 150,
+   "y": 585,
+   "to": "hd.nucleus"
+  },
+  {
+   "text": "Midpiece",
+   "sub": "powers swimming (motility)",
+   "x": 830,
+   "y": 270,
+   "to": "hd.midpiece"
+  }
+ ],
+ "panels": [
+  {
+   "text": "A",
+   "x": 22,
+   "y": 46
+  },
+  {
+   "text": "B",
+   "x": 400,
+   "y": 290
+  }
+ ]
+}

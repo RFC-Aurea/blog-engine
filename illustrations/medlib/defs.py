@@ -45,6 +45,22 @@ CSS = """
 .m-rbc{fill:url(#m-rbc-cell);stroke:#9B2630;stroke-width:.5}
 .m-shade{fill:url(#m-rim)}
 .m-hi{fill:url(#m-hi)}
+.m-sp-head{fill:#EEE6F2;stroke:#9C86AE;stroke-width:1.1}
+.m-sp-nuc{fill:url(#m-sp-nuc)}
+.m-acro{fill:url(#m-acro);stroke:#7F9CC6;stroke-width:1;opacity:.72}
+.m-midpiece{fill:url(#m-midpiece);stroke:#B98270;stroke-width:.9}
+.m-mito{fill:url(#m-mito);stroke:#A4613F;stroke-width:.4}
+.m-flag{fill:#E2D5E8;stroke:#8F7AA0;stroke-width:1.1}
+.m-dna-strand{stroke:#5B3B8C;stroke-width:3.2;stroke-linecap:round;opacity:.85}
+.m-myo{fill:url(#m-myo)}
+.m-endo{fill:url(#m-endo);stroke:#B9505E;stroke-width:1}
+.m-cavity{fill:#FCF1F1;stroke:#C46473;stroke-width:1}
+.m-tube{fill:url(#m-tube);stroke:#C9787A;stroke-width:1.1}
+.m-tube-lumen{fill:#FCE7E6;stroke:#D58C8E;stroke-width:.8}
+.m-fimb{fill:url(#m-tube);stroke:#C9787A;stroke-width:.8}
+.m-contrast{fill:url(#m-contrast);stroke:#4F82BE;stroke-width:.8}
+.m-vag{fill:#F2C4C2;stroke:#C98C8C;stroke-width:1.2}
+.m-catheter{fill:url(#m-plastic);stroke:#8E9AA1;stroke-width:1}
 """
 
 DEFS = """
@@ -171,6 +187,38 @@ DEFS = """
     <stop offset="0" stop-color="#FFFFFF"/><stop offset="0.75" stop-color="#F8F3F4"/><stop offset="1" stop-color="#EFE6E8"/>
   </radialGradient>
 
+  <!-- sperm -->
+  <radialGradient id="m-sp-nuc" cx="40%" cy="38%" r="70%">
+    <stop offset="0" stop-color="#A98BD0"/><stop offset="1" stop-color="#5E3D8E"/>
+  </radialGradient>
+  <linearGradient id="m-acro" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#E4ECF8"/><stop offset="1" stop-color="#C3D3EC"/>
+  </linearGradient>
+  <linearGradient id="m-midpiece" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#F6DCCF"/><stop offset="0.5" stop-color="#EBC3B1"/><stop offset="1" stop-color="#D9A792"/>
+  </linearGradient>
+  <radialGradient id="m-mito" cx="40%" cy="35%" r="70%">
+    <stop offset="0" stop-color="#F0B48C"/><stop offset="1" stop-color="#C77A52"/>
+  </radialGradient>
+  <linearGradient id="m-fade-rg" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0.55" stop-color="#FFFFFF"/><stop offset="1" stop-color="#000000"/>
+  </linearGradient>
+  <mask id="m-fade-right" maskContentUnits="objectBoundingBox"><rect width="1" height="1" fill="url(#m-fade-rg)"/></mask>
+
+  <!-- uterus and tubes -->
+  <radialGradient id="m-myo" cx="50%" cy="40%" r="62%">
+    <stop offset="0" stop-color="#F2B8B2"/><stop offset="0.7" stop-color="#E9A09B"/><stop offset="1" stop-color="#DC8985"/>
+  </radialGradient>
+  <linearGradient id="m-endo" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#D9687A"/><stop offset="0.7" stop-color="#DF7A88"/><stop offset="1" stop-color="#E9A1A8"/>
+  </linearGradient>
+  <linearGradient id="m-tube" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#F5C4BE"/><stop offset="0.5" stop-color="#EBA5A2"/><stop offset="1" stop-color="#DE8F8E"/>
+  </linearGradient>
+  <linearGradient id="m-contrast" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#B9D3F0"/><stop offset="1" stop-color="#7FA9DC"/>
+  </linearGradient>
+
   <!-- instruments and blood -->
   <linearGradient id="m-glass" x1="0" y1="0" x2="0" y2="1">
     <stop offset="0" stop-color="#E9F0F3" stop-opacity="0.95"/><stop offset="0.22" stop-color="#FFFFFF" stop-opacity="0.9"/>
@@ -210,7 +258,7 @@ DEFS = """
   <marker id="m-arrowhead" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
     <path d="M0,0 L10,5 L0,10 z" fill="#5B5B5B"/>
   </marker>
-""" + "\n".join([]) + "{STROMA}\n</defs>\n"
+""" + "\n".join([]) + "{STROMA}{MYO}\n</defs>\n"
 
 
 def stroma_pattern():
@@ -231,5 +279,23 @@ def stroma_pattern():
     return (f'<pattern id="m-stroma" width="{S}" height="{S}" patternUnits="userSpaceOnUse">' + "".join(items) + "</pattern>")
 
 
+def myo_pattern():
+    """Tileable smooth-muscle texture for the myometrium: interlacing bundles of spindle cells."""
+    rnd = random.Random(43)
+    S = 70
+    items = []
+    for _ in range(46):
+        x, y = rnd.uniform(0, S), rnd.uniform(0, S)
+        a = rnd.choice((-38, 32, 5)) + rnd.uniform(-10, 10)
+        L = rnd.uniform(6, 11)
+        for dx in (-S, 0, S):
+            for dy in (-S, 0, S):
+                X, Y = x + dx, y + dy
+                if -12 < X < S + 12 and -12 < Y < S + 12:
+                    items.append(f'<path d="M{X - L:.1f},{Y:.1f} q{L:.1f},{rnd.uniform(-1.6, 1.6):.1f} {2 * L:.1f},0" transform="rotate({a:.0f} {X:.1f} {Y:.1f})" fill="none" stroke="#C9706E" stroke-width="0.9" opacity="0.35" stroke-linecap="round"/>')
+                    items.append(f'<ellipse cx="{X:.1f}" cy="{Y:.1f}" rx="{L * 0.32:.1f}" ry="0.8" transform="rotate({a:.0f} {X:.1f} {Y:.1f})" fill="#A6566B" opacity="0.3"/>')
+    return (f'<pattern id="m-myo-fibres" width="{S}" height="{S}" patternUnits="userSpaceOnUse">' + "".join(items) + "</pattern>")
+
+
 def defs():
-    return DEFS.replace("{STROMA}", stroma_pattern())
+    return DEFS.replace("{STROMA}", stroma_pattern()).replace("{MYO}", myo_pattern())

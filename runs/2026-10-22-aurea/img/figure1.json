@@ -1,0 +1,67 @@
+{
+ "parts": [
+  {
+   "use": "m-ovary-stimulated",
+   "name": "ov",
+   "x": 560,
+   "y": 65,
+   "width": 560
+  },
+  {
+   "use": "m-needle",
+   "name": "nd",
+   "width": 380,
+   "rotate": -15,
+   "pin": [
+    "tip",
+    [
+     745,
+     223
+    ]
+   ]
+  },
+  {
+   "use": "m-us-probe",
+   "name": "pr",
+   "width": 480,
+   "rotate": -15,
+   "pin": [
+    "guide_end",
+    [
+     480,
+     295
+    ]
+   ]
+  }
+ ],
+ "labels": [
+  {
+   "text": "Follicle with egg",
+   "sub": "its fluid is drawn up",
+   "x": 330,
+   "y": 115,
+   "to": "ov.follicle_0.egg"
+  },
+  {
+   "text": "Fine needle",
+   "x": 250,
+   "y": 225,
+   "to": [
+    560,
+    273
+   ]
+  },
+  {
+   "text": "Ultrasound probe",
+   "x": 330,
+   "y": 525,
+   "to": "pr.shaft"
+  },
+  {
+   "text": "Ovary",
+   "x": 1000,
+   "y": 525,
+   "to": "ov.vessels_right"
+  }
+ ]
+}

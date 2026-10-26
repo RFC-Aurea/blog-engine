@@ -1,0 +1,20 @@
+{
+ "parts": [
+  {"use": "m-sperm-head-dna", "name": "ok", "x": 60, "y": 74, "width": 500},
+  {"use": "m-sperm-head-dna-broken", "name": "br", "x": 650, "y": 74, "width": 500},
+  {"use": "m-dna", "name": "dn", "x": 80, "y": 440, "width": 460},
+  {"use": "m-dna-broken", "name": "db", "x": 670, "y": 440, "width": 460}
+ ],
+ "labels": [
+  {"text": "Normal sperm", "x": 310, "y": 50, "align": "middle"},
+  {"text": "Sperm with DNA fragmentation", "x": 900, "y": 50, "align": "middle"},
+  {"text": "Sperm head", "x": 30, "y": 120, "to": "ok.head"},
+  {"text": "Midpiece", "x": 1070, "y": 130, "to": "br.midpiece"},
+  {"text": "Intact DNA", "x": 310, "y": 600, "align": "middle", "to": ["dn.strand", "ok.dna"]},
+  {"text": "Broken DNA strands", "x": 900, "y": 600, "align": "middle", "to": ["db.break", "db.break_2", "br.break_2"]}
+ ],
+ "panels": [
+  {"text": "A", "x": 22, "y": 46},
+  {"text": "B", "x": 612, "y": 46}
+ ]
+}

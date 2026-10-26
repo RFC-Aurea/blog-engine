@@ -1,0 +1,110 @@
+{
+ "parts": [
+  {
+   "use": "m-ovary-stimulated",
+   "name": "ov",
+   "x": 20,
+   "y": 180,
+   "width": 220
+  },
+  {
+   "use": "m-egg-mii",
+   "name": "eg",
+   "x": 275,
+   "y": 180,
+   "width": 140
+  },
+  {
+   "use": "m-sperm-plain",
+   "name": "sp",
+   "width": 170,
+   "rotate": 90,
+   "pin": [
+    "head",
+    [
+     345,
+     318
+    ]
+   ]
+  },
+  {
+   "use": "m-blastocyst",
+   "name": "em",
+   "x": 470,
+   "y": 184,
+   "width": 140
+  },
+  {
+   "use": "m-tract-transfer",
+   "name": "t",
+   "x": 650,
+   "y": 40,
+   "width": 540
+  },
+  {
+   "use": "m-blastocyst",
+   "name": "e2",
+   "x": 922,
+   "y": 151,
+   "width": 22
+  }
+ ],
+ "svg": "<defs><marker id='ah' viewBox='0 0 10 10' refX='8' refY='5' markerWidth='7' markerHeight='7' orient='auto'><path d='M0 0 L10 5 L0 10 z' fill='#666'/></marker></defs><g stroke='#666' stroke-width='2' fill='none' marker-end='url(#ah)'><path d='M238 250 L268 250'/><path d='M424 250 L462 250'/><path d='M618 250 C700 262 790 256 846 244'/></g>",
+ "labels": [
+  {
+   "text": "Donor's ovary",
+   "x": 130,
+   "y": 140,
+   "align": "middle",
+   "to": "ov.follicle_0.centre"
+  },
+  {
+   "text": "Donor egg",
+   "x": 345,
+   "y": 140,
+   "align": "middle",
+   "to": "eg.egg"
+  },
+  {
+   "text": "Partner's sperm",
+   "sub": "or donor sperm",
+   "x": 345,
+   "y": 540,
+   "align": "middle",
+   "to": "sp.tail"
+  },
+  {
+   "text": "Embryo",
+   "x": 540,
+   "y": 140,
+   "align": "middle",
+   "to": "em.inner_cell_mass"
+  },
+  {
+   "text": "Your uterus",
+   "x": 1180,
+   "y": 450,
+   "align": "end",
+   "to": "t.uterus"
+  },
+  {
+   "text": "Uterine lining",
+   "x": 640,
+   "y": 470,
+   "to": "t.lining_left"
+  },
+  {
+   "text": "Embryo transfer",
+   "sub": "thin catheter",
+   "x": 1000,
+   "y": 560,
+   "to": [
+    "t.catheter",
+    [
+     933,
+     162
+    ]
+   ]
+  }
+ ]
+}

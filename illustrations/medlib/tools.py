@@ -2,7 +2,7 @@
 import math
 import random
 
-from .core import circle, ellipse, f, group, part, path, polar, pt, smooth_closed, smooth_open
+from .core import circle, ellipse, f, group, part, path, polar, pt, smooth_closed, smooth_open, tube
 
 
 def needle():
@@ -111,5 +111,23 @@ def biopsy_pipette():
                 "".join(g), {"tip": (14, 80), "body": (330, 34), "lumen": (90, 80)})
 
 
+def us_probe():
+    """Transvaginal ultrasound probe with a needle guide on top, pointing right. viewBox 0 0 1000 160, tip (1000, 92)."""
+    g = []
+    body = tube([(0, 92), (260, 92), (420, 92), (560, 92), (900, 92), (972, 92)], [78, 80, 64, 40, 38, 40], 10)
+    g.append(path(smooth_closed(body[0]), fill="url(#m-plastic)", stroke="#8E9AA1", stroke_width="1.4"))
+    g.append(path("M972,72 Q1004,74 1004,92 Q1004,110 972,112 Z", fill="#D9E1E5", stroke="#8E9AA1", stroke_width="1.4"))
+    g.append(path("M20,70 L400,70", fill="none", stroke="#FFFFFF", stroke_width="5", opacity=".7", stroke_linecap="round"))
+    g.append(path("M600,78 L960,78", fill="none", stroke="#FFFFFF", stroke_width="3", opacity=".7", stroke_linecap="round"))
+    for x in (120, 150, 180):  # grip ridges
+        g.append(path(f"M{x},58 L{x},126", fill="none", stroke="#AEB9BF", stroke_width="2"))
+    # needle guide bracket along the top of the shaft
+    g.append(path("M560,58 L940,58 L940,68 L560,68 Z", fill="url(#m-steel)", stroke="#78828A", stroke_width=".8"))
+    for x in (600, 760, 910):
+        g.append(path(f"M{x},58 L{x},74 L{x + 14},74 L{x + 14},58", fill="#B7C0C6", stroke="#78828A", stroke_width=".8"))
+    return part("m-us-probe", "0 0 1000 160", "Transvaginal ultrasound probe with a needle guide along the top, tip on the right",
+                "".join(g), {"tip": (1000, 92), "shaft": (760, 92), "handle": (160, 92), "guide": (760, 63), "guide_end": (940, 63)})
+
+
 def build():
-    return [needle(), syringe(), prp_cloud(), prp_tube(), holding_pipette(), biopsy_pipette()]
+    return [needle(), syringe(), prp_cloud(), prp_tube(), holding_pipette(), biopsy_pipette(), us_probe()]

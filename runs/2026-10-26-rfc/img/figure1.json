@@ -1,0 +1,85 @@
+{
+ "parts": [
+  {
+   "use": "m-ovary-section",
+   "name": "ov",
+   "x": 30,
+   "y": 150,
+   "width": 600
+  },
+  {
+   "use": "m-follicle-antral",
+   "name": "f",
+   "x": 650,
+   "y": 150,
+   "width": 360
+  }
+ ],
+ "svg": "<g fill='none' stroke='#6f6f6f' stroke-width='1.5' stroke-dasharray='6 5'><circle cx='440' cy='321' r='68'/><line x1='452' y1='254' x2='826' y2='152'/><line x1='452' y1='388' x2='826' y2='508'/></g>",
+ "labels": [
+  {
+   "text": "Resting follicles",
+   "x": 250,
+   "y": 100,
+   "align": "middle",
+   "to": [
+    "ov.resting_top_left",
+    "ov.resting_follicles"
+   ]
+  },
+  {
+   "text": "Antral follicle",
+   "sub": "2 to 10 mm, counted on ultrasound",
+   "x": 40,
+   "y": 590,
+   "to": [
+    400,
+    360
+   ]
+  },
+  {
+   "text": "Egg (oocyte)",
+   "x": 690,
+   "y": 100,
+   "to": "f.egg"
+  },
+  {
+   "text": "Theca layer",
+   "x": 1030,
+   "y": 190,
+   "to": "f.theca_interna"
+  },
+  {
+   "text": "Granulosa cells",
+   "sub": "make AMH",
+   "x": 1030,
+   "y": 290,
+   "to": "f.granulosa"
+  },
+  {
+   "text": "Blood vessels",
+   "x": 1030,
+   "y": 500,
+   "to": "f.vessel"
+  },
+  {
+   "text": "Follicle fluid",
+   "x": 830,
+   "y": 590,
+   "align": "middle",
+   "to": "f.antrum"
+  }
+ ],
+ "panels": [
+  {
+   "text": "A",
+   "x": 22,
+   "y": 46
+  },
+  {
+   "text": "B",
+   "x": 650,
+   "y": 160
+  }
+ ]
+}

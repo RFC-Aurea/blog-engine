@@ -1,0 +1,72 @@
+{
+ "parts": [
+  {
+   "use": "m-ovary-section",
+   "name": "ov",
+   "x": 10,
+   "y": 145,
+   "width": 580
+  },
+  {
+   "use": "m-ovary-poi",
+   "name": "poi",
+   "x": 610,
+   "y": 145,
+   "width": 580
+  }
+ ],
+ "labels": [
+  {
+   "text": "Typical ovary",
+   "x": 300,
+   "y": 140,
+   "align": "middle"
+  },
+  {
+   "text": "Ovary in POI",
+   "sub": "few resting follicles left",
+   "x": 900,
+   "y": 140,
+   "align": "middle"
+  },
+  {
+   "text": "Resting follicles",
+   "x": 300,
+   "y": 570,
+   "align": "middle",
+   "to": [
+    "ov.resting_bottom",
+    "ov.resting_left"
+   ]
+  },
+  {
+   "text": "Follicle starting to grow",
+   "x": 1100,
+   "y": 570,
+   "align": "end",
+   "to": "poi.growing.centre"
+  },
+  {
+   "text": "Resting follicles",
+   "x": 700,
+   "y": 570,
+   "align": "middle",
+   "to": [
+    "poi.resting_follicles",
+    "poi.resting_bottom"
+   ]
+  }
+ ],
+ "panels": [
+  {
+   "text": "A",
+   "x": 22,
+   "y": 46
+  },
+  {
+   "text": "B",
+   "x": 622,
+   "y": 46
+  }
+ ]
+}

@@ -119,7 +119,8 @@ def mii_egg(pid, seed=4, cumulus=True, what=""):
             a = math.atan2(p[1] - cy, p[0] - cx)
             lim = 300 + 14 * math.sin(3 * a + 1) + 10 * math.sin(5 * a)
             return Zo + 4 < r < lim and not (-2.2 < a < -0.8)
-        pts = poisson(in_cum, (cx - 320, cy - 320, cx + 320, cy + 320), 15, rnd)
+        seeds = [polar(cx, cy, Zo + 18, 2 * math.pi * k / 24) for k in range(24)]
+        pts = poisson(in_cum, (cx - 320, cy - 320, cx + 320, cy + 320), 15, rnd, seeds=seeds)
         pts = [p for p in pts if rnd.random() < 0.88]
         body += draw_cells(packed_cells(pts, 14, gap=1.2), "m-cum", "m-gcn", rnd, 0.3)
         an["cumulus"] = polar(cx, cy, 285, math.radians(150))
@@ -151,7 +152,7 @@ def mii_egg(pid, seed=4, cumulus=True, what=""):
     # meiotic spindle just under the polar body, chromosomes aligned at its equator
     sc = polar(cx, cy, Ro - 52, pa + 0.12)
     sa = math.degrees(pa + 0.12)
-    L, Wd = 86, 64
+    L, Wd = 100, 76
     sp = []
     for k in range(-5, 6):
         y = k * Wd / 11

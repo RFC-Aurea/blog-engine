@@ -1,0 +1,19 @@
+{
+ "parts": [
+  {"use": "m-egg-mii", "name": "egg", "x": 150, "y": 70, "width": 500},
+  {"use": "m-karyotype-trisomy21", "name": "ka", "x": 760, "y": 250, "width": 390}
+ ],
+ "labels": [
+  {"text": "Cumulus cells", "x": 30, "y": 470, "to": "egg.cumulus"},
+  {"text": "Zona pellucida", "x": 30, "y": 200, "to": "egg.zona"},
+  {"text": "Egg (oocyte)", "x": 400, "y": 610, "align": "middle", "to": "egg.egg"},
+  {"text": "Polar body", "x": 700, "y": 60, "to": "egg.polar_body"},
+  {"text": "Chromosomes", "sub": "line up on the spindle", "x": 700, "y": 140, "to": "egg.chromosomes"},
+  {"text": "Spindle", "x": 700, "y": 230, "to": "egg.spindle"},
+  {"text": "Chromosome error", "sub": "one extra chromosome", "x": 760, "y": 580, "to": "ka.extra"}
+ ],
+ "panels": [
+  {"text": "A", "x": 22, "y": 46},
+  {"text": "B", "x": 740, "y": 290}
+ ]
+}

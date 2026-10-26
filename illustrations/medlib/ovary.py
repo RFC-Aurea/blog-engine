@@ -165,9 +165,10 @@ def ovary_section(pid, kind, seed, what):
     mrx, mry = (rx * 0.5, ry * 0.42) if kind != "poi" else (rx * 0.42, ry * 0.36)
     mcy = cy + ry * 0.12
     body.append(ellipse(cx, mcy, mrx * 1.15, mry * 1.2, 0, fill="url(#m-medulla)"))
-    vt, tips = vessel_tree((cx - 4, cy + ry * 0.84), -math.pi / 2, ry * 0.34, 3.6, 3, rnd, coil=2.4, spread=0.8)
-    vt2, tips2 = vessel_tree((cx + 14, cy + ry * 0.84), -math.pi / 2 + 0.85, ry * 0.32, 3.0, 3, rnd, coil=2.2, spread=0.75)
-    vt3, tips3 = vessel_tree((cx - 22, cy + ry * 0.84), -math.pi / 2 - 0.9, ry * 0.32, 3.0, 3, rnd, coil=2.2, spread=0.75)
+    vs = 0.7 if kind == "poi" else 1.0
+    vt, tips = vessel_tree((cx - 4, cy + ry * 0.84 * vs), -math.pi / 2, ry * 0.34 * vs, 3.6, 3, rnd, coil=2.4, spread=0.8)
+    vt2, tips2 = vessel_tree((cx + 14, cy + ry * 0.84 * vs), -math.pi / 2 + 0.85, ry * 0.32 * vs, 3.0, 3, rnd, coil=2.2, spread=0.75)
+    vt3, tips3 = vessel_tree((cx - 22, cy + ry * 0.84 * vs), -math.pi / 2 - 0.9, ry * 0.32 * vs, 3.0, 3, rnd, coil=2.2, spread=0.75)
     body.append(group(vt + vt2 + vt3, opacity=".78"))
     an["medulla"] = (cx + mrx * 0.15, mcy + mry * 0.35)
     an["vessels"] = tips[0] if tips else (cx, mcy)

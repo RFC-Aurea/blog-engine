@@ -1,0 +1,20 @@
+{
+ "parts": [
+  {"use": "m-blastocyst", "name": "bl", "x": 190, "y": 100, "width": 470},
+  {"use": "m-karyotype", "name": "eu", "x": 850, "y": 96, "width": 300},
+  {"use": "m-karyotype-trisomy21", "name": "an", "x": 850, "y": 398, "width": 300}
+ ],
+ "labels": [
+  {"text": "Zona pellucida", "x": 30, "y": 130, "to": "bl.zona"},
+  {"text": "Inner cell mass", "sub": "becomes the baby", "x": 30, "y": 300, "to": "bl.inner_cell_mass"},
+  {"text": "Trophectoderm", "sub": "forms the placenta", "x": 160, "y": 590, "to": "bl.trophectoderm_2"},
+  {"text": "Fluid-filled cavity", "x": 630, "y": 470, "to": "bl.blastocoel"},
+  {"text": "Euploid", "sub": "46 chromosomes (23 pairs)", "x": 850, "y": 46},
+  {"text": "Aneuploid", "sub": "too many or too few chromosomes", "x": 850, "y": 348}
+ ],
+ "panels": [
+  {"text": "A", "x": 22, "y": 46},
+  {"text": "B", "x": 812, "y": 46},
+  {"text": "C", "x": 812, "y": 348}
+ ]
+}

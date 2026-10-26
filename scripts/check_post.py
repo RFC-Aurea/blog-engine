@@ -174,23 +174,38 @@ def main():
     check("paragraphs are 5 sentences or fewer", not long_paras, "; ".join(long_paras), hard=False)
 
     # ---------- what is inside the images ----------
-    # Images are labelled illustrations rendered from runs/<run>/img/imageN.html (rules/images.md).
+    # Images are made by an image model (generator "gemini"/"gamma": painted illustration or natural photo) or drawn
+    # from runs/<run>/img/imageN.html (generator "drawn"), see rules/images.md.
     # Wix's file hash is the md5 of the stored bytes, so it proves Wix holds the exact picture that was reviewed.
     body_plain = strip_md(body)
     for k in ("IMAGE1", "IMAGE2"):
         im = imgs.get(k, {})
+        gen = im.get("generator", "drawn")
         src, png = run / im.get("source", "-"), run / im.get("file", "-")
         if not (src.is_file() and png.is_file()):
-            check(f"{k}: source html and rendered png in the run folder", False, f"{im.get('source')} / {im.get('file')}")
+            check(f"{k}: source ({'html' if gen == 'drawn' else 'prompt'}) and image file in the run folder", False,
+                  f"{im.get('source')} / {im.get('file')}")
             continue
         md5 = hashlib.md5(png.read_bytes()).hexdigest()
         check(f"{k}: Wix stored exactly the reviewed image (md5 = Wix hash)",
               md5 == im.get("md5") == im.get("wix_hash"), f"file {md5}, front matter {im.get('md5')}, Wix {im.get('wix_hash')}")
         rep = load_json(png.with_suffix(".report.json"), {})
-        check(f"{k}: label check passed when rendered (no overlaps, nothing cut off)",
-              rep.get("ok") is True and rep.get("md5") == md5, "; ".join(rep.get("problems", [])) or "no report for this file")
-        texts = " ".join(html.unescape(re.sub(r"<[^>]+>", "", t))
-                         for t in re.findall(r"<text\b[^>]*>(.*?)</text>", src.read_text(encoding="utf-8"), re.S))
+        if gen == "drawn":
+            check(f"{k}: label check passed when rendered (no overlaps, nothing cut off)",
+                  rep.get("ok") is True and rep.get("md5") == md5, "; ".join(rep.get("problems", [])) or "no report for this file")
+            texts = " ".join(html.unescape(re.sub(r"<[^>]+>", "", t))
+                             for t in re.findall(r"<text\b[^>]*>(.*?)</text>", src.read_text(encoding="utf-8"), re.S))
+        else:
+            check(f"{k}: made by {gen} and unchanged since (report md5)",
+                  rep.get("ok") is True and rep.get("md5") == md5 and rep.get("generator") == gen, "no matching report")
+            check(f"{k}: front matter size matches the file",
+                  (im.get("width"), im.get("height")) == (rep.get("width"), rep.get("height")),
+                  f"{im.get('width')}x{im.get('height')} vs {rep.get('width')}x{rep.get('height')}")
+            check(f"{k}: looked at before upload, every visible word listed in 'labels'",
+                  im.get("reviewed") is True and isinstance(im.get("labels"), list))
+            if im.get("kind") != "photo":
+                check(f"{k}: illustration has labels", bool(im.get("labels")), hard=False)
+            texts = " ".join(im.get("labels") or [])
         lowt = " " + texts.lower() + " "
         bad = sorted({w for w in banned if re.search(r"(?<![a-z])" + re.escape(w.lower()) + r"(?![a-z])", lowt)})
         check(f"{k}: no banned words in the image", not bad, ", ".join(bad))

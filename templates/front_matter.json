@@ -36,29 +36,40 @@
  "hero": "IMAGE1",
  "images": {
   "IMAGE1": {
-   "wix_id": "ca2223_<32 hex>~mv2.png",
+   "generator": "gemini",
+   "model": "<from imageN.report.json>",
+   "kind": "photo",
+   "wix_id": "ca2223_<32 hex>~mv2.jpg",
    "width": 1800,
-   "height": 945,
-   "alt": "Labelled illustration of ... (primary keyword where natural, < 125 chars)",
-   "kind": "medical illustration",
-   "source": "img/image1.html",
-   "file": "img/image1.png",
-   "md5": "<md5sum of img/image1.png>",
+   "height": 1013,
+   "alt": "A woman and her doctor ... (primary keyword where natural, < 125 chars)",
+   "source": "img/image1.prompt.txt",
+   "file": "img/image1.jpg",
+   "labels": [],
+   "reviewed": true,
+   "md5": "<md5sum of img/image1.jpg>",
    "wix_hash": "<hash from Wix get-files, must equal md5>",
-   "preview_src": "img/image1.png"
+   "preview_src": "img/image1.jpg"
   },
   "IMAGE2": {
-   "wix_id": "ca2223_<32 hex>~mv2.png",
+   "generator": "gemini",
+   "model": "<from imageN.report.json>",
+   "kind": "medical illustration",
+   "wix_id": "ca2223_<32 hex>~mv2.jpg",
    "width": 1800,
-   "height": 945,
-   "alt": "Timeline of ... (< 125 chars)",
-   "kind": "labelled timeline",
-   "source": "img/image2.html",
-   "file": "img/image2.png",
-   "md5": "<md5sum of img/image2.png>",
+   "height": 1013,
+   "alt": "Labelled illustration of ... (< 125 chars)",
+   "source": "img/image2.prompt.txt",
+   "file": "img/image2.jpg",
+   "labels": [
+    "<every word visible in the image, exactly as shown>"
+   ],
+   "reviewed": true,
+   "md5": "<md5sum of img/image2.jpg>",
    "wix_hash": "<hash from Wix get-files>",
-   "preview_src": "img/image2.png"
-  }
+   "preview_src": "img/image2.jpg"
+  },
+  "_drawn": "generator \"drawn\": source img/imageN.html, file img/imageN.png, width 1800, height 945, no labels/reviewed (rules/images.md route 3)"
  },
  "citations": [
   {

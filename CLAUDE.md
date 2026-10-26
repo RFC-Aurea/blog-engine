@@ -9,7 +9,8 @@ If you were started by the daily schedule, do the run below from start to finish
 The scheduled prompt was written on 2026-10-16 and still says brands alternate daily and images come from Gamma;
 where it and this file disagree, this file wins (weekday schedule above, drawn illustrations per `rules/images.md`).
 Every outside tool you need is a connector: Wix, Ubersuggest (`Uber_suggest_SEO`), plus WebSearch/WebFetch.
-Images are drawn in code and rendered with the sandbox's Chromium (see `rules/images.md`).
+Images come from Gemini when `GEMINI_API_KEY` is set, otherwise they are drawn in code and rendered with the
+sandbox's Chromium (see `rules/images.md`).
 `wixapis.com`, PubMed and the clinic sites are blocked for curl in this sandbox — use the connectors and
 WebSearch/WebFetch, never curl them.
 
@@ -49,10 +50,12 @@ Read before writing: `config.json`, `brands/<brand>.md`, `rules/writing.md`, `ru
 6. **Write** `RUN/post.md`: JSON front matter (see `templates/front_matter.json`) + body in the dialect described in
    `rules/writing.md`, using the format and an allowed title shape from step 2. Brand voice and claims from the brand
    file. 2,000–2,800 words. Spacing between blocks is added by the builder; just separate blocks with a blank line.
-7. **Images.** Follow `rules/images.md`: draw two labelled illustrations from the finished post (`RUN/img/image1.html`,
-   `RUN/img/image2.html`), render them with `node scripts/render_image.js`, look at each PNG with the Read tool and fix
-   until it is right, push them, upload them to the brand's site from their commit-pinned GitHub URL, confirm Wix's
-   file hash equals the PNG's md5, and record them in the front matter.
+7. **Images.** Follow `rules/images.md`: choose two images for the finished post (labelled medical illustration,
+   natural photo or labelled diagram; white background, natural colours, different from the brand's last posts; a
+   text-free cover). Make them with `python3 scripts/gen_image.py` (Gemini) when `GEMINI_API_KEY` is set, otherwise
+   draw them with `node scripts/render_image.js`. Look at each with the Read tool and fix until it is right, push
+   them, upload them to the brand's site from their commit-pinned GitHub URL, confirm Wix's file hash equals the
+   file's md5, and record them in the front matter.
 8. **Quality gate.** `python3 scripts/check_post.py RUN`. Fix every FAIL and re-run (one rewrite round). If it still
    fails, `python3 scripts/record.py RUN blocked "<failures>"` and go back to step 2 with the next candidate. After 2
    blocked topics for one brand, publish nothing for that brand and report why.
@@ -93,7 +96,7 @@ Only for posts in `data/published.json` with `"source": "engine"` (the builder r
   `7c1ac72f-a1f3-4da0-bbaa-82d7423c002a`.
 - Only cite sources you opened and verified. Only link internal pages listed in the brand file or live posts.
 - No invented success rates. RFC hope-first voice and banned words; Aurea unsupported-claims list.
-- Images are labelled illustrations in neutral colours, no brand colours, every number taken from the post.
-  Post styling uses brand colours from `config.json`.
+- Images: white background and natural colours, never brand colours; every word and number true to the post; looked
+  at before upload. Post styling (headings, links) uses brand colours from `config.json`.
 - Never publish if `check_post.py` fails. Never edit or delete posts that the engine did not create.
 - To stop the engine: set `"paused": true` in `config.json` and push.

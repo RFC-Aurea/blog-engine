@@ -1,18 +1,18 @@
-/* Shared look for every engine illustration: neutral palette, Inter labels, 1200x630 canvas.
+/* Shared look for every drawn illustration: white background, natural tissue colours, Inter labels, 1200x630 canvas.
    No brand colours in images (rules/images.md). */
-html, body { margin: 0; padding: 0; background: #FBF8F3; }
+html, body { margin: 0; padding: 0; background: #FFFFFF; }
 svg.canvas { display: block; width: 1200px; height: 630px; }
-svg.canvas text { font-family: "Inter", "Liberation Sans", sans-serif; fill: #2E2A26; }
+svg.canvas text { font-family: "Inter", "Liberation Sans", sans-serif; fill: #3B3836; }
 
-.bg { fill: #FBF8F3; }
-.card { fill: #F4EEE5; }
+.bg { fill: #FFFFFF; }
+.card { fill: #FFFFFF; stroke: #ECE4DE; stroke-width: 1.4; }
 .card-line { fill: none; stroke: #E6DDD0; stroke-width: 1.5; }
 
 .title { font-size: 34px; font-weight: 600; letter-spacing: -0.3px; }
 .subtitle { font-size: 20px; font-weight: 400; fill: #6A625A !important; }
 .step-title { font-size: 22px; font-weight: 600; }
 .step-text { font-size: 18px; font-weight: 400; fill: #5E574F !important; }
-.label { font-size: 19px; font-weight: 500; }
+.label { font-size: 19px; font-weight: 400; }
 .label-sub { font-size: 17px; font-weight: 400; fill: #6A625A !important; }
 .big-number { font-size: 40px; font-weight: 700; letter-spacing: -0.5px; }
 .note { font-size: 17px; font-weight: 400; fill: #8A8177 !important; }
@@ -20,16 +20,20 @@ svg.canvas text { font-family: "Inter", "Liberation Sans", sans-serif; fill: #2E
 .badge { fill: #6F665D; }
 .badge-num { font-size: 18px; font-weight: 700; fill: #FFFFFF !important; }
 
-.leader { fill: none; stroke: #8C8279; stroke-width: 1.6; }
-.leader-dot { fill: #8C8279; }
+.leader { fill: none; stroke: #A29A94; stroke-width: 1.3; }
+.leader-dot { fill: #A29A94; }
 .arrow { fill: none; stroke: #B3A89C; stroke-width: 2.5; stroke-dasharray: 7 7; stroke-linecap: round; }
 .arrow-solid { fill: none; stroke: #9C9186; stroke-width: 3; stroke-linecap: round; }
 .arrow-head { fill: #9C9186; }
 
-/* accents (pick one per image; still neutral) */
-.sage { fill: #A7B8A0; }
-.sage-soft { fill: #DCE4D6; }
-.lilac { fill: #B4ADC2; }
-.lilac-soft { fill: #E4E0EA; }
-.sand { fill: #E9DCC8; }
-.stone { fill: #CFC8BF; }
+/* accents: natural, never brand colours (teal like fluid, coral like tissue) */
+.sage { fill: #86C3BE; }
+.sage-soft { fill: #DDF0EE; }
+.lilac { fill: #EFA08E; }
+.lilac-soft { fill: #FBE3DC; }
+.teal { fill: #86C3BE; }
+.teal-soft { fill: #DDF0EE; }
+.coral { fill: #EFA08E; }
+.coral-soft { fill: #FBE3DC; }
+.sand { fill: #F6E7DA; }
+.stone { fill: #D9D4CF; }

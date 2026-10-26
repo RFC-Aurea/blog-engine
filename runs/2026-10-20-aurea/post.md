@@ -39,41 +39,70 @@
    "sd": 18
   }
  ],
- "hero": "IMAGE1",
+ "hero": "IMAGE2",
  "images": {
   "IMAGE1": {
-   "wix_id": "ca2223_cedace740589417d8f28723d48e48ef3~mv2.png",
+   "generator": "gamma",
+   "gamma_url": "https://cdn.gamma.app/bf3xeoj6c9vvzjl/design-anything/ujYeUDRLzA5CyGzwhWUFh/x9U27RKMIz9bkrQJITq-_.jpg",
+   "kind": "medical illustration",
+   "source": "img/image1.prompt.txt",
+   "file": "img/image1.jpg",
    "width": 1800,
-   "height": 945,
-   "alt": "Labelled uterus, tubes and ovaries showing trying to conceive fertility timing and the 6-day fertile window",
-   "kind": "medical illustration with data",
-   "source": "img/image1.html",
-   "file": "img/image1.png",
-   "md5": "c5cfe2afce30d0da231b2fd26812f888",
-   "wix_hash": "c5cfe2afce30d0da231b2fd26812f888",
-   "preview_src": "img/image1.png"
+   "height": 1005,
+   "md5": "a4c56f181b3f25279f5ad618d5f6b82e",
+   "wix_id": "ca2223_73b0e18f48844416b0b2c2639cdc445c~mv2.jpg",
+   "wix_hash": "a4c56f181b3f25279f5ad618d5f6b82e",
+   "alt": "Labelled illustration of trying to conceive fertility basics: ovulation, sperm meeting the egg, and the uterus",
+   "labels": [
+    "Sperm",
+    "Fertilization",
+    "Fallopian tube",
+    "Egg released at ovulation",
+    "Uterus",
+    "Cervix"
+   ],
+   "reviewed": true,
+   "preview_src": "img/image1.jpg"
   },
   "IMAGE2": {
-   "wix_id": "ca2223_353525fbb7524b308c124cbd95f18c2b~mv2.png",
+   "generator": "gamma",
+   "gamma_url": "https://cdn.gamma.app/bf3xeoj6c9vvzjl/design-anything/25QkcYPtmMWr2oA0Z1Djr/ay-YQQY5VWOjgpDSH0sNI.jpg",
+   "kind": "photo",
+   "source": "img/image2.prompt.txt",
+   "file": "img/image2.jpg",
    "width": 1800,
-   "height": 945,
-   "alt": "Month-by-month trying to conceive timeline with when to get tests and Aurea prices for testing",
-   "kind": "labelled timeline",
-   "source": "img/image2.html",
-   "file": "img/image2.png",
-   "md5": "efd3d809ff1a558c6efbeec53d446d3c",
-   "wix_hash": "efd3d809ff1a558c6efbeec53d446d3c",
-   "preview_src": "img/image2.png"
+   "height": 1005,
+   "md5": "540be9a6f03c5b0e77d4779b77678412",
+   "wix_id": "ca2223_5fc0c80490164f96b7a5c73b0b88f799~mv2.jpg",
+   "wix_hash": "540be9a6f03c5b0e77d4779b77678412",
+   "alt": "A couple in their 30s at breakfast while they are trying to conceive",
+   "labels": [],
+   "reviewed": true,
+   "preview_src": "img/image2.jpg"
   }
  },
  "citations": [
-  {"url": "https://www.ovid.com/journals/nejm/pdf/10.1056/nejm199512073332301~timing-of-sexual-intercourse-in-relation-to-ovulation---"},
-  {"url": "https://www.asrm.org/practice-guidance/practice-committee-documents/optimizing-natural-fertility-a-committee-opinion-2021"},
-  {"url": "https://www.asrm.org/practice-guidance/practice-committee-documents/definition-of-infertility/"},
-  {"url": "https://www.nice.org.uk/guidance/NG257/chapter/initial-advice-to-people-concerned-about-delays-in-conception"},
-  {"url": "https://jamanetwork.com/journals/jama/fullarticle/2656811"},
-  {"url": "https://www.cdc.gov/folic-acid/about/index.html"},
-  {"url": "https://asrm.org/globalassets/_asrm/practice-guidance/practice-guidelines/pdf/diagnosis_and_treatment_of_infertility_in_men-aua-asrm_guideline_part_1.pdf"}
+  {
+   "url": "https://www.ovid.com/journals/nejm/pdf/10.1056/nejm199512073332301~timing-of-sexual-intercourse-in-relation-to-ovulation---"
+  },
+  {
+   "url": "https://www.asrm.org/practice-guidance/practice-committee-documents/optimizing-natural-fertility-a-committee-opinion-2021"
+  },
+  {
+   "url": "https://www.asrm.org/practice-guidance/practice-committee-documents/definition-of-infertility/"
+  },
+  {
+   "url": "https://www.nice.org.uk/guidance/NG257/chapter/initial-advice-to-people-concerned-about-delays-in-conception"
+  },
+  {
+   "url": "https://jamanetwork.com/journals/jama/fullarticle/2656811"
+  },
+  {
+   "url": "https://www.cdc.gov/folic-acid/about/index.html"
+  },
+  {
+   "url": "https://asrm.org/globalassets/_asrm/practice-guidance/practice-guidelines/pdf/diagnosis_and_treatment_of_infertility_in_men-aua-asrm_guideline_part_1.pdf"
+  }
  ],
  "serp_gap": "Top results list generic tips and the 12/6-month rule but none show your realistic odds month by month and by age, or which tests each partner can reasonably ask for before that deadline.",
  "patient_phrases": [
@@ -83,7 +112,23 @@
   "If still no luck after 12 months I'd think about making an appointment",
   "wish I'd gone sooner",
   "Try for another six months and see what happens"
- ]
+ ],
+ "replaced_images": {
+  "2026-10-26": {
+   "IMAGE1": {
+    "wix_id": "ca2223_cedace740589417d8f28723d48e48ef3~mv2.png",
+    "alt": "Labelled uterus, tubes and ovaries showing trying to conceive fertility timing and the 6-day fertile window",
+    "file": "img/image1.png",
+    "why": "drawn images looked the same daily and covers had text; replaced 2026-10-26 at Alifiya's request with a painted illustration and a natural photo"
+   },
+   "IMAGE2": {
+    "wix_id": "ca2223_353525fbb7524b308c124cbd95f18c2b~mv2.png",
+    "alt": "Month-by-month trying to conceive timeline with when to get tests and Aurea prices for testing",
+    "file": "img/image2.png",
+    "why": "drawn images looked the same daily and covers had text; replaced 2026-10-26 at Alifiya's request with a painted illustration and a natural photo"
+   }
+  }
+ }
 }
 ---
 **Quick answer:** When you are **trying to conceive**, fertility works on a monthly window, not a single day: pregnancy is only possible from sex in the **6 days ending on ovulation**. Most couples under 40 conceive within a year, and about **80% do so in the first 6 months**. Get checked after **12 months if you are under 35**, after **6 months at 35 or older**, or sooner if something in your history worries you.

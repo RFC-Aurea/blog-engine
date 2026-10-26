@@ -39,31 +39,46 @@
    "sd": 11
   }
  ],
- "hero": "IMAGE1",
+ "hero": "IMAGE2",
  "images": {
   "IMAGE1": {
-   "wix_id": "ca2223_263813920466474c96141bc9c3612c6d~mv2.png",
+   "generator": "gamma",
+   "gamma_url": "https://cdn.gamma.app/bf3xeoj6c9vvzjl/design-anything/rqvn48zHcoU5MrKwS1ik1/h7TmXNxHcFgIn7JqD9JaV.jpg",
+   "kind": "medical illustration",
+   "source": "img/image1.prompt.txt",
+   "file": "img/image1.jpg",
    "width": 1800,
-   "height": 945,
-   "alt": "Labelled comparison of PRP for the ovaries and adipose ovarian PRP: blood draw, fat harvest, nanofat, ovary",
-   "kind": "labelled medical illustration",
-   "source": "img/image1.html",
-   "file": "img/image1.png",
-   "md5": "185d005760f3425c69dd6a777dc60dc1",
-   "wix_hash": "185d005760f3425c69dd6a777dc60dc1",
-   "preview_src": "img/image1.png"
+   "height": 1005,
+   "md5": "2200e8a4c229693078d62bca9ed21431",
+   "wix_id": "ca2223_96fb5fd414c441829ffe2e096aa81755~mv2.jpg",
+   "wix_hash": "2200e8a4c229693078d62bca9ed21431",
+   "alt": "Labelled illustration of PRP ovaries treatment: a fine needle delivers growth factors among resting follicles",
+   "labels": [
+    "Ovary",
+    "Fine needle",
+    "PRP or adipose-PRP",
+    "Growth factors",
+    "Resting follicles",
+    "Growing follicles"
+   ],
+   "reviewed": true,
+   "preview_src": "img/image1.jpg"
   },
   "IMAGE2": {
-   "wix_id": "ca2223_9ea2337e58bd417d8ffe2b19601d4f9d~mv2.png",
+   "generator": "gamma",
+   "gamma_url": "https://cdn.gamma.app/bf3xeoj6c9vvzjl/design-anything/Xzo3dIIS9oPOhYILo25vv/2nuCu_Q62laADdHVY3neI.jpg",
+   "kind": "photo",
+   "source": "img/image2.prompt.txt",
+   "file": "img/image2.jpg",
    "width": 1800,
-   "height": 945,
-   "alt": "Timeline for egg retrieval after PRP ovarian rejuvenation, from baseline tests to months 3 to 6, with doctor questions",
-   "kind": "labelled timeline",
-   "source": "img/image2.html",
-   "file": "img/image2.png",
-   "md5": "97d276e4e278241d869f21f7106e4e82",
-   "wix_hash": "97d276e4e278241d869f21f7106e4e82",
-   "preview_src": "img/image2.png"
+   "height": 1005,
+   "md5": "2bfa2da46fe0d6de0be757d71c8209a5",
+   "wix_id": "ca2223_3c5ba396ed794d40b5769c9f72186f62~mv2.jpg",
+   "wix_hash": "2bfa2da46fe0d6de0be757d71c8209a5",
+   "alt": "Tubes of platelet-rich plasma beside a centrifuge, prepared for PRP ovaries treatment",
+   "labels": [],
+   "reviewed": true,
+   "preview_src": "img/image2.jpg"
   }
  },
  "citations": [
@@ -96,7 +111,23 @@
   "if anyone has any experience of PRP / ovarian rejuvenation?",
   "The procedure was very quick and much better than egg retrieval.",
   "3 rounds of failed IVF produced blastocysts but no implantations"
- ]
+ ],
+ "replaced_images": {
+  "2026-10-26": {
+   "IMAGE1": {
+    "wix_id": "ca2223_263813920466474c96141bc9c3612c6d~mv2.png",
+    "alt": "Labelled comparison of PRP for the ovaries and adipose ovarian PRP: blood draw, fat harvest, nanofat, ovary",
+    "file": "img/image1.png",
+    "why": "drawn images looked the same daily and covers had text; replaced 2026-10-26 at Alifiya's request with a painted illustration and a natural photo"
+   },
+   "IMAGE2": {
+    "wix_id": "ca2223_9ea2337e58bd417d8ffe2b19601d4f9d~mv2.png",
+    "alt": "Timeline for egg retrieval after PRP ovarian rejuvenation, from baseline tests to months 3 to 6, with doctor questions",
+    "file": "img/image2.png",
+    "why": "drawn images looked the same daily and covers had text; replaced 2026-10-26 at Alifiya's request with a painted illustration and a natural photo"
+   }
+  }
+ }
 }
 ---
 **Quick answer:** **PRP for the ovaries** and **adipose-PRP** both aim to wake up resting follicles in women with low ovarian reserve, and both have helped women conceive with their own eggs. Standard PRP uses only growth factors from your own blood; adipose-PRP adds a small amount of your own processed fat, which carries regenerative stromal cells, to the same PRP. Plain PRP in the ovaries is simpler and better studied, while adipose-PRP is newer and is designed for the hardest cases, such as women over 45 or those with very low AMH.

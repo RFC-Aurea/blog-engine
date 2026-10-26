@@ -39,42 +39,73 @@
    "sd": 30
   }
  ],
- "hero": "IMAGE1",
+ "hero": "IMAGE2",
  "images": {
   "IMAGE1": {
-   "wix_id": "ca2223_86463941c2a944899b89f748418ed47a~mv2.png",
+   "generator": "gamma",
+   "gamma_url": "https://cdn.gamma.app/bf3xeoj6c9vvzjl/design-anything/IMAGPu6kYdNhzOoyguJ6w/bg8zgrKjvX37Kfzxz6qO-.jpg",
+   "kind": "medical illustration",
+   "source": "img/image1.prompt.txt",
+   "file": "img/image1.jpg",
    "width": 1800,
-   "height": 945,
-   "alt": "Labelled blastocyst showing where PGT-A testing takes cells, with the share of euploid embryos by age",
-   "kind": "medical illustration with data",
-   "source": "img/image1.html",
-   "file": "img/image1.png",
-   "md5": "32d4e332a149fbffbec4b4f048ba9bd9",
-   "wix_hash": "32d4e332a149fbffbec4b4f048ba9bd9",
-   "preview_src": "img/image1.png"
+   "height": 1005,
+   "md5": "b43dd841450950757d8ca0fcf280fe26",
+   "wix_id": "ca2223_192f052d9a3b4d958f8c0ec8d78c951a~mv2.jpg",
+   "wix_hash": "b43dd841450950757d8ca0fcf280fe26",
+   "alt": "Labelled illustration of PGT-A testing: a few trophectoderm cells taken from a blastocyst with a biopsy pipette",
+   "labels": [
+    "Inner cell mass",
+    "Trophectoderm",
+    "Fluid-filled cavity",
+    "Zona pellucida",
+    "Holding pipette",
+    "Biopsy pipette"
+   ],
+   "reviewed": true,
+   "preview_src": "img/image1.jpg"
   },
   "IMAGE2": {
-   "wix_id": "ca2223_590a58db2e544858b9211e38f87c1b24~mv2.png",
+   "generator": "gamma",
+   "gamma_url": "https://cdn.gamma.app/bf3xeoj6c9vvzjl/design-anything/Y9FNYuvVtB78huUNvswpi/_BzaVo3158mlxAi2Nk1ys.jpg",
+   "kind": "photo",
+   "source": "img/image2.prompt.txt",
+   "file": "img/image2.jpg",
    "width": 1800,
-   "height": 945,
-   "alt": "PGT-A testing cost and timeline at Aurea in six steps, from consult to frozen embryo transfer",
-   "kind": "labelled timeline and cost diagram",
-   "source": "img/image2.html",
-   "file": "img/image2.png",
-   "md5": "16fc707ea2fcb33df735cc9564440e09",
-   "wix_hash": "16fc707ea2fcb33df735cc9564440e09",
-   "preview_src": "img/image2.png"
+   "height": 1005,
+   "md5": "d725712fcbc600042f52840d55012ac1",
+   "wix_id": "ca2223_ad10219fa07c4ba0949003284576b3e6~mv2.jpg",
+   "wix_hash": "d725712fcbc600042f52840d55012ac1",
+   "alt": "An embryologist at a microscope in an IVF lab, where the PGT-A testing biopsy is done",
+   "labels": [],
+   "reviewed": true,
+   "preview_src": "img/image2.jpg"
   }
  },
  "citations": [
-  {"url": "https://pubmed.ncbi.nlm.nih.gov/34818479/"},
-  {"url": "https://asrm.org/practice-guidance/practice-committee-documents/the-use-of-preimplantation-genetic-testing-for-aneuploidy-a-committee-opinion-2024"},
-  {"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10504192/"},
-  {"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12746894/"},
-  {"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8715143/"},
-  {"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7125274/"},
-  {"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11266849/"},
-  {"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13117582/"}
+  {
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34818479/"
+  },
+  {
+   "url": "https://asrm.org/practice-guidance/practice-committee-documents/the-use-of-preimplantation-genetic-testing-for-aneuploidy-a-committee-opinion-2024"
+  },
+  {
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10504192/"
+  },
+  {
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12746894/"
+  },
+  {
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8715143/"
+  },
+  {
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7125274/"
+  },
+  {
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11266849/"
+  },
+  {
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13117582/"
+  }
  ],
  "serp_gap": "Top results describe how PGT-A works but none separate the odds per transfer from the odds per egg retrieval for someone under 40, or explain what happens to mosaic embryos and how many tested embryos to expect at each age.",
  "patient_phrases": [
@@ -83,7 +114,23 @@
   "still needed 2 FET transfers with PGTA-Normal",
   "I estimate a fresh transfer would save me about 35 days, if successful.",
   "Did you feel it was reliable?"
- ]
+ ],
+ "replaced_images": {
+  "2026-10-26": {
+   "IMAGE1": {
+    "wix_id": "ca2223_86463941c2a944899b89f748418ed47a~mv2.png",
+    "alt": "Labelled blastocyst showing where PGT-A testing takes cells, with the share of euploid embryos by age",
+    "file": "img/image1.png",
+    "why": "drawn images looked the same daily and covers had text; replaced 2026-10-26 at Alifiya's request with a painted illustration and a natural photo"
+   },
+   "IMAGE2": {
+    "wix_id": "ca2223_590a58db2e544858b9211e38f87c1b24~mv2.png",
+    "alt": "PGT-A testing cost and timeline at Aurea in six steps, from consult to frozen embryo transfer",
+    "file": "img/image2.png",
+    "why": "drawn images looked the same daily and covers had text; replaced 2026-10-26 at Alifiya's request with a painted illustration and a natural photo"
+   }
+  }
+ }
 }
 ---
 **Quick answer:** **PGT-A testing** (preimplantation genetic testing for aneuploidy) checks a few cells from each IVF embryo to see whether it has the expected 46 chromosomes. It helps you choose which embryo to transfer first and can mean fewer transfers and fewer pregnancy losses. It does not create healthier embryos, and for people under 38 with several good embryos, a large trial found it did not raise the overall chance of a baby.

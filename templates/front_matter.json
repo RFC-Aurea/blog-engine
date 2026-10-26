@@ -36,40 +36,39 @@
  "hero": "IMAGE2",
  "images": {
   "IMAGE1": {
-   "generator": "gamma",
+   "generator": "drawn",
    "kind": "medical illustration",
-   "wix_id": "ca2223_<32 hex>~mv2.jpg",
+   "wix_id": "ca2223_<32 hex>~mv2.png",
    "width": 1800,
-   "height": 1013,
+   "height": 945,
    "alt": "Labelled illustration of ... (< 125 chars)",
-   "source": "img/image1.prompt.txt",
-   "file": "img/image1.jpg",
+   "source": "img/figure1.html",
+   "file": "img/figure1.png",
    "labels": [
-    "<every word visible in the image, exactly as shown>"
+    "<every word visible in the image>"
    ],
    "reviewed": true,
-   "md5": "<md5sum of img/image1.jpg>",
-   "wix_hash": "<hash from Wix get-files>",
-   "preview_src": "img/image1.jpg",
-   "gamma_url": "<image url from get_image_generation_status>"
+   "md5": "<md5sum of img/figure1.png>",
+   "wix_hash": "<hash from Wix get-files, must equal md5>",
+   "preview_src": "img/figure1.png"
   },
   "IMAGE2": {
    "generator": "gamma",
    "kind": "photo",
    "wix_id": "ca2223_<32 hex>~mv2.jpg",
    "width": 1800,
-   "height": 1013,
+   "height": "<from img/photo.report.json>",
    "alt": "A woman and her doctor ... (primary keyword where natural, < 125 chars)",
-   "source": "img/image2.prompt.txt",
-   "file": "img/image2.jpg",
+   "source": "img/photo.prompt.txt",
+   "file": "img/photo.jpg",
    "labels": [],
    "reviewed": true,
-   "md5": "<md5sum of img/image2.jpg>",
+   "md5": "<md5sum of img/photo.jpg>",
    "wix_hash": "<hash from Wix get-files, must equal md5>",
-   "preview_src": "img/image2.jpg",
+   "preview_src": "img/photo.jpg",
    "gamma_url": "<image url from get_image_generation_status>"
   },
-  "_drawn": "generator \"drawn\": source img/imageN.html, file img/imageN.png, width 1800, height 945, no labels/reviewed (rules/images.md route 2)"
+  "_fallback": "if cdn.gamma.app is blocked, IMAGE2 is a second drawn illustration: generator drawn, source img/figure2.html, file img/figure2.png, 1800x945"
  },
  "citations": [
   {

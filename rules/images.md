@@ -1,64 +1,81 @@
 # Image rules (2 per post)
 
-## The look (Alifiya, 2026-10-26)
-- **Research-grade medical illustrations**, like the figures in a medical textbook or journal: anatomically exact,
-  rendered with depth (shading, tissue texture), **white background**, **medical colours** (rose-pink myometrium,
-  deeper red-pink endometrium, pale pink mucosa, cream-yellow follicles, red arteries, blue veins, yellow fat, purple
-  nuclei and chromosomes). **Never brand colours** (no RFC deep green #09332C or orange #F0531C, no Aurea red #BB2423
-  or pink #FF64BA). No cartoon or flat-infographic look, no beige cards.
-- **Two illustrations per post, both drawn by Claude**: IMAGE1 = the anatomy or mechanism the post explains;
-  IMAGE2 = a second figure (the procedure, a close-up such as a follicle, egg, embryo or sperm, or a labelled
-  comparison). Not the same subject or composition as the brand's last 2 posts (`runs/*-<brand>/img/`).
-- **Labels** like a journal figure: thin dark-grey sans-serif, fine leader lines ending exactly on the part named,
-  panel letters (A, B) when there are two panels. No banner title inside the image.
-- **Cover (`hero`)**: the blog list crops the sides of the cover to a near-square card, so the cover is the
-  label-free version of IMAGE1 with its subject in the middle.
-- **Content rules (the checker enforces the starred ones).** Every word must be true and match the post.
-  **\*Every number in an image must appear in the post body.** **\*Same banned words and brand claim rules as the
-  post.** No logos, watermarks or clinic names. Anatomy oriented normally (uterus fundus up, cervix down; sperm head
-  first; blastocyst inner cell mass on one side). No people, faces, blood spills, babies or pregnant bellies.
+Set by Alifiya on 2026-10-26: **IMAGE1 is a research-grade medical illustration drawn by Claude; IMAGE2 is a real-looking
+Gamma photo and is the cover** (`"hero": "IMAGE2"`). She rejected image-model illustrations (Gamma's anatomy was
+cartoonish and wrong) and the old beige infographics (same look every day, text cut off in the blog list).
 
-## How images are made
-**Every image is drawn by Claude in code** (Alifiya, 2026-10-26: she rejected Gamma's images and asked for
-research-grade medical illustrations with medical colours on a white background, made by Claude). Do not use Gamma,
-Gemini or any other image model, and no photos. Record `generator: "drawn"` in the front matter.
+## IMAGE1: Claude-drawn medical illustration (`generator: "drawn"`)
+**The look.** Like a figure in a medical textbook or journal: anatomically correct, drawn cell by cell where cells
+matter, rendered with depth, **white background**, **medical colours** (rose-pink muscle, deeper red-pink lining,
+cream-salmon ovarian stroma, golden granulosa cells and follicle fluid, cream egg cytoplasm, lilac-white zona, purple
+nuclei and chromosomes, red arteries, blue veins, straw-yellow plasma). **Never brand colours** (no RFC #09332C or
+#F0531C, no Aurea #BB2423 or #FF64BA). Labels in journal style (dark grey, fine leader lines ending exactly on the part,
+panel letters A/B when there are two panels). No banner title inside the image. Not the same subject or composition
+as the brand's last 2 posts (look at `runs/*-<brand>/img/figure1.png`).
 
-### Drawn in code (`generator: "drawn"`)
-SVG in `RUN/img/imageN.html` using `{{BASE_CSS}}` (`illustrations/base.css`: white background, natural colours) and
-`{{COMPONENTS}}` (`illustrations/components.svg` parts). Copy the closest past `image*.html` from `runs/` and change
-the layout, do not reuse it unchanged.
-- Canvas `<svg class="canvas" viewBox="0 0 1200 630">`, rendered at 1.5x = 1800x945 PNG:
-  `node scripts/render_image.js RUN/img/imageN.html RUN/img/imageN.png` (exit code 1 = a label problem: fix it).
-- Classes: `title`, `subtitle`, `card`, `step-title`, `step-text`, `label`, `label-sub`, `big-number`, `note`,
-  `badge`/`badge-num`, `leader`/`leader-dot`, `arrow-solid` + `m-arrow`; accents `teal`, `teal-soft`, `coral`,
-  `coral-soft`.
-- Parts (`<use href="#name" x y width height/>`): `uterus`, `uterus-body`, `ovary-section`, `ovary-poi`, `oocyte`,
-  `sperm`, `sperm-detail`, `blastocyst`, `holding-pipette`, `icsi-needle`, `catheter`, and 48x48 icons
-  (`icon-clipboard`, `icon-profile`, `icon-calendar`, `icon-dish`, `icon-uterus`, `icon-drop`, `icon-check`,
-  `icon-cup`, `icon-vial`, `icon-tank`, `icon-phone`, `icon-microscope`, `icon-snowflake`, `icon-thaw`).
-  A point (vx, vy) in a symbol's viewBox lands at x + (vx - minX) * width / vbWidth. A missing part: add a new
-  `<symbol>` in the same style and say so in the run report.
-- Labels 17px or larger; **\*no label may overlap another, run into a drawing, leave its card or the canvas**.
-- Look at the PNG with the Read tool and fix until it is right. Front matter: `generator` `drawn`, `kind`, `alt`, `source`
-  `img/imageN.html`, `file` `img/imageN.png`, width 1800, height 945 (`labels`/`reviewed` not needed).
+**How.** Parts come from the library `illustrations/medical.svg` (built by `python3 illustrations/build_medical.py`
+from `illustrations/medlib/`). Catalogue with every part's viewBox, what it shows and its named anchor points:
+`illustrations/medical_parts.json` (or `python3 scripts/figure.py --anchors <part>`). Parts today: ovary sections
+(`m-ovary-section`, `m-ovary-cortex-prp`, `m-ovary-poi`, `m-ovary-pcos`, `m-ovary-stimulated`), follicles at each stage
+(`m-follicle-primordial|primary|secondary|antral`), `m-egg-mii` / `m-egg-mii-bare` (spindle, chromosomes, polar body),
+`m-blastocyst`, `m-blastocyst-hatching`, karyotypes (`m-karyotype`, `-xy`, `-trisomy21`), DNA (`m-dna`,
+`m-dna-broken`), instruments (`m-needle`, `m-syringe`, `m-holding-pipette`, `m-biopsy-pipette`, `m-prp-tube`,
+`m-prp-cloud`) and whatever later runs added (always check the catalogue).
 
-## Upload (all routes)
-1. Commit and push the run folder so the files are on GitHub (the repo is public):
+1. Write `RUN/img/figure1.json` (format in the docstring of `scripts/figure.py`): place parts (`x`/`y`/`width`, or
+   `pin` an anchor to a canvas point, `rotate`, `flip`), labels with `to` = `<part name>.<anchor>` so each leader line
+   ends on the named structure, panel letters. Canvas 1200x630. Labels go on white space around the drawing.
+   Past specs to copy from: `runs/*/img/figure1.json`.
+2. `python3 scripts/figure.py RUN/img/figure1.json` (writes `figure1.html`), then
+   `node scripts/render_image.js RUN/img/figure1.html RUN/img/figure1.png` (1800x945). Exit code 1 = a label problem
+   (overlap, outside the canvas, under 17px, or sitting on the drawing): fix the spec.
+3. Look at the PNG with the Read tool (and crops at full size) and fix until it is right: anatomy correct, nothing cut
+   off at the edges, every leader ending on the right part.
+4. **A missing part** (for example a uterus, sperm, testis or endometrium close-up): add it to `illustrations/medlib/`
+   in the same style (cells via `packed_cells`/`cell_layer`, gradients from `defs.py`, anchors for labels), rebuild,
+   look at it alone first, and say so in the run report. Do not fall back to flat icons.
+5. Front matter: `generator` `drawn`, `kind` `medical illustration`, `source` `img/figure1.html`, `file`
+   `img/figure1.png`, width 1800, height 945, `md5`, `wix_id`, `wix_hash`, `alt`, `labels` (every visible word),
+   `reviewed` true, `preview_src` `img/figure1.png`.
+
+## IMAGE2: Gamma photo, the cover (`generator: "gamma"`)
+1. `python3 scripts/fetch_image.py --check`. Exit 4 = cdn.gamma.app is blocked here: do not spend credits; draw a second
+   illustration as IMAGE2 instead (a different subject, label-free and centred so it works as the cover) and say so in
+   the report.
+2. Write the prompt to `RUN/img/photo.prompt.txt` from this template (fill the scene from the post):
+   "Natural editorial photograph for a fertility clinic blog: [scene]. Soft daylight, real textures, gentle shallow
+   depth of field, warm natural colours, white and light wood surroundings. Realistic, not staged or glossy. No text,
+   logos or readable screens; no babies, pregnant bellies, needles or blood. Landscape 16:9, subject centred."
+   Adults only; never presented as clinic staff or patients; never a doctor who could pass for Dr. Merhi. Not the
+   same scene as the brand's last 2 photos.
+3. `mcp__Gamma__generate_image` (`type` `photo`, `sizePreset` `banner`), poll `mcp__Gamma__get_image_generation_status`,
+   then `python3 scripts/fetch_image.py <url> RUN/img/photo.jpg --prompt RUN/img/photo.prompt.txt --credits <left>`.
+4. Look at it with Read: it must look like a real photo, with no text, no warped hands or faces, subject in the middle
+   (the blog list crops the sides to a near-square card). Up to 3 tries.
+5. Front matter: `generator` `gamma`, `kind` `photo`, `source` `img/photo.prompt.txt`, `file` `img/photo.jpg`, width and
+   height from `photo.report.json`, `md5`, `wix_id`, `wix_hash`, `alt`, `labels` [], `reviewed` true, `preview_src`,
+   `gamma_url`. About 70 credits per photo; report credits left.
+
+## Content rules (the checker enforces the starred ones)
+Every word must be true and match the post. **\*Every number in an image must appear in the post body.** **\*Same
+banned words and brand claim rules as the post.** No logos, watermarks or clinic names. Anatomy oriented normally
+(uterus fundus up; sperm head first). No faces in illustrations, no blood spills, babies or pregnant bellies.
+
+## Upload (both images)
+1. Commit and push the run folder (the repo is public):
    `git add RUN && git -c user.name="Blog Engine" -c user.email="noreply@anthropic.com" commit -m "<brand>: images" && git push origin HEAD:main`.
-2. `mcp__Wix__UploadImageToWixSite` (`siteId` = brand site) with **commit-pinned** raw URLs, which are never stale:
-   `https://raw.githubusercontent.com/RFC-Aurea/blog-engine/<git rev-parse HEAD>/RUN/img/imageN.<jpg|png>`.
+2. `mcp__Wix__UploadImageToWixSite` (`siteId` = brand site) with **commit-pinned** raw URLs:
+   `https://raw.githubusercontent.com/RFC-Aurea/blog-engine/<git rev-parse HEAD>/RUN/img/<file>`.
 3. Confirm with `mcp__Wix__ExecuteWixAPI` (read-only):
    `POST https://www.wixapis.com/site-media/v1/files/get-files` `{"fileIds": [<id1>, <id2>]}`
    (docs: https://dev.wix.com/docs/api-reference/assets/media/media-manager/files/get-file-descriptors).
-   Each must be `READY` with the file's width and height, and its `hash` must equal the file's md5
-   (`md5sum RUN/img/imageN.*`): that proves Wix holds exactly the picture you reviewed. If `PENDING`, read again.
+   Each must be `READY` with the file's width and height, and its `hash` must equal the file's md5. If `PENDING`, read
+   again.
 4. Record `wix_id` and `wix_hash` in the front matter.
 
-If an upload fails (for example the repo was made private and Wix cannot fetch the URL), the topic is blocked
-with the reason "image upload failed" and the run report says so; do not publish without both images.
+If an upload fails, the topic is blocked with the reason "image upload failed"; do not publish without both images.
 
 ## Alt text
-- Under 125 characters, says what the image shows in plain language ("Labelled illustration of ...",
-  "A woman and her doctor ...", "Timeline of ...").
+- Under 125 characters, says what the image shows ("Labelled illustration of ...", "A woman and her doctor ...").
 - At least one of the two alt texts contains the primary keyword or a secondary keyword, naturally.
 - No "image of" / "picture of" / "photo of".

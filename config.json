@@ -3,13 +3,28 @@
   "timezone": "America/New_York",
   "schedule": {
     "rule": "set by Alifiya 2026-10-16, New York weekday: RFC Mon/Wed/Fri/Sun, Aurea Tue/Thu/Sat/Sun, run starts 6:45am; Sunday publishes RFC first, then Aurea",
-    "monday": ["rfc"],
-    "tuesday": ["aurea"],
-    "wednesday": ["rfc"],
-    "thursday": ["aurea"],
-    "friday": ["rfc"],
-    "saturday": ["aurea"],
-    "sunday": ["rfc", "aurea"]
+    "monday": [
+      "rfc"
+    ],
+    "tuesday": [
+      "aurea"
+    ],
+    "wednesday": [
+      "rfc"
+    ],
+    "thursday": [
+      "aurea"
+    ],
+    "friday": [
+      "rfc"
+    ],
+    "saturday": [
+      "aurea"
+    ],
+    "sunday": [
+      "rfc",
+      "aurea"
+    ]
   },
   "writer": {
     "name": "Dr. Zaher Merhi",
@@ -19,8 +34,10 @@
     ]
   },
   "images": {
-    "rule": "set by Alifiya 2026-10-26: white background, natural colours (never brand colours), varied from post to post; an image can be a labelled medical illustration, a labelled diagram or a natural photo (rules/images.md)",
-    "generator": "drawn (Claude draws every image in code; no Gamma, no image models, no photos; Alifiya 2026-10-26)"
+    "rule": "set by Alifiya 2026-10-26: IMAGE1 = research-grade medical illustration drawn by Claude (white background, medical colours, never brand colours); IMAGE2 = real-looking Gamma photo, used as the cover (rules/images.md)",
+    "illustration": "drawn (illustrations/medical.svg + scripts/figure.py); never an image model",
+    "photo": "gamma (mcp__Gamma__generate_image, type photo); drawn fallback if cdn.gamma.app is blocked",
+    "gamma_credits_warn_below": 1500
   },
   "limits": {
     "ubersuggest_reports_per_day": 150,

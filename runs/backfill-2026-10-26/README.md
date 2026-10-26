@@ -1,26 +1,14 @@
 # New images for the 14 engine posts published 2026-10-16 to 2026-10-26
 
-Asked by Alifiya on 2026-10-26: the drawn beige infographics looked the same every day and their text was cut off in
-the blog list. Each post gets a painted labelled medical illustration (IMAGE1, same place in the post) and a natural
-photo (IMAGE2, replaces the old diagram and becomes the cover: `"hero": "IMAGE2"`). Style: `rules/images.md`.
+Asked by Alifiya on 2026-10-26. Final decision (her words: "claude medical illustration + gamma real images"):
+IMAGE1 = research-grade medical illustration drawn by Claude (`img/figure1.json` -> `figure1.html` -> `figure1.png`,
+`rules/images.md`), IMAGE2 = the Gamma photo, used as the cover (`"hero": "IMAGE2"`). Gamma's own illustrations were
+rejected and are recorded under `replaced_images`.
 
-`plan.json` lists, per post: the illustration subject, action, exact labels and alt text, the photo scene and alt text.
-The prompts are already written to `runs/<run>/img/new/image1.prompt.txt` and `image2.prompt.txt`.
+Photos: the 5 posts redone first (16-aurea, 16-rfc, 17-aurea, 20-aurea, 21-rfc) keep `img/image2.jpg`; the other 9 use
+`img/photo.jpg` (made 2026-10-26, reviewed). `plan.json` lists each post's illustration subject, labels and alt text.
 
-For each post in `plan.json` (needs `cdn.gamma.app` allowed: `python3 scripts/fetch_image.py --check`):
-1. Generate each prompt with `mcp__Gamma__generate_image` (`type` `illustration` for image1, `photo` for image2,
-   `sizePreset` `banner`), poll `get_image_generation_status`, then
-   `python3 scripts/fetch_image.py <url> runs/<run>/img/new/imageN.jpg --prompt runs/<run>/img/new/imageN.prompt.txt --credits <left>`.
-2. Look at both with the Read tool. The illustration's labels must match `plan.json` letter for letter and point at
-   the right parts; the photo must look real with no text. Fix the prompt and generate again if not (3 tries).
-3. Move them to `runs/<run>/img/image1.jpg` / `image2.jpg` with their `.report.json` and `.prompt.txt` (keep the old
-   `.png`/`.html` files), commit and push, upload both from commit-pinned raw URLs, confirm the Wix hash = md5.
-4. Front matter: move the old `images` block into `replaced_images` (with today's date), write the new block
-   (`generator` `gamma`, `gamma_url`, `kind`, `source`, `file`, `width`, `height`, `md5`, `wix_id`, `wix_hash`, `alt`, `labels`,
-   `reviewed`, `preview_src`) and set `"hero": "IMAGE2"`.
-5. `python3 scripts/check_post.py runs/<run> --update <post_id>`, `python3 scripts/build_post.py runs/<run> --update <post_id>`,
-   `node scripts/test_publish_js.js runs/<run>`, publish with `templates/publish.js` (CLAUDE.md step 10), save
-   `live_summary.json`, `python3 scripts/verify_live.py runs/<run>`.
-6. Add an `updated` row to `runs/log.md` ("new images: painted illustration + photo"), commit and push.
-
-Progress is tracked in `progress.json` (one entry per run: `images_ok`, `live_ok`).
+Per post: write the figure spec, render and look at it, push, upload from the commit-pinned raw URL, confirm the Wix
+hash equals the md5, swap IMAGE1 (and IMAGE2 to the photo where needed) in the front matter, then
+`check_post.py --update`, `build_post.py --update`, `test_publish_js.js`, publish with `templates/publish.js`, save
+`live_summary.json`, `verify_live.py`, and add an `updated` row to `runs/log.md`.

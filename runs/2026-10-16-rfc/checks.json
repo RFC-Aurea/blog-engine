@@ -85,7 +85,7 @@
    "check": "alt text under 125 chars",
    "ok": true,
    "hard": true,
-   "detail": "[118, 109]"
+   "detail": "[113, 84]"
   },
   {
    "check": "a keyword appears in an alt text",
@@ -97,7 +97,7 @@
    "check": "wix image ids look like real Wix media ids",
    "ok": true,
    "hard": true,
-   "detail": "['ca2223_6fb563a4f3744699b7e29fb5b5377a8d~mv2.png', 'ca2223_3153d5d59d3a49a8bda5cec89543b6ff~mv2.png']"
+   "detail": "['ca2223_e61d2e7b92ed450da535ddd7d9d49ccb~mv2.jpg', 'ca2223_0cb57725d98240c8aa9da58154de24a4~mv2.jpg']"
   },
   {
    "check": "no 'image of' in alt text",
@@ -301,13 +301,31 @@
    "check": "IMAGE1: Wix stored exactly the reviewed image (md5 = Wix hash)",
    "ok": true,
    "hard": true,
-   "detail": "file 87c3d4525ffc34d9895eb31c705ec92a, front matter 87c3d4525ffc34d9895eb31c705ec92a, Wix 87c3d4525ffc34d9895eb31c705ec92a"
+   "detail": "file 71e5b6f14b1b4ab0c335cc8ec7ff6ebc, front matter 71e5b6f14b1b4ab0c335cc8ec7ff6ebc, Wix 71e5b6f14b1b4ab0c335cc8ec7ff6ebc"
   },
   {
-   "check": "IMAGE1: label check passed when rendered (no overlaps, nothing cut off)",
+   "check": "IMAGE1: made by gamma and unchanged since (report md5)",
    "ok": true,
    "hard": true,
-   "detail": "no report for this file"
+   "detail": "no matching report"
+  },
+  {
+   "check": "IMAGE1: front matter size matches the file",
+   "ok": true,
+   "hard": true,
+   "detail": "1800x1005 vs 1800x1005"
+  },
+  {
+   "check": "IMAGE1: looked at before upload, every visible word listed in 'labels'",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  },
+  {
+   "check": "IMAGE1: illustration has labels",
+   "ok": true,
+   "hard": false,
+   "detail": ""
   },
   {
    "check": "IMAGE1: no banned words in the image",
@@ -325,13 +343,25 @@
    "check": "IMAGE2: Wix stored exactly the reviewed image (md5 = Wix hash)",
    "ok": true,
    "hard": true,
-   "detail": "file 93a74844482510c304cc6d075c66e98b, front matter 93a74844482510c304cc6d075c66e98b, Wix 93a74844482510c304cc6d075c66e98b"
+   "detail": "file 9fb32710d5786813f70be8f67715e62f, front matter 9fb32710d5786813f70be8f67715e62f, Wix 9fb32710d5786813f70be8f67715e62f"
   },
   {
-   "check": "IMAGE2: label check passed when rendered (no overlaps, nothing cut off)",
+   "check": "IMAGE2: made by gamma and unchanged since (report md5)",
    "ok": true,
    "hard": true,
-   "detail": "no report for this file"
+   "detail": "no matching report"
+  },
+  {
+   "check": "IMAGE2: front matter size matches the file",
+   "ok": true,
+   "hard": true,
+   "detail": "1800x1005 vs 1800x1005"
+  },
+  {
+   "check": "IMAGE2: looked at before upload, every visible word listed in 'labels'",
+   "ok": true,
+   "hard": true,
+   "detail": ""
   },
   {
    "check": "IMAGE2: no banned words in the image",
@@ -355,7 +385,7 @@
    "check": "title not too similar to any existing post (< 0.6)",
    "ok": true,
    "hard": true,
-   "detail": "0.10 vs 'Step-by-Step Guide to Egg Freezing for Women'"
+   "detail": "0.18 vs 'Egg Donor IVF vs. IVF With Your Own Eggs: Which Path Fits You After 40?'"
   },
   {
    "check": "primary keyword not already targeted",

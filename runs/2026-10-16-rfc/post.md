@@ -39,43 +39,46 @@
    "sd": 17
   }
  ],
- "hero": "IMAGE1",
+ "hero": "IMAGE2",
  "images": {
   "IMAGE1": {
-   "wix_id": "ca2223_6fb563a4f3744699b7e29fb5b5377a8d~mv2.png",
-   "width": 1800,
-   "height": 945,
-   "alt": "Labelled illustration of the donor eggs procedure: donor's ovary, ICSI fertilization and embryo transfer to the uterus",
+   "generator": "gamma",
+   "gamma_url": "https://cdn.gamma.app/bf3xeoj6c9vvzjl/design-anything/VqHTdhunP8saYLHryR9CK/Uq90K6ObQww234wFWkzP1.jpg",
    "kind": "medical illustration",
-   "source": "img/image1.html",
-   "file": "img/image1.png",
-   "md5": "87c3d4525ffc34d9895eb31c705ec92a",
-   "wix_hash": "87c3d4525ffc34d9895eb31c705ec92a",
-   "wix_labels": [
-    "biological process",
-    "eggs",
-    "egg",
-    "procedure",
-    "surrogacy"
+   "source": "img/image1.prompt.txt",
+   "file": "img/image1.jpg",
+   "width": 1800,
+   "height": 1005,
+   "md5": "71e5b6f14b1b4ab0c335cc8ec7ff6ebc",
+   "wix_id": "ca2223_e61d2e7b92ed450da535ddd7d9d49ccb~mv2.jpg",
+   "wix_hash": "71e5b6f14b1b4ab0c335cc8ec7ff6ebc",
+   "alt": "Labelled illustration of the donor eggs procedure: donor egg, fertilization, embryo and transfer into your uterus",
+   "labels": [
+    "Donor's ovary",
+    "Donor egg",
+    "Sperm",
+    "Embryo",
+    "Your uterus",
+    "Uterine lining"
    ],
-   "preview_src": "img/image1.png"
+   "reviewed": true,
+   "preview_src": "img/image1.jpg"
   },
   "IMAGE2": {
-   "wix_id": "ca2223_3153d5d59d3a49a8bda5cec89543b6ff~mv2.png",
+   "generator": "gamma",
+   "gamma_url": "https://cdn.gamma.app/bf3xeoj6c9vvzjl/design-anything/HkIxZX1JuH30TOsakVUo6/vqZ02OMfFNedvhHmYDgVn.jpg",
+   "kind": "photo",
+   "source": "img/image2.prompt.txt",
+   "file": "img/image2.jpg",
    "width": 1800,
-   "height": 945,
-   "alt": "Timeline of how donor eggs work, from consultation and choosing a donor to embryo transfer and pregnancy test",
-   "kind": "labelled timeline",
-   "source": "img/image2.html",
-   "file": "img/image2.png",
-   "md5": "93a74844482510c304cc6d075c66e98b",
-   "wix_hash": "93a74844482510c304cc6d075c66e98b",
-   "wix_labels": [
-    "treatment-plan",
-    "medical treatment",
-    "medical procedure"
-   ],
-   "preview_src": "img/image2.png"
+   "height": 1005,
+   "md5": "9fb32710d5786813f70be8f67715e62f",
+   "wix_id": "ca2223_0cb57725d98240c8aa9da58154de24a4~mv2.jpg",
+   "wix_hash": "9fb32710d5786813f70be8f67715e62f",
+   "alt": "A couple in their 40s talking with a fertility doctor about the donor eggs procedure",
+   "labels": [],
+   "reviewed": true,
+   "preview_src": "img/image2.jpg"
   }
  },
  "citations": [
@@ -102,15 +105,31 @@
   "hugely complicated news to process"
  ],
  "replaced_images": {
-  "IMAGE1": {
-   "wix_id": "ca2223_6d0a011f32dc46acb68d2580722f0983~mv2.jpg",
-   "alt": "Illustration of an embryo attaching to the uterine lining, the final step of the donor eggs procedure",
-   "why": "Gamma images without labels; replaced 2026-10-16 at Alifiya's request with labelled illustrations"
+  "2026-10-16": {
+   "IMAGE1": {
+    "wix_id": "ca2223_6d0a011f32dc46acb68d2580722f0983~mv2.jpg",
+    "alt": "Illustration of an embryo attaching to the uterine lining, the final step of the donor eggs procedure",
+    "why": "Gamma images without labels; replaced 2026-10-16 at Alifiya's request with labelled illustrations"
+   },
+   "IMAGE2": {
+    "wix_id": "ca2223_ab1fed578caa44179747bc9038175322~mv2.jpg",
+    "alt": "Couple talking with a fertility nurse in a calm consultation room about how donor eggs work",
+    "why": "Gamma images without labels; replaced 2026-10-16 at Alifiya's request with labelled illustrations"
+   }
   },
-  "IMAGE2": {
-   "wix_id": "ca2223_ab1fed578caa44179747bc9038175322~mv2.jpg",
-   "alt": "Couple talking with a fertility nurse in a calm consultation room about how donor eggs work",
-   "why": "Gamma images without labels; replaced 2026-10-16 at Alifiya's request with labelled illustrations"
+  "2026-10-26": {
+   "IMAGE1": {
+    "wix_id": "ca2223_6fb563a4f3744699b7e29fb5b5377a8d~mv2.png",
+    "alt": "Labelled illustration of the donor eggs procedure: donor's ovary, ICSI fertilization and embryo transfer to the uterus",
+    "file": "img/image1.png",
+    "why": "drawn images looked the same daily and covers had text; replaced 2026-10-26 at Alifiya's request with a painted illustration and a natural photo"
+   },
+   "IMAGE2": {
+    "wix_id": "ca2223_3153d5d59d3a49a8bda5cec89543b6ff~mv2.png",
+    "alt": "Timeline of how donor eggs work, from consultation and choosing a donor to embryo transfer and pregnancy test",
+    "file": "img/image2.png",
+    "why": "drawn images looked the same daily and covers had text; replaced 2026-10-26 at Alifiya's request with a painted illustration and a natural photo"
+   }
   }
  }
 }

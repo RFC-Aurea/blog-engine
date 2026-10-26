@@ -18,3 +18,5 @@
 | 2026-10-25 | rfc | published | Egg Donor IVF vs. IVF With Your Own Eggs: Which Path Fits You After 40? | egg donor ivf | https://www.rejuvenatingfertility.com/post/egg-donor-ivf-vs-own-eggs |
 | 2026-10-25 | aurea | published | What Is a Euploid Embryo? Better Odds, Not a Guarantee | euploid embryo | https://www.aureafertility.com/post/euploid-embryo |
 | 2026-10-26 | rfc | published | 8 Diminished Ovarian Reserve Treatment Options and the Order to Try Them | diminished ovarian reserve treatment | https://www.rejuvenatingfertility.com/post/diminished-ovarian-reserve-treatment |
+| 2026-10-26 | aurea | updated | Sperm Freezing Cost in 2026: Every Fee and the Real 10-Year Total (new images: painted illustration + photo) | how much does sperm freezing cost | https://www.aureafertility.com/post/sperm-freezing-cost |
+| 2026-10-26 | rfc | updated | Donor Eggs Procedure: How It Works, Who It's For, and What to Expect (new images: painted illustration + photo) | donor eggs procedure | https://www.rejuvenatingfertility.com/post/donor-eggs-procedure |

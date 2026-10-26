@@ -34,5 +34,25 @@
  "2026-10-26-rfc": {
   "images_ok": true,
   "live_ok": true
+ },
+ "2026-10-18-aurea": {
+  "images_ok": true,
+  "live_ok": true
+ },
+ "2026-10-22-aurea": {
+  "images_ok": true,
+  "live_ok": true
+ },
+ "2026-10-23-rfc": {
+  "images_ok": true,
+  "live_ok": true
+ },
+ "2026-10-24-aurea": {
+  "images_ok": true,
+  "live_ok": true
+ },
+ "2026-10-25-rfc": {
+  "images_ok": true,
+  "live_ok": true
  }
 }

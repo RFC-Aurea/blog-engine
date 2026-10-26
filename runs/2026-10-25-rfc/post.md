@@ -12,50 +12,104 @@
  "meta_description": "Egg donor IVF or one more cycle with your own eggs? Compare live birth odds, timelines and cost, and find the path that fits you after 40.",
  "excerpt": "Should you try again with your own eggs or move to egg donor IVF? Here is how the two paths compare on live birth odds, time and cost, what the newest research says about trying your own eggs first, and how to decide.",
  "category": "Treatments & IVF",
- "hashtags": ["eggdonorivf", "donoreggs", "ivfover40"],
- "primary_keyword": {"term": "egg donor ivf", "volume": 1600, "sd": 23},
- "secondary_keywords": [
-  {"term": "cost of egg donor ivf", "volume": 480, "sd": 19},
-  {"term": "how much is egg donor ivf", "volume": 140, "sd": 21},
-  {"term": "how does egg donor ivf work", "volume": 30, "sd": 29}
+ "hashtags": [
+  "eggdonorivf",
+  "donoreggs",
+  "ivfover40"
  ],
- "hero": "IMAGE1",
- "images": {
- "IMAGE1": {
-  "wix_id": "ca2223_ea1f40fbe6684e60a37f4b8b694c6b48~mv2.png",
-  "width": 1800,
-  "height": 945,
-  "alt": "Labelled illustration comparing egg donor IVF with IVF using your own eggs, both carried in your uterus",
-  "kind": "medical illustration",
-  "source": "img/image1.html",
-  "file": "img/image1.png",
-  "md5": "cbc73da45a38003e981019ebc132d03f",
-  "wix_hash": "cbc73da45a38003e981019ebc132d03f",
-  "preview_src": "img/image1.png"
+ "primary_keyword": {
+  "term": "egg donor ivf",
+  "volume": 1600,
+  "sd": 23
  },
- "IMAGE2": {
-  "wix_id": "ca2223_8343e1db5900452680d3c91ddd7cc0a2~mv2.png",
-  "width": 1800,
-  "height": 945,
-  "alt": "Timeline of months to live birth with donor eggs first vs. own eggs first, and the six steps of egg donor IVF",
-  "kind": "labelled timeline",
-  "source": "img/image2.html",
-  "file": "img/image2.png",
-  "md5": "4673316e0e6245928b1f986f4825dada",
-  "wix_hash": "4673316e0e6245928b1f986f4825dada",
-  "preview_src": "img/image2.png"
- }
-},
+ "secondary_keywords": [
+  {
+   "term": "cost of egg donor ivf",
+   "volume": 480,
+   "sd": 19
+  },
+  {
+   "term": "how much is egg donor ivf",
+   "volume": 140,
+   "sd": 21
+  },
+  {
+   "term": "how does egg donor ivf work",
+   "volume": 30,
+   "sd": 29
+  }
+ ],
+ "hero": "IMAGE2",
+ "images": {
+  "IMAGE1": {
+   "generator": "drawn",
+   "kind": "medical illustration",
+   "source": "img/figure1.html",
+   "file": "img/figure1.png",
+   "width": 1800,
+   "height": 945,
+   "md5": "aa60aa304c1082b193a269b180181772",
+   "wix_id": "ca2223_f9c0c90beddf4ec4a286b228c498d886~mv2.png",
+   "wix_hash": "aa60aa304c1082b193a269b180181772",
+   "alt": "Labelled illustration comparing egg donor IVF and IVF with your own eggs: either embryo goes into your uterus",
+   "labels": [
+    "Your own egg",
+    "Donor egg",
+    "Embryo",
+    "Uterine lining",
+    "Your uterus",
+    "Embryo transfer",
+    "IVF with your own eggs",
+    "egg donor IVF"
+   ],
+   "reviewed": true,
+   "preview_src": "img/figure1.png"
+  },
+  "IMAGE2": {
+   "generator": "gamma",
+   "gamma_url": "https://cdn.gamma.app/bf3xeoj6c9vvzjl/design-anything/QBDAzvNTPKs3szciSFQ9G/JbIKSUzodH8jxntwZLMJM.jpg",
+   "kind": "photo",
+   "source": "img/photo.prompt.txt",
+   "file": "img/photo.jpg",
+   "width": 1800,
+   "height": 1005,
+   "md5": "ceae1c35a1653924caa163b4ef9268b3",
+   "wix_id": "ca2223_9bfbfdf950cc4f57938fbbb8eed64e79~mv2.jpg",
+   "wix_hash": "ceae1c35a1653924caa163b4ef9268b3",
+   "alt": "A woman in her 40s writing notes as she weighs egg donor IVF against IVF with her own eggs",
+   "labels": [],
+   "reviewed": true,
+   "preview_src": "img/photo.jpg"
+  }
+ },
  "citations": [
-  {"url": "https://link.springer.com/article/10.1007/s10815-025-03708-x"},
-  {"url": "https://academic.oup.com/humrep/article/33/11/2010/5110586"},
-  {"url": "https://link.springer.com/article/10.1186/s12913-022-08485-2"},
-  {"url": "https://link.springer.com/article/10.1186/s13048-017-0378-4"},
-  {"url": "https://integration.asrm.org/practice-guidance/practice-committee-documents/evidence-based-outcomes-after-oocyte-cryopreservation-for-donor-oocyte-in-vitro-fertilization-and-planned-oocyte-cryopreservation-a-guideline-2021/"},
-  {"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5844654/"},
-  {"url": "https://scholars.duke.edu/publication/1025456"},
-  {"url": "https://e-century.us/files/ajsc/14/5/ajsc0169433.pdf"},
-  {"url": "https://www.reproductivefacts.org/news-and-publications/fact-sheets-and-infographics/egg-donation/"}
+  {
+   "url": "https://link.springer.com/article/10.1007/s10815-025-03708-x"
+  },
+  {
+   "url": "https://academic.oup.com/humrep/article/33/11/2010/5110586"
+  },
+  {
+   "url": "https://link.springer.com/article/10.1186/s12913-022-08485-2"
+  },
+  {
+   "url": "https://link.springer.com/article/10.1186/s13048-017-0378-4"
+  },
+  {
+   "url": "https://integration.asrm.org/practice-guidance/practice-committee-documents/evidence-based-outcomes-after-oocyte-cryopreservation-for-donor-oocyte-in-vitro-fertilization-and-planned-oocyte-cryopreservation-a-guideline-2021/"
+  },
+  {
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5844654/"
+  },
+  {
+   "url": "https://scholars.duke.edu/publication/1025456"
+  },
+  {
+   "url": "https://e-century.us/files/ajsc/14/5/ajsc0169433.pdf"
+  },
+  {
+   "url": "https://www.reproductivefacts.org/news-and-publications/fact-sheets-and-infographics/egg-donation/"
+  }
  ],
  "serp_gap": "None of the top-ranking pages compares egg donor IVF with another round using your own eggs, or answers when to switch and whether trying your own eggs first lowers your later donor-egg odds.",
  "patient_phrases": [
@@ -64,7 +118,25 @@
   "I would struggle if I knew that he or she had nothing of my genes",
   "the child was ours regardless",
   "We were very pragmatic and have never looked back"
- ]
+ ],
+ "replaced_images": {
+  "2026-10-26 illustration": {
+   "IMAGE1": {
+    "generator": null,
+    "wix_id": "ca2223_ea1f40fbe6684e60a37f4b8b694c6b48~mv2.png",
+    "alt": "Labelled illustration comparing egg donor IVF with IVF using your own eggs, both carried in your uterus",
+    "file": "img/image1.png",
+    "why": "Alifiya asked for research-grade medical illustrations drawn by Claude plus a Gamma photo cover (2026-10-26)"
+   },
+   "IMAGE2": {
+    "generator": null,
+    "wix_id": "ca2223_8343e1db5900452680d3c91ddd7cc0a2~mv2.png",
+    "alt": "Timeline of months to live birth with donor eggs first vs. own eggs first, and the six steps of egg donor IVF",
+    "file": "img/image2.png",
+    "why": "Alifiya asked for research-grade medical illustrations drawn by Claude plus a Gamma photo cover (2026-10-26)"
+   }
+  }
+ }
 }
 ---
 **Quick answer:** After 40, you have two strong paths to a baby: **IVF with your own eggs**, often supported by ovarian rejuvenation, and **egg donor IVF**, which uses eggs from a young, screened donor. Egg donor IVF gives the highest live birth rate per transfer at any age, while your own eggs keep your genetic link. The right choice depends on your ovarian reserve, how many cycles you have already done, your timeline and how much the genetic connection matters to you.

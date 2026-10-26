@@ -85,7 +85,7 @@
    "check": "alt text under 125 chars",
    "ok": true,
    "hard": true,
-   "detail": "[122, 112]"
+   "detail": "[106, 49]"
   },
   {
    "check": "a keyword appears in an alt text",
@@ -97,7 +97,7 @@
    "check": "wix image ids look like real Wix media ids",
    "ok": true,
    "hard": true,
-   "detail": "['ca2223_8a50e872456b4d85a0a9bf511f315c14~mv2.png', 'ca2223_716e85b1206d452eb93a005fa564ed16~mv2.png']"
+   "detail": "['ca2223_179d95d995f24264bcfdc6fffb41baa5~mv2.png', 'ca2223_82d6189d4ac6449ab30486ae52aa74d0~mv2.jpg']"
   },
   {
    "check": "no 'image of' in alt text",
@@ -295,7 +295,7 @@
    "check": "IMAGE1: Wix stored exactly the reviewed image (md5 = Wix hash)",
    "ok": true,
    "hard": true,
-   "detail": "file 0204f2809699f9e4332703909922be2a, front matter 0204f2809699f9e4332703909922be2a, Wix 0204f2809699f9e4332703909922be2a"
+   "detail": "file e10acc2cef4a687d2c18e6919f3b69c7, front matter e10acc2cef4a687d2c18e6919f3b69c7, Wix e10acc2cef4a687d2c18e6919f3b69c7"
   },
   {
    "check": "IMAGE1: label check passed when rendered (no overlaps, nothing cut off)",
@@ -319,13 +319,25 @@
    "check": "IMAGE2: Wix stored exactly the reviewed image (md5 = Wix hash)",
    "ok": true,
    "hard": true,
-   "detail": "file 25d4a608832872a185af37e98287682e, front matter 25d4a608832872a185af37e98287682e, Wix 25d4a608832872a185af37e98287682e"
+   "detail": "file bbb9df40eaf2720776c27f605f7068f1, front matter bbb9df40eaf2720776c27f605f7068f1, Wix bbb9df40eaf2720776c27f605f7068f1"
   },
   {
-   "check": "IMAGE2: label check passed when rendered (no overlaps, nothing cut off)",
+   "check": "IMAGE2: made by gamma and unchanged since (report md5)",
    "ok": true,
    "hard": true,
-   "detail": "no report for this file"
+   "detail": "no matching report"
+  },
+  {
+   "check": "IMAGE2: front matter size matches the file",
+   "ok": true,
+   "hard": true,
+   "detail": "1800x1005 vs 1800x1005"
+  },
+  {
+   "check": "IMAGE2: looked at before upload, every visible word listed in 'labels'",
+   "ok": true,
+   "hard": true,
+   "detail": ""
   },
   {
    "check": "IMAGE2: no banned words in the image",

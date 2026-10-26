@@ -39,31 +39,45 @@
    "sd": 13
   }
  ],
- "hero": "IMAGE1",
+ "hero": "IMAGE2",
  "images": {
   "IMAGE1": {
-   "wix_id": "ca2223_8a50e872456b4d85a0a9bf511f315c14~mv2.png",
+   "generator": "drawn",
+   "kind": "medical illustration",
+   "source": "img/figure1.html",
+   "file": "img/figure1.png",
    "width": 1800,
    "height": 945,
-   "alt": "Labelled illustration of what a sperm DNA fragmentation test looks for: sperm head, intact vs broken DNA, miscarriage risk",
-   "kind": "labelled medical illustration",
-   "source": "img/image1.html",
-   "file": "img/image1.png",
-   "md5": "0204f2809699f9e4332703909922be2a",
-   "wix_hash": "0204f2809699f9e4332703909922be2a",
-   "preview_src": "img/image1.png"
+   "md5": "e10acc2cef4a687d2c18e6919f3b69c7",
+   "wix_id": "ca2223_179d95d995f24264bcfdc6fffb41baa5~mv2.png",
+   "wix_hash": "e10acc2cef4a687d2c18e6919f3b69c7",
+   "alt": "Labelled illustration of what a sperm DNA fragmentation test finds: intact vs broken DNA in the sperm head",
+   "labels": [
+    "Normal sperm",
+    "Sperm with DNA fragmentation",
+    "Sperm head",
+    "Midpiece",
+    "Intact DNA",
+    "Broken DNA strands"
+   ],
+   "reviewed": true,
+   "preview_src": "img/figure1.png"
   },
   "IMAGE2": {
-   "wix_id": "ca2223_716e85b1206d452eb93a005fa564ed16~mv2.png",
+   "generator": "gamma",
+   "gamma_url": "https://cdn.gamma.app/bf3xeoj6c9vvzjl/design-anything/06rflWRBzoumNqaKPKvdS/_sC3Pp_MKbqeHsDhMQpAf.jpg",
+   "kind": "photo",
+   "source": "img/photo.prompt.txt",
+   "file": "img/photo.jpg",
    "width": 1800,
-   "height": 945,
-   "alt": "Five next steps after a sperm DNA fragmentation test, with Aurea prices, retest timing and normal range cut-offs",
-   "kind": "labelled timeline",
-   "source": "img/image2.html",
-   "file": "img/image2.png",
-   "md5": "25d4a608832872a185af37e98287682e",
-   "wix_hash": "25d4a608832872a185af37e98287682e",
-   "preview_src": "img/image2.png"
+   "height": 1005,
+   "md5": "bbb9df40eaf2720776c27f605f7068f1",
+   "wix_id": "ca2223_82d6189d4ac6449ab30486ae52aa74d0~mv2.jpg",
+   "wix_hash": "bbb9df40eaf2720776c27f605f7068f1",
+   "alt": "A man in his 30s cooking a healthy dinner at home",
+   "labels": [],
+   "reviewed": true,
+   "preview_src": "img/photo.jpg"
   }
  },
  "citations": [
@@ -95,7 +109,25 @@
   "what are the chances of conception even with IVF",
   "The doctor wasn't alarmed at all",
   "Do you have any experience with this"
- ]
+ ],
+ "replaced_images": {
+  "2026-10-26 illustration": {
+   "IMAGE1": {
+    "generator": null,
+    "wix_id": "ca2223_8a50e872456b4d85a0a9bf511f315c14~mv2.png",
+    "alt": "Labelled illustration of what a sperm DNA fragmentation test looks for: sperm head, intact vs broken DNA, miscarriage risk",
+    "file": "img/image1.png",
+    "why": "Alifiya asked for research-grade medical illustrations drawn by Claude plus a Gamma photo cover (2026-10-26)"
+   },
+   "IMAGE2": {
+    "generator": null,
+    "wix_id": "ca2223_716e85b1206d452eb93a005fa564ed16~mv2.png",
+    "alt": "Five next steps after a sperm DNA fragmentation test, with Aurea prices, retest timing and normal range cut-offs",
+    "file": "img/image2.png",
+    "why": "Alifiya asked for research-grade medical illustrations drawn by Claude plus a Gamma photo cover (2026-10-26)"
+   }
+  }
+ }
 }
 ---
 **Quick answer:** A **sperm DNA fragmentation test** measures how many sperm carry broken or damaged DNA, something a standard semen analysis cannot see. It is not a first-line test for every couple, but it is worth asking for after **unexplained infertility, two or more pregnancy losses, failed IUI or IVF cycles, or a varicocele**. A high result is often fixable, and it can change which treatment gives you the best chance.

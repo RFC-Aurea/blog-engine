@@ -39,44 +39,78 @@
    "sd": 17
   }
  ],
- "hero": "IMAGE1",
+ "hero": "IMAGE2",
  "images": {
- "IMAGE1": {
-  "wix_id": "ca2223_0475948cb1db4db4b0ee610c6007009f~mv2.png",
-  "width": 1800,
-  "height": 945,
-  "alt": "Labelled illustration of where recurrent miscarriage specialists look: uterine lining, cavity, embryo, ovary and blood tests",
-  "kind": "labelled medical illustration",
-  "source": "img/image1.html",
-  "file": "img/image1.png",
-  "md5": "e7689198efe8947b03f025a7befaaa00",
-  "wix_hash": "e7689198efe8947b03f025a7befaaa00",
-  "preview_src": "img/image1.png"
+  "IMAGE1": {
+   "generator": "drawn",
+   "kind": "medical illustration",
+   "source": "img/figure1.html",
+   "file": "img/figure1.png",
+   "width": 1800,
+   "height": 945,
+   "md5": "de5c96e159c9812809ddf6343ab20116",
+   "wix_id": "ca2223_1313a8486e894b9a9c15c2966ef3a05d~mv2.png",
+   "wix_hash": "de5c96e159c9812809ddf6343ab20116",
+   "alt": "Labelled illustration of what recurrent miscarriage specialists check: the uterine cavity, its lining and a karyotype",
+   "labels": [
+    "Uterine lining",
+    "Uterine cavity",
+    "Cervix",
+    "Ovary",
+    "Karyotype",
+    "maps each partner's chromosomes"
+   ],
+   "reviewed": true,
+   "preview_src": "img/figure1.png"
+  },
+  "IMAGE2": {
+   "generator": "gamma",
+   "gamma_url": "https://cdn.gamma.app/bf3xeoj6c9vvzjl/design-anything/agYdDrC0SLL0Dj6V45eNp/m69iJCcvCdK-KwtSe12Eh.jpg",
+   "kind": "photo",
+   "source": "img/photo.prompt.txt",
+   "file": "img/photo.jpg",
+   "width": 1800,
+   "height": 1005,
+   "md5": "02fa4ddb4b4d620d2a0aad7c365a1efe",
+   "wix_id": "ca2223_012cba15363542ed8febc192ebb7f189~mv2.jpg",
+   "wix_hash": "02fa4ddb4b4d620d2a0aad7c365a1efe",
+   "alt": "A couple holding hands on a wooden bench, supporting each other after pregnancy loss",
+   "labels": [],
+   "reviewed": true,
+   "preview_src": "img/photo.jpg"
+  }
  },
- "IMAGE2": {
-  "wix_id": "ca2223_13efd2b062cf431fba2516cba53a0b12~mv2.png",
-  "width": 1800,
-  "height": 945,
-  "alt": "Six steps of a recurrent pregnancy loss work up, from gathering records to a plan, with questions for your doctor",
-  "kind": "labelled timeline",
-  "source": "img/image2.html",
-  "file": "img/image2.png",
-  "md5": "23c37c9dc56cebce8a6e3e7e117c50b6",
-  "wix_hash": "23c37c9dc56cebce8a6e3e7e117c50b6",
-  "preview_src": "img/image2.png"
- }
-},
  "citations": [
-  {"url": "https://www.asrm.org/practice-guidance/practice-committee-documents/recurrent-pregnancy-loss-a-committee-opinion-2026/"},
-  {"url": "https://integration.asrm.org/globalassets/_asrm/practice-guidance/practice-guidelines/pdf/evaluation_and_treatment_of_recurrent_pregnancy_loss.pdf"},
-  {"url": "https://academic.oup.com/hropen/article/2023/1/hoad002/7068067"},
-  {"url": "https://academic.oup.com/hropen/article/2022/4/hoac045/6758255"},
-  {"url": "https://eprints.soton.ac.uk/483200/"},
-  {"url": "https://www.birmingham.ac.uk/news-archive/2019/progesterone-could-increase-live-births-in-women-with-early-pregnancy-bleeding-and-a-history-of-miscarriage-2"},
-  {"url": "https://eprints.gla.ac.uk/187019"},
-  {"url": "https://academic.oup.com/humrep/advance-article/doi/10.1093/humrep/deag133/8766800?login=false"},
-  {"url": "https://link.springer.com/article/10.1177/1933719113508817"},
-  {"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8764458/"}
+  {
+   "url": "https://www.asrm.org/practice-guidance/practice-committee-documents/recurrent-pregnancy-loss-a-committee-opinion-2026/"
+  },
+  {
+   "url": "https://integration.asrm.org/globalassets/_asrm/practice-guidance/practice-guidelines/pdf/evaluation_and_treatment_of_recurrent_pregnancy_loss.pdf"
+  },
+  {
+   "url": "https://academic.oup.com/hropen/article/2023/1/hoad002/7068067"
+  },
+  {
+   "url": "https://academic.oup.com/hropen/article/2022/4/hoac045/6758255"
+  },
+  {
+   "url": "https://eprints.soton.ac.uk/483200/"
+  },
+  {
+   "url": "https://www.birmingham.ac.uk/news-archive/2019/progesterone-could-increase-live-births-in-women-with-early-pregnancy-bleeding-and-a-history-of-miscarriage-2"
+  },
+  {
+   "url": "https://eprints.gla.ac.uk/187019"
+  },
+  {
+   "url": "https://academic.oup.com/humrep/advance-article/doi/10.1093/humrep/deag133/8766800?login=false"
+  },
+  {
+   "url": "https://link.springer.com/article/10.1177/1933719113508817"
+  },
+  {
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8764458/"
+  }
  ],
  "serp_gap": "What does a recurrent miscarriage specialist do next when the whole standard workup comes back normal, and which add-on treatments have the newest trials actually supported?",
  "patient_phrases": [
@@ -85,7 +119,25 @@
   "we're unsure who to go with",
   "just bad luck",
   "I just had this unshakeable feeling that something specific was going wrong"
- ]
+ ],
+ "replaced_images": {
+  "2026-10-26 illustration": {
+   "IMAGE1": {
+    "generator": null,
+    "wix_id": "ca2223_0475948cb1db4db4b0ee610c6007009f~mv2.png",
+    "alt": "Labelled illustration of where recurrent miscarriage specialists look: uterine lining, cavity, embryo, ovary and blood tests",
+    "file": "img/image1.png",
+    "why": "Alifiya asked for research-grade medical illustrations drawn by Claude plus a Gamma photo cover (2026-10-26)"
+   },
+   "IMAGE2": {
+    "generator": null,
+    "wix_id": "ca2223_13efd2b062cf431fba2516cba53a0b12~mv2.png",
+    "alt": "Six steps of a recurrent pregnancy loss work up, from gathering records to a plan, with questions for your doctor",
+    "file": "img/image2.png",
+    "why": "Alifiya asked for research-grade medical illustrations drawn by Claude plus a Gamma photo cover (2026-10-26)"
+   }
+  }
+ }
 }
 ---
 **Quick answer:** **Recurrent miscarriage specialists** can find a reason for repeated loss in many couples, and even when no single cause turns up, most women go on to have a baby: the [2026 ASRM committee opinion](https://www.asrm.org/practice-guidance/practice-committee-documents/recurrent-pregnancy-loss-a-committee-opinion-2026/) puts the chance of success in the next pregnancy at **50% to 80%** without any specific treatment. A specialist works through a set order: the chromosomes of the lost pregnancy, both partners' chromosomes, the uterus, clotting antibodies, hormones, the uterine lining, sperm and egg quality. The goal is a plan that fits your history, not a generic panel.

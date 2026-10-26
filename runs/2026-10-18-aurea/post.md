@@ -39,41 +39,71 @@
    "sd": 24
   }
  ],
- "hero": "IMAGE1",
+ "hero": "IMAGE2",
  "images": {
   "IMAGE1": {
-   "wix_id": "ca2223_12e9c96b99b646019fe9b0a10f051175~mv2.png",
+   "generator": "drawn",
+   "kind": "medical illustration",
+   "source": "img/figure1.html",
+   "file": "img/figure1.png",
    "width": 1800,
    "height": 945,
-   "alt": "Labelled uterus and tubes showing what an HSG test shows, with pain and birth rates for HSG and HyFoSy",
-   "kind": "medical illustration with data",
-   "source": "img/image1.html",
-   "file": "img/image1.png",
-   "md5": "a1e776778ac92ea99dad4ee04258dae4",
-   "wix_hash": "a1e776778ac92ea99dad4ee04258dae4",
-   "preview_src": "img/image1.png"
+   "md5": "7c3f5f7892fe5a2dbf5c1ee4b55f7956",
+   "wix_id": "ca2223_f94dd04a840d47748770d7ed784da18d~mv2.png",
+   "wix_hash": "7c3f5f7892fe5a2dbf5c1ee4b55f7956",
+   "alt": "Labelled illustration of an HSG test: contrast fluid fills the uterus and flows out through open fallopian tubes",
+   "labels": [
+    "Fluid spills from an open tube",
+    "Ovary",
+    "Catheter",
+    "Fallopian tube",
+    "Contrast dye",
+    "Uterus",
+    "Cervix",
+    "through the cervix"
+   ],
+   "reviewed": true,
+   "preview_src": "img/figure1.png"
   },
   "IMAGE2": {
-   "wix_id": "ca2223_5386b3faaee34f9dbb06ac05b92df08c~mv2.png",
+   "generator": "gamma",
+   "gamma_url": "https://cdn.gamma.app/bf3xeoj6c9vvzjl/design-anything/kD9OsLnEqvMJcadANnibx/qpqinXZf-vMUxo3JV_So8.jpg",
+   "kind": "photo",
+   "source": "img/photo.prompt.txt",
+   "file": "img/photo.jpg",
    "width": 1800,
-   "height": 945,
-   "alt": "Next steps after an HSG test for each result, with Aurea prices for IUI, recanalization and HyCoSy",
-   "kind": "labelled decision and cost diagram",
-   "source": "img/image2.html",
-   "file": "img/image2.png",
-   "md5": "97a59e4adebe9ab3864659b57c4362d5",
-   "wix_hash": "97a59e4adebe9ab3864659b57c4362d5",
-   "preview_src": "img/image2.png"
+   "height": 1005,
+   "md5": "767e8b14aa69c24098318dd4440428e2",
+   "wix_id": "ca2223_5cd83529239844bc9d7b65abe56207fb~mv2.jpg",
+   "wix_hash": "767e8b14aa69c24098318dd4440428e2",
+   "alt": "A quiet, sunlit exam room with an ultrasound machine, like the room where an HSG test or HyCoSy is done",
+   "labels": [],
+   "reviewed": true,
+   "preview_src": "img/photo.jpg"
   }
  },
  "citations": [
-  {"url": "https://academic.oup.com/humrep/article/37/5/969/6537992"},
-  {"url": "https://cris.maastrichtuniversity.nl/en/publications/oil-based-or-water-based-contrast-for-hysterosalpingography-in-in/"},
-  {"url": "https://www.asrm.org/practice-guidance/practice-committee-documents/fertility-evaluation-of-infertile-women-a-committee-opinion-2021/"},
-  {"url": "https://academic.oup.com/humrep/article-abstract/29/5/953/674060"},
-  {"url": "https://abdn.elsevierpure.com/en/publications/are-patient-characteristics-associated-with-the-accuracy-of-hyste/"},
-  {"url": "https://www.reproductivefacts.org/news-and-publications/fact-sheets-and-infographics/hysterosalpingogram-hsg/"},
-  {"url": "https://academic.oup.com/humrep/article/39/6/1222/7643857"}
+  {
+   "url": "https://academic.oup.com/humrep/article/37/5/969/6537992"
+  },
+  {
+   "url": "https://cris.maastrichtuniversity.nl/en/publications/oil-based-or-water-based-contrast-for-hysterosalpingography-in-in/"
+  },
+  {
+   "url": "https://www.asrm.org/practice-guidance/practice-committee-documents/fertility-evaluation-of-infertile-women-a-committee-opinion-2021/"
+  },
+  {
+   "url": "https://academic.oup.com/humrep/article-abstract/29/5/953/674060"
+  },
+  {
+   "url": "https://abdn.elsevierpure.com/en/publications/are-patient-characteristics-associated-with-the-accuracy-of-hyste/"
+  },
+  {
+   "url": "https://www.reproductivefacts.org/news-and-publications/fact-sheets-and-infographics/hysterosalpingogram-hsg/"
+  },
+  {
+   "url": "https://academic.oup.com/humrep/article/39/6/1222/7643857"
+  }
  ],
  "serp_gap": "Top results explain the HSG on its own; none compare it with the ultrasound alternative (HyCoSy/HyFoSy) on pain, accuracy and pregnancy outcomes, explain oil- vs water-based contrast, or say what to do when one tube looks blocked.",
  "patient_phrases": [
@@ -82,7 +112,25 @@
   "a little bit painful, but mostly very uncomfortable",
   "thankfully showed that my remaining right tube was clear",
   "the month after the HSG, I got pregnant!"
- ]
+ ],
+ "replaced_images": {
+  "2026-10-26 illustration": {
+   "IMAGE1": {
+    "generator": null,
+    "wix_id": "ca2223_12e9c96b99b646019fe9b0a10f051175~mv2.png",
+    "alt": "Labelled uterus and tubes showing what an HSG test shows, with pain and birth rates for HSG and HyFoSy",
+    "file": "img/image1.png",
+    "why": "Alifiya asked for research-grade medical illustrations drawn by Claude plus a Gamma photo cover (2026-10-26)"
+   },
+   "IMAGE2": {
+    "generator": null,
+    "wix_id": "ca2223_5386b3faaee34f9dbb06ac05b92df08c~mv2.png",
+    "alt": "Next steps after an HSG test for each result, with Aurea prices for IUI, recanalization and HyCoSy",
+    "file": "img/image2.png",
+    "why": "Alifiya asked for research-grade medical illustrations drawn by Claude plus a Gamma photo cover (2026-10-26)"
+   }
+  }
+ }
 }
 ---
 **Quick answer:** An **HSG test** (hysterosalpingogram) is a short X-ray exam that uses contrast dye to show whether your fallopian tubes are open and whether your uterus has a normal shape. **HyCoSy** checks the same tubes with ultrasound instead of X-ray. In a large 2022 trial, the two led to nearly the same birth rates, but the ultrasound test hurt less, so for many people under 40 it is a sensible first choice.

@@ -42,27 +42,29 @@
  "hero": "IMAGE2",
  "images": {
   "IMAGE1": {
-   "generator": "gamma",
-   "gamma_url": "https://cdn.gamma.app/bf3xeoj6c9vvzjl/design-anything/ujYeUDRLzA5CyGzwhWUFh/x9U27RKMIz9bkrQJITq-_.jpg",
+   "generator": "drawn",
    "kind": "medical illustration",
-   "source": "img/image1.prompt.txt",
-   "file": "img/image1.jpg",
+   "source": "img/figure1.html",
+   "file": "img/figure1.png",
    "width": 1800,
-   "height": 1005,
-   "md5": "a4c56f181b3f25279f5ad618d5f6b82e",
-   "wix_id": "ca2223_73b0e18f48844416b0b2c2639cdc445c~mv2.jpg",
-   "wix_hash": "a4c56f181b3f25279f5ad618d5f6b82e",
+   "height": 945,
+   "md5": "2539c07eaf3aa44bc67c8e322f778c9d",
+   "wix_id": "ca2223_f9e2b0b91c3b4138a45eb36cb966c8e3~mv2.png",
+   "wix_hash": "2539c07eaf3aa44bc67c8e322f778c9d",
    "alt": "Labelled illustration of trying to conceive fertility basics: ovulation, sperm meeting the egg, and the uterus",
    "labels": [
-    "Sperm",
-    "Fertilization",
     "Fallopian tube",
-    "Egg released at ovulation",
+    "Ovary",
     "Uterus",
-    "Cervix"
+    "Sperm",
+    "Cervix",
+    "Egg released at ovulation",
+    "Egg",
+    "Sperm",
+    "Fertilization in the tube"
    ],
    "reviewed": true,
-   "preview_src": "img/image1.jpg"
+   "preview_src": "img/figure1.png"
   },
   "IMAGE2": {
    "generator": "gamma",
@@ -126,6 +128,15 @@
     "alt": "Month-by-month trying to conceive timeline with when to get tests and Aurea prices for testing",
     "file": "img/image2.png",
     "why": "drawn images looked the same daily and covers had text; replaced 2026-10-26 at Alifiya's request with a painted illustration and a natural photo"
+   }
+  },
+  "2026-10-26 illustration": {
+   "IMAGE1": {
+    "generator": "gamma",
+    "wix_id": "ca2223_73b0e18f48844416b0b2c2639cdc445c~mv2.jpg",
+    "alt": "Labelled illustration of trying to conceive fertility basics: ovulation, sperm meeting the egg, and the uterus",
+    "file": "img/image1.jpg",
+    "why": "Alifiya asked for research-grade medical illustrations drawn by Claude instead of image-model illustrations (2026-10-26)"
    }
   }
  }

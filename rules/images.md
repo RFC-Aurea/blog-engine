@@ -20,7 +20,9 @@ from `illustrations/medlib/`). Catalogue with every part's viewBox, what it show
 (`m-follicle-primordial|primary|secondary|antral`), `m-egg-mii` / `m-egg-mii-bare` (spindle, chromosomes, polar body),
 `m-blastocyst`, `m-blastocyst-hatching`, karyotypes (`m-karyotype`, `-xy`, `-trisomy21`), DNA (`m-dna`,
 `m-dna-broken`), instruments (`m-needle`, `m-syringe`, `m-holding-pipette`, `m-biopsy-pipette`, `m-prp-tube`,
-`m-prp-cloud`) and whatever later runs added (always check the catalogue).
+`m-prp-cloud`, `m-us-probe`), sperm (`m-sperm`, `m-sperm-plain`, `m-sperm-head-dna`, `m-sperm-head-dna-broken`),
+whole reproductive tract (`m-tract`, `m-tract-hsg` with catheter and dye, `m-tract-transfer` with transfer catheter)
+and whatever later runs added (always check the catalogue).
 
 1. Write `RUN/img/figure1.json` (format in the docstring of `scripts/figure.py`): place parts (`x`/`y`/`width`, or
    `pin` an anchor to a canvas point, `rotate`, `flip`), labels with `to` = `<part name>.<anchor>` so each leader line

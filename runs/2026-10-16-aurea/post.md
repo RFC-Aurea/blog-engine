@@ -42,26 +42,28 @@
  "hero": "IMAGE2",
  "images": {
   "IMAGE1": {
-   "generator": "gamma",
-   "gamma_url": "https://cdn.gamma.app/bf3xeoj6c9vvzjl/design-anything/HLPLmJ7cSuF7BuVJZwfPD/KaLGu08B9StgdHbxigbfR.jpg",
+   "generator": "drawn",
    "kind": "medical illustration",
-   "source": "img/image1.prompt.txt",
-   "file": "img/image1.jpg",
+   "source": "img/figure1.html",
+   "file": "img/figure1.png",
    "width": 1800,
-   "height": 1005,
-   "md5": "24e83131a60578473c2710aa60ceb5b0",
-   "wix_id": "ca2223_1524f8cce1c543a5b85665fcfad0ae0c~mv2.jpg",
-   "wix_hash": "24e83131a60578473c2710aa60ceb5b0",
+   "height": 945,
+   "md5": "97b71824814206e54df263f28564897f",
+   "wix_id": "ca2223_ee95599e71034cdd8fda252e7f502abb~mv2.png",
+   "wix_hash": "97b71824814206e54df263f28564897f",
    "alt": "Labelled illustration of a sperm cell, the cell that sperm freezing protects: head, acrosome, DNA, midpiece and tail",
    "labels": [
     "Head",
+    "Tail",
     "Acrosome",
     "Nucleus (DNA)",
     "Midpiece",
-    "Tail"
+    "cap that helps it enter the egg",
+    "tightly packed",
+    "powers swimming (motility)"
    ],
    "reviewed": true,
-   "preview_src": "img/image1.jpg"
+   "preview_src": "img/figure1.png"
   },
   "IMAGE2": {
    "generator": "gamma",
@@ -131,6 +133,15 @@
     "alt": "Sperm freezing cost at Aurea step by step: nurse call, semen analysis, freezing, storage and thaw, with 10-year total",
     "file": "img/image2.png",
     "why": "drawn images looked the same daily and covers had text; replaced 2026-10-26 at Alifiya's request with a painted illustration and a natural photo"
+   }
+  },
+  "2026-10-26 illustration": {
+   "IMAGE1": {
+    "generator": "gamma",
+    "wix_id": "ca2223_1524f8cce1c543a5b85665fcfad0ae0c~mv2.jpg",
+    "alt": "Labelled illustration of a sperm cell, the cell that sperm freezing protects: head, acrosome, DNA, midpiece and tail",
+    "file": "img/image1.jpg",
+    "why": "Alifiya asked for research-grade medical illustrations drawn by Claude instead of image-model illustrations (2026-10-26)"
    }
   }
  }

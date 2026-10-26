@@ -39,43 +39,74 @@
    "sd": 17
   }
  ],
- "hero": "IMAGE1",
+ "hero": "IMAGE2",
  "images": {
- "IMAGE1": {
-  "wix_id": "ca2223_9bf3e0ea8f514210834a724583fb08ac~mv2.png",
-  "width": 1800,
-  "height": 945,
-  "alt": "Labelled illustration of egg retrieval: ultrasound probe and fine needle reaching the ovary, with sedation study results",
-  "kind": "medical illustration with data",
-  "source": "img/image1.html",
-  "file": "img/image1.png",
-  "md5": "706077406ba5f887fc8a3baeceff6c07",
-  "wix_hash": "706077406ba5f887fc8a3baeceff6c07",
-  "preview_src": "img/image1.png"
+  "IMAGE1": {
+   "generator": "drawn",
+   "kind": "medical illustration",
+   "source": "img/figure1.html",
+   "file": "img/figure1.png",
+   "width": 1800,
+   "height": 945,
+   "md5": "79a477a2c798f786561bf5657bcb7f54",
+   "wix_id": "ca2223_c7d2c0ce757540578f31dcc7878a560b~mv2.png",
+   "wix_hash": "79a477a2c798f786561bf5657bcb7f54",
+   "alt": "Labelled illustration of egg retrieval: an ultrasound probe guides a fine needle to a follicle in the ovary",
+   "labels": [
+    "Follicle with egg",
+    "Fine needle",
+    "Ultrasound probe",
+    "Ovary",
+    "its fluid is drawn up"
+   ],
+   "reviewed": true,
+   "preview_src": "img/figure1.png"
+  },
+  "IMAGE2": {
+   "generator": "gamma",
+   "gamma_url": "https://cdn.gamma.app/bf3xeoj6c9vvzjl/design-anything/B81QPHlAOUoUww17VGzDs/i2dKpG8j3TaYk-f8FUMr5.jpg",
+   "kind": "photo",
+   "source": "img/photo.prompt.txt",
+   "file": "img/photo.jpg",
+   "width": 1800,
+   "height": 1005,
+   "md5": "a6360a2279eaa730cdb736988e1c9928",
+   "wix_id": "ca2223_2201ceebc706467aa5c943679ad8ab11~mv2.jpg",
+   "wix_hash": "a6360a2279eaa730cdb736988e1c9928",
+   "alt": "An empty recovery chair with a soft blanket and a cup of tea, ready for rest after egg retrieval",
+   "labels": [],
+   "reviewed": true,
+   "preview_src": "img/photo.jpg"
+  }
  },
- "IMAGE2": {
-  "wix_id": "ca2223_feb4670d247d468dbeb84eceaec62ff2~mv2.png",
-  "width": 1800,
-  "height": 945,
-  "alt": "Timeline from first visit to egg retrieval recovery, with Aurea prices for egg freezing, IVF and IV sedation",
-  "kind": "labelled timeline and cost diagram",
-  "source": "img/image2.html",
-  "file": "img/image2.png",
-  "md5": "f97d275206b59cffbd26b07dbc8feb42",
-  "wix_hash": "f97d275206b59cffbd26b07dbc8feb42",
-  "preview_src": "img/image2.png"
- }
-},
  "citations": [
-  {"url": "https://pubmed.ncbi.nlm.nih.gov/23440796/"},
-  {"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5699983"},
-  {"url": "https://pubmed.ncbi.nlm.nih.gov/16877373/"},
-  {"url": "https://academic.oup.com/humrep/article/40/12/2310/8259676"},
-  {"url": "https://academic.oup.com/humrep/article/doi/10.1093/humrep/deae108.929/7703507"},
-  {"url": "https://academic.oup.com/humrep/article/40/Supplement_1/deaf097.1076/8170597"},
-  {"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9184882/"},
-  {"url": "https://www.reproductivefacts.org/browse-resources/sart-fertility-experts/sart-fertility-experts---egg-retrieval-what-is-it-really-like/"},
-  {"url": "https://www.reproductivefacts.org/news-and-publications/patient-fact-sheets-and-booklets/documents/fact-sheets-and-info-booklets/in-vitro-fertilization-ivf-what-are-the-risks/"}
+  {
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23440796/"
+  },
+  {
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5699983"
+  },
+  {
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16877373/"
+  },
+  {
+   "url": "https://academic.oup.com/humrep/article/40/12/2310/8259676"
+  },
+  {
+   "url": "https://academic.oup.com/humrep/article/doi/10.1093/humrep/deae108.929/7703507"
+  },
+  {
+   "url": "https://academic.oup.com/humrep/article/40/Supplement_1/deaf097.1076/8170597"
+  },
+  {
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9184882/"
+  },
+  {
+   "url": "https://www.reproductivefacts.org/browse-resources/sart-fertility-experts/sart-fertility-experts---egg-retrieval-what-is-it-really-like/"
+  },
+  {
+   "url": "https://www.reproductivefacts.org/news-and-publications/patient-fact-sheets-and-booklets/documents/fact-sheets-and-info-booklets/in-vitro-fertilization-ivf-what-are-the-risks/"
+  }
  ],
  "serp_gap": "Top results say retrieval is done under sedation and is comfortable, but none compare the anesthesia options (deep IV sedation, light conscious sedation, local paracervical block) with real pain scores and outcomes, or explain that how many eggs are collected changes how retrieval and recovery feel.",
  "patient_phrases": [
@@ -85,7 +116,25 @@
   "The best sleep ever.",
   "you are technically awake during the procedure, but you have no memory of it",
   "I would never want local anesthesia for my ER."
- ]
+ ],
+ "replaced_images": {
+  "2026-10-26 illustration": {
+   "IMAGE1": {
+    "generator": null,
+    "wix_id": "ca2223_9bf3e0ea8f514210834a724583fb08ac~mv2.png",
+    "alt": "Labelled illustration of egg retrieval: ultrasound probe and fine needle reaching the ovary, with sedation study results",
+    "file": "img/image1.png",
+    "why": "Alifiya asked for research-grade medical illustrations drawn by Claude plus a Gamma photo cover (2026-10-26)"
+   },
+   "IMAGE2": {
+    "generator": null,
+    "wix_id": "ca2223_feb4670d247d468dbeb84eceaec62ff2~mv2.png",
+    "alt": "Timeline from first visit to egg retrieval recovery, with Aurea prices for egg freezing, IVF and IV sedation",
+    "file": "img/image2.png",
+    "why": "Alifiya asked for research-grade medical illustrations drawn by Claude plus a Gamma photo cover (2026-10-26)"
+   }
+  }
+ }
 }
 ---
 **Quick answer:** **Egg retrieval** is a short procedure, usually 10 to 30 minutes, in which a thin needle guided by ultrasound collects eggs from your ovaries. Most US clinics use **IV sedation**, so you breathe on your own but feel and remember little. Some clinics offer **local anesthesia** (a numbing injection near the cervix) instead. Studies show similar birth rates with both, but sedation hurts less and patients rate it higher.

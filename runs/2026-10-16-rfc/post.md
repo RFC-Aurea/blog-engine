@@ -42,27 +42,29 @@
  "hero": "IMAGE2",
  "images": {
   "IMAGE1": {
-   "generator": "gamma",
-   "gamma_url": "https://cdn.gamma.app/bf3xeoj6c9vvzjl/design-anything/VqHTdhunP8saYLHryR9CK/Uq90K6ObQww234wFWkzP1.jpg",
+   "generator": "drawn",
    "kind": "medical illustration",
-   "source": "img/image1.prompt.txt",
-   "file": "img/image1.jpg",
+   "source": "img/figure1.html",
+   "file": "img/figure1.png",
    "width": 1800,
-   "height": 1005,
-   "md5": "71e5b6f14b1b4ab0c335cc8ec7ff6ebc",
-   "wix_id": "ca2223_e61d2e7b92ed450da535ddd7d9d49ccb~mv2.jpg",
-   "wix_hash": "71e5b6f14b1b4ab0c335cc8ec7ff6ebc",
+   "height": 945,
+   "md5": "9c9ec0f8539eb2ca4bc659328278afe3",
+   "wix_id": "ca2223_1b5656c4b544446cb925dbc13553d341~mv2.png",
+   "wix_hash": "9c9ec0f8539eb2ca4bc659328278afe3",
    "alt": "Labelled illustration of the donor eggs procedure: donor egg, fertilization, embryo and transfer into your uterus",
    "labels": [
     "Donor's ovary",
     "Donor egg",
-    "Sperm",
+    "Partner's sperm",
     "Embryo",
     "Your uterus",
-    "Uterine lining"
+    "Uterine lining",
+    "Embryo transfer",
+    "or donor sperm",
+    "thin catheter"
    ],
    "reviewed": true,
-   "preview_src": "img/image1.jpg"
+   "preview_src": "img/figure1.png"
   },
   "IMAGE2": {
    "generator": "gamma",
@@ -129,6 +131,15 @@
     "alt": "Timeline of how donor eggs work, from consultation and choosing a donor to embryo transfer and pregnancy test",
     "file": "img/image2.png",
     "why": "drawn images looked the same daily and covers had text; replaced 2026-10-26 at Alifiya's request with a painted illustration and a natural photo"
+   }
+  },
+  "2026-10-26 illustration": {
+   "IMAGE1": {
+    "generator": "gamma",
+    "wix_id": "ca2223_e61d2e7b92ed450da535ddd7d9d49ccb~mv2.jpg",
+    "alt": "Labelled illustration of the donor eggs procedure: donor egg, fertilization, embryo and transfer into your uterus",
+    "file": "img/image1.jpg",
+    "why": "Alifiya asked for research-grade medical illustrations drawn by Claude instead of image-model illustrations (2026-10-26)"
    }
   }
  }

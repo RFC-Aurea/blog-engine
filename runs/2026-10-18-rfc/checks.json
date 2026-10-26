@@ -85,7 +85,7 @@
    "check": "alt text under 125 chars",
    "ok": true,
    "hard": true,
-   "detail": "[107, 103]"
+   "detail": "[103, 72]"
   },
   {
    "check": "a keyword appears in an alt text",
@@ -97,7 +97,7 @@
    "check": "wix image ids look like real Wix media ids",
    "ok": true,
    "hard": true,
-   "detail": "['ca2223_f23e7b1b2da04eb496de9a84a6233866~mv2.png', 'ca2223_9cb6f7a0adc149e88a78525e2d690df0~mv2.png']"
+   "detail": "['ca2223_7c679a22a2124d43b974592988a5940d~mv2.png', 'ca2223_70ab901de4724e7a9ab3a8542cd62f2b~mv2.jpg']"
   },
   {
    "check": "no 'image of' in alt text",
@@ -301,7 +301,7 @@
    "check": "IMAGE1: Wix stored exactly the reviewed image (md5 = Wix hash)",
    "ok": true,
    "hard": true,
-   "detail": "file 4a9660d63d974c5236aba76676a6714b, front matter 4a9660d63d974c5236aba76676a6714b, Wix 4a9660d63d974c5236aba76676a6714b"
+   "detail": "file a804af456df2864dbd5b1df86720d086, front matter a804af456df2864dbd5b1df86720d086, Wix a804af456df2864dbd5b1df86720d086"
   },
   {
    "check": "IMAGE1: label check passed when rendered (no overlaps, nothing cut off)",
@@ -325,13 +325,25 @@
    "check": "IMAGE2: Wix stored exactly the reviewed image (md5 = Wix hash)",
    "ok": true,
    "hard": true,
-   "detail": "file 4067171ba59e0871a2fa8ba635e7e1c6, front matter 4067171ba59e0871a2fa8ba635e7e1c6, Wix 4067171ba59e0871a2fa8ba635e7e1c6"
+   "detail": "file 648da0782fd63e899e3106b9582f517e, front matter 648da0782fd63e899e3106b9582f517e, Wix 648da0782fd63e899e3106b9582f517e"
   },
   {
-   "check": "IMAGE2: label check passed when rendered (no overlaps, nothing cut off)",
+   "check": "IMAGE2: made by gamma and unchanged since (report md5)",
    "ok": true,
    "hard": true,
-   "detail": "no report for this file"
+   "detail": "no matching report"
+  },
+  {
+   "check": "IMAGE2: front matter size matches the file",
+   "ok": true,
+   "hard": true,
+   "detail": "1800x1005 vs 1800x1005"
+  },
+  {
+   "check": "IMAGE2: looked at before upload, every visible word listed in 'labels'",
+   "ok": true,
+   "hard": true,
+   "detail": ""
   },
   {
    "check": "IMAGE2: no banned words in the image",
@@ -355,7 +367,7 @@
    "check": "title not too similar to any existing post (< 0.6)",
    "ok": true,
    "hard": true,
-   "detail": "0.10 vs 'Can You Get Pregnant During Perimenopause?'"
+   "detail": "0.15 vs 'Egg Donor IVF vs. IVF With Your Own Eggs: Which Path Fits You After 40?'"
   },
   {
    "check": "primary keyword not already targeted",

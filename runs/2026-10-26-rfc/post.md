@@ -12,50 +12,105 @@
  "meta_description": "Diminished ovarian reserve treatment can still lead to a baby. See 8 options, what the research shows, and the order to try them in.",
  "excerpt": "Low AMH or a low follicle count is a starting point, not a verdict. Here are 8 diminished ovarian reserve treatment options, what the research shows for each, and the order that makes sense to try them in.",
  "category": "Treatments & IVF",
- "hashtags": ["diminishedovarianreserve", "lowamh", "ivfover40"],
- "primary_keyword": {"term": "diminished ovarian reserve treatment", "volume": 50, "sd": 12},
- "secondary_keywords": [
-  {"term": "how to get pregnant with diminished ovarian reserve", "volume": 40, "sd": 29},
-  {"term": "getting pregnant with diminished ovarian reserve", "volume": 20, "sd": 20},
-  {"term": "dhea for diminished ovarian reserve", "volume": 20, "sd": 20}
+ "hashtags": [
+  "diminishedovarianreserve",
+  "lowamh",
+  "ivfover40"
  ],
- "hero": "IMAGE1",
+ "primary_keyword": {
+  "term": "diminished ovarian reserve treatment",
+  "volume": 50,
+  "sd": 12
+ },
+ "secondary_keywords": [
+  {
+   "term": "how to get pregnant with diminished ovarian reserve",
+   "volume": 40,
+   "sd": 29
+  },
+  {
+   "term": "getting pregnant with diminished ovarian reserve",
+   "volume": 20,
+   "sd": 20
+  },
+  {
+   "term": "dhea for diminished ovarian reserve",
+   "volume": 20,
+   "sd": 20
+  }
+ ],
+ "hero": "IMAGE2",
  "images": {
   "IMAGE1": {
-   "wix_id": "ca2223_a43a085d66f941c08cce3bbb8d392014~mv2.png",
+   "generator": "drawn",
+   "kind": "medical illustration",
+   "source": "img/figure1.html",
+   "file": "img/figure1.png",
    "width": 1800,
    "height": 945,
-   "alt": "Labelled illustration of where each diminished ovarian reserve treatment acts on the ovary and the egg",
-   "kind": "medical illustration",
-   "source": "img/image1.html",
-   "file": "img/image1.png",
-   "md5": "aa5b0d7a47686772b503eab8098689dc",
-   "wix_hash": "aa5b0d7a47686772b503eab8098689dc",
-   "preview_src": "img/image1.png"
+   "md5": "6b4dfb47e869a02376a53b4940bcf1fe",
+   "wix_id": "ca2223_7fa96ac68b78473b823591bccefbf727~mv2.png",
+   "wix_hash": "6b4dfb47e869a02376a53b4940bcf1fe",
+   "alt": "Labelled illustration of an ovary and an antral follicle, the follicles diminished ovarian reserve treatment relies on",
+   "labels": [
+    "Resting follicles",
+    "Antral follicle",
+    "Egg (oocyte)",
+    "Theca layer",
+    "Granulosa cells",
+    "Blood vessels",
+    "Follicle fluid",
+    "2 to 10 mm, counted on ultrasound",
+    "make AMH"
+   ],
+   "reviewed": true,
+   "preview_src": "img/figure1.png"
   },
   "IMAGE2": {
-   "wix_id": "ca2223_c0eb8a47fa9c49968e2060dc756c7355~mv2.png",
+   "generator": "gamma",
+   "gamma_url": "https://cdn.gamma.app/bf3xeoj6c9vvzjl/design-anything/QQxzcm6Agm6pv7Hgopwbl/WraX6Wt9hrs5S0atspIoA.jpg",
+   "kind": "photo",
+   "source": "img/photo.prompt.txt",
+   "file": "img/photo.jpg",
    "width": 1800,
-   "height": 945,
-   "alt": "Six-step order for getting pregnant with diminished ovarian reserve, from testing to donor eggs, with review points",
-   "kind": "labelled timeline",
-   "source": "img/image2.html",
-   "file": "img/image2.png",
-   "md5": "110b59de0f4a55de1235b2c28f07f359",
-   "wix_hash": "110b59de0f4a55de1235b2c28f07f359",
-   "preview_src": "img/image2.png"
+   "height": 1005,
+   "md5": "3e445bbed539d36d9cbc9c0e8ccabbc9",
+   "wix_id": "ca2223_b7195dff1ec84dd686f515ebf572aa31~mv2.jpg",
+   "wix_hash": "3e445bbed539d36d9cbc9c0e8ccabbc9",
+   "alt": "Morning supplements on a kitchen counter, part of some diminished ovarian reserve treatment plans",
+   "labels": [],
+   "reviewed": true,
+   "preview_src": "img/photo.jpg"
   }
  },
  "citations": [
-  {"url": "https://integration.asrm.org/globalassets/_asrm/practice-guidance/practice-guidelines/pdf/testing_and_interpreting_measures_of_ovarian_reserve.pdf"},
-  {"url": "https://academic.oup.com/hropen/article/2021/1/hoaa066/6134820"},
-  {"url": "https://link.springer.com/article/10.1186/s12958-018-0343-0"},
-  {"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10559340/"},
-  {"url": "https://academic.oup.com/humrep/article/33/11/2010/5110586"},
-  {"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9983267/"},
-  {"url": "https://link.springer.com/article/10.1186/s13048-024-01423-2"},
-  {"url": "https://e-century.us/files/ajsc/14/5/ajsc0169433.pdf"},
-  {"url": "https://www.reproductivefacts.org/news-and-publications/fact-sheets-and-infographics/egg-donation/"}
+  {
+   "url": "https://integration.asrm.org/globalassets/_asrm/practice-guidance/practice-guidelines/pdf/testing_and_interpreting_measures_of_ovarian_reserve.pdf"
+  },
+  {
+   "url": "https://academic.oup.com/hropen/article/2021/1/hoaa066/6134820"
+  },
+  {
+   "url": "https://link.springer.com/article/10.1186/s12958-018-0343-0"
+  },
+  {
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10559340/"
+  },
+  {
+   "url": "https://academic.oup.com/humrep/article/33/11/2010/5110586"
+  },
+  {
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9983267/"
+  },
+  {
+   "url": "https://link.springer.com/article/10.1186/s13048-024-01423-2"
+  },
+  {
+   "url": "https://e-century.us/files/ajsc/14/5/ajsc0169433.pdf"
+  },
+  {
+   "url": "https://www.reproductivefacts.org/news-and-publications/fact-sheets-and-infographics/egg-donation/"
+  }
  ],
  "serp_gap": "None of the top-ranking pages says in what order to try diminished ovarian reserve treatments, how many cycles to give each step, or what result should make you change plan.",
  "patient_phrases": [
@@ -64,7 +119,25 @@
   "Has anyone received any particular recommendations re supplements pre-IVF?",
   "Does anyone know much about modified ivf?",
   "It's hard to know whether to go for something like this"
- ]
+ ],
+ "replaced_images": {
+  "2026-10-26 illustration": {
+   "IMAGE1": {
+    "generator": null,
+    "wix_id": "ca2223_a43a085d66f941c08cce3bbb8d392014~mv2.png",
+    "alt": "Labelled illustration of where each diminished ovarian reserve treatment acts on the ovary and the egg",
+    "file": "img/image1.png",
+    "why": "Alifiya asked for research-grade medical illustrations drawn by Claude plus a Gamma photo cover (2026-10-26)"
+   },
+   "IMAGE2": {
+    "generator": null,
+    "wix_id": "ca2223_c0eb8a47fa9c49968e2060dc756c7355~mv2.png",
+    "alt": "Six-step order for getting pregnant with diminished ovarian reserve, from testing to donor eggs, with review points",
+    "file": "img/image2.png",
+    "why": "Alifiya asked for research-grade medical illustrations drawn by Claude plus a Gamma photo cover (2026-10-26)"
+   }
+  }
+ }
 }
 ---
 **Quick answer:** Women with diminished ovarian reserve get pregnant every year, with their own eggs and with donor eggs. **Diminished ovarian reserve treatment** works best as a plan in steps: a stimulation protocol matched to your reserve, short pretreatment, banking embryos across cycles when needed, **ovarian rejuvenation** to support the ovary, and **donor eggs** as a strong path, not a last resort. The order you try them in matters as much as the treatments themselves.

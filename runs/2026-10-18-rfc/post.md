@@ -39,42 +39,75 @@
    "sd": 31
   }
  ],
- "hero": "IMAGE1",
+ "hero": "IMAGE2",
  "images": {
   "IMAGE1": {
-   "wix_id": "ca2223_f23e7b1b2da04eb496de9a84a6233866~mv2.png",
+   "generator": "drawn",
+   "kind": "medical illustration",
+   "source": "img/figure1.html",
+   "file": "img/figure1.png",
    "width": 1800,
    "height": 945,
-   "alt": "Labelled ovary and egg showing why egg quality shapes pregnancy at 45, with euploid blastocyst rates by age",
-   "kind": "medical illustration with data",
-   "source": "img/image1.html",
-   "file": "img/image1.png",
-   "md5": "4a9660d63d974c5236aba76676a6714b",
-   "wix_hash": "4a9660d63d974c5236aba76676a6714b",
-   "preview_src": "img/image1.png"
+   "md5": "a804af456df2864dbd5b1df86720d086",
+   "wix_id": "ca2223_7c679a22a2124d43b974592988a5940d~mv2.png",
+   "wix_hash": "a804af456df2864dbd5b1df86720d086",
+   "alt": "Labelled illustration of a mature egg and a chromosome error, the main reason pregnancy at 45 is harder",
+   "labels": [
+    "Cumulus cells",
+    "Zona pellucida",
+    "Egg (oocyte)",
+    "Polar body",
+    "Chromosomes",
+    "Spindle",
+    "Chromosome error",
+    "line up on the spindle",
+    "one extra chromosome"
+   ],
+   "reviewed": true,
+   "preview_src": "img/figure1.png"
   },
   "IMAGE2": {
-   "wix_id": "ca2223_9cb6f7a0adc149e88a78525e2d690df0~mv2.png",
+   "generator": "gamma",
+   "gamma_url": "https://cdn.gamma.app/bf3xeoj6c9vvzjl/design-anything/mZ4jBomJydzgXQsJIH0YS/5_LP8mbkW3siiUH4R_sgT.jpg",
+   "kind": "photo",
+   "source": "img/photo.prompt.txt",
+   "file": "img/photo.jpg",
    "width": 1800,
-   "height": 945,
-   "alt": "Decision diagram: testing first, then four paths to pregnancy at 45, from a natural trial to donor eggs",
-   "kind": "labelled decision diagram",
-   "source": "img/image2.html",
-   "file": "img/image2.png",
-   "md5": "4067171ba59e0871a2fa8ba635e7e1c6",
-   "wix_hash": "4067171ba59e0871a2fa8ba635e7e1c6",
-   "preview_src": "img/image2.png"
+   "height": 1005,
+   "md5": "648da0782fd63e899e3106b9582f517e",
+   "wix_id": "ca2223_70ab901de4724e7a9ab3a8542cd62f2b~mv2.jpg",
+   "wix_hash": "648da0782fd63e899e3106b9582f517e",
+   "alt": "A woman in her mid-40s on an autumn walk, thinking about pregnancy at 45",
+   "labels": [],
+   "reviewed": true,
+   "preview_src": "img/photo.jpg"
   }
  },
  "citations": [
-  {"url": "https://pubmed.ncbi.nlm.nih.gov/30894356/"},
-  {"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12023533"},
-  {"url": "https://vivo.weill.cornell.edu/display/pubid29143944"},
-  {"url": "https://link.springer.com/article/10.1007/s10815-017-0926-2"},
-  {"url": "https://stacks.cdc.gov/view/cdc/30265/cdc_30265_DS1.pdf"},
-  {"url": "https://academic.oup.com/humrep/article/40/Supplement_1/deaf097.282/8170571"},
-  {"url": "https://www.asrm.org/practice-guidance/practice-committee-documents/optimizing-natural-fertility-a-committee-opinion-2021/"},
-  {"url": "https://e-century.us/files/ajsc/14/5/ajsc0169433.pdf"}
+  {
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30894356/"
+  },
+  {
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12023533"
+  },
+  {
+   "url": "https://vivo.weill.cornell.edu/display/pubid29143944"
+  },
+  {
+   "url": "https://link.springer.com/article/10.1007/s10815-017-0926-2"
+  },
+  {
+   "url": "https://stacks.cdc.gov/view/cdc/30265/cdc_30265_DS1.pdf"
+  },
+  {
+   "url": "https://academic.oup.com/humrep/article/40/Supplement_1/deaf097.282/8170571"
+  },
+  {
+   "url": "https://www.asrm.org/practice-guidance/practice-committee-documents/optimizing-natural-fertility-a-committee-opinion-2021/"
+  },
+  {
+   "url": "https://e-century.us/files/ajsc/14/5/ajsc0169433.pdf"
+  }
  ],
  "serp_gap": "Top results give one average number for 45 and stop; none sort women at 45 into the situations that actually change the answer (regular cycles trying naturally, low reserve with own eggs, repeated IVF failure or loss, open to donor eggs) or say which test result moves her from one path to another.",
  "patient_phrases": [
@@ -84,7 +117,25 @@
   "They offer the donor IVF which I do not really want to try.",
   "I'm scared of getting news that I don't want to hear",
   "I have seen some stories where people have had pregnancies at 44/45"
- ]
+ ],
+ "replaced_images": {
+  "2026-10-26 illustration": {
+   "IMAGE1": {
+    "generator": null,
+    "wix_id": "ca2223_f23e7b1b2da04eb496de9a84a6233866~mv2.png",
+    "alt": "Labelled ovary and egg showing why egg quality shapes pregnancy at 45, with euploid blastocyst rates by age",
+    "file": "img/image1.png",
+    "why": "Alifiya asked for research-grade medical illustrations drawn by Claude plus a Gamma photo cover (2026-10-26)"
+   },
+   "IMAGE2": {
+    "generator": null,
+    "wix_id": "ca2223_9cb6f7a0adc149e88a78525e2d690df0~mv2.png",
+    "alt": "Decision diagram: testing first, then four paths to pregnancy at 45, from a natural trial to donor eggs",
+    "file": "img/image2.png",
+    "why": "Alifiya asked for research-grade medical illustrations drawn by Claude plus a Gamma photo cover (2026-10-26)"
+   }
+  }
+ }
 }
 ---
 **Quick answer:** **Pregnancy at 45** is possible, and women reach it every year through natural conception, IVF with their own eggs, ovarian rejuvenation or donor eggs. Your **chance of pregnancy at 45** depends far less on the number 45 than on your own situation: how many eggs you still make, whether you have had losses or failed transfers, and whether you are open to donor eggs. The right first step is testing, so you can see which of the four paths below fits you.

@@ -34,43 +34,75 @@
    "sd": 35
   }
  ],
- "hero": "IMAGE1",
+ "hero": "IMAGE2",
  "images": {
   "IMAGE1": {
-   "wix_id": "ca2223_1a338a3b58b74832b22b2c7710b9acee~mv2.png",
+   "generator": "drawn",
+   "kind": "medical illustration",
+   "source": "img/figure1.html",
+   "file": "img/figure1.png",
    "width": 1800,
    "height": 945,
-   "alt": "Labelled ovary in POI (premature ovarian insufficiency): resting follicles, a waking follicle, how often function returns",
-   "kind": "medical illustration with data",
-   "source": "img/image1.html",
-   "file": "img/image1.png",
-   "md5": "948d3938eda8f6647cc02ab59334ca09",
-   "wix_hash": "948d3938eda8f6647cc02ab59334ca09",
-   "preview_src": "img/image1.png"
+   "md5": "0d2dd41767d8894b2138dd4c49429b3b",
+   "wix_id": "ca2223_72015d35ba92424b97db687cbbd5e8f1~mv2.png",
+   "wix_hash": "0d2dd41767d8894b2138dd4c49429b3b",
+   "alt": "Labelled illustration of a typical ovary beside an ovary in POI (premature ovarian insufficiency)",
+   "labels": [
+    "Typical ovary",
+    "Ovary in POI",
+    "Resting follicles",
+    "Follicle starting to grow",
+    "Resting follicles",
+    "few resting follicles left"
+   ],
+   "reviewed": true,
+   "preview_src": "img/figure1.png"
   },
   "IMAGE2": {
-   "wix_id": "ca2223_0f00d5e9bf6c493994b514d30c5ea5a6~mv2.png",
+   "generator": "gamma",
+   "gamma_url": "https://cdn.gamma.app/bf3xeoj6c9vvzjl/design-anything/EYEXhUE1F98o5UAOouqGg/zZ9Yg8LNiiAhYo3Z-YKQ8.jpg",
+   "kind": "photo",
+   "source": "img/photo.prompt.txt",
+   "file": "img/photo.jpg",
    "width": 1800,
-   "height": 945,
-   "alt": "Path after a POI diagnosis: confirm, test, protect your health, check for ovarian activity, then own eggs or donor eggs",
-   "kind": "labelled decision diagram",
-   "source": "img/image2.html",
-   "file": "img/image2.png",
-   "md5": "4e7a38713c2d4160b1503a9d5548f41f",
-   "wix_hash": "4e7a38713c2d4160b1503a9d5548f41f",
-   "preview_src": "img/image2.png"
+   "height": 1005,
+   "md5": "e37925f3fb735f8b3f83dafc0c88f1c3",
+   "wix_id": "ca2223_e1cac8aa4f4c441bbf846e3b5ea786e1~mv2.jpg",
+   "wix_hash": "e37925f3fb735f8b3f83dafc0c88f1c3",
+   "alt": "A woman in her 30s reading about POI (premature ovarian insufficiency) at home",
+   "labels": [],
+   "reviewed": true,
+   "preview_src": "img/photo.jpg"
   }
  },
  "citations": [
-  {"url": "https://discovery.ucl.ac.uk/10204896/1/Evidence-based%20guideline%20%20premature%20ovarian%20insufficiency%20%20.pdf"},
-  {"url": "https://academic.oup.com/jcem/article/96/12/3864/2834954"},
-  {"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7346073"},
-  {"url": "https://ovarianresearch.biomedcentral.com/articles/10.1186/s13048-024-01423-2"},
-  {"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3808580"},
-  {"url": "https://e-century.us/files/ajsc/14/5/ajsc0169433.pdf"},
-  {"url": "https://www1.racgp.org.au/ajgp/2023/january-february/premature-ovarian-insufficiency-and-infertility"},
-  {"url": "https://medlineplus.gov/primaryovarianinsufficiency.html"},
-  {"url": "https://www.reproductivefacts.org/news-and-publications/fact-sheets-and-infographics/what-is-premature-ovarian-insufficiency-also-called-premature-ovarian-failure/"}
+  {
+   "url": "https://discovery.ucl.ac.uk/10204896/1/Evidence-based%20guideline%20%20premature%20ovarian%20insufficiency%20%20.pdf"
+  },
+  {
+   "url": "https://academic.oup.com/jcem/article/96/12/3864/2834954"
+  },
+  {
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7346073"
+  },
+  {
+   "url": "https://ovarianresearch.biomedcentral.com/articles/10.1186/s13048-024-01423-2"
+  },
+  {
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3808580"
+  },
+  {
+   "url": "https://e-century.us/files/ajsc/14/5/ajsc0169433.pdf"
+  },
+  {
+   "url": "https://www1.racgp.org.au/ajgp/2023/january-february/premature-ovarian-insufficiency-and-infertility"
+  },
+  {
+   "url": "https://medlineplus.gov/primaryovarianinsufficiency.html"
+  },
+  {
+   "url": "https://www.reproductivefacts.org/news-and-publications/fact-sheets-and-infographics/what-is-premature-ovarian-insufficiency-also-called-premature-ovarian-failure/"
+  }
  ],
  "serp_gap": "Top results say POI is not menopause because the ovaries can still work sometimes, then stop; none explain how a woman can find out whether her own ovaries are still active, what that window means for own-egg treatment, or when to move to donor eggs.",
  "patient_phrases": [
@@ -79,7 +111,25 @@
   "Finding it very hard to accept",
   "without knowing for sure that i cant do it with my own",
   "Should I ask for a second opinion?"
- ]
+ ],
+ "replaced_images": {
+  "2026-10-26 illustration": {
+   "IMAGE1": {
+    "generator": null,
+    "wix_id": "ca2223_1a338a3b58b74832b22b2c7710b9acee~mv2.png",
+    "alt": "Labelled ovary in POI (premature ovarian insufficiency): resting follicles, a waking follicle, how often function returns",
+    "file": "img/image1.png",
+    "why": "Alifiya asked for research-grade medical illustrations drawn by Claude plus a Gamma photo cover (2026-10-26)"
+   },
+   "IMAGE2": {
+    "generator": null,
+    "wix_id": "ca2223_0f00d5e9bf6c493994b514d30c5ea5a6~mv2.png",
+    "alt": "Path after a POI diagnosis: confirm, test, protect your health, check for ovarian activity, then own eggs or donor eggs",
+    "file": "img/image2.png",
+    "why": "Alifiya asked for research-grade medical illustrations drawn by Claude plus a Gamma photo cover (2026-10-26)"
+   }
+  }
+ }
 }
 ---
 **Quick answer:** **POI (premature ovarian insufficiency)** means your ovaries slow down before age 40, but it is not the same as menopause: about **1 in 4 women with POI** see their ovaries wake up again at some point, and some conceive on their own. Pregnancy with POI is possible through natural conception during those windows, own-egg IVF timed to them, ovarian rejuvenation research, or donor eggs. The most useful first step is finding out whether your ovaries are still active, because that decides which path fits you.

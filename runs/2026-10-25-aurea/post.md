@@ -12,47 +12,97 @@
  "meta_description": "A euploid embryo has the right number of chromosomes, but it is not a guarantee. See success rates by age, why transfers fail and what to do next.",
  "excerpt": "A euploid embryo has the normal 46 chromosomes, which gives it the best odds of any embryo. Here is what the result means, real success rates by age, why a euploid transfer can still fail, and what to check next.",
  "category": "Treatments & IVF",
- "hashtags": ["euploidembryo", "pgta", "ivf"],
- "primary_keyword": {"term": "euploid embryo", "volume": 2900, "sd": 13},
- "secondary_keywords": [
-  {"term": "euploid embryo meaning", "volume": 260, "sd": 24},
-  {"term": "euploid embryo success rate by age", "volume": 70, "sd": 22},
-  {"term": "euploid embryo success rate", "volume": 70, "sd": 23}
+ "hashtags": [
+  "euploidembryo",
+  "pgta",
+  "ivf"
  ],
- "hero": "IMAGE1",
- "images": {
- "IMAGE1": {
-  "wix_id": "ca2223_3c623d6775b848048803e1bf3501d83e~mv2.png",
-  "width": 1800,
-  "height": 945,
-  "alt": "Labelled illustration of a euploid embryo: blastocyst layers, 23 chromosome pairs and live birth rates by age",
-  "kind": "medical illustration",
-  "source": "img/image1.html",
-  "file": "img/image1.png",
-  "md5": "c74e1940ab4e6be0ba7fe04fae453dd3",
-  "wix_hash": "c74e1940ab4e6be0ba7fe04fae453dd3",
-  "preview_src": "img/image1.png"
+ "primary_keyword": {
+  "term": "euploid embryo",
+  "volume": 2900,
+  "sd": 13
  },
- "IMAGE2": {
-  "wix_id": "ca2223_0cf63f8ba3cf449f9ecc4565c937dbea~mv2.png",
-  "width": 1800,
-  "height": 945,
-  "alt": "Six next steps after a euploid embryo result, with prices, plus what ASRM 2026 says to check and to skip",
-  "kind": "labelled workflow",
-  "source": "img/image2.html",
-  "file": "img/image2.png",
-  "md5": "16e451aef5124d479e4498babaeff081",
-  "wix_hash": "16e451aef5124d479e4498babaeff081",
-  "preview_src": "img/image2.png"
- }
-},
+ "secondary_keywords": [
+  {
+   "term": "euploid embryo meaning",
+   "volume": 260,
+   "sd": 24
+  },
+  {
+   "term": "euploid embryo success rate by age",
+   "volume": 70,
+   "sd": 22
+  },
+  {
+   "term": "euploid embryo success rate",
+   "volume": 70,
+   "sd": 23
+  }
+ ],
+ "hero": "IMAGE2",
+ "images": {
+  "IMAGE1": {
+   "generator": "drawn",
+   "kind": "medical illustration",
+   "source": "img/figure1.html",
+   "file": "img/figure1.png",
+   "width": 1800,
+   "height": 945,
+   "md5": "9354124545491bc92dfbe5b781725781",
+   "wix_id": "ca2223_d4299b92e14f43c6bfddab803fe96aa9~mv2.png",
+   "wix_hash": "9354124545491bc92dfbe5b781725781",
+   "alt": "Labelled illustration of a euploid embryo: blastocyst layers, a normal set of 46 chromosomes and an aneuploid set",
+   "labels": [
+    "Zona pellucida",
+    "Inner cell mass",
+    "Trophectoderm",
+    "Fluid-filled cavity",
+    "Euploid",
+    "Aneuploid",
+    "becomes the baby",
+    "forms the placenta",
+    "46 chromosomes (23 pairs)",
+    "too many or too few chromosomes"
+   ],
+   "reviewed": true,
+   "preview_src": "img/figure1.png"
+  },
+  "IMAGE2": {
+   "generator": "gamma",
+   "gamma_url": "https://cdn.gamma.app/bf3xeoj6c9vvzjl/design-anything/lbF9fNtOSmHs3kHrYbpRI/v004EsOTGEh66Q6oSGS1Q.jpg",
+   "kind": "photo",
+   "source": "img/photo.prompt.txt",
+   "file": "img/photo.jpg",
+   "width": 1800,
+   "height": 1005,
+   "md5": "59680e6213362c99dae177400252dda0",
+   "wix_id": "ca2223_1d1c447b52a74cd790ef13f28579b6a1~mv2.jpg",
+   "wix_hash": "59680e6213362c99dae177400252dda0",
+   "alt": "A couple walking hand in hand by the sea at sunset",
+   "labels": [],
+   "reviewed": true,
+   "preview_src": "img/photo.jpg"
+  }
+ },
  "citations": [
-  {"url": "https://link.springer.com/article/10.1186/s13048-025-01602-9"},
-  {"url": "https://link.springer.com/doi/10.1007/s10815-020-01739-0"},
-  {"url": "https://link.springer.com/article/10.1007/s43032-025-01818-6"},
-  {"url": "https://academic.oup.com/humrep/article-abstract/34/10/1948/5601916"},
-  {"url": "https://www.asrm.org/practice-guidance/practice-committee-documents/recurrent-implantation-failure-a-committee-opinion-2026/"},
-  {"url": "https://www.asrm.org/practice-guidance/practice-committee-documents/the-use-of-preimplantation-genetic-testing-for-aneuploidy-a-committee-opinion-2024/"}
+  {
+   "url": "https://link.springer.com/article/10.1186/s13048-025-01602-9"
+  },
+  {
+   "url": "https://link.springer.com/doi/10.1007/s10815-020-01739-0"
+  },
+  {
+   "url": "https://link.springer.com/article/10.1007/s43032-025-01818-6"
+  },
+  {
+   "url": "https://academic.oup.com/humrep/article-abstract/34/10/1948/5601916"
+  },
+  {
+   "url": "https://www.asrm.org/practice-guidance/practice-committee-documents/recurrent-implantation-failure-a-committee-opinion-2026/"
+  },
+  {
+   "url": "https://www.asrm.org/practice-guidance/practice-committee-documents/the-use-of-preimplantation-genetic-testing-for-aneuploidy-a-committee-opinion-2024/"
+  }
  ],
  "serp_gap": "No top result explains in patient language why a euploid embryo still fails about half the time, whether grade, day and age still matter once an embryo is euploid, or what to check (and what 2026 ASRM guidance says to skip) after a failed euploid transfer.",
  "patient_phrases": [
@@ -61,7 +111,25 @@
   "there's still a good chance it could work!",
   "I am pregnant from my fourth Euploid and fifth transfer",
   "I feel like I'd always wonder if I didn't."
- ]
+ ],
+ "replaced_images": {
+  "2026-10-26 illustration": {
+   "IMAGE1": {
+    "generator": null,
+    "wix_id": "ca2223_3c623d6775b848048803e1bf3501d83e~mv2.png",
+    "alt": "Labelled illustration of a euploid embryo: blastocyst layers, 23 chromosome pairs and live birth rates by age",
+    "file": "img/image1.png",
+    "why": "Alifiya asked for research-grade medical illustrations drawn by Claude plus a Gamma photo cover (2026-10-26)"
+   },
+   "IMAGE2": {
+    "generator": null,
+    "wix_id": "ca2223_0cf63f8ba3cf449f9ecc4565c937dbea~mv2.png",
+    "alt": "Six next steps after a euploid embryo result, with prices, plus what ASRM 2026 says to check and to skip",
+    "file": "img/image2.png",
+    "why": "Alifiya asked for research-grade medical illustrations drawn by Claude plus a Gamma photo cover (2026-10-26)"
+   }
+  }
+ }
 }
 ---
 **Quick answer:** A **euploid embryo** is an embryo with the normal number of chromosomes, 46 in total (23 pairs), as shown by preimplantation genetic testing for aneuploidy (PGT-A). It has the best chance of any embryo of implanting and becoming a baby, with live birth rates of about 54% per transfer in women under 38 in a 2025 study. It is **better odds, not a guarantee**, and knowing why helps you plan your next step.

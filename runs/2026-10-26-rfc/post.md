@@ -22,27 +22,27 @@
  "hero": "IMAGE1",
  "images": {
   "IMAGE1": {
-   "wix_id": "PENDING",
+   "wix_id": "ca2223_a43a085d66f941c08cce3bbb8d392014~mv2.png",
    "width": 1800,
    "height": 945,
    "alt": "Labelled illustration of where each diminished ovarian reserve treatment acts on the ovary and the egg",
    "kind": "medical illustration",
    "source": "img/image1.html",
    "file": "img/image1.png",
-   "md5": "PENDING",
-   "wix_hash": "PENDING",
+   "md5": "aa5b0d7a47686772b503eab8098689dc",
+   "wix_hash": "aa5b0d7a47686772b503eab8098689dc",
    "preview_src": "img/image1.png"
   },
   "IMAGE2": {
-   "wix_id": "PENDING",
+   "wix_id": "ca2223_c0eb8a47fa9c49968e2060dc756c7355~mv2.png",
    "width": 1800,
    "height": 945,
    "alt": "Six-step order for getting pregnant with diminished ovarian reserve, from testing to donor eggs, with review points",
    "kind": "labelled timeline",
    "source": "img/image2.html",
    "file": "img/image2.png",
-   "md5": "PENDING",
-   "wix_hash": "PENDING",
+   "md5": "110b59de0f4a55de1235b2c28f07f359",
+   "wix_hash": "110b59de0f4a55de1235b2c28f07f359",
    "preview_src": "img/image2.png"
   }
  },

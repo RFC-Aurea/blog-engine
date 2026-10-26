@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25",
+ "updated": "2026-10-26",
  "min_volume": 20,
  "clusters": [
   {
@@ -2861,8 +2861,8 @@
    ],
    "suggested_format": "deep-guide",
    "score": 71.1,
-   "status": "available",
-   "note": ""
+   "status": "used",
+   "note": "published 2026-10-26 https://www.rejuvenatingfertility.com/post/diminished-ovarian-reserve-treatment"
   },
   {
    "id": "rfc-mini-ivf-san-diego",
@@ -5478,6 +5478,72 @@
    ],
    "suggested_format": "numbered-list",
    "score": 66.6,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "rfc-low-ovarian-reserve",
+   "brand": "rfc",
+   "pillar": "low-amh-dor",
+   "primary": "low ovarian reserve",
+   "volume": 720,
+   "sd": 34,
+   "cpc": 1.36,
+   "total_volume": 1410,
+   "keywords": [
+    {
+     "term": "low ovarian reserve",
+     "volume": 720,
+     "sd": 34
+    },
+    {
+     "term": "low ovarian reserve symptoms",
+     "volume": 170,
+     "sd": 22
+    },
+    {
+     "term": "what causes low ovarian reserve",
+     "volume": 140,
+     "sd": 32
+    },
+    {
+     "term": "causes of low ovarian reserve",
+     "volume": 70,
+     "sd": 34
+    },
+    {
+     "term": "what is low ovarian reserve",
+     "volume": 70,
+     "sd": 32
+    },
+    {
+     "term": "low ovarian reserve meaning",
+     "volume": 70,
+     "sd": 27
+    },
+    {
+     "term": "signs of low ovarian reserve",
+     "volume": 50,
+     "sd": 13
+    },
+    {
+     "term": "low ovarian reserve ultrasound",
+     "volume": 50,
+     "sd": 42
+    },
+    {
+     "term": "how to get pregnant with low ovarian reserve",
+     "volume": 40,
+     "sd": 10
+    },
+    {
+     "term": "low ovarian reserve natural pregnancy",
+     "volume": 30,
+     "sd": 22
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 66.5,
    "status": "available",
    "note": ""
   },
@@ -8575,8 +8641,8 @@
    ],
    "suggested_format": "step-by-step",
    "score": 61.6,
-   "status": "available",
-   "note": ""
+   "status": "used",
+   "note": "secondary keyword of https://www.rejuvenatingfertility.com/post/diminished-ovarian-reserve-treatment"
   },
   {
    "id": "aurea-egg-freezing-companies",
@@ -9717,6 +9783,37 @@
     }
    ],
    "suggested_format": "number-explained",
+   "score": 59.8,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "aurea-coq10-for-egg-quality",
+   "brand": "aurea",
+   "pillar": "lifestyle-supplements",
+   "primary": "coq10 for egg quality",
+   "volume": 880,
+   "sd": 43,
+   "cpc": 4.93,
+   "total_volume": 980,
+   "keywords": [
+    {
+     "term": "coq10 for egg quality",
+     "volume": 880,
+     "sd": 43
+    },
+    {
+     "term": "how much coq10 for egg quality",
+     "volume": 70,
+     "sd": 24
+    },
+    {
+     "term": "best coq10 for egg quality",
+     "volume": 30,
+     "sd": 25
+    }
+   ],
+   "suggested_format": "deep-guide",
    "score": 59.8,
    "status": "available",
    "note": ""
@@ -19746,6 +19843,27 @@
      "term": "how common is hydrosalpinx",
      "volume": 30,
      "sd": 30
+    }
+   ],
+   "suggested_format": "deep-guide",
+   "score": 47.9,
+   "status": "available",
+   "note": ""
+  },
+  {
+   "id": "rfc-bologna-criteria-for-poor-ovarian-response",
+   "brand": "rfc",
+   "pillar": "low-amh-dor",
+   "primary": "bologna criteria for poor ovarian response",
+   "volume": 30,
+   "sd": 34,
+   "cpc": 0,
+   "total_volume": 30,
+   "keywords": [
+    {
+     "term": "bologna criteria for poor ovarian response",
+     "volume": 30,
+     "sd": 34
     }
    ],
    "suggested_format": "deep-guide",

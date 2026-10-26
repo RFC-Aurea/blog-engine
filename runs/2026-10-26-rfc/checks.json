@@ -1,6 +1,6 @@
 {
- "pass": false,
- "hard_failures": 3,
+ "pass": true,
+ "hard_failures": 0,
  "warnings": 0,
  "checks": [
   {
@@ -95,9 +95,9 @@
   },
   {
    "check": "wix image ids look like real Wix media ids",
-   "ok": false,
+   "ok": true,
    "hard": true,
-   "detail": "['PENDING', 'PENDING']"
+   "detail": "['ca2223_a43a085d66f941c08cce3bbb8d392014~mv2.png', 'ca2223_c0eb8a47fa9c49968e2060dc756c7355~mv2.png']"
   },
   {
    "check": "no 'image of' in alt text",
@@ -298,16 +298,52 @@
    "detail": ""
   },
   {
-   "check": "IMAGE1: source html and rendered png in the run folder",
-   "ok": false,
+   "check": "IMAGE1: Wix stored exactly the reviewed image (md5 = Wix hash)",
+   "ok": true,
    "hard": true,
-   "detail": "img/image1.html / img/image1.png"
+   "detail": "file aa5b0d7a47686772b503eab8098689dc, front matter aa5b0d7a47686772b503eab8098689dc, Wix aa5b0d7a47686772b503eab8098689dc"
   },
   {
-   "check": "IMAGE2: source html and rendered png in the run folder",
-   "ok": false,
+   "check": "IMAGE1: label check passed when rendered (no overlaps, nothing cut off)",
+   "ok": true,
    "hard": true,
-   "detail": "img/image2.html / img/image2.png"
+   "detail": "no report for this file"
+  },
+  {
+   "check": "IMAGE1: no banned words in the image",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  },
+  {
+   "check": "IMAGE1: every number in the image also appears in the post",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  },
+  {
+   "check": "IMAGE2: Wix stored exactly the reviewed image (md5 = Wix hash)",
+   "ok": true,
+   "hard": true,
+   "detail": "file 110b59de0f4a55de1235b2c28f07f359, front matter 110b59de0f4a55de1235b2c28f07f359, Wix 110b59de0f4a55de1235b2c28f07f359"
+  },
+  {
+   "check": "IMAGE2: label check passed when rendered (no overlaps, nothing cut off)",
+   "ok": true,
+   "hard": true,
+   "detail": "no report for this file"
+  },
+  {
+   "check": "IMAGE2: no banned words in the image",
+   "ok": true,
+   "hard": true,
+   "detail": ""
+  },
+  {
+   "check": "IMAGE2: every number in the image also appears in the post",
+   "ok": true,
+   "hard": true,
+   "detail": ""
   },
   {
    "check": "slug not already used on this site",

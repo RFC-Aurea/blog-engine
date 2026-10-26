@@ -1,0 +1,20 @@
+[
+ {"keyword": "low ovarian reserve", "volume": 720, "sd": 34, "cpc": 1.36, "intent": [1]},
+ {"keyword": "low ovarian reserve symptoms", "volume": 170, "sd": 22, "cpc": 1.365, "intent": [1]},
+ {"keyword": "what causes low ovarian reserve", "volume": 140, "sd": 32, "cpc": 0.37, "intent": [1]},
+ {"keyword": "causes of low ovarian reserve", "volume": 70, "sd": 34, "cpc": 0.16, "intent": [1]},
+ {"keyword": "what is low ovarian reserve", "volume": 70, "sd": 32, "cpc": 0, "intent": [1]},
+ {"keyword": "low ovarian reserve meaning", "volume": 70, "sd": 27, "cpc": 0.35, "intent": [1]},
+ {"keyword": "signs of low ovarian reserve", "volume": 50, "sd": 13, "cpc": 0, "intent": [1]},
+ {"keyword": "low ovarian reserve ultrasound", "volume": 50, "sd": 42, "cpc": 0, "intent": [1]},
+ {"keyword": "how to get pregnant with low ovarian reserve", "volume": 40, "sd": 10, "cpc": 18.01, "intent": [1]},
+ {"keyword": "low ovarian reserve natural pregnancy", "volume": 30, "sd": 22, "cpc": 3.57, "intent": [3, 1, 4]},
+ {"keyword": "bologna criteria for poor ovarian response", "volume": 30, "sd": 34, "cpc": 0, "intent": [1]},
+ {"keyword": "symptoms of diminished ovarian reserve", "volume": 170, "sd": 26, "cpc": 0.17, "intent": [1]},
+ {"keyword": "diminished ovarian reserve symptoms", "volume": 140, "sd": 27, "cpc": 0.67, "intent": [1]},
+ {"keyword": "diminished ovarian reserve causes", "volume": 70, "sd": 35, "cpc": 0.16, "intent": [1]},
+ {"keyword": "diminished ovarian reserve reddit", "volume": 50, "sd": 30, "cpc": 0, "intent": [1]},
+ {"keyword": "how to get pregnant with diminished ovarian reserve", "volume": 40, "sd": 29, "cpc": 18.01, "intent": [1]},
+ {"keyword": "signs of diminished ovarian reserve", "volume": 40, "sd": 27, "cpc": 0, "intent": [1]},
+ {"keyword": "what is considered diminished ovarian reserve", "volume": 30, "sd": 16, "cpc": 0, "intent": [1]}
+]

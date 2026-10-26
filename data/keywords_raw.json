@@ -524,6 +524,26 @@
    "ok": true,
    "rows_kept": 0,
    "date": "2026-10-25"
+  },
+  {
+   "brand": "rfc",
+   "pillar": "low-amh-dor",
+   "seeds": [
+    "low ovarian reserve"
+   ],
+   "ok": true,
+   "rows_kept": 11,
+   "date": "2026-10-26"
+  },
+  {
+   "brand": "shared",
+   "pillar": "lifestyle-supplements",
+   "seeds": [
+    "coq10 for egg quality"
+   ],
+   "ok": true,
+   "rows_kept": 3,
+   "date": "2026-10-26"
   }
  ],
  "rows": [
@@ -33814,6 +33834,191 @@
     1
    ],
    "added": "2026-10-25"
+  },
+  {
+   "brand": "rfc",
+   "pillar": "low-amh-dor",
+   "seed": "low ovarian reserve",
+   "keyword": "low ovarian reserve",
+   "volume": 720,
+   "sd": 34,
+   "cpc": 1.36,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-26"
+  },
+  {
+   "brand": "rfc",
+   "pillar": "low-amh-dor",
+   "seed": "low ovarian reserve",
+   "keyword": "low ovarian reserve symptoms",
+   "volume": 170,
+   "sd": 22,
+   "cpc": 1.365,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-26"
+  },
+  {
+   "brand": "rfc",
+   "pillar": "low-amh-dor",
+   "seed": "low ovarian reserve",
+   "keyword": "what causes low ovarian reserve",
+   "volume": 140,
+   "sd": 32,
+   "cpc": 0.37,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-26"
+  },
+  {
+   "brand": "rfc",
+   "pillar": "low-amh-dor",
+   "seed": "low ovarian reserve",
+   "keyword": "causes of low ovarian reserve",
+   "volume": 70,
+   "sd": 34,
+   "cpc": 0.16,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-26"
+  },
+  {
+   "brand": "rfc",
+   "pillar": "low-amh-dor",
+   "seed": "low ovarian reserve",
+   "keyword": "what is low ovarian reserve",
+   "volume": 70,
+   "sd": 32,
+   "cpc": 0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-26"
+  },
+  {
+   "brand": "rfc",
+   "pillar": "low-amh-dor",
+   "seed": "low ovarian reserve",
+   "keyword": "low ovarian reserve meaning",
+   "volume": 70,
+   "sd": 27,
+   "cpc": 0.35,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-26"
+  },
+  {
+   "brand": "rfc",
+   "pillar": "low-amh-dor",
+   "seed": "low ovarian reserve",
+   "keyword": "signs of low ovarian reserve",
+   "volume": 50,
+   "sd": 13,
+   "cpc": 0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-26"
+  },
+  {
+   "brand": "rfc",
+   "pillar": "low-amh-dor",
+   "seed": "low ovarian reserve",
+   "keyword": "low ovarian reserve ultrasound",
+   "volume": 50,
+   "sd": 42,
+   "cpc": 0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-26"
+  },
+  {
+   "brand": "rfc",
+   "pillar": "low-amh-dor",
+   "seed": "low ovarian reserve",
+   "keyword": "how to get pregnant with low ovarian reserve",
+   "volume": 40,
+   "sd": 10,
+   "cpc": 18.01,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-26"
+  },
+  {
+   "brand": "rfc",
+   "pillar": "low-amh-dor",
+   "seed": "low ovarian reserve",
+   "keyword": "low ovarian reserve natural pregnancy",
+   "volume": 30,
+   "sd": 22,
+   "cpc": 3.57,
+   "intent": [
+    3,
+    1,
+    4
+   ],
+   "added": "2026-10-26"
+  },
+  {
+   "brand": "rfc",
+   "pillar": "low-amh-dor",
+   "seed": "low ovarian reserve",
+   "keyword": "bologna criteria for poor ovarian response",
+   "volume": 30,
+   "sd": 34,
+   "cpc": 0,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-26"
+  },
+  {
+   "brand": "shared",
+   "pillar": "lifestyle-supplements",
+   "seed": "coq10 for egg quality",
+   "keyword": "coq10 for egg quality",
+   "volume": 880,
+   "sd": 43,
+   "cpc": 4.93,
+   "intent": [
+    4,
+    1
+   ],
+   "added": "2026-10-26"
+  },
+  {
+   "brand": "shared",
+   "pillar": "lifestyle-supplements",
+   "seed": "coq10 for egg quality",
+   "keyword": "how much coq10 for egg quality",
+   "volume": 70,
+   "sd": 24,
+   "cpc": 6.17,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-26"
+  },
+  {
+   "brand": "shared",
+   "pillar": "lifestyle-supplements",
+   "seed": "coq10 for egg quality",
+   "keyword": "best coq10 for egg quality",
+   "volume": 30,
+   "sd": 25,
+   "cpc": 4.75,
+   "intent": [
+    1
+   ],
+   "added": "2026-10-26"
   }
  ]
 }

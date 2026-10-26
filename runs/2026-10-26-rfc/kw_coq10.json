@@ -1,0 +1,5 @@
+[
+ {"keyword": "coq10 for egg quality", "volume": 880, "sd": 43, "cpc": 4.93, "intent": [4, 1]},
+ {"keyword": "how much coq10 for egg quality", "volume": 70, "sd": 24, "cpc": 6.17, "intent": [1]},
+ {"keyword": "best coq10 for egg quality", "volume": 30, "sd": 25, "cpc": 4.75, "intent": [1]}
+]

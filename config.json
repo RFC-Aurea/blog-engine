@@ -20,8 +20,7 @@
   },
   "images": {
     "rule": "set by Alifiya 2026-10-26: white background, natural colours (never brand colours), varied from post to post; an image can be a labelled medical illustration, a labelled diagram or a natural photo (rules/images.md)",
-    "generator": "gamma (mcp__Gamma__generate_image, downloaded with scripts/fetch_image.py) when cdn.gamma.app is reachable, otherwise drawn",
-    "gamma_credits_warn_below": 1000
+    "generator": "drawn (Claude draws every image in code; no Gamma, no image models, no photos; Alifiya 2026-10-26)"
   },
   "limits": {
     "ubersuggest_reports_per_day": 150,

@@ -11,10 +11,11 @@
   - a **natural photo** (real-looking, editorial: a calm consultation, hands holding a cup or a calendar, an
     ultrasound room, a lab bench, a couple walking, a pharmacy shelf; whatever fits the post);
   - a **labelled diagram** (timeline, cost breakdown, comparison) when the post's own numbers or steps are the point.
-  Default: IMAGE1 = natural photo (cover), IMAGE2 = labelled medical illustration. Two illustrations when the topic is
-  mostly anatomy or a procedure. Before choosing, look at the last 2 posts of the same brand
+  Default: IMAGE1 = labelled medical illustration where the post explains how it works or the research, IMAGE2 =
+  natural photo near the next steps, and `"hero": "IMAGE2"` so the photo is the cover. Two illustrations when the
+  topic is mostly anatomy or a procedure. Before choosing, look at the last 2 posts of the same brand
   (`runs/*-<brand>/img/`) and do not repeat their subject, composition or setting.
-- **Cover (hero, IMAGE1 unless noted):** the blog list crops the sides of the cover to a near-square card, so the
+- **Cover (`hero` in the front matter):** the blog list crops the sides of the cover to a near-square card, so the
   cover has **no title or other text** and its subject sits in the middle. A photo or a label-free illustration.
 - **Content rules (the checker enforces the starred ones).** Every word must be true and match the post.
   **\*Every number in an image must appear in the post body** (painted images: avoid numbers; put numbers in a drawn

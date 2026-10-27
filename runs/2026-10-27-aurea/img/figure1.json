@@ -1,0 +1,61 @@
+{
+ "parts": [
+  {
+   "use": "m-tract-blocked",
+   "name": "t",
+   "x": 190,
+   "y": 10,
+   "width": 820
+  }
+ ],
+ "labels": [
+  {
+   "text": "Scar tissue blocks the tube",
+   "sub": "proximal blockage",
+   "x": 20,
+   "y": 40,
+   "to": "t.tube_left.block"
+  },
+  {
+   "text": "Ovary",
+   "x": 200,
+   "y": 340,
+   "to": "t.ovary_left"
+  },
+  {
+   "text": "Endometriosis implants",
+   "x": 430,
+   "y": 420,
+   "align": "middle",
+   "to": "t.endometriosis"
+  },
+  {
+   "text": "Uterus",
+   "x": 790,
+   "y": 470,
+   "to": "t.uterus"
+  },
+  {
+   "text": "Hydrosalpinx",
+   "sub": "swollen, fluid-filled tube",
+   "x": 1180,
+   "y": 50,
+   "align": "end",
+   "to": "t.hydrosalpinx"
+  },
+  {
+   "text": "Pelvic adhesions",
+   "x": 1180,
+   "y": 290,
+   "align": "end",
+   "to": "t.adhesions"
+  },
+  {
+   "text": "Closed, clubbed fimbriae",
+   "x": 1180,
+   "y": 380,
+   "align": "end",
+   "to": "t.tube_right.fimbriae"
+  }
+ ]
+}

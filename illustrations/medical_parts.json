@@ -2282,5 +2282,135 @@
     270
    ]
   }
+ },
+ "m-tract-blocked": {
+  "viewBox": "0 0 1200 760",
+  "what": "Blocked tubes: scar plug in the left isthmus, right hydrosalpinx with clubbed fimbriae, adhesions to the right ovary, endometriosis implants on the left broad ligament",
+  "anchors": {
+   "ovary_left.follicle": [
+    266.2,
+    305.0
+   ],
+   "ovary_left": [
+    265,
+    340
+   ],
+   "ovary_right.follicle": [
+    933.8,
+    305.0
+   ],
+   "ovary_right.antral": [
+    1003,
+    302
+   ],
+   "ovary_right.egg": [
+    991.8,
+    308.4
+   ],
+   "ovary_right": [
+    935,
+    340
+   ],
+   "tube_left.block": [
+    366.2,
+    130.8
+   ],
+   "tube_left": [
+    348.8,
+    128.7
+   ],
+   "tube_left.isthmus": [
+    383.8,
+    133.9
+   ],
+   "tube_left.ampulla": [
+    190.2,
+    161.7
+   ],
+   "tube_left.fimbriae": [
+    179.7,
+    315.6
+   ],
+   "tube_left.lumen": [
+    190.2,
+    161.7
+   ],
+   "tube_left.end": [
+    166.0,
+    278.0
+   ],
+   "hydrosalpinx": [
+    1028.4,
+    180.8
+   ],
+   "tube_right": [
+    851.2,
+    128.7
+   ],
+   "tube_right.isthmus": [
+    816.2,
+    133.9
+   ],
+   "tube_right.ampulla": [
+    1009.8,
+    161.7
+   ],
+   "tube_right.fimbriae": [
+    1008.0,
+    304.3
+   ],
+   "tube_right.lumen": [
+    1009.8,
+    161.7
+   ],
+   "tube_right.end": [
+    1028.0,
+    272.0
+   ],
+   "uterus": [
+    728,
+    360
+   ],
+   "myometrium": [
+    472,
+    350
+   ],
+   "fundus": [
+    600,
+    132
+   ],
+   "lining": [
+    708.0,
+    206.0
+   ],
+   "lining_left": [
+    510.0,
+    276.0
+   ],
+   "cavity": [
+    600,
+    300
+   ],
+   "cervix": [
+    644,
+    570
+   ],
+   "cervical_canal": [
+    600,
+    550
+   ],
+   "vagina": [
+    698,
+    740
+   ],
+   "adhesions": [
+    974.6,
+    236.9
+   ],
+   "endometriosis": [
+    368,
+    246
+   ]
+  }
  }
 }

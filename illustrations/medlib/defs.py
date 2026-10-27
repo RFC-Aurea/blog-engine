@@ -60,6 +60,8 @@ CSS = """
 .m-fimb{fill:url(#m-tube);stroke:#C9787A;stroke-width:.8}
 .m-contrast{fill:url(#m-contrast);stroke:#4F82BE;stroke-width:.8}
 .m-vag{fill:#F2C4C2;stroke:#C98C8C;stroke-width:1.2}
+.m-hydro{fill:url(#m-hydro);stroke:#C98E8C;stroke-width:.8}
+.m-scar{fill:#EFE2DA;stroke:#B9998C;stroke-width:.7}
 .m-catheter{fill:url(#m-plastic);stroke:#8E9AA1;stroke-width:1}
 """
 
@@ -215,6 +217,9 @@ DEFS = """
   <linearGradient id="m-tube" x1="0" y1="0" x2="0" y2="1">
     <stop offset="0" stop-color="#F5C4BE"/><stop offset="0.5" stop-color="#EBA5A2"/><stop offset="1" stop-color="#DE8F8E"/>
   </linearGradient>
+  <radialGradient id="m-hydro" cx="45%" cy="38%" r="70%">
+    <stop offset="0" stop-color="#FFFBEA"/><stop offset="0.6" stop-color="#F8EDC6"/><stop offset="1" stop-color="#EFD9A6"/>
+  </radialGradient>
   <linearGradient id="m-contrast" x1="0" y1="0" x2="0" y2="1">
     <stop offset="0" stop-color="#B9D3F0"/><stop offset="1" stop-color="#7FA9DC"/>
   </linearGradient>

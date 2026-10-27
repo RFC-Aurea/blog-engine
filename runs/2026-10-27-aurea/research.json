@@ -1,0 +1,29 @@
+{
+ "keyword_overview": {"keyword": "reason of blocked fallopian tubes", "locId": 2840, "search_volume": 2400, "seo_difficulty": 6, "paid_difficulty": 2, "cpc": 3.485, "search_intent": null, "checked": "2026-10-27"},
+ "secondary_keywords": [
+  {"term": "blocked fallopian tubes cause", "volume": 390, "sd": 13, "source": "Ubersuggest keyword_suggestions locId 2840, 2026-10-27"},
+  {"term": "what are blocked fallopian tubes", "volume": 140, "sd": 13, "source": "Ubersuggest keyword_suggestions locId 2840, 2026-10-27"},
+  {"term": "can blocked fallopian tubes be unblocked", "volume": 110, "sd": 17, "source": "Ubersuggest keyword_suggestions locId 2840, 2026-10-27"}
+ ],
+ "serp_top": [
+  {"pos": 1, "type": "ai_overview"},
+  {"pos": 2, "url": "http://fertility.womenandinfants.org/services/women/tubal-factor-infertility", "da": 54},
+  {"pos": 3, "type": "people_also_ask"},
+  {"pos": 4, "url": "http://www.infertilityivfhouston.com/blog/2018/11/29/causes-of-blocked-fallopian-tubes-195135/", "da": 28},
+  {"pos": 5, "url": "http://www.reproductivefertility.com/blog/how-to-identify-the-signs-of-blocked-fallopian-tubes", "da": 28},
+  {"pos": 6, "url": "http://en.wikipedia.org/wiki/Fallopian_tube_obstruction", "da": 98},
+  {"pos": 7, "url": "http://www.topdoctors.co.uk/medical-articles/blocked-fallopian-tubes-symptoms-causes-and-how-they-affect-fertility/", "da": 54},
+  {"pos": 8, "url": "http://www.gaudiumivfcentre.com/blog/blocked-fallopian-tubes-can-i-still-get-pregnant/", "da": 33},
+  {"pos": 9, "url": "http://yeditepehastaneleri.com/en/health-guide/womens-health-and-obstetrics/blocked-fallopian-tube", "da": 33},
+  {"pos": 10, "url": "http://ihrivf.com/blog/how-cornual-blockage-in-the-fallopian-tube-affects-conception/", "da": 9},
+  {"pos": 11, "url": "http://www.healthline.com/health/natural-treatment-for-blocked-fallopian-tubes", "da": 91}
+ ],
+ "serp_updated_at": "2026-10-27",
+ "other_variants_checked": [
+  {"term": "blocked fallopian tubes symptoms", "volume": 1900, "sd": 21},
+  {"term": "how to know if you have blocked fallopian tubes", "volume": 210, "sd": 6},
+  {"term": "how common are blocked fallopian tubes", "volume": 70, "sd": 13},
+  {"term": "what causes blocked fallopian tubes in women", "volume": 10, "sd": 5}
+ ],
+ "notes": "2026-10-27 06:50-07:10 NY: WebFetch failed with DNS errors (getaddrinfo ENOTFOUND) for every host tried (pubmed, pmc, oup, springer, asrm, cdc, wikipedia, clinic pages, mumsnet)."
+}

@@ -206,7 +206,10 @@ def tract(pid, kind="normal", what=""):
     """Female reproductive organs, frontal section: uterus (myometrium, endometrium, cavity), cervix and canal, top of
     the vagina, both fallopian tubes (isthmus, ampulla, fimbriae) and both ovaries with follicles, on their ligaments.
     kind: normal | hsg (contrast fills the cavity and both tubes and spills from the open ends; a catheter in the
-    cervix) | transfer (embryo transfer catheter, an embryo placed in the cavity). viewBox 0 0 1200 760."""
+    cervix) | transfer (embryo transfer catheter, an embryo placed in the cavity) | blocked (causes of tubal blockage:
+    a scar plug closing the left tube at the isthmus, a right hydrosalpinx with a swollen fluid-filled ampulla and
+    clubbed, closed fimbriae, filmy adhesions from that tube to the ovary, and endometriosis implants on the
+    left broad ligament). viewBox 0 0 1200 760."""
     rnd = random.Random(31)
     cx, top, s = 600, 150, 1.0
     g, an = [], {}
@@ -240,14 +243,43 @@ def tract(pid, kind="normal", what=""):
     # fallopian tubes: muscular wall, folded lumen, fimbriae
     for m, name in ((-1, "tube_left"), (1, "tube_right")):
         cl = _fallopian(cx, top, s, m, rnd)
-        widths = [26, 24, 26, 34, 42, 50, 58, 60]
+        hydro = kind == "blocked" and m == 1
+        if hydro:  # hydrosalpinx: the ampulla swells into a thin-walled, fluid-filled sac with a sealed end
+            cl = cl[:-1] + [(cl[-1][0] - 6, cl[-1][1] - 6)]
+        widths = [26, 24, 28, 40, 54, 66, 72, 66] if hydro else [26, 24, 26, 34, 42, 50, 58, 60]
         o, c, w, L, R = tube(cl, widths, 8)
+        if hydro:  # rounded, closed distal end
+            g.append(circle(c[-1][0], c[-1][1], widths[-1] / 2, class_="m-tube"))
         g.append(path(smooth_closed(o), class_="m-tube"))
-        lum_w = [3, 3, 4, 7, 11, 15, 19, 22]
+        lum_w = [3, 3, 6, 24, 40, 52, 58, 52] if hydro else [3, 3, 4, 7, 11, 15, 19, 22]
         lo = tube(cl, lum_w, 8)
-        lum_cls = "m-contrast" if kind == "hsg" else "m-tube-lumen"
+        lum_cls = "m-contrast" if kind == "hsg" else "m-hydro" if hydro else "m-tube-lumen"
+        if hydro:
+            g.append(circle(c[-1][0], c[-1][1], lum_w[-1] / 2, class_="m-hydro"))
         g.append(path(smooth_closed(lo[0]), class_=lum_cls))
-        if kind != "hsg":  # mucosal folds of the ampulla
+        if hydro:  # flattened remnants of the mucosal folds and a highlight on the stretched wall
+            for i in range(int(len(c) * 0.45), len(c) - 4, 6):
+                p, r = c[i], lo[2][i] / 2
+                g.append(path(smooth_open([(p[0] - 4, p[1] - r + 2), (p[0] + 2, p[1] - r + 7), (p[0] + 6, p[1] - r + 2)]),
+                              fill="none", stroke="#D98A8E", stroke_width="1.3", opacity=".6"))
+            hp = c[int(len(c) * 0.72)]
+            g.append(ellipse(hp[0] - 6, hp[1] - 18, 22, 7, -20, fill="#FFFFFF", opacity=".55"))
+            an["hydrosalpinx"] = c[int(len(c) * 0.7)]
+            an["_hyd_low"] = [((L[i][0] if L[i][1] > R[i][1] else R[i][0]), max(L[i][1], R[i][1]))
+                              for i in range(int(len(c) * 0.55), int(len(c) * 0.85), 3)]
+        if kind == "blocked" and m == -1:  # scar tissue plug closing the lumen at the isthmus
+            i0 = int(len(c) * 0.16)
+            cells = []
+            for k in range(9):
+                p = c[i0 + k]
+                cells.append(ellipse(p[0], p[1], 7.5, 10.5, rnd.uniform(-30, 30), class_="m-scar"))
+            g.append(group(cells))
+            for k in range(8):
+                p = c[i0 + 1 + k]
+                g.append(path(f"M{f(p[0] - 5)},{f(p[1] - 4 + rnd.uniform(-2, 2))} l10,{f(rnd.uniform(3, 7))}", fill="none",
+                              stroke="#B79A8F", stroke_width="1", opacity=".8"))
+            an["tube_left.block"] = c[i0 + 4]
+        if kind not in ("hsg",) and not hydro:  # mucosal folds of the ampulla
             for i in range(int(len(c) * 0.4), len(c) - 6, 3):
                 p = c[i]
                 g.append(path(smooth_open([(p[0] - 6, p[1] - lo[2][i] * 0.3), (p[0], p[1]), (p[0] + 5, p[1] + lo[2][i] * 0.3)]),
@@ -255,7 +287,12 @@ def tract(pid, kind="normal", what=""):
         # fimbriae: finger-like fringe around the open end, reaching toward the ovary
         end = c[-1]
         ang = math.atan2(c[-1][1] - c[-4][1], c[-1][0] - c[-4][0])
-        for k in range(11):
+        if hydro:  # clubbed fimbriae: stubby, fused nubs on the sealed end
+            for k in range(5):
+                a = ang + (k - 2) * 0.32
+                q = (end[0] + math.cos(a) * 34, end[1] + math.sin(a) * 34)
+                g.append(ellipse(q[0], q[1], 9, 6, math.degrees(a), class_="m-fimb"))
+        for k in range(0 if hydro else 11):
             a = ang + (k - 5) * 0.2
             Lf = rnd.uniform(34, 52)
             p1 = (end[0] + math.cos(a) * Lf * 0.5 + rnd.uniform(-4, 4), end[1] + math.sin(a) * Lf * 0.5)
@@ -265,7 +302,7 @@ def tract(pid, kind="normal", what=""):
         an[name] = c[int(len(c) * 0.28)]
         an[name + ".isthmus"] = c[int(len(c) * 0.2)]
         an[name + ".ampulla"] = c[int(len(c) * 0.62)]
-        an[name + ".fimbriae"] = (end[0] + math.cos(ang) * 40, end[1] + math.sin(ang) * 40)
+        an[name + ".fimbriae"] = (end[0] + math.cos(ang) * (38 if hydro else 40), end[1] + math.sin(ang) * (38 if hydro else 40))
         an[name + ".lumen"] = c[int(len(c) * 0.62)]
         an[name + ".end"] = end
     # uterus: myometrium with muscle bundles
@@ -330,6 +367,32 @@ def tract(pid, kind="normal", what=""):
     an["cervix"] = (cx + 44, top + 420)
     an["cervical_canal"] = (cx, top + 400)
     an["vagina"] = (cx + 98, top + 590)
+    if kind == "blocked":
+        # filmy adhesions: thin translucent bands tethering the swollen right tube to the right ovary
+        low = an.pop("_hyd_low")
+        ov = (cx + 365, top + 160)
+        bands = []
+        for k in range(5):
+            a = low[min(k * len(low) // 5, len(low) - 1)]
+            a = (a[0], a[1] - 3)
+            b = (ov[0] - 56 + k * 18, ov[1] - 40 + rnd.uniform(-4, 4))
+            mid = (lerp(a, b, 0.5)[0] + rnd.uniform(-10, 10), lerp(a, b, 0.5)[1])
+            bands.append(path(smooth_open([a, mid, b]), fill="none", stroke="#E7D2C8", stroke_width=f(rnd.uniform(4, 7)),
+                              opacity=".85", stroke_linecap="round"))
+            bands.append(path(smooth_open([a, mid, b]), fill="none", stroke="#C9A79A", stroke_width=".9", opacity=".9"))
+        g.append(group(bands))
+        mid_a = low[len(low) // 2]
+        an["adhesions"] = ((mid_a[0] + ov[0] - 20) / 2, (mid_a[1] + ov[1] - 40) / 2)
+        # endometriosis implants: dark "powder-burn" and red spots on the left broad ligament, by the ovary
+        spots = []
+        for (u, v, r, col) in ((-250, 70, 9, "#6E2A33"), (-220, 98, 6, "#8E2F3A"), (-268, 112, 7, "#5E2630"),
+                               (-200, 64, 5, "#B23A48"), (-238, 132, 5, "#8E2F3A"), (-184, 110, 6, "#6E2A33"),
+                               (-280, 82, 4, "#B23A48")):
+            spots.append(ellipse(cx + u, top + v, r * 1.3, r, rnd.uniform(0, 180), fill=col, stroke="#4A1E24",
+                                 stroke_width=".6", opacity=".9"))
+            spots.append(circle(cx + u - r * 0.3, top + v - r * 0.3, r * 0.3, fill="#FFFFFF", opacity=".25"))
+        g.append(group(spots))
+        an["endometriosis"] = (cx - 232, top + 96)
     if kind == "hsg":
         cat = tube([(cx, top + 330), (cx, top + 420), (cx + 4, top + 560), (cx + 30, top + 700), (cx + 70, top + 790)],
                    [7, 8, 9, 9, 9], 8)
@@ -356,4 +419,6 @@ def build():
             sperm_head_dna("m-sperm-head-dna-broken", True, "Sperm head cut open: DNA strands with breaks (fragmented DNA)"),
             tract("m-tract", "normal", "Uterus, cervix, top of vagina, both fallopian tubes and ovaries, frontal section"),
             tract("m-tract-hsg", "hsg", "HSG: catheter in the cervix, contrast fills the cavity and both tubes and spills out"),
-            tract("m-tract-transfer", "transfer", "Embryo transfer: soft catheter through the cervix into the uterine cavity")]
+            tract("m-tract-transfer", "transfer", "Embryo transfer: soft catheter through the cervix into the uterine cavity"),
+            tract("m-tract-blocked", "blocked", "Blocked tubes: scar plug in the left isthmus, right hydrosalpinx with "
+                  "clubbed fimbriae, adhesions to the right ovary, endometriosis implants on the left broad ligament")]

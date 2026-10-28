@@ -1,0 +1,18 @@
+{
+ "parts": [
+  {"use": "m-ovary-stimulated", "name": "ov", "x": 150, "y": 120, "width": 600},
+  {"use": "m-egg-mii", "name": "eg", "x": 860, "y": 165, "width": 300, "flip": true}
+ ],
+ "panels": [{"text": "A", "x": 24, "y": 44}, {"text": "B", "x": 800, "y": 44}],
+ "labels": [
+  {"text": "Growing follicles", "x": 470, "y": 70, "align": "middle", "to": "ov.follicle_1.centre"},
+  {"text": "Egg (oocyte)", "x": 40, "y": 150, "to": "ov.follicle_0.egg"},
+  {"text": "Follicle fluid", "x": 790, "y": 470, "align": "end", "to": "ov.follicle_2.antrum"},
+  {"text": "Granulosa cells", "x": 40, "y": 470, "to": "ov.follicle_5.granulosa"},
+  {"text": "Blood vessels", "x": 400, "y": 600, "align": "middle", "to": "ov.vessels"},
+  {"text": "Polar body", "x": 830, "y": 120, "to": "eg.polar_body"},
+  {"text": "Mature egg (MII)", "x": 990, "y": 600, "align": "middle", "to": "eg.egg"},
+  {"text": "Zona pellucida", "x": 1185, "y": 120, "align": "end", "to": "eg.zona"},
+  {"text": "Cumulus cells", "x": 1185, "y": 545, "align": "end", "to": "eg.cumulus"}
+ ]
+}

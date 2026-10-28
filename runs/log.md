@@ -38,3 +38,4 @@
 | 2026-10-26 | aurea | updated | 7 Signs You Need a Sperm DNA Fragmentation Test Before IVF or IUI (new images: Claude-drawn illustration + Gamma photo) | sperm dna fragmentation test | https://www.aureafertility.com/post/sperm-dna-fragmentation-test |
 | 2026-10-26 | rfc | updated | Egg Donor IVF vs. IVF With Your Own Eggs: Which Path Fits You After 40? (new images: Claude-drawn illustration + Gamma photo) | egg donor ivf | https://www.rejuvenatingfertility.com/post/egg-donor-ivf-vs-own-eggs |
 | 2026-10-27 | aurea | blocked | (no post) | reason of blocked fallopian tubes | sources could not be verified: WebFetch failed with DNS errors for every site (06:50-08:00 NY); topic kept available |
+| 2026-10-28 | rfc | blocked | (no post) | mini ivf san diego | sources could not be verified: WebFetch failed with DNS errors for every site (06:47-08:03 NY), second day running; topic kept available |

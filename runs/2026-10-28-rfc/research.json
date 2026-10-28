@@ -1,0 +1,21 @@
+{
+ "keyword_overview": {"keyword": "mini ivf san diego", "locId": 2840, "search_volume": 30, "seo_difficulty": 13, "paid_difficulty": 85, "cpc": 30.44, "search_intent": "Transactional", "checked": "2026-10-28"},
+ "secondary_keywords": [
+  {"term": "mini ivf in california", "volume": 30, "sd": 12, "source": "Ubersuggest keyword_suggestions seed 'mini ivf' locId 2840, 2026-10-28"},
+  {"term": "mini ivf protocol example", "volume": 30, "sd": 19, "source": "Ubersuggest keyword_suggestions seed 'mini ivf' locId 2840, 2026-10-28"},
+  {"term": "mini ivf success stories", "volume": 30, "sd": 27, "source": "Ubersuggest keyword_suggestions seed 'mini ivf' locId 2840, 2026-10-28"}
+ ],
+ "serp_top": [
+  {"pos": 1, "type": "ai_overview"},
+  {"pos": 2, "url": "http://www.hanabusaivf.com/fertility-treatment-costs", "da": 24},
+  {"pos": 3, "url": "http://www.sdfertility.com/costs-and-insurance", "da": 37},
+  {"pos": 4, "url": "http://health.ucsd.edu/care/fertility/female-fertility/", "da": 90},
+  {"pos": 5, "url": "http://www.cnyfertility.com/mini-ivf/", "da": 50},
+  {"pos": 6, "url": "http://www.cnyfertility.com/san-diego-ivf-clinics/", "da": 50},
+  {"pos": 7, "url": "http://www.fertilitydocs.com/services/infertility", "da": 15},
+  {"pos": 8, "url": "http://fertilityinstitutesandiego.com/rancho-santa-fe/", "da": 29}
+ ],
+ "serp_updated_at": "2026-10-28",
+ "ubersuggest_reports_used": 3,
+ "notes": "WebFetch failed with getaddrinfo ENOTFOUND for every host from 06:47 NY (hanabusaivf, sdfertility, health.ucsd.edu, academic.oup.com, pmc, cdc.gov); WebSearch works."
+}

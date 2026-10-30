@@ -40,3 +40,4 @@
 | 2026-10-27 | aurea | blocked | (no post) | reason of blocked fallopian tubes | sources could not be verified: WebFetch failed with DNS errors for every site (06:50-08:00 NY); topic kept available |
 | 2026-10-28 | rfc | blocked | (no post) | mini ivf san diego | sources could not be verified: WebFetch failed with DNS errors for every site (06:47-08:03 NY), second day running; topic kept available |
 | 2026-10-29 | aurea | blocked | (no post) | reason of blocked fallopian tubes | sources could not be verified: WebFetch hosts outside the environment network allowlist (ENOTFOUND), third day running; topic kept available |
+| 2026-10-30 | rfc | blocked | (no post) | mini ivf san diego | sources could not be verified: WebFetch hosts outside the environment network allowlist (ENOTFOUND www.cdc.gov, academic.oup.com), fourth day running; topic kept available |

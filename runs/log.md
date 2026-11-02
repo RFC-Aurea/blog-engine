@@ -44,3 +44,4 @@
 | 2026-10-31 | aurea | blocked | (no post) | reason of blocked fallopian tubes | sources could not be verified: WebFetch hosts outside the environment network allowlist (ENOTFOUND www.cdc.gov, academic.oup.com), fifth day running; topic kept available |
 | 2026-11-01 | rfc | blocked | (no post) | mini ivf san diego | sources could not be verified: WebFetch hosts outside the environment network allowlist (ENOTFOUND www.cdc.gov, academic.oup.com), sixth day running; topic kept available |
 | 2026-11-01 | aurea | blocked | (no post) | (not attempted) | same network block; Aurea run skipped since sources cannot be verified |
+| 2026-11-02 | rfc | blocked | (no post) | mini ivf san diego | sources could not be verified: WebFetch hosts outside the environment network allowlist (ENOTFOUND www.cdc.gov, academic.oup.com), seventh day running; topic kept available |
